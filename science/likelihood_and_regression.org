@@ -1,0 +1,57 @@
+Hey friends, I'm hoping this blog entry can give an intuitive understanding of some math concepts for people who aren't math-minded.
+Some of my later posts are going to rely on this information. I hope I've made it not only clear, but engaging enough.
+
+TODO: add some damn humor.
+
+* likelihood: probability, but backwards
+
+Feel free to skip this section if you are already familiar with the distinction.
+
+In statistics, we draw a distinction between likelihood and probability.
+The difference is tricky to explain, but simple once it clicks, so let's start with an example.
+
+If Jared goes to Sarah's house party, he has access to his parent's car 70% of the time and parks it outside Sarah's house.
+So, if we know Jared is going to the party, then the probability of the car being outside Sarah's house is 70%.
+On the other hand, if we don't know whether Jared is going to the party, but we see the car, the likelihood that he is at the party is 70%.
+
+To see how this is different from the probability that Jared is at the party, consider this.
+
+*** scenario 1: if Jared doesn't go to the party, his car never ends up outside of Sarah's house.
+So if the car is only ever outside Sarah's house if he went to the party and took his car. 
+Therefore, if we see his car outside Sarah's house, the probability of Jared being at the party is 100%, which is different from the likelihood of 70%.
+
+*** scenario 2: if Jared doesn't go to the party, there is a 10% chance his parent's car will end up there anyway.
+Here when we see the car, the likelihood that Jared is at the party is 70%, the likelihood that he is not at the party is 10%.
+Those don't sum to 100%, so they're clearly not probabilities.
+So what is the probability that Jared is at the party? 
+We actually can't calculate it based on the information we have, but most people's intuition would say that since it is more likely that his is at the party, it is also more probable.
+As we will see in the [[Bayes rule][bayes]] section, this intuition is often correct but sometimes wrong. 
+If it's a burning question for you, skip ahead and skip back. Otherwise read on, and it will get relevant later.
+
+So in short, if the *probability* of thing A /given/ thing B is p, the *likelihood* of thing B /given/ thing A is also p.
+
+* Least-squares linear regression
+
+Y'all remember lines of best fit? You've definitely seen them on plots before, showing that something correlates with something else.
+(TODO: find example of silly correlation).
+
+When you get a computer to make this line for you it usually (but not always) does this by minimizing the squared error of the line.
+By squared error, I mean the squared y distance from the line to each datapoint.
+(TODO: diagram)
+The line we get is a /model/ of y based on x. 
+So for a given value of x, the line predicts a specific value of y (100 points if you guess where I'm going with this).
+
+It's usually not a very good model, and is generally wrong about most of the data, the squared error is just a way to measure /how/ wrong it is.
+Creating the best fit line is a process of finding the least wrong model.
+But before we pick the least wrong one, we are already making assumptions about the model, and what 'least wrong' means.
+Specifically, we assume that the data follows a gaussian distribution around a linear relationship between x and y, and the best answer is the one with the highest likelihood.
+No wait don't run! I can explain!
+
+The gaussian distribution, AKA the normal distribution AKA the bell curve, looks like this:
+TODO (figure)
+
+
+
+
+
+

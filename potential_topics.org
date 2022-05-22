@@ -1,0 +1,80 @@
+* likelihood, bayes, and least-squares regression
+** Likelihood v.s. Probability
+** Linear regression for probability
+** Maximum likelihood
+** Bayes' rule: (insert intuitive title here)
+** Maximum probability
+** least-squares regression implements bayesian inference
+* explaining predictive coding
+** what is predictive coding?
+** why is it exciting?: Bayesian Brain
+** what's the evidence?
+* strengths and limitations of falsificationism
+** naive falsificationism
+** what problems does it solve?
+** why did my bridge collapse?
+** the problem of holism
+** For everyday reasoning...
+* strengths and limitations of bayesianist epistemology
+** refresher: Bayes' rule
+** Bayesian epistemology
+** common criticisms
+** ain't nobody got time for that
+* reductionism and holism in computational modeling
+
+* Software is magic: designing software modules
+** engineers benefit from design practices too
+** how this applies to science?
+** applies to science communication?
+** research to do:
+*** find some passages of 'the inmates are running the asylum'
+*** find some relevant passages from liskov
+
+* parallels between test driven development and the scientific method
+** TDD - test driven development
+Test Driven Development is a strategy for developing software that goes something like this:
+  1. Write a test to check that your software does the right thing under particular circumstances
+  2. Run the test - it should fail the first time since you haven't modified the software itself yet
+  3. Update the software until the test runs
+
+If you're writing any moderate/large software, you will want to have a bunch of tests that you can run at
+any time to check that all its parts are still working. TDD just means writing a test before you write the
+code to make it happen. My points in this post would apply to a code-then-test paradigm as well, but why would you do it that way? 
+** theory, experiment, revised theory
+The requirements of software are that its behavior should match the desired behavior under as large a set of circumstances as possible.
+
+** Parallels
+   Of course, these steps don't quite line up
+** The the goals of computational models are no different from any other software, and so we should apply those practices
+** specialization and comminication
+** the problem of holism
+** preventing regressions
+** black-box testing v.s. implementation testing
+** specification
+* Scientists: write code properly please
+** scientific models are non-trivial
+** analysis is sometimes non-trivial
+** time pressure, deadlines, preliminary results, exploratory analysis
+** a possible solution: prototyping
+* layered-sprites: gamedev for the artistically challenged
+
+* Short story: Happy Automata
+* first sight and second thoughts: epistemology of the Tiffany Aching series
+** first sight: empiricism
+** second thoughts: rationalism
+** third thoughts: willingness to question(??? ... philosophy, postmodernism)
+** research to do:
+*** re-read aching books
+*** read some review of aching books
+*** read some more discworld reviews/analyses
+*** re-read theory and reality
+* the necessity of meaning
+** to live is to act, acting requires meaning (or value)
+** Accepting Induction
+*** induction is necessary to learn about the world and act in it
+** Accepting Logic
+*** logic is necessary to learn about the world and act in it
+** Accepting Meaning
+*** value is necessary to learn about the world and act in it
+* learned helplessness in various contexts
+

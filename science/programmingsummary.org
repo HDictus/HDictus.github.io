@@ -1,0 +1,498 @@
+# TODO use mike's feedback, cite relevant papers.
+
+* Best practices for Programming
+  :PROPERTIES:
+  :CUSTOM_ID: best-practices-for-programming
+  :END:
+
+I'm a firm believer that the best practices common in software
+engineering are important for any kind of programming. Even small
+programs can benefit from these practices in a simple form. There are a
+lot of different opinions about the specifics and starategies involved,
+but the principles themselves are not controversial in software
+engineering circles. If there is one overarching theme here it is: be
+kind to whoever works with your code, /which includes your future self/.
+# yup; exactly! Programming is a lot of delayed gratification: effort
+now for clean, simple code saves a lot more effort next week, or even
+tomorrow. It's fine for your discipline to slip: there will be a lot of
+times you don't see the point in applying these principles. # yes; make
+sure ppl aren't hard on themselves, I usually say "in a perfect world" I
+do all the below, but world isn't perfect - once can refine the
+descipline over time, depending on the use case If you don't understand
+why the principle should be used in your case; skip it rather than
+applying it blindly. # or ask for clarification You will probably see
+that not following the principle backfires; but next time you will know
+/why/, and apply the principle intentionally.
+
+I should note that by far the best way to learn these things is from
+working alongside someone. It's difficult to see at first how these
+ideas apply to your own case. I would be happy to help you out with your
+code and explain how these apply, if you would like.
+
+I'll give a quick overview here, the rest of the document is expanding
+on each of these points. Don't be overwhelmed by the details in the
+rest: applying the basic principles to some extent helps plenty already.
+# I'd mention not being too hard on oneself; programming well is hard,
+but can be learned, and doing is the best (only?) way to learn
+
+** Practices to follow:
+   :PROPERTIES:
+   :CUSTOM_ID: practices-to-follow
+   :END:
+
+These practices help both to ensure the quality of the code you are
+working on, but also to improve your skill over time.
+
+1. Version control: use software like git to track your changes and
+   store different versions of your code # commit early, commit often -
+   need to get over the mindset that code needs to be perfect before
+   'checking in'; better to have the false starts, in some cases # also,
+   I don't think people starting off know how much code is thrown away
+   by 'senior' ppl; probably at least 1/3 of what I type is deleted at
+   some point, better ways of doing things come up # new ideas, more
+   clear versions, etc
+2. Code review: have others give you feedback on your code if possible,
+   return to your code to reflect on it yourself if not
+3. Automated testing: write automated tests of your code (at least the
+   most complex and/or important parts), and run these each time you
+   make changes to verify you didn't accidentally break something. #
+   thank you!
+4. Abstraction and specification: for each piece of your program, define
+   specifically /what/ it should do (inputs, outputs, usage) before you
+   worry about /how/ it should do it. # specification is hard ahead of
+   time, and getting bogged down in the details can be discouraging;
+   often I find that writing some inital trial version, writing some
+   tests, # and then trying to specify things works best - but that's my
+   personal workflow
+
+Version control and code review can be easily combined by using a
+repository hosting tool like github, which lets you upload your version
+history and contains tools for reviewing the changes made. Automated
+testing and abstraction and specification can be combined by using a
+Test-driven development workflow: where tests are written first, and
+satisfied afterwards by implementing.
+
+** Principles
+   :PROPERTIES:
+   :CUSTOM_ID: principles
+   :END:
+
+rules of thumb to watch out for when writing, reviewing, or refactoring
+code. This is very much non-exhaustive, but they're the ones that seem
+to crop up the most early on. # I'd make it clear that these are not
+hard and fast
+
+1. DRY: don't repeat yourself # this is a funny one; there's a tradeoff
+   w/ SRP & KISS; sometimes there is a bunch of overlap in a function w/
+   another function, but adding flags to unify them into a single
+   function makes things # brittle more long term
+2. SRP: single responsiblity principle, each piece of code should have a
+   single, well-defined task
+3. use a consistent style: enforce consistency to improve readability #
+   worth recommending linters / code formatters, imo: once you get used
+   to the 'style' (which will prob. be distasteful at first), it takes a
+   load off ones mind
+4. approximate natural language: the closer your code resembles natural
+   language, the easier it is to read
+5. Premature optimization is the root of all evil: write your program in
+   simple form before worrying about performance.
+6. KISS: keep it simple stupid
+
+* Practices
+  :PROPERTIES:
+  :CUSTOM_ID: practices
+  :END:
+
+Concrete actions that promote writing good code and improving
+programming skill.
+
+** Version control
+   :PROPERTIES:
+   :CUSTOM_ID: version-control
+   :END:
+
+If you're already using version control, this may seem banal; but I've
+worked with computer science graduates who simply chucked previous
+versions into a folder called OLD. The main reason for using version
+control is to ensure that when you make a change which breaks something,
+you can always go back to a previous version. It is important in this
+case to save a new version often. Used properly, version control
+software offers a variety of other benefits too: including documenting
+the changes made and integrating with other practices here. It lets you
+safely explore different ways of doing things, different changes and
+features without fear of mucking up the rest - and stores the result in
+a findable way in case you choose to use it after all. #nice
+
+The most commonly used version control software is Git. # make it clear
+that git has a hard UI; and try not to get discouraged by it - it
+requires a 'deap' knowledge of what is happening behind the scenes,
+which shouldn't be required to use it # a savior of 'getting out of
+trouble' is the reflog; but it only works for things that are
+committed - more reason to commit often! There are plenty of tutorials
+on the basic commands, but they often leave out the structure of git
+workflows - which most people are taught informally by experience
+working in teams. Git is structured in branches: each branch is a string
+of versions. You have a main branch (usually called 'master'). The most
+conventional workflow is to identify a specific change you want to make
+to the code, create a new branch named for that change, work on that
+branch until the change is done (may be only one extra version, may be
+many), then if you decide to add that change to the code permanently you
+merge the branch into master. In general, the only edits you make to the
+code on each branch are those strictly relevant to the change you are
+making. This ensures that it is easy to find the location of particular
+modifications when you go back, and prevents you interfering with work
+that may be ongoing in other branches. Each new version should be
+dedicated to a specific and nameable change (commits should be
+'atomic'). This means that the changelog will accurately reflect what is
+changed where, and that you always know which point to go back to when
+something breaks. #very nice
+
+For complex changes you'll often recurse: you might make a branch for a
+feature 'generate-bananas' and then branch off that for
+'calculate-curvature', merge 'calculate-curvature' into
+'generate-bananas' and then do the same for 'create-skin' before merging
+'generate-bananas' back into master.
+
+** Code Review
+   :PROPERTIES:
+   :CUSTOM_ID: code-review
+   :END:
+
+Code review is arguably the most important on this list: because beyond
+improving the quality of your code, it also makes a really big
+difference to improving your programming skill and how you apply the
+other principles. Reviewing other people's code is also really helpful
+for improving your own code. In a team, code review is usually done with
+a git workflow, at the points where changes are merged: in order to
+merge into master, colleagues need to review the changes on your branch
+and approve them. People learn about new libraries, conventions,
+readability, and language features through review, and since you act on
+the feedback in the review by implementing it in your own code it
+actually sticks in your memory more than if you read about it somwhere.
+The general rule of thumb is three pairs of eyes on each line of code.
+Code review usually takes the form of the reviewer reading over the
+changes, noting issues and suggesting modifications, which the one who
+made the changes then either implements or discusses. This may go for a
+few rounds, early on it takes a lot of time because there is a lot to
+improve, but before long it is less of an issue. Sometimes you may spot
+an issue, but not have a clear idea of a solution. In this case, it is
+important to still note it down. Someone else may have a solution, or an
+idea will come to you later.
+
+There is no real replacement for engaging in code review with other
+experienced programmers, but when working solo you can still get some of
+the benefits by self-review. After writing changes, give it some time
+(maybe just sleep on it, maybe come back to it next week), and then
+review them, edit, and merge.
+
+Contributing to open source software can be a good way to get practice
+with code review, as well as seeing some of the other practices here in
+action.
+
+It's unfortunate that this practice depends to some degree on the
+environment around you to work. Part of my motivation to become a
+professor is to establish a convention of code review between scientists
+in a lab: because it is really very important for ones growth as a
+programmer and the quality of ones output. There is also an aspect of
+scientific integrity to this: peer review usually does not include
+review of the code used for a study, even in computational fields. This
+is bonkers. # bonkers indeed The code is as important as any derivation,
+and it also provides the most precise picture of what was done for the
+study (there have been several studies that did not make sense to me
+until I read the code, others where unaddressed assumptions were hidden
+in the code which should have been acknowledged in the paper).
+
+If you have colleagues who are doing similar work in the same language,
+consider suggesting mutually reviewing one another's code using
+something like github, gitlab, or bitbucket (I'll expand on this in a
+later section). # finding the balance of what to review is hard, and
+might be worth mentioning. I tailor my reviews to whom I'm reviewing,
+but getting 'clarity' out of the code that exists # is something that is
+always at the forefront; style, speed/efficiency, etc, can all come
+later
+
+** Automated testing
+   :PROPERTIES:
+   :CUSTOM_ID: automated-testing
+   :END:
+
+There is a lot of controversy about which kind of automated testing one
+should do at which times: Unit testing (testing individual bits of
+code), integration testing (testing that different bits of code work
+well together), acceptance testing (testing that the behavior of the
+application as a whole satisfies requirements), implementation testing
+(testing for implementation-specific bugs and edge cases), test-then
+code, or code-then-test? There is no controversy about whether or not
+you should perform automated testing. You should do so in at least some
+form. It's important to write tests not just to see that your code is
+working now for the particular case you're concerned about (that could
+be accomplished with manual testing, after all): but that changes you
+make now don't break functionality you implemented previously. # cannot
+stress this enough; perhaps name the benefits; being able to fearlessly
+refactor code once you've decided to change it is a superpower It is
+also a good idea to write tests reproducing any bugs you run into, to
+check that you don't reintroduce them down the line (which happens way
+more often than you would ever expect). The chapter on testing from
+'Abstraction and specification in program development' by Barbara Liskov
+provides a really useful overview of the most important elements of
+testing, though it is focused on unit testing. Each language will have
+frameworks for writing and running automated tests: for python I
+personally really like pytest. I haven't used R in a long time, but when
+I started looking I found this page:
+https://www.r-bloggers.com/2019/11/automated-testing-with-testthat-in-practice/
+
+** Abstraction and Specification
+   :PROPERTIES:
+   :CUSTOM_ID: abstraction-and-specification
+   :END:
+
+When designing a piece of code - whether we're talking a single
+function, a class, a module, a script or the complete software, the
+design should be independent of the implementation. The point here is
+that you need to define in specific terms what your piece of code needs
+to do before you think about how it will do it. This is the premise for
+"Abstraction and Specification in program development", mentioned in
+"Smalltalk, objects, and design", and the subject of an extended rant
+called "The Inmates Are Running the Asylum: Why High Tech Products Drive
+Us Crazy and How to Restore the Sanity" by Alan Cooper. Though Alan
+controversially states that engineers should have no influence over a
+program's design (which should be left to specialized designers), the
+principles he mentions crop up time and again at a more fine-grained
+level in software engineering. A phrase of his that I like is: Pretend
+its magic. Before you write any code, pretend your code is magic and
+specify what you would like it to do. Once you implement the design it
+may turn out to be infeasible, and at this point you revise your design.
+Doing this the other way around: implementing first and then designing
+around whatever program you made, almost always results in programs
+which are awkward to use, and counterintuitively, overcomplicated. I'll
+get into a specific strategy for implementing this in the next section.
+# there is likely more iteration to the above workflow that is required
+to make it practical, I think; you touch on it w/ prototyping below
+
+* An example of a software workflow
+  :PROPERTIES:
+  :CUSTOM_ID: an-example-of-a-software-workflow
+  :END:
+
+My first programming instructor, Breanndan, was actually very good in
+that he taught most of these practices early on and emphasized their
+importance and universality. It's a shame that no one after him did -
+because that led to me disregarding them and losing a lot of time to
+obscure bugs and confusing variable names. I'll share my own strategy
+for implementing the above practices in a straightforward way: mostly
+based on the strategy Breanndan taught. It combines Test-driven
+development and continuous integration (both popular in Agile
+workplaces).
+
+Test-driven development:
+
+1. write/modify a function signature and a docstring describing the what
+   the function does
+2. write a single test case for the function
+3. write the simplest code needed to pass the test case
+4. refactor the function as needed and repeat
+
+This low-level process combines practices 3 and 4 into one: after an
+informal specification of the function (docstring), the tests act to
+formally specify its behavior.
+
+You put this in a git workflow using a repository host (such as GitHub,
+Gitlab, bitbucket, or gerrit). You'll need to set up continuous
+integration to run your automated tests, and linting (enforces
+consistent style; for python I run pylint, pycodestyle, and pydocstyle).
+
+1.  you are on the master branch; pull from the remote repository to
+    ensure it is up to date
+2.  identify the feature you want to implement and create a branch named
+    for that feature
+3.  code until that feature is tested and implemented
+4.  check that your tests pass and address any errors provided by
+    linting software or your IDE
+5.  push the feature branch to the remote repository
+6.  on your repository hosting software, create a pull request :
+    requesting to merge the feature branch into master
+7.  resolve any merge conflicts (changes on your branch that contradict
+    changes to master that occured after you branched off).
+8.  address any failing tests or linting errors
+9.  someone uses the repository host's built-in code review tools to
+    leave comments
+10. respond to comments and implement suggestions
+11. repeat 7-9 until reviewer is satisfied and merge
+
+This combines the version control and code review. By combining this
+with the test-driven development you follow all four practices in a
+structured and documented way. By breaking down the functionality of
+your program into individual features, those features into functions,
+those functions into test cases, you simplify the development process.
+
+** prototyping
+   :PROPERTIES:
+   :CUSTOM_ID: prototyping
+   :END:
+
+Sometimes you don't have a clear picture yet of what you want your
+program to do or what its usage is, or sometimes you want some
+preliminary results before investing effort into a full program. In
+these cases, you may want to make a prototype, and then rewrite it from
+scratch when you have a clearer idea of what you want it to do.
+
+When prototyping, the prototype will probably be a little more
+complicated than you anticipate, so it is still good to follow these
+principles to an extent; but you can usually skip exhaustive unit
+testing (just test the main behaviors of the program and the most
+complex bits), self-review will probably suffice, and your version
+history can be a straight line. You'll have to intuit based on the
+circumstances to which extent to apply these practices, but it should
+always be nonzero, and it is always better to err on the side of clean
+code that takes you twice as long as it needed to, than the stressful
+nightmare of bad code which takes between 0.75 and 300 times as long as
+it needed to.
+
+Avoid building on a prototype: rewrite it rigorously first. The
+shortcuts taken early on will cost far more time later than the time it
+takes to rewrite.
+
+And sometimes, you accidentally make a messy prototype while trying to
+make the real deal. Sometimes, it is worthwhile to restart with lessons
+learned even if you weren't intending to at first. (saved me a lot of
+headache on my masters thesis). # goes w/ the 'lots of code is thrown
+out' from above
+
+* Principles
+  :PROPERTIES:
+  :CUSTOM_ID: principles-1
+  :END:
+
+General principles to keep in mind when writing, reviewing, or editing
+code. Violations of these principles are sometimes necessary, but always
+a red flag worth noting and addressing if possible. There are many more
+than this, listing them all would be overwhelming: these are the most
+basic and important ones.
+
+** Don't Repeat Yourself
+   :PROPERTIES:
+   :CUSTOM_ID: dont-repeat-yourself
+   :END:
+
+Wherever you repeat a chunk of code you have used elsewhere, this is a
+sign that you should put that code into a function, and use that
+function wherever you repeated the code.
+
+** Single Responsibility Principle
+   :PROPERTIES:
+   :CUSTOM_ID: single-responsibility-principle
+   :END:
+
+Each piece of code (usually function, sometimes class/object or module)
+should have a single, clearly defined thing it does. Avoid units with
+multiple responsibilities, or responsibilities which overlap.
+
+** Use a consistent style
+   :PROPERTIES:
+   :CUSTOM_ID: use-a-consistent-style
+   :END:
+
+Your code is easier to read when it is consistent. This includes naming
+conventions, indentation, whether you put spaces before and after
+operators, etc.
+
+A common naming convention is the use nouns for variables, and verbs for
+functions. A less conventional but not uncommon one uses nouns for
+variables and pure functions (functions which return a value without
+side effects), and verbs for functions with a side effect. For python,
+it is probably easiest to use a linter like pylint and pycodestyle,
+which will enforce conformity to some common conventions. The first few
+times you go through your code to conform to coding standards it will
+probably consume some time, but before long you get used to coding
+within these standards. Most IDEs can also be configured to warn you
+about style violations in real-time.
+
+** Approximate Natural Language
+   :PROPERTIES:
+   :CUSTOM_ID: approximate-natural-language
+   :END:
+
+As a rule of thumb, the closer your code looks to natural language, the
+easier it is to read and understand. For example, people often make the
+mistake of naming variables things like: f32_x_arr, which contains some
+information about what the variable is, but not what it represents.
+=f32_x_arr += f32_vx_arr= is confusing, while
+=x_positions += x_velocities= can be skimmed to understand what this
+means in the application domain. Another common case where this applies
+is when there is some complicated set of operations that could be given
+an intuitive name as a function. For example
+
+#+BEGIN_EXAMPLE
+    for item in inventory:
+        if item.nutritional_content > 0 and (item.isliquid and item.viscosity < 1 or item.hardness > TOOTH_HARDNESS):
+            self.mouth.angle += 25
+            #(and so on, you get the picture)
+#+END_EXAMPLE
+
+could be
+
+#+BEGIN_EXAMPLE
+    for item in inventory:
+        if _is_edible(item):
+            self.eat(item)
+#+END_EXAMPLE
+
+by just defining some well-named functions.
+
+** Premature optimization is the root of all evil
+   :PROPERTIES:
+   :CUSTOM_ID: premature-optimization-is-the-root-of-all-evil
+   :END:
+
+When writing code, it is easy to get sidetracked early with making it as
+efficient as possible. This often results in more complicated code and a
+lot of additional effort with very few performance benefits. Our
+intuitiions for performance are usually not very good - and often depend
+on the usage of the program. It is best not to think too much about
+performance at first. Once your program is running, if it is slower than
+you would like, you can use a profiler tool to empirically identify the
+most important bottlenecks and refactor those specifically.
+
+** Keep it simple, stupid
+   :PROPERTIES:
+   :CUSTOM_ID: keep-it-simple-stupid
+   :END:
+
+Less code is better than more code, and an embarassingly simple program
+that gets the job done is way better than an impressively complicated
+program that does the same job /even if the former took longer to
+develop/. It's easier to understand, easier to improve on, and better
+for your sanity. # complications often result in code that can't be
+debugged; bugs are (often) beyond the complexity of the code, if one's
+brain can only keep the complexiy in mind, there's no 'room' to debug
+
+** Honorable mention: modularity
+   :PROPERTIES:
+   :CUSTOM_ID: honorable-mention-modularity
+   :END:
+
+Honorable mention because it's really a theme running through all the
+other principles: your code should be broken into chunks that operate
+mostly independently of one another, minimizing the risk that changes in
+one chunk break a different one. Software is a diseconomy of scale: the
+effort to make a program scales superlinearly with its size. By turning
+one program into a collection of smaller ones, you address this scaling.
+
+* Misconceptions?
+  :PROPERTIES:
+  :CUSTOM_ID: misconceptions
+  :END:
+
+** Commenting code
+   :PROPERTIES:
+   :CUSTOM_ID: commenting-code
+   :END:
+
+Besides docstrings (which are documentation, rather than comments),
+comments should be the exception rather than the rule. It's a bit of a
+meme for novices to complain about uncommented code. In general, if code
+requires comments to be clear, the code is poorly written. Sometimes a
+comment is needed to clarify /why/ something is done a particular way,
+but if a comment clarifies /what/ the code does, it is a sign that code
+could be written more clearly.
+

@@ -1,9 +1,16 @@
+:PROPERTIES:
+:ID: likelihood-and-regression
+:END:
+
 Hey friends, I'm hoping this blog entry can give an intuitive understanding of some math concepts for people who aren't math-minded.
 Some of my later posts are going to rely on this information. I hope I've made it not only clear, but engaging enough.
 
 TODO: add some damn humor.
 
 * likelihood: probability, but backwards
+  :PROPERTIES:
+  :ID:       b1f937fc-e714-46f3-be34-7f7e50e16ef3
+  :END:
 
 Feel free to skip this section if you are already familiar with the distinction.
 
@@ -31,6 +38,9 @@ If it's a burning question for you, skip ahead and skip back. Otherwise read on,
 So in short, if the *probability* of thing A /given/ thing B is p, the *likelihood* of thing B /given/ thing A is also p.
 
 * Least-squares linear regression
+:PROPERTIES:
+:ID:       ca9bef11-1723-40e7-a246-8e4c7fee295f
+:END:
 
 Y'all remember lines of best fit? You've definitely seen them on plots before, showing that something correlates with something else.
 (TODO: find example of silly correlation).

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       271b4fb8-cf96-4d49-82ef-db83cc0ce91d
+:END:
 Hey there,
 
 I'm a doctoral student in neuroscience at the EPFL in Lausanne. I'll be using this space to blog on a variety of topics to practice my writing in a low-pressure environment. Before I was a doctoral student I worked as a programmer for a few years, and I made a lot of progress as a programmer by coding in my spare time without expectations or time pressure. I'm hoping a blog can lead to the same advances in my writing skills. The other reason I'll be blogging is to discuss ideas that I'm not specialized enough on to do rigorous academic work on, but that I'm more casually interested in. So you might hear from me on:
@@ -17,3 +20,7 @@ My own area of research is the functioning of the mouse visual cortex. I will be
  
 I really value simplicity and accessibility in other people's scientific writing, and want to develop that myself. As an excercise in that I'll be aiming for a lay audience with these topics. That's going to be a real challenge, but I do believe that each of these topics is understandable without a university degree.
 If you're willing to read that hodgepodge of various content, thanks so much! Since feedback is important to improve please leave me short reviews of the entries, what you liked, what I could improve, including which specific phrases are not clear or have a poor choice of words.
+
+
+
+[[id:245d134a-80ac-4d13-a899-b52465bb36aa][tremble-and-zemble]]

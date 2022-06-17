@@ -41,7 +41,7 @@ By squared error, I mean the squared y distance from the line to each datapoint.
 The line we get is a /model/ of y based on x. 
 So for a given value of x, the line predicts a specific value of y (100 points if you guess where I'm going with this).
 
-It's usually not a very good model, and is generally wrong about most of the data, the squared error is just a way to measure /how/ wrong it is.
+This model is usually  wrong about most of the data, the squared error is just a way to measure /how/ wrong it is.
 Creating the best fit line is a process of finding the least wrong model.
 But before we pick the least wrong one, we are already making assumptions about the model, and what 'least wrong' means.
 Specifically, we assume that the data follows a gaussian distribution around a linear relationship between x and y, and the best answer is the one with the highest likelihood.
@@ -49,6 +49,52 @@ No wait don't run! I can explain!
 
 The gaussian distribution, AKA the normal distribution AKA the bell curve, looks like this:
 TODO (figure)
+
+A lot of things in nature follow a gaussian distribution, and it also happens to have some handy mathematical properties.
+We don't need to worry too much about what 'probability density' means, we can treat it about the same a probability for today's topic.
+Suffice to say for now, probability density is to probability what the crowdedness of a room is to the numer of people in a given part of that room.
+
+So a given normal distribution has a mean (the average value) and a standard deviation (the average amount by which a random value differs from the mean).
+So the position of the peak on the x axis depends on the mean, and how flat the distribution is depends on the standard deviation.
+
+Assuming height is a normal distribution with a mean of 1m70 and a standard deviation of 20, 50% of all people are between 1m50 and 1m90, and 50% of people are either shorter or taller.
+
+Now, let's take some heights and stick a line of best fit through them (not actual data):
+
+TODO: diagram age an height
+
+Clearly the average height depends on age. If we assume that for any age, height is a normal distribution with an average at whatever the line predicts, we can calculate the probablity density of all the datapoints given our line and standard deviation.
+As we learned, this is equal to the likelihood (density) of a given line and standard deviation.
+
+TODO: plot with standard deviation
+
+So for each datapoint, the probability that it is within standard deviation away from the given line is 0.5, the chance that it is between 1 and 2 standard deviations away is 0.25, between 2 and 3 standard deviations away is 0.125 and so on.
+Overall, $p = \frac{1}{2^{n^2}}$ is the probability of a point being within a given standard deviation window (between $n-1$ and $n$ standard deviations).
+To really calculate the most likely line accurately though, we need to look at the the probability for any value, rather than just windows. 
+Ok don't freak out, I'm going to show you the definition of the gaussian distribution.
+
+$\frac{e^{-(\frac{d}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma}$
+
+This is basically the same form as the equation I gave before, only 2 is replaced with $e=2.718281828459...$, n with $\frac{d}{\sqrt{2 \pi} \sigma}$ and the whole thing is scaled by $\frac{1}{2 \sigma}$.
+$d=y - \mu$ is the distance of our datapoint $y$ from the mean $mu$.
+$\mu = a x$ is formed by our line, with a slope of $a$.
+
+TODO: diagram, line, x, y, mu
+
+So putting it all together we get:
+$\frac{e^{-(\frac{y - (ax)}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma}$.
+As you may guess, finding the value of a for which this is highest is just not practical.
+Fortunately, this can be made a lot simpler with logarithms.
+
+In case you need to refresh your memory on logarithms. A logartithm is the opposite of a power. So $log_3 (3^2) = 2$, and likewise $log_e (e^x) = x$.
+The handy thing about logarithms here is that the maximum of $log_{whatever} A$ is the same as the highest point of $A$, for any A and whatever logarithm base $whatever$.
+So this applies to our likelihood too. So we are going to calculate the maximum of the logarithm of the likelihood, and for convenience's sake we will use the logarithm of $e$.
+
+$log_e \frac{e^{-(\frac{y - (ax)}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma} = $.
+
+
+
+
 
 
 

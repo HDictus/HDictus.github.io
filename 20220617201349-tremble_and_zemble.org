@@ -293,6 +293,7 @@ Serrandi shoots Zemble an angry look.
 
 "Of course, Ana would never experiment with sentience - she had a heart you know."
 
+TODO: this could be confusing, should clarify 'for complex minds'
 "The best psychomancers today don't know how to guarantee nonsentience. How would Ana?"
 
 "Yeah, there's the problem I guess. Ana thought she had that figured out. Looking at Tremble it's hard to say she was right."
@@ -331,3 +332,6 @@ With the sun shining outside, Serrandi speaks to Tremble.
 
 
 
+* in tremble's story, trim down the paragraph where he performs his little expriment, say less, imply more
+* in tremble's story, especially when serrandi comes into the mix, prefix actions for the speakers to imply intent and mood, it's very flat with only said-said-said
+* the paragraph with 'cleave the monster' and stuff does nothing, is stylistically inconsistent. but the slower pacing at the start here helps to build to the climax. Maybe something here that gives zemble some characterization, motivations, or something? The one thing this paragraph does is establish his curiosity, perhaps too explicitly. Try something with that.

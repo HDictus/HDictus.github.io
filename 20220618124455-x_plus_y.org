@@ -1,0 +1,167 @@
+:PROPERTIES:
+:ID:       90ca531b-a872-4b8a-a44d-bac5e60e668a
+:END:
+#+title: x-plus-y
+* The difficulties of difference
+
+
+In this chapter Euginia Cheng takes us through the problems with some common arguments that gender inequalities are natural and necessary based on ideas about differences between men and women.
+
+She establishes an abstract form of the presented arguments:
+ 1. Men are by nature always X
+ 2. Quality X is beneficial for Z
+ 3. hence men are by nature better at Z
+ 
+She subsequently explains that getting to this argument requires some leaps from what we actually know. The more honest form of the argument is:
+
+ 1. men are observed to have quality X on average, under select circumstances
+ 2. quality X believed to be beneficial for Z (without a strong basis)
+ 3. therefore men are naturally better at Z
+ 4. therefore we don't need to do anything about the gender imbalances
+ 
+ she outlines the three key leaps:
+ 1. Assuming that an observed difference applies consistently and in all circumstances (from on average under circumstances to always in general)
+ 2. Assuming that the observed difference is 'naturally' there (from observed to have to naturally have)
+ 3. Assuming that the measured quality (X) is a valid measure of ability Z (from 'have X' to 'better at Z')
+
+She uses an example in physics, where you might take the number of citations as a measure of ability in physics (leap 3).
+This could measure ability in physics, but also many confounding factors.
+
+for point 2:
+She then mentions the difficulty in separating nature from nurture in experiments, the dual issue that the older your test subjects the more influenced by culture and people's attitudes towards them they are, and the younger they are the less their behavior is reflective of theri natural inclinations at older ages.
+Furthermore she challenges the way that qualities are often measured (e.g. time spent looking at faces vs objects and ability to systematize, intelligence tests, arithmetic as measure of mathematics).
+
+for point 1:
+The leap disregards the role of variance and the ways in which averages can be misleading.
+she cites a book /Testosterone Rex/ that for most qualities where there are observed statistical differences between genders, that if you select a woman and man at random, the chance is 40% that the trait is more masculine in the woman, very close to chance.
+
+She briefly touches on the question that until (if ever) the question of innate differences is settled, should we adopt a null hypothesis that the differences are fair, or unfair? Where is the burden of proof?
+She says it would be more reasonable to ask the extent of the innate differences rather than whether or not they exist, but cautions that even in this case they would be too unreliable to really be applied in any reasonable way.
+She brings up a book /the orchid and the dandelion/ in which it is argued that different people thrive in different circumstances, which introduces the point: Even with innate gender differences, how these affect performance is partly contextual.
+ This provides the bridge to the next chapter: we should be looking at the factors in workplace and school environments which are impacting the success of women and address those instead of using quotas or affirmative action.
+ 
+There is an inconsistency in this chapter which I hope will be addressed later: the first parts of the chapter establish that gender differences are not meaningful, but it looks like she is going to use those differences to argue for changing work environments. Based on material I find online, it looks like she will be using personal differences rather than gendered ones, sidestepping the issue of gendered differences.
+
+** Key takeaways
+
+
+ - there are three key unwarranted distortions that underlie arguments for inequality from biological differences
+   1. simplistic generalizations from uncertain data
+   2. biological essentialism
+   3. unwarranted association of an attribute and a skill
+ 
+
+* The problem with leaning in
+
+
+TODO: I think these summaries are too detailed - but the info that I put down here is great stuff... However, I'm not going to remember these details either way. If I want to retrieve them, perhaps its best to reread the chapter.
+
+In this chapter Euginia Cheng argues that pushing women to succeed in male-dominated spaces by emulating masculine behavior is a common but misguided approach to remedying gender imbalances.
+She argues that we should first decouple character traits from gender, and then reevaluate which traits we should value in our society.
+As described in the previous chapter, she argues that gender is a poor predictor of character traits and so should be considered an independent variable.
+She blames reactionary masculinity and femininity on a push for women to become more masculine and men become more feminine.
+She argues that attempts to redifine masculinity and femininity to include more traits considered of the other gender ultimately fail ("women's struggle to equally participate in the oppression of the poor and the powerless"), ("still just a hero man with an emotional woman").
+
+(when decoupled from character traits and behaviors, does gender even exist? in this chapter Cheng seems to use gender to mean biological sex. However, in a footnote she clarifies that transgender men can bear children as well, so maybe she really does mean gender identity.).
+
+She subsequently lists many examples of women's contributions being culturally undervalued, and argues that these cases are partly due to explicit bias and partly due to undervaluing of their role.
+In hunter-gatherer societies, two thirds of food came from gathering and only one third from hunting - but hunting is what is remembered and popularly celebrated.
+The two-thirds women workforce in Alan Turing's codebreaking operation recieved very little recognition, most of it being reserved for the men spearheading the thing.
+She argues that alan turing as well was undervalued at the time for being homosexual.
+She states that the less risky, less glamorous, but more essential day-to-day work of the women in these situations was what was undervalued.
+In Margaret Sullivan's obituary, the NYT opened with a paragraph describing exclusively domestic achievements.
+Florence Nightingale is remembered as a nurse, but it was her mathematical skill and ability to visualize data that made her so successful as one.
+Emmy Noether, founder of category theory provided a great deal of support to Einstein and Hilbert, but is rarely remembered for this.
+(Incidentally Cheng credits her as the founder of category theory)
+(other examples mentioned later:)
+Young mothers who are part-time programmers are undervalued by an industry of presenteeism.
+A study into the performance of men and women on history examinations found that men tended to argue a strong position fiercely, and this was rewarded, while women tended to provide a more balanced perspective, and this was not valued.
+
+Next, Cheng describes her own experiences emulating masculine behaviors in the mathematical academic field.
+She points to other cultural trends in this direction.
+She attributes this to distortion 3.
+In evaluating which of the traits she emulated where valuable, cheng finds that they were largely only valuable within the given culture of her field, and that if that culture were changed for the better these traits would not be as neccessary.
+
+Cheng uses the example of the math olympiad, which tends to exclude women and girls, to illustrate how inappropriate indicators of success are used - yes, the olympiad requires mathematical skill, but it also requires a competitive spirit and does not measure or value cooperation.
+Rather than finding ways for women to succeed in such competitions, we should identify worthwhile strengths that do not shine in such competitions and value them.
+
+As an example of achieving success in an alternative way, she cites Dame Stephanie Shirley: who made a fortune exclusively employing women - often mothers of young children - as programmers.
+She paid them based on their productivity rather than by hour, playing to the strengths of time-strapped mothers and part-time workers. 
+She did need to pretend to be a man in correspondence in order to recieve work - showing examples of direct categorical bias.
+
+Cheng distinguishes between diversity - the hiring of a diverse set of people - and inclusivity: the creation of an environment where diverse people are valued and thrive.
+She argues that pushes for diversity only will result in more 'miserable women', while pushes for inclusivity only will result in 'gender blindness', where categorical bias and biological factors (menstruation, childbirth) go unaccounted for.
+(the former here relies on a difference in the kinds of environments women are happy in though - as I mentioned above, this is at odds with the decoupling of character traits from gender.)
+
+To illustrate the importance of changing workplace culture as a whole she uses the mtaphor of a luggage belt. 
+If everyone stands back, then everyone can have a clear view of their luggage, but when one person stands to the front for a better view, it becomes necessary for the people near them to stand to the front as well.
+Cheng says that there would be an uproar if she said that standing to the front is a masculine behavior, but she clearly implies that it is.
+Maybe this question of decoupling from gender is really just a defensive strategy? She says that we need to change the way we talk about traits to be non-gendered specifically so that we can avoid the drama that would be associated with this.
+
+It's not entirely clear to me what she's getting at.
+
+Ah, I think I may have it: feminine traits are undervalued, and the one-dimensionalization leads to people seeing all women as having feminine but not masculine traits, compounding this undervaluing for women.
+The one-dimensionalization has an additional problem in that it is not just descriptive, but proscriptive, to some extent a self-fulfilling prophecy.
+It just isn't clear why solving gender inequality would require addressing both problems - but that may just be a matter of them reinforcing each other culturally?
+This analyzis is missing from Cheng's work so far, but at least it's getting me thinking about it more clearly.
+
+** Key takeaways
+
+
+ - In addition to plain discrimination based on gender, women are disadvantaged by undervaluing of the traits they statistically have 
+ - we should decouple the discussions around these traits from gender
+ - we should change workplace cultures to value cooperation, empathy, balance and nuance, etc. 
+
+
+* A new dimension
+
+
+In this chapter Cheng argues for the adoption of ungendered language in discussing people's characteristics and systemic oppression.
+She emphasizes that while characteristics may be correlated with gender and this can have an effect at the collective level (indeed, I believe this is the crux of her argument), the use of gendered language surrounding them is what leads to their misapplication at the individual level.
+Additionally, the proscriptive role of gendered language has negative effects, and the gendered language used in feminist discourse (feminist being an example) leads to division and straw-manning.
+She uses the example of the books "why we should all be feminists" and "why I am not a feminist" agreeing with one another on many points, but not on the definition of feminism.
+Other confusion-causing terms she includes are patriarchy and mansplaining.
+
+
+She suggests the terms ingressive and congressive:
+
+Ingressive: focusing on oneself, imposing on others more than taking them into account, emphasizing independence and competition, tendency toward single-track thought process
+Congressive: focusing on community, taking others into account more than imposing on them, emphasizing interdependence and cooperation, tendency toward circumspect thought processes.
+
+She argues that in our society ingressive traits are associated with men, and overvalued, while congressive traits are associated with women and undervalued.
+In fact she states (toward the end) that congressive traits are more valuable to society and should be the ones which are valued.
+The definitions make them seem like opposite traits, but EC describes them as orthogonal, forming a plane  (this doesn't really make sense to me).
+
+In a helpful diagram she describes two aspects of sexism, implicit and explicit.
+In explicit sexism women are excluded because of their gender per se.
+While in implicit sexism women are excluded because they do not, or are percieved to not, embody ingressive traits.
+She argues against tackling this by questioning the idea that women are less ingressive - because it is beside the point.
+Instead, we should be questioning the idea that ingressive traits are more desirable in general.
+For this purpose, to not conflate implicit and explicit sexism, the ungendered language for traditionally gendered traits is presented as useful.
+
+This chapter does address my concerns to an extent, but something didn't sit right, yet I can't recall what it was. Maybe it'll be clear if I return to this chapter later.
+
+
+** Key takeaways
+
+ - use ungendered language for describing character traits and how they should be valued
+ - 
+
+
+
+* Structures and Society
+
+
+In this chapter euginia cheng describes some ways in which society encourages ingressive behavior, with special focus on her own experiences in education.
+She arugues that besides making classroom environments more collaborative and less competitive, we should place less emphasis on speed and more on depth and flexibility.
+She provides the finnish school system as a good example of a congressive and successful school system.
+She also uses results obtained within it as evidence that girls tend to do better on the more congressive aspects of these fields.
+
+She mentions that competition works through contriving scarcity, but that in most contexts there is no scarcity and hence collaboration is better.
+Math and science are such fields.
+
+
+** Key takeaways
+
+ - educattion is the most imporatn place to emphasize more congressive behavior
+

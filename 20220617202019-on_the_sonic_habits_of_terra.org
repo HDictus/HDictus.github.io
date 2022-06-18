@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       b34052c5-b67a-43a7-bed1-2eaa706aaf45
+:END:
+#+title: on-the-sonic-habits-of-terra
+In a universe where sound is the ultimate weapon, earth is notorious for enjoying music.
+
+
+* On the sonic habits of Terra
+
+
+<!-- TODO: a little dry - I can storify it up some more, maybe anecdotes? -->
+Contained in these pages is the outcome of several years of observation of, and communication with the people of Terra.
+Since contact was made remote efforts to stall their spacefaring technology were successful, granting us valuable time to assess the risk they may pose.
+The purpose of this document is to establish whether they can be allowed to join the galactic community, and if so how their society can best be integrated.
+We will argue that there is much to be gained by close contact with the Terrans, and that this contact can be established safely with careful sociotechnological engineering.
+
+The matter of greatest concern is the relationship of terrans to sound, their ability to endure extreme levels of it, and the phenomenon called "music".
+Music is the deliberate structuring of sound for the purpose of aesthetic pleasure.
+Terrans are born with specialized sense organs for the detection of subtle details in sound (called ears), and to them this does not register as a pain or fear signal, but is analogous to any other ordinary sense.
+Terrans express confusion at the danger we expeirience from sound, as it poses little danger to them.
+From this it is clear that there is a fundamental difference in biology on their planet.
+Without obtaining tissue samples of terran animated life the nature of this difference will be impossible to establish.
+
+The most prominent argument against allowing Terrans to leave Terra is the fear that they may pose an existential threat to other sapients.
+Terran sonic technology is remarkably advanced even in comparison to the very best in the galactic community.
+This is made even more striking by the primitive nature of their technology and society in other respects.
+Noise cancellation and sound insulation is rarely employed on Terra, and both deliberate and accidental noise abounds.
+To outsiders this may seem as a life of incessant violence.
+This leads to a perception of both savagery and military strength.
+In chapters 1-3 we will argue in detail that this perception is inconsistent with actual observations of Terrans.
+Precedents in cultural integration have shown that levels of militarism far greater than that of Terra are not insurmountable in interstellar relations.
+There is no sign that the Terrans will continue to have incentive for supremacy in a post-scarcity heterogenous society.
+Signs of belligerence from Terra are clearly to be motivated by the same form of fear.
+Furthermore, their sonic technology, though advanced, is not weaponized.
+Music in particular usually aids social bonding within their societies and is not a weapon in their eyes, or more appopriately, their ears.
+The fear of Terran society is, we argue, a resurgence of common and understandable fear in the face of the unknown.
+It should be an incentive to learn more, rather than to prolong ignorance.
+
+Of more realistic concern is the question of access to terra for non-terrans, and the safe interaction of Terrans and non-terrans in a common environment.
+In chapters 4 and 5 we describe these problems as well as proposals by both Terran and galactic scientists to overcome these barriers
+
+Contact with creatures so different from any known previously is scientifically and culturally invaluable.
+Though there are risks involved in this contact, it is essential that our efforts are focused on overcoming these risks and effecting mutual prosperity.
+
+* in sonic habits of Terra, most paragraphs have some examples of bad, verbose academic writing. Simplify sentences, and add in some anecdotes or something.

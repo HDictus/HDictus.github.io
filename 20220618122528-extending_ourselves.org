@@ -1,0 +1,216 @@
+:PROPERTIES:
+:ID:       e1bf5827-0366-4bd5-8542-a77de9096a9c
+:END:
+#+title: extending-ourselves
+* Chapter 1: Epistemic Enhancers
+
+
+In this chapter, Paul Humphreys argues in short form that the extension of our sense perception using technology is an integral aspect of modern science.
+He defines three forms of sensory extension: 
+1. Extrapolation: (e.g. a microscope letting us see things which are too small to see with the naked eye, or a device allowing us to see infrared wavelengths)
+2. Conversion: (e.g. a sonar converting sound data to a visual representation)
+3. Augmentation: (e.g. an MRI machine imaging hydrogen density, a property inaccessible to the usual senses)
+
+I think this is a slightly simplistic way to view it - isn't augmentation just a form of conversion? Ultimately the readout is given to our senses.
+Effectively, the conversion from infrared to visual light is just that - a conversion.
+In principle, all of these can be seen as conversions - but it is the nature of that conversion, and how we know that nature that forms the distinction (as Hunphreys will argue in the next chapter).
+
+He argues that computational methods play the same role for our analytic capabilities.
+Extension in this context is the improved speed of mathematical operations on computers change the scale and resolution of problems we can explore.
+Conversion is the representation of data in e.g. graphical form.
+Augmentation is the question of mathematics which are only accessible through computational means.
+Humphreys argues that one such augmentation already exists in the form of formal proofs with pen and paper.
+I think the argument could be made that this is just another form of extrapolation.
+You can do simple proofs in your head - it's only the complexity of the proof that requires you to write it down.
+But its possible I'm missing something.
+The impression I have is that all forms of mathematics only accessible through computerized means could be classified as augmentation in this sense.
+It is not that those computations are *in principle* impossible, but in practice.
+Take the example of differential equations that are only numerically solvable.
+Solving these quickly for e.g. neuron simulations requires a computer, but all of the operations the computer performs can be done by a human - only much, much slower.
+
+I recognize the main point that sensory and analytic extensions are critical to modern science, but I do not find Humphreys' classification robust.
+
+Using an anology of an automated rocket landing on a planet and seeding life based on the composition of the planet's atmosphere, Humphreys argues that science can occur wthout human sensory action.
+He also states that for the purposes of comparing a theory to observational data, this is often infeasible without nonhuman aid : automation.
+
+In the following chapter he will explain the epistemological role of enhancers, starting with the noncomputational.
+
+
+* Chapter 2: Scientific Empiricism
+
+
+In this chapter, Humphreys argues that traditional empiricism is inadequate to explain the success of noncomputational augmenters in science.
+He proposes instead a form of realism called "property cluster realism" which fits neatly with operationalist interperetations of empiricism.
+He concludes that a form of empiricism based on the human senses is a shortsighted vision of science.
+
+(I believe he has a point on a collective level - but fundamentally we still form all the beliefs that form the basis on which he argues (including our trust in scientific theories, scientific authorities) based on our individual sensory experiences, don't we?)
+
+
+** Empiricism and Reliable Detection
+
+
+Humphreys discusses the traditional empiricist claim that entities which are real in an epistemic sense are those which are observable.
+In this case, something is observable if there exists a means by which it can be sensed by an unaided human sense.
+Humphreys argues that this understanding of empiricism cannot explain the scientific process, and that a clear, static distinction between observable and unobservable does not exist.
+Firstly, he notes that there are many cases where the observations of an instrument are superior to the human senses.
+He proceeds to state that he shall argue that even granting a clear, static distinction between observable and unobservable entities, traditional empiricists must still admit that unobservable entities exist.
+
+
+** The Dilution Argument
+
+
+Humphreys argues that because we contunue to believe in the existence of observable entities when they are hidden from us (and so can only be made observable by e.g. turning on a light), we can by the same means justify belief in entities that remain forever beyond the reach of direct obersvation.
+
+The dilution argument involves mixing some iron filaments into a bucket of black sand. 
+To unaided human senses the bucket is unchanged, but we can weigh it before and after.
+If the iron is first magnetized, and a magnetometer is used to measure its presence, this works through augmentation rather than extrapolation.
+
+In the case of dissolving salt into a liter of water, the presence of the salt may be determined by an unaided human sense: taste.
+Humphreys argues that this illustrates a limit of traditional empiricism, because this inference is false.
+There is no salt in the water, only loose sodium and chlorine ions.
+
+This illustrates, according to Humphreys the difficulty with the identity assumption, that when an entity moves from observed to unobserved its identity is preserved. 
+In the case of the salt, this assumption is dubious.
+
+I find van Fraassen's argument (noted in this chapter, and argued against differently) that the moons of jupiter are real because we could potentially see them with out unaided senses, if we were close enough deeply flawed.
+It is circular: how do we know we can see the moons up close, if we don't know they are real? 
+
+Before moving on, Humphreys foreshadows the overlap argument: that we can rely on instrumental (extrapolative) measurements of distant objects because we can see them up close, move further away, see them both unaided and through the telescope, and so on to validate the instrument.
+
+** Accuracy, Precison, Resolution
+
+
+Humphreys introduces three different measures of the reliability of a method of detection.
+Accuracy on some set Q means that the difference between the measured value and real value is small.
+Precision means that the variance in its outputs is small.
+For instruments I1 and I2, I1 has a higher resolving power over the set of values S for quantity Q if it can resolve every pair of values I2 can, and at least one more.
+
+Detectors can differ quite idependently on each of these measures in different circumstances.
+
+
+
+** The Overlap Argument
+
+
+Humpheys discusses the overlap argument, stating that there are situations in which the extended measurements from instruments overlap with human senses and therefore can be validated or calibrated with respect to them.
+He argues that practically speaking, validated instruments are usually used to calibrate new instruments.
+Accuracy and resolution of an instrument can only be established on a region of overlap (with comparison to a standard).
+Precision can be established in all regions.
+
+His arguments rest on realism, which I think he goes on to defend. However, it seems here that accuracy and resolution are with respect to the other measurement method's outputs.
+
+The dilution argument can be used to show that the overlap argument can apply to augmentation as well as extrapolation.
+Our visual sense of iron filaments can overlap with the magnetometric measurement of them prior to mixing them into the black sand.
+
+Humphreys also states that the significance of  differences in the reliability of instruments is contextual.
+In the case of sonar for example, its poor resolving power compared to human vision is not an issue when searching for shipwrecks, as these tend not to cluster.
+
+
+** Property Cluster Realism
+
+
+
+Humphreys introduces a form of realism he calls _Property Cluster Realism_. 
+He argues that properties have both metaphysical and epistemological primacy over objects (though he only argues the epistemological point).
+Epistemologically, this is because properties are what our senses and instruments measure - we do not measure the object instances, only their properties.
+E.g. we do not measure an iron bar of a particular temperature, we measure the temperature of a particular iron bar.
+
+Humphreys argument, I think is that this primacy of properties puts to rest traditional empiricist ideas of 'observable' and 'unobservable' objects.
+Instead, different properties can be detected.
+For example, a galaxy looks different depending on which wavelengths you choose.
+Is the galaxy observable?
+
+It seems that Humphreys is arguing overall for the assertion that we can state the existence of entities which we do not directly interact with on the basis of indirect empirical consequences of these entities.
+I do not think this is a controversial point - I suppose Humphreys is just laying some groundwork.
+
+** Bridgeman revisited
+
+
+Humphreys summarizes Bridgeman as being concerned with concepts.
+In bridgeman's view, different procedures measure different concepts, even when we intuitively think this is not so. 
+For example, length measured with a measuring rod and length measured with a laser are different concepts.
+They may be closely related, but are nonetheless different.
+Humphreys points out some limitations of this, such as distinguishing between operations which improve accuracy in measuring a concept and operations which measure a different concept.
+(Personally, I disagree that this is a limitation. The 'corrected', more accurate measure is a different property than the uncorrected measure. They are just closely related, just like the different lengths).
+Ultimately however, Humpherys defends Bridgeman's position when applied to properties (it is not clear why this is different from a concept).
+He says that though calibrated to produce the same values, different thermometers measure different properties as a proxy of idealized (not real) forms of temperature (thermodynamic, ideal gas).
+E.g. the expansion of mercury, or the conductivity of a material.
+Different types of thermometers tend toward different deviations from this scale.
+
+(the importance of this kind of goes over my head. What is Humphrey's point here? Yes they measure different properties, but these are a proxy for a common property, with known relationships to the measured properties.)
+
+
+** Instruments as Property Detectors
+
+
+Humphreys argues that instruments detect properties rather than instances of properties.
+He gives an example of an instrument recording redness. The instrument may record the redness of sphere 1 or sphere 2.
+When we do so, what is recorded by the instrument is redness - which instance of redness we measure requires information the instrument does not provide, such as position of the sphere, instrument, etc.
+(I disagree with this point - though which sphere is measured may not be an official readout of the instrument, you can still 'measure' this information by just checking which sphere the instrument is POINTING AT).
+His second example is better: you are given two images. In each image is a red sphere. Which instance of a red sphere was measured? You cannot know without additional information.
+(But again, this is just a matter of measurement (meta)data being lost. If alongside the image someone tells you which instance they measured, it is now a measurement of an instance of a property).
+"It was Allies temperature at april 15th that was recorded by the physician, not the thermometer": this depends on a simplistic interperetation of which measurements belong to the thermometer.
+The physicial read the temperature off the thermometer same as he placed the thermometer in Allies mouth. The position of the thermometer is a measure of the instance.
+Maybe the relevant difference is between a property deliberately determined, such as the instance, and the unknown measured, such as temperature.
+Ok yeah, I think that's the relevant point here.
+Humphreys gives an example of being out in the fog, with paper boys around, each yelling "Paper!". 
+You detect the sound "Paper", but do not detect the instance of it.
+This is anaologus to an instrument.
+
+
+(think of an example though, where you enter a room knowing there will be three people in it. When you enter the room, one person at random has a thermometer in their mouth. When you look at the temperature on the thermometer you are actually measuringa property instance by using the tempertature and position of the thermometer).
+
+** Know thy instruments
+
+
+The previous chapter's point underpins the idea that you need to know something about the operations of an instrument to interperet its measurements. E.g. you need to know that a thermometer works proximally to identify the instance of temperature you are measuring. (I should note that this is my interperetation of the relevance, Humphreys does not make this point himself).
+Humphreys uses the examples of Galileo's telescopes, which were much more powerful than those of his contemporaries and his results were difficult to replicate.
+Attempting to use an overlap argument led to confusion, such as when saturn was observed through the telescope as multiple bodies rather than a single star (moons).
+This was taken as evidence that the telescope was operating improperly.
+Humphreys says that this mistake is understandable, but I do think it is more than anything illustrative of the limitations of relying on direct sensory verification.
+Knowing something about the underlying theory (e.g. optics) lets you understand what you see (even when that theory is imperfect).
+
+Humphreys mentions some argument by Ian Hacking for the realism of entities observed through a microscope.
+1. different microscopes with different modes of action produce mutually consistent results on the entity
+2. we can take a known structure, e.g. a grid and observe its structure through a microscope to verify its transformation
+3. use of a microscope on a variety of entities breeds conviction (???? that's not an argument...)
+
+Humphreys finds these inadequate. 
+Some instuments using different modes of access to the same entity give different results, but nonteheless provide valuable data (section 2.5, galaxies through different measurement modes).
+Humphrey's rejection of 2. on the basis that the microscopes were already calibrated before Hacking put them to the test is missing the point.
+However, he also argues that as with the diluton argument, this depends on preservation of the identity of the grid when observed through a microscope.
+He also notes that some microscopes invert the image, and on what basis do we disregard this as unimportant?
+(the transformation is predictable - but this then relies again on theory, which is precisely humphreys point).
+
+The generalization from a calibration standard to other uses of an instrument requires theoretical justification.
+Especially with new instruments, theory is often invoked to defend them from skeptics by explaining some artefact.
+(hence any epistemic certainty in the results of an instrument without a theoretical understanding must be based on trust in the authority which produced it and documented its usage).
+
+Humphreys uses the example of an early MRI machine giving distorted results.
+Knowledge of its underlying operations was necessary to identify the cause as a radio program broadcasting at the same frequency.
+
+Humphreys subsequently nuances this position, as there are other examples where no theory is needed to address aberrations.
+Researchers in Ernest Rutherford's lab noticed that their results went awry when Rutherford spoke loudly, and so could identify this as a limitation of their instruments without appeal to underlying theory.
+The important thing, Humphreys says, is to know the circumstances under which your instruments go awry.
+
+** Properties
+
+
+Humphreys argues the property localization principle, that each property instance has the full causal force of the property itself.
+Any hot object will burn your hand, so it is the heat, not the instance of it which causes the burn.
+
+Humphreys argues in support of this that causality does not require an observed and consistent coincidence (as Hume argued).
+The very first time a pneumatic tire was punctured, people would not need to draw on past experience of punctures to attribute its flatness to the puncture.
+
+** Epistemic Security
+
+
+Humphreys argues that the emphasis of traditional empiricism on direct sensory experience was a response to skepticism.
+Humphreys says that it can only ever be a response to local skepticism (skepticism about instances), and not global skepticism (skepticism about laws/unifying principles).
+Once we accept the increased accuracy, precision, and resolution of instruments over senses, Humphreys argues, we must see the futility of sceince as an enterprise based on unaugmented senses.
+Humphreys argues that use of instruments in science is in itself valid, and does not need to be broken down into anything more elementary.
+
+
+
+
+

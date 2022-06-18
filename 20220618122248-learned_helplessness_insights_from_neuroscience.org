@@ -1,0 +1,80 @@
+:PROPERTIES:
+:ID:       0ca51e9e-2729-4ee7-8488-9dd89ff2d651
+:END:
+#+title: learned-helplessness-insights-from-neuroscience
+
+* Learned Helplessness at fifty: Insights from Neuroscience
+
+** Summary
+
+
+<!-- TODO: for accessible writing, it's probably better to take concrete examples rather than to continue working with abstractions. I could say something unpleasant (e.g. electric shock) and then refer to electric shock exclusively going forward. -->
+<!-- TODO: this is still a pretty long and detailed summary. a lot of this could go in key takeaways. should I simplify it more? -->
+
+The article details the major experiments on learned helplessness in psychology and especially neuroscience in the last fifty years.
+
+Learned helplessness is a phenomenon where an animal will learn it is helpless to escape an unpleasant situation, and so will fail to even attempt to escape similar situations, even when escape is possible.
+
+The key experiments used three experimental groups:
+ESC: exposed to something unpleasant but able to escape it by some means (e.g. a button press)
+INESC: exposed to the same amounts of unpleasantness, but unable to escape
+0: exposed only to the general experimental environment, but no unpleasantness.
+
+After these 'training' environments, the three groups are put into a new situation where there is a method to escape present (different than the one from the ESC group). Over 90% of the ESC and 0 groups easily learned to escape (roughly equal for both groups) while over 66% of the INESC group did not earn to escape. Under learned helplessness this is interpereted as the animals having learned that they are helpless to avoid the aversive stimulus, and so making to attempt to fight it.
+
+These experiments have since been replicated many times in a variety of animals including humans. 
+An early criticism to the learned helplessness interperetation of these results is the suggestion that the INESC group was learning ("superstitiously") that keeping still made the unpleasant stimulus go away.
+Maier's experiments in 1970 addressed this by including a fourth group for which the action to escape the unpleasant stimulus was holding still.
+This fourth group performed similarly to the ESC and 0 groups, supporting the learned helplessness (cognitive) account and discrediting the alternative (contiguity) account.
+
+The key difference is theorized to be the perception of control, where control is defined as 
+$$P(O | R) < P(O | ~R) $$ 
+
+Where O is the unpleasant stimulus and R is a response. Maier and Seiglman don't explain that this seems to cover multiple responses, but this would be a necessary feature of their model and I believe it is implicit here.
+
+One challenge to learned helplessness was a different interperetation where the difference between ESC and INESC is not one of learning helplessness, but instead of INESC experiencing increased fear. The action which halted the electric shock became a conditioned inhibitor of fear. This was experimentally supported: A tone right after the cessation of the stimulus prevented LH behaviors in the INESC group.
+
+Subsequent work in neuroscience showed that the INESC group had reduced norepinephrine in the Locus Coereolus, which resulted in more norepinephrine in the forebrain (as LC is inhibited by NE but sends NE to forebrain).
+
+Of nine symptoms of depression in the DSM 3 and 4, the INESC groups generally displayed 8. This is the basis for suggesting learned helplessness as a form of depression.
+
+
+Maier's subsequent work was in the neurosceince of learned helplessness. In brief, his findings are that:
+
+The electric shock activates 5HT neurons in the Dorsal Raphe Nucleus (DRN) projecting to periaqueductal gray, striatum and amygdala. In the former two 5HT inhibits action (inducing passivity) and in the latter potentiates fear (increasing anxiety).
+Activation of these DRN 5HT neurons sensitizes them making them easier to activate.
+When the shock is controllible, projections from prelimbic prefrontal cortex (PFCpl) to dorsomedial striatum (DMS) and back, followed by activation of a projection from PFCpl to DRN which selectively excites inhibitory cells, silencing 5HT cells.
+Inactivating these circuits leads to passive response to escapable stimuli.
+Activation of these circuits biases stress response towards them, such that even uncontrollable stimuli activate them.
+
+The key experiments underlying these results were as follows:
+INESC and ESC groups both had increased 5HT in the DRN during the initial shocks, but this reduced dramatically in the ESC group as they figured out how to escape.
+Experiments revealed HTR1A receptors on 5HT cells in DRN - making 5HT activation self-inhibiting.
+HTR1A receptors became desensitized (for about three days) with elevated 5HT, leading to increased excitability of 5HT cells.
+
+Blockade of DRN made INESC behave like 0 group.
+Antagonizing HTR1A during INESC (preventing desensitization) prevented long-term effects of LH.
+Blockade of 5HT in periaqueductal gray, striatum, and amygdyla removed LH effects.
+Activating DRN causes similar effects to INESC.
+
+NE cells in LC (1970 results) respond equally to ESC and INESC, but blockade of NE receptors in DRN prevented LH.
+Similar patterns to other DRN inputs - activated on both ESC and INESC shock.
+
+
+
+** Key takeaways
+
+
+- animals exposed to inescapable shock are less likely to attempt escape when presented with escapable shock
+- in this state animals present 8 of the 9 symptoms of major depressive disorder at increased rates
+- this is not due to mere association, but involves the active detection of controllability/helplessness
+
+- these effects can also be prevented by pairing a tone with shock cessation (confusing?)
+
+- DRN fires when helpless and is suppressed by PFC-pl, which signals control
+- DRN self-inhibits through 5HT receptors
+- DRN becomes hypersensitive when activated
+- PFC-pl becomes hypersensitive when activated, inoculating against helplessness in varied situations
+- 
+
+

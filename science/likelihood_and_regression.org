@@ -1,6 +1,7 @@
 :PROPERTIES:
-:ID: likelihood-and-regression
+:ID:       f6dbed1b-76fa-43d7-9586-50acabe12e3c
 :END:
+
 
 Hey friends, I'm hoping this blog entry can give an intuitive understanding of some math concepts for people who aren't math-minded.
 Some of my later posts are going to rely on this information. I hope I've made it not only clear, but engaging enough.

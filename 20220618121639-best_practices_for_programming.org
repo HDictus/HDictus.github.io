@@ -1,3 +1,7 @@
+:PROPERTIES:
+:ID:       d2494e49-8840-4773-8783-6cd586ded217
+:END:
+#+title: best-practices-for-programming
 # TODO use mike's feedback, cite relevant papers.
 
 * Best practices for Programming
@@ -495,4 +499,5 @@ requires comments to be clear, the code is poorly written. Sometimes a
 comment is needed to clarify /why/ something is done a particular way,
 but if a comment clarifies /what/ the code does, it is a sign that code
 could be written more clearly.
+
 

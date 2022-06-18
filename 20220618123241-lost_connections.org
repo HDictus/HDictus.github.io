@@ -1,0 +1,361 @@
+:PROPERTIES:
+:ID:       dc09347f-47dc-40dc-aa82-a4a01689c83a
+:END:
+#+title: lost-connections
+
+* introduction
+
+
+Hari describes his own experiences of getting diagnosed with depression, being prescribed antidepressants and eventually stopping them after researching their efficacy. 
+He says that the serotonin-based explanations for depression are at the least insufficient, and there are bigger factors at play which he will explain throughout the book.
+
+* Part 1, a crack in the old story
+
+
+* The wand
+
+
+Hari takes us through an example of a metal 'tractor' rod which made use of the placebo effect to briefly cure chronic pain.
+This takes us to Irving Kirsch, a specialist in the placebo effect.
+Although he knows antidepressants have been well-tested for approval, when he and a student of his performed a meta-analysis they found that the effect, after placebo and regular recovery is accounted for, is very small (only 25%).
+Kirsch was supposedly shocked by this, and subsequently requested data from the FDA about the SSRIs in question, where the companies are supposed to register the data they didn't publish.
+Kirsch's analysis supposedly revealed that the effect was even smaller in this case, certainly compared to the prevalence of side effects, and that even these are due to breaks in the double-blind could not be ruled out.
+
+Hari states that Kirsch's results were recieved with relief, a well-kept secret now in the open. 
+On some googling, it seems clear that at least his initial meta-analysis was criticized by Donald Klein and Robyn Dawes.
+for his second analysis there is this:
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2265347/
+
+Where the authors compare Kirsch's results to their own, stating that while they both found similar effect sizes (smaller than suggested by the published literature), they considered antidepressants effective.
+The difference being in a cutoff value for 'clinical significance' used by Kirsch, which Turner and Rosenthal point out is rather arbitrary.
+
+
+Other coverage also notes that Kirsch found that antidepressants should 'only be prescribed to the most severely depressed patients', as in these the effect size was larger.
+this blog post cites some other papers that supposedly support this
+https://www.psychologytoday.com/us/blog/psych-unseen/201802/do-antidepressants-work-yes-no-and-yes-again
+
+
+(also, apparently the same can be said for psychotherapy? https://pubmed.ncbi.nlm.nih.gov/19490745/. We would expect even placebo alone to have a stronger effect than this, no?).
+
+See https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32802-7/fulltext for an up-to-date meta analysis of SSRIs. Did their results actually differ though? They conclude significant effects, but is the effect size significantly different? worth looking into. Do they find that efficacy increased with severity? how do they know they have an accurate cross-section with their unpublished results?
+
+
+* Imbalance
+
+
+Hari discusses the idea that depression is due to a chemical imbalance - specifically serotonin.
+Efforts to find evidence of this theory failed, but the theory nonetheless gained traction in the public and marketing.
+
+Hari interviews Peter Kramer.
+Kramer's arguments in defense of SSRI's include
+
+ - Kirsch's analysis consists mostly of studies on a shorter terms than SSRIs work at.
+ - Kirsch combined studies of mild/moderate and severe depression.
+ - In the studies Kirsch used, there is an incentive for people to pretend to be depressed, and pretend to get better, as they will be paid, fed, and cared for for the duration.
+
+
+Kirsch found that two of the studies he had looked at were long-term, and neither supported the SSRIs. He also found that for all but one of the studies he used, the subjects were classified as having severe depression.
+The third one Kirsch and Hari claim invalidates the experiments themselves.
+(I should look up more about this - there was something about Kirsch refusing to respond to critics? Maybe these responses of his weren't so clear-cut)
+
+
+I suspect they misunderstand Kramer's point here, and maybe I should listen to the full interview.
+If many of the sampled population are not experiencing depression, it would mean that there is a smaller proportion of the population for which the SSRIs have the opportunity to work.
+This would bias the experiment AGAINST SSRIs, not in favour of them, thereby not invalidating the study's positive results, while casting doubt on their negative.
+Kirsch and Hari's point that the side effects of SSRIs are counterproductive to combating depression likewise falls flat, as these would be an aspect of the clinical trials.
+
+Hari cites that between 65 and 85 percent of SSRI users continue to be depressed afterward (which I learned from searching online is inaccurate - the numbers found in the scientific literature are much lower. Hari doesn't cite a source for this).
+He suggests that instead of a chemical imbalance to correct with SSRIs, the problems we face may be due to other factors requiring other solutions.
+
+I think he oversimplifies and creates a false disconnect between the social and the biological. It is possible that depression is a chemical imbalance of some sort - AND that it is brought on by social factors.
+Medications could help to alleviate social problems and aid in reconnecting.
+
+
+* The grief exception
+
+
+Hari proceeds to argue that depression can be a consequence of your living circumstances or experiences.
+He uses as an example the research of Joanne Cacciatore, a specialist in grief.
+Grief has a lot of the same symptoms of depression, but while depression is viewed as a malfunction, grief is normal function and not to be cured.
+For this reason, in the DSM, until recently, exceptions were made from depression diagnosis for people grieving, up to some time limit.
+This is presented as absurd, that if grief lasts too long it becomes a pathology and means there is a chemical imbalance.
+I should say I don't find this such a strange thing really, the limits were short and arbitrary, but it is not healthy to grieve forever.
+There should be a recovery eventually.
+
+Nowadays there is no grief exception, and a depression diagnosis is made only on the basis of symptoms.
+
+
+* The first flag on the moon
+
+
+Hari discusses the research of George Brown.
+George came into mental health research from the perspective of anthropology.
+For his research he interviewed two groups of women: those diagnosed with clinical depression, and a control group.
+His group analyzed the two groups with respect to traumatic events, and coping factors.
+They found that the depressed group had a much higher incidence of traumatic events, and fewer coping factors.
+(These results were apparently replicated in various populations since).
+Importantly, they found that both women diagnosed with endogenous and reactive depression had similar rates of traumatic events and coping factors.
+This indicated that psychiatrists are at least not sufficiently able to distinguish between responses to life events and biological problems - if the distinction exists.
+
+George and Tirril's findings eventually informed psychiatric practice, with what we now call the 'bio-psycho-social model'.
+Nonetheless, Hari argues, the importance of lived experiences in depression and anxiety pathology have not gotten through on the level of policy and popular discourse. 
+
+
+* Part 2:
+
+
+
+* Cause 1: disconnection from meaningful work
+
+
+Hari argues that a major factor in causing depression is the level of control and connection we feel towards our work.
+A Gallup poll shows that 13 percent of americans are engaged by their work, 63 percent non-engaged, and 24 percent actively disengaged (undermining the work of their engaged coworkers).
+He mentions the research of Michael Marmot.
+Michael analysed stress at different levels in the british civil service.
+The expectation was that the workers in higher positions - with more responsibilities and higher stakes - would be experiencing more stress and have worse health outcomes.
+Instead, it was the other way around. 
+Michael argues that this is due to the level of control you have over your work, and to which extent you can act on your own ideas and initiative.
+Using the example of british tax offices, which have very poor mental health outcomes, he argues as well that it is related to the extent to which effort is not compensated.
+The outcome is independent of how well you do your job.
+
+
+* Cause 2: Disconnection from other people
+
+
+Hari discusses the research of John Cacioppo into the effects of lonliness on depression.
+John's research followed people for some time, asking how lonely they felt and measuring cortisol and heart rate.
+This revealed that markers of acute stress correlated with loneliness.
+He also found, through further long-term studies that feelings of loneliness often preceded the onset of depression.
+
+Hari argues that the tendency to withdraw from our communities into our homes plays an important role in depression.
+
+For the role of the internet in this, he mention Hilarie Cash.
+She argues (seems to be based on anecdotal experiences running a rehab clinic) that internet addiction is a consequence of loneliness.
+We seek the things we should find in person online instead, that internet addiction is often an effort to cope.
+
+I found the research in this chapter kind of unconvincing, overall. I should maybe look at why that is. 
+Despite that, I do expect its overall conclusions to hold.
+Maybe that's misguided 'common sense' talking, or just the fact that I've heard this from a lot of sources.
+
+
+* Cause 3: Loss of meaningful values
+
+
+Hari discusses the research of Tim Kasser.
+Tim's research involved identifying people's values through a self-reported survey of them (Aspiration Index), and correlating this with various factors.
+He found that those with more materialistic values had higher rates of anxiety and depression and poorer health.
+He explains this as being a matter of extrinsic vs intrinsic motivations.
+Where being driven by intrinsic motivations is healthier than extrinsic, and materialistic values are extrinsic.
+He had people write down their goals and monitored their health outcomes.
+He classified their goals as intrinsic or extrinsic, and found that intrinsic goals led to increased happiness.
+
+It seems to me so far, that his classification of extrinsic vs intrinsic is somwhat arbitrary: e.g. a promotion, a bigger apartment, for extrinsic, being a better friend or son or better piano player as intrinsic. It seems to me that many of these can be either. What he has actually split by is more complicated than intrinsic/extrinsic. Wouldn't it be explainable by the actions required to reach each of these goals?
+
+Additionally, it seems easy to fall into p-hacking territory with this research - though Hari states it was well replicated. I also wonder how accurately self-reporting measures people's values.
+
+Tim blames advertising for a deliberate strategy of making people feel inadequate without the product.
+To test this hypothesis he compared data on materialism in teenagers and money spent on advertising and found a correlation.
+
+
+
+* Cause 4: Disconnection due to Trauma
+
+
+Hari discusses the research of Vincent Feletti.
+Vincent Feletti worked with severly obese patients, and found that for many the onset of obesity coincided with traumatic events.
+He performed a study (ACE) which found a correlation between childhood trauma and depression.
+Hari presents the reaction to this from the medical community as being shocked, but I really doubt that it is this finding that shocked them.
+Hasn't childhood trauma always been a common thing to pin stuff on in psychiatry?
+Or maybe that was a 90's/00's craze kicked off by this study, that now seems ubiquitous and dated as a consequence.
+Another webpage mentions other reasons: https://cptsdfoundation.org/2019/10/07/adverse-childhood-experiences-aces/
+Hari mentions violent abuse in his childhood, and blames this in part for his depression.
+
+
+
+* Cause 5: Disconnection from respect
+
+
+Hari follows the work of primatologist Robert Sapolsky, who studied stress and social hierarchy in male baboons.
+He found that in times of upheaval - when the hierarchy is threatened - the top babboons have the highest levels of cortisol.
+The lowest level babboons all have high stress nearly constantly.
+Low-status baboons are constantly subjected to abuse.
+High status baboons, on being displaced, quickly become the lowest-status ones (at least in the case mentioned by Hari).
+He found that the behavior - defeated behavior - of the low-status baboons had similarity to depression in humans.
+This led some psychologists to suggest that depression is a defeat behavior in humans.
+
+This does seem consistent with the learned helplessness model of depression.
+When subjected to stressors you are powerless against, you submit to them - which in the case of these baboons probably kept them alive.
+
+
+* Cause 6: Disconnection from Nature
+
+
+Hari covers the research of a biologist called Isabel Behneke.
+She has researched bonobos both in the wild and in captivity.
+She noticed that though wild bonobos (like wild baboons) can show some symptoms of depression when mistreated, in the wild this never reaches the extremes of in captivity.
+Hari mentions research indicating that inmates with a green view have better health outcomes than those with a view on concrete buildings, and that people show preferences for savannah landscapes (that experiment seems iffy).
+There is also some research mentioned that people who move from the city to more rural areas have better health outcomes, and that within cities, places with more greenery have better health outcomes.
+Isabel believes being in nature is very important for health.
+A point which Hari does not state himself, but which seems to be important to Isabel (based on what she says) is the role of adventure.
+Isabel mentions hoping to 'barely survive and take a nature selfie', she talks about how in the wild she couldn't be depressed because if there was a negative thought it was immediately shut down by: but there's a lion out there and you're protein.
+It is argued that both take you out of your head and into the moment.
+This does remind me of the role of mindfulness in CBT and ACT.
+
+
+* Cause 7: Disconnection from a secure future
+
+
+Hari discusses research into suicide and depression in first nation peoples.
+The extent of control over their culture allowed them in each reservation was a very strong predictor of the suicide rate on those reservations.
+Earlier research by the same researcher indicated that between depressed and anorexic teenagers, when each directed to read A Christmas Carol and Les Miserables, the depressed population could not describe the protagonists at the end of the story as bieng the same people as the ones at the end.
+Hari relates this to his own experience of depression, in which he doesn't think about the future beyond the next few hours and feels as though his sense of time is constrained.
+He also brings up a friend of his, who was very lively during her studies but developed severe depression while working in a call center, cold-calling people on a shift-by-shift basis, often worried whether she will get enough shifts to pay the bills.
+He relates this as being disconnected from a secure future - and sure that could be a factor, but there are plenty of other things to be depressed about in that scenario.
+This is the weakest chapter so far, scientifically speaking.
+That's not to say that insecurity about the future doesn't cause depression or anxiety, but this isn't how you argue for it.
+
+It does make some sense from an evolutionary perspective that at least with anxiety, you would be focused on the immediate threat.
+But isn't there a bit of a disconnect between bieng concerned with the immediate threat, and being uncertain about your future?
+Hmm that doesn't make sense. What am I getting at here?
+
+
+
+* Cause 8: The role of brain changes and genes
+
+
+Hari discusses the role of brain changes.
+Briefly, the brain changes in response to experience, and this process is not usually easily reversible.
+He doesn't specifically say that medication can make this easier, which is an omission in my eyes.
+He also discusses the role of genetic factors, where they are said to play a role, but be triggered by experience.
+Hari argues that part of the reason many have adopted the biological view of depression is to destigmatize it, but he argues that it has had the opposite effect.
+There was an experiment in which people were paired with an actor who said he has a mental illness, framing it as either 'biological' or 'trauma related'.
+Next they were to use aversive shock to teach the actor a task.
+They were more shock-happy in the case where the illness was biological.
+there is a lot wrong with this experiment as interpereted as supporting Hari's point though - what if it is a matter of pity rather than stigma? What if the actor behaves differently when playing the two different parts? This is necessarily not double-blind.
+Nonetheless, you could say it provides weak support.
+
+People often describe having depression when everything is going alright for them. 
+Hari likens this to a 50's housewife going to the doctor - she has a loving huspband, a nice house, some friends. Why is she so unhappy? There must be something wrong with her.
+Today we might say to such women that they may have everything she needs by the standards of her society, but she doesn't have everything she needs (e.g. independence, a career).
+Hari says that this is also the case for today's society, where people will have a decent job, house, etc. but be missing the factors covered before in this book, and be unhappy as a result, with bioligical factors acting as a mediator of severity.
+
+
+* Part 3:
+
+
+* We built this city
+
+Hari tells the story of a west Berlin neighborhood called Kotti.
+After the wall fell, rent in Kotti started to rise.
+When an old woman stated that she would kill herself if evicted, bit by bit the neighborhood started to organize in protest of rising housing prices.
+Conservative Turkish-Germans lived side by side with a large gay community, in mutual suspicion.
+However, after the community started to come together they resolved their differences.
+After working together a great deal, the people of Kotti reported improvements in their mental health.
+
+This chapter doesn't really seem to make a point about depression.
+
+
+* Reconnection one: to other people
+
+
+Hari opens by stating that in much of the world the people of Kotti would have been given antidepressants and told the cause of their distress was chemical (That is definitely an exaggeration).
+He mentions the research of Brett Ford, whose research found that those who made an active effort to improve their happiness became happier in Taiwan, Russia, and Japan, but not in the USA.
+Hari asserts (and implies it is Ford's position) that this is due to collectivist notions of happiness in those other cultures being more representative of how happiness actually works.
+He proceeds to discuss the Amish, and interview and Amish man. 
+Studies have apparrently shown better mental health outcomes among the amish, in spite of problems with domestic abuse and corporal punishment.
+This is put down to the physical proximity and strong sense of community they have.
+The importance of this is further emphasized by the fact that 80% of Amish youths choose to rejoin their communities after Rumspringa (even though on declining they would still be allowed to visit).
+
+Hari wonders if the strict, homphobic and sexist views of the amish are a necessary consequence of this strong sense of community, or if we can get those benefits without the associated downsides.
+
+* Reconnection two: Social Prescribing
+
+
+Hari details the successes of Sam Everington's clinic in London.
+By combinging drug prescriptions with community-building activities such as gardening, Sam reportedly has high success in treating psychological distress.
+The key - says Hari - is Social Prescribing.
+This means taking every opportunity to be social - to have a party, etc.
+Hari uses the story of Lisa Cunningham who was helped by this clinic.
+She says it was very important that this social prescribing was persistently urged by a doctor, or she would not have managed it.
+
+Hari states that little academic research has been done into the success of Sam's social prescribing because it is not profitable.
+(I am skeptical of this - surely grant-giving bodies for example, would be eager to fund this kind of research?)
+
+* Reconnection three: To meaningful work
+
+
+Hari discusses the success of a cooperative business - one operated by a set of equal partners rather than a hierarchy.
+Anecdotally, the people working in this cooperative bike shop had their mental health improve a great deal - all while working very hard.
+Hari mentions research indicating that cooperative businesses tend to be more successful (four times the growth, in one study).
+He says that although social scientists have shown interest in studying the mental health in cooperatives, there hasn't been funding for it.
+(a quick google scholar reveals some research that was positive on these - why didn't Hari include this?).
+Hari proposes that although the nature of their work doesn't change, the control and stake they have influence its effects on their health.
+He relates this to the studies in cause 1, relating to higher stress in lower positions in hierarchichal jobs.
+
+This chapter resonates to an extent. I do feel that the lack of influence over how we do things plays a role in my feelings toward work.
+But the thing is - I'm not always right, am I? I imagine in bluebrain, with everyone having a say, there would be no agreements.
+And should my opinion on how to do something count as much as a celebrated professor?
+Well, I guess in a more 'cooperative' workplace you would still have recognized expertise.
+
+
+* Reconnection four: to meaningful values
+
+
+Hari discusses measures for combating materialism.
+He mentions some ideas about restricting advertisement (something I'd agree on - just how many resources to we waste on this process???).
+The major point though comes from the study of Nathan Dungan.
+He took a group, questioned them on why they spend money, what they value, the effect of advertising, and eventually what they would do differently if they pursued the things that were intrinsically valuable to them.
+Afterward, the group he tested measured reduced levels of materialism (compared to before and compared to a control group).
+(how did they measure this? did it show in their behaviors and health outcomes, or did they simply state different values? What is the point of the control group here - shouldn't they have at least some kind of discussion or meeting to control for factors other than those being experimented? This strikes me as really poor experimental design).
+Dungan reccommends we all take part in this exercise.
+
+
+* Reconnection Five: connection to sympathetic joy
+
+
+Hari opens with an anecdote of one of his friends feeling better than she has in years after consistently practicing sympathetic joy meditation.
+Hari emphasizes the scientific backing for sympathetic joy (he mentions one study - but not enough specifics to find it. maybe it's in the notes. Either way, I find very little on sympathetic joy, only when I use loving kindness meditation do I find something.
+He subsequently describes the research of Roland Griffith, who looked into meditation after he became a professor of psychology.
+Subsequently he revitalized psychedelics research.
+He showed that those who took them often had similar experiences to those who meditated extensively.
+They also helped many of the test subjects when it came to depression, and many reported it as a significant experience.
+These benefits are related by Hari and Roland to the 'breaking down of the ego', similar to what Hari describes in 'disconnection from nature'.
+There are two catches: firstly, sometimes people had a really unpleasant trip, even in the good circumstances of the experiment.
+The second is that the effects don't last if the subjects don't make lasting changes in their lives.
+
+
+
+* Reconnection six: Overcoming Trauma
+
+Hari describes studies performed by Vincent Feletti, where discussing traumatic experiences with a doctor or psychoanalyst improved health outcomes.
+Reducing the damage done by childhood trauma is certainly a vast field all its own, which Hari barely touches on here. 
+He could have put more work into this - it's the smallest chapter by far.
+
+
+* Reconnection seven: Restoring the Future
+
+Hari argues that a universal basic income would have strong effects fro mental health.
+Evelyn Forget wasa researcher who dug up and analyzed data from one UBI experiment in Canada, finding that besides a variety of other benefits, anxiety and depression rates fell in the experimented town.
+There have been a lot of different UBI studies over the years, I think it's a shame that Hari didn't take the opportunity to review them more generally.
+He speaks to Rutger Bregman, who also emphasizes the health benefits of UBI.
+Hari proposes that the economic freedom provided by a UBI not only addresses disconnection 7, but is also what would make focusing on the other reconnections possible.
+
+I agree UBI is a good idea. It doesn't really apply to my case though.
+For me the pressure of my job has more to do with the desire to do it well, recieve recognition, and be allowed to do it on a greater scale.
+Although I guess, in principle, on UBI I could pursue my research interests independently, e.g. writing reviews. But there are other important factors to having your work accepted.
+You need willing and capable mentors to teach you, you need the names of professors to open doors and stuff.
+Academia is incredibly hierarchichal in ways more important than the financial.
+I wonder whether that has anything to do with the poor mental health outcomes.
+
+
+* Conclusion: homecoming
+
+
+Hari closes with the argument that anxiety and depression are fundamentally signals that something is wrong in the way we are living.
+He says we need to listen to it, more as a society than individually, as the advice may be difficult for some individuals to follow.
+It is somewhat reductive. As Hari has admitted throughout the book, there are probably some cases where the depression is out of proportion (In fact, Andrew Solomon defines depression that way).
+He has also said that once a trauma or something similar throws your brain out of whack, just going back to things as before won't necessarily help - there is a certain tipping point.
+
+
+

@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       c31dfd2c-cfa6-4194-8579-90311814d509
+:END:
+#+title: leviathan-and-the-air-pump
+
+* Understanding Experiment
+
+
+Shapin and Shaffer open this chapter by describing the scope of the book's inquiry. 
+The book is to be a historical exploration of the disagreements between Hobbes and Boyle on natural philosophy.
+Shapin and Shaffer argue that previous work has been biased against Hobbes in adopting a 'member perspective' on Boyle's experimental programme.
+Namely, assuming Boyle to be correct and analyzing Hobbes' work from that position.
+Shapin and Shaffer intend to adopt a 'stranger's perspective', in which the positions of Boyle and Hobbes are not to be evaluated as correct or incorrect, but merely as products and shapers of history.
+In doing so they will be looking at the connections between civic and natural philosophy.
+They briefly mention some misrepresentations of Hobbes which they state they will disprove:
+ - That Hobbes did not understand Boyle's position
+ - That Hobbes agreed experiment played a central role in natural philosophy
+ - That Hobbes' objections to Boyle's air-pump experiments stemmed from aristotelian ideas
+ - (I may have forgotten one or two)
+ 
+Before Boyle published on his experimental programme, Hobbes constructed a materialistic theory of knowledge founded on causality.
+He argued that philosophy is inherently causal in nature and achieves consensus by demonstrative means (e.g. deduction).
+When Boyle published /New Experiments/, Hobbes rebutted his approach by attacking his means of experiment, the air-pump.
+He additionally argued that Boyle was a vacuist, despite Boyle's professed ambivalence to the plenist-vacuist debate.
+He further argued that Boyle's approach could not be philosophy, because it was not causal in nature and did not gain full assent (e.g. demonstratively), but instead only partial assent.
+Shapin and Shaffer argue that in his attacks, Hobbes identified the experimental approach as a matter of social convention. (not entirely clear how this follows from their description of his argument, but maybe it makes sense later).
+
+They will describe Boyle's experimental programme in chapter 2, Hobbes' philosophy and response in chapters 3 and 4. 
+
+Huygens supposedly observed an 'anomalous suspension of water' which invalidated one of Boyle's experimental resources.
+Shapin and Shaffer say they will analyze the response to anomaly as a social phenomenon, protecting the experimental community from internal discord.
+
+Both approaches are mentioned as possible solutions to social organization, and they will analyze the social context (the Restoration) for these.
+
+
+* Key takeaways
+
+
+ - this book is a historical, not epistemological analysis of experimental science
+ - Hobbes believed in a rationalist and realist approach to philosophy, while Boyle an empirical one which bracketed questions of realism.
+ - 
+

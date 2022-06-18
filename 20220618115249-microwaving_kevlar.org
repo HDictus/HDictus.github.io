@@ -1,0 +1,91 @@
+:PROPERTIES:
+:ID:       c6ae58d7-87fe-4b65-bcd9-6bea4b9f6d3f
+:END:
+#+title: microwaving-kevlar
+
+What happens when you microwave Kevlar?
+
+
+TODO: I've been talking out my ass LOL, see https://en.wikipedia.org/wiki/Dielectric_heating
+TODO: wtf, where is the dependence on the resonant frequency?
+
+TODO: think about - who is this for? would people be reading this if they didn't already have a basic interest in science?
+---   Maybe the best way to structure this would be to have collapsable submenus for different terms/ideas which people may/may not be familiar with.
+----  that way you can teach an unknowledgeable audience without boring the knowledgeable one
+----  with links to the collapsed sections for each piece of jargon!!
+
+I remember I had always learned that microwaves act on water molecules, so my first thought at this question is "Nothing, unless it is at least a little damp".
+It didn't take a lot of thinking to realize that this is simplistic - microwaves act on water molecules by driving oscillations in them.
+They are particularly effective for making water molecules oscillate (at least at the wavelengths we use in commercial microwaves) because the frequency of the microwaves is very close to the resonant frequency of a water molecule.
+However, water molecules are certainly not unique in being driven by electromagnetic waves.
+Does kevlar contain molecules which could be driven to oscillate by microwaves?
+
+Alright, so lets back up and make sure we've all got the basics down.
+Microwaves are electromagnetic radiation, just like visible light.
+Electromagnetic radiation, just like a wave in the ocean or a vibrating string, is an oscillation.
+Specifically, it is an oscillating electric field and a corresponding oscillating magnetic field.
+(TODO: diagrams would be great here)
+(If you're thinking "wait, where do photons come in then?", you'll want to look up wave-particle duality. It's trippy stuff.)
+
+Electric fields exert force on charged particles, so when an electric field passes over a charged particle it moves it.
+If that electric field oscillates, the force it exerts on a particle changes with the oscillation.
+Electromagnetic waves can then affect molecules where some parts of the molecule are charged.
+We call these molecules *polar molecules*.
+Water molecules are polar because the oxygen atom attracts the electrons more strongly, leading to the oxygen end of the atom being more negative than the hydrogen ends.
+(TODO: a diagram would go nicely here, see https://study.com/learn/lesson/polar-molecule.html).
+So the more positive and more negative regions of the molecule are going to be affected in opposing ways by the electromagnetic field, leading to vibrations throughout the molecule.
+With me so far? Ok.
+
+Everything that oscillates does so at a particular frequency, meaning how many times it oscillates in a given time window.
+If we are talking about an oscillation that travels in space, it makes sense to talk about a wavelength - the disance between any two identical points in the oscillation.
+(TODO: diagrams would be really helpful here)
+Now, take the example of a vibrating string, when you pluck it it makes a particular note.
+That note represents a particular frequency, which is called the resonant frequency of the string.
+If plucked, and allowed to vibrate on its own, the string vibrates at its resonant frequency, but what if some oscillation, say a different note, pushes it consistently and makes it vibrate then?
+(Ever seen a rockstar shout something into their guitar at a concert? This is what's going on there, the sound waves from their voice are making the strings vibrate).
+(TODO: include a picture. was it slash that did that? someone else?
+
+If the driving force oscillates at the string's resonant frequency, its energy is transferred efficently to the string.
+At other frequencies, the string partially 'resists' the oscillation, as it naturally tends towards its resonant frequency, so the energy transfer is not so efficient.
+There is a formula for this (shown here is the one for *undamped* oscillations, which is simpler. you can find the full verision [here](https://physicscourses.colorado.edu/phys2210/phys2210_fa20/lecture/lec38-driving-resonance/), among other places).
+
+$$ x(t) = \frac{F_0}{m(\omega_0_2 - \omega^2)} cos (\omega t) $$
+
+Where x(t) is the position of the oscillator, $F_0$ is the maximum magnitude of the driving force, $\omega$ is the frequency of the driving force, $\omega_0$ is the natural frequency, and $m$ is the mass of the oscillator.
+The force applied at any point T is $ F0 cos(\omega t) $, which we can see in the formula above.
+We can see that the closer $\omega$ gets to $\omega_0$, the smaller the bottom of the fraction is, and so the larger $x(t)$ becomes. (strictly speaking, its magnitude gets larger, because x(t) can be negative).
+In fact, if $\omega = \omega_0$, the whole thing breaks (dividing by 0), but in real life oscillators are never entirely undamped (e.g. air resistance on the string).
+
+
+The reason microwaves work so well on water, is that for the microwaves we use, their frequency is very close to the resonant frequency of water molecules.
+So the amplitude of the oscillations is large, leading to a lot of kinetic energy in the molecules, which means a high temperature.
+
+Now, back to kevlar.
+Are the molecules in kevlar heated by microwaves.
+Theoretically, yes: because kevlar molecules contain polar components.
+But what is the resonant frequency of these polar bonds?
+Looking into this, there are some approximations we could do to calculate it, but once you consider many factors it becomes way more complex than I can do for fun in my free time.
+Fortunately, someone already did this for us, and then someone [else](https://ntrs.nasa.gov/api/citations/20070022474/downloads/20070022474.pdf) did experiments to boot!
+
+Due to the complexity of the molecule, it actually has a lot of different vibrational modes.
+From table 1 in the above paper, these are (in $cm^{-1}, a proxy of sorts for frequency):
+630, 732, 786, 845, 863, 1103, 1181, 1277, 1327, 1514, 1318, ...etc etc.
+
+
+<!-- According to Wikipedia (shut up, wikipedia is a great source for math and basic physics), molecular bonds can be treated as *simple harmonic oscillators* (read: weights-on-a-spring). -->
+<!-- (TODO: diagram) -->
+<!-- The resonant frequency in this case is: -->
+
+<!-- $$ \omega_0 = \frac{1}{2 \pi} \sqrt{\frac{k}{u}} $$ -->
+
+<!-- Where k is the *spring constant* of the bond, and u is the *reduced mass* of the atoms in the bond. -->
+<!-- For kevlar, the bonds in question are Hydrogen-Nitrogen and a double Carbon-Oxygen bond (these are also the key to kevlar's strength, as these polar bonds form hydrogen bonds with one another). -->
+<!-- (TODO: include picture from wikipedia) -->
+
+wavenumber = cycles / unit distance
+unit distance = cm-1
+wavenumber = cycles / cm-1
+wavelength = cm-1 / cycle
+
+microwave wavelength = 
+

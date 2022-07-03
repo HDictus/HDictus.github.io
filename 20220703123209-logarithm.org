@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a40e5cc0-98e3-4335-b9b2-2b2b0458240b
+:END:
+#+title: logarithm
+

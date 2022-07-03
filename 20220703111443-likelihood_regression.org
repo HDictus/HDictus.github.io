@@ -1,17 +1,27 @@
 :PROPERTIES:
-:ID:       f6dbed1b-76fa-43d7-9586-50acabe12e3c
+:ID:       9e217027-4354-4ca9-b9e5-13e4d056b017
 :END:
+#+title: likelihood-regression
 
 
 Hey friends, I'm hoping this blog entry can give an intuitive understanding of some math concepts for people who aren't math-minded.
-Some of my later posts are going to rely on this information. I hope I've made it not only clear, but engaging enough.
+Some of my later posts are going to rely on this information.
+A little primer on why this math matters:
+
+Firstly, these are really common statistical methods, and understanding the difference between probability and likelihood is really important for understanding scientific findings in many contexts.
+Secondly, two big hot topics in neuroscience at the moment are [[id:db36b9dc-5c6e-430d-88b7-31dbb02634e8][predictive coding]] and the related concept of the [[id:e00f0048-cba8-48b8-9289-3269c903639b][bayesian-brain-hypothesis]].
+Understanding what predictive coding is, why it is so exciting, how it relates to the bayesian brain hypothesis all depend on the math concepts I explain here.
+Predictive coding in the broadest sense is a strategy for the brain to understand the world around it by creating a version of that world inside it, and using this internal world to predict the external one.
+It's based on image compression algorithms we use in computers all the time, but applied to a way bigger scale.
+I think these ideas can be made clear to a lay audience, and have a potential to get people engaging in neuroscience, which is an otherwise pretty inaccessible field.
+I should state here though, that predictive coding as a concept is still very much up in the air.
+It has the potential to explain a lot of things, but we really don't know /if/ let alone /how/ it happens in the brain.
+
+I hope I've made it not only clear, but engaging enough.
 
 TODO: add some damn humor.
 
 * likelihood: probability, but backwards
-  :PROPERTIES:
-  :ID:       b1f937fc-e714-46f3-be34-7f7e50e16ef3
-  :END:
 
 Feel free to skip this section if you are already familiar with the distinction.
 
@@ -36,12 +46,10 @@ We actually can't calculate it based on the information we have, but most people
 As we will see in the [[Bayes rule][bayes]] section, this intuition is often correct but sometimes wrong. 
 If it's a burning question for you, skip ahead and skip back. Otherwise read on, and it will get relevant later.
 
-So in short, if the *probability* of thing A /given/ thing B is p, the *likelihood* of thing B /given/ thing A is also p.
+So in short, if the *probability* of thing /A/ given thing *B* is p, the *likelihood* of thing *B* /given/ thing /A/ is also p.
+But this does /not/ mean that the probability of thing /A/ given thing *B* is p - to know that, you need more info.
 
 * Least-squares linear regression
-:PROPERTIES:
-:ID:       ca9bef11-1723-40e7-a246-8e4c7fee295f
-:END:
 
 Y'all remember lines of best fit? You've definitely seen them on plots before, showing that something correlates with something else.
 (TODO: find example of silly correlation).
@@ -52,21 +60,42 @@ By squared error, I mean the squared y distance from the line to each datapoint.
 The line we get is a /model/ of y based on x. 
 So for a given value of x, the line predicts a specific value of y (100 points if you guess where I'm going with this).
 
-This model is usually  wrong about most of the data, the squared error is just a way to measure /how/ wrong it is.
-Creating the best fit line is a process of finding the least wrong model.
-But before we pick the least wrong one, we are already making assumptions about the model, and what 'least wrong' means.
-Specifically, we assume that the data follows a gaussian distribution around a linear relationship between x and y, and the best answer is the one with the highest likelihood.
-No wait don't run! I can explain!
+So this line is almost always going to be wrong, because nothing is ever simple and easy.
+So making a line of /best/ fit is about finding the line that is the /least/ wrong.
+If we do this by finding the one with the least squared error, it actually turns out we are also finding the most /likely/ one, so long as a few things are true.
+
+Take the line in the graph above to show the average height for a given age, and assume that for each age, the probability of a given height looks like this:
+TODO: normal distribution
+Which is called a normal distribution. 
+Then, we can get the likelihood of the line for the height data we have.
+For each person, we look at how far they are from the average and use the normal distribution to calculate how likely that average is /given/ this person's height and age.
+TODO: diagram
+Then, we can multiply all the individual likelihoods together to get the overall likelihood.
+
+So if we are looking for the most likely line, that's the number we want to maximize.
+Ok, I'm going to show you the definition of the normal distribution.
+If you're not used to math, it would be appropriate to play some dramatic music now. I reccommend Carl Orff's O Fortuna.
+
+$\frac{e^{-(\frac{d}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma}$
+
+It's a little hard to work with if we want to multiply a whole bunch of these together and then find the maximum.
+Luckily, this gets a lot easier to work with if we look for the maximum of the [[id:a40e5cc0-98e3-4335-b9b2-2b2b0458240b][/logarithm/]] of the normal distribution (click on the link for a refresher on logarithms).
+
+$-(\frac{d}{2 \sigma})^2} - log{\sqrt{2 \pi}\sigma}$
+
+The second part of that doesn't depend on $d$ (the difference between the person's height and the average our line predicts), so it will be the same for every line, and we can ignore it when trying to find the best line.
+
+
 
 The gaussian distribution, AKA the normal distribution AKA the bell curve, looks like this:
 TODO (figure)
 
+So a given normal distribution has a mean (the average value) and a standard deviation (the average amount by which a random value differs from the mean).
+So the position of the peak on the x axis depends on the mean, and how flat the distribution is depends on the standard deviation.
+
 A lot of things in nature follow a gaussian distribution, and it also happens to have some handy mathematical properties.
 We don't need to worry too much about what 'probability density' means, we can treat it about the same a probability for today's topic.
 Suffice to say for now, probability density is to probability what the crowdedness of a room is to the numer of people in a given part of that room.
-
-So a given normal distribution has a mean (the average value) and a standard deviation (the average amount by which a random value differs from the mean).
-So the position of the peak on the x axis depends on the mean, and how flat the distribution is depends on the standard deviation.
 
 Assuming height is a normal distribution with a mean of 1m70 and a standard deviation of 20, 50% of all people are between 1m50 and 1m90, and 50% of people are either shorter or taller.
 
@@ -98,7 +127,7 @@ As you may guess, finding the value of a for which this is highest is just not p
 Fortunately, this can be made a lot simpler with logarithms.
 
 In case you need to refresh your memory on logarithms. A logartithm is the opposite of a power. So $log_3 (3^2) = 2$, and likewise $log_e (e^x) = x$.
-The handy thing about logarithms here is that the maximum of $log_{whatever} A$ is the same as the highest point of $A$, for any A and whatever logarithm base $whatever$.
+The handy thing about logarithms here is that the maximum of $log_{whatever} A$ is the same as the maximum of $A$, for any $A$ and whatever logarithm base $whatever$.
 So this applies to our likelihood too. So we are going to calculate the maximum of the logarithm of the likelihood, and for convenience's sake we will use the logarithm of $e$.
 
 $log_e \frac{e^{-(\frac{y - (ax)}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma} = $.
@@ -111,4 +140,10 @@ $log_e \frac{e^{-(\frac{y - (ax)}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma} = $.
 
 
 
+* Bayes rule
+
+
+
+
+* References
 

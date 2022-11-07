@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       20f9b573-7e60-4226-8707-f8a4918e1533
+:END:
+#+title: helplessness-index
+
+The idea here is to come up with precise way to describe the psychological phenomenon of helplessness, accounting for the role of acceptance and fatigue when it comes to states of learened helplessness and depression.
+
+The controllability of a circumstance by a particular action may be expressed as $$C=\frac{\delta E[O]}{\delta E[R]}$$
+Where $$O$$ is the value of the outcome, and R is the resource expenditure. Expectations of these are conditional on the organisms internal evaluation.
+The relevant percept for controllability may be seen as the maximum controllability out of all the actions that occur to the organism.
+We should consider in this a certain meta-controllability as well: if a prior judgement leads the organism to think the situation is futile, it may not even expend the mental resources to seek solutions.
+The same formula can be applied, with $O$ and $R$ representing the outcomes for the best expected action.
+
+Acceptace and helplessness are both characterized by low controllability, but have very different emotional effects.
+If something bad is going to happen, but you accept it, you no longer feel helpless.
+If something good is not going to happen, but you accept it, it is as though the option of it never occurred to you.
+
+Let us characterize a helplessness index, based on controllability and the accepted outcome.
+$H = \frac{E[O]-O_a}{E[R]}$
+
+The relevance of spending resources may depend on the availability of those resources.
+We can represent this as a scale factor for the resource expenditure.
+$H = \frac{E[O] - O_a}{f E[R]}$
+
+If we accept that helplessness and negative emotional valence are positively correlated, this can go some way to explaining the relationship between fatigue, acceptance, helplessness, and depression.
+
+By themselves, these expressions do not relate well to the experimental procedures used to characterize helplessness.
+That will require the incorporation of more comprehensive behavioral models.
+If those models are not well validated, we cannot be sure that any limitations result from this model of helplessness.

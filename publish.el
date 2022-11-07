@@ -4,9 +4,9 @@
       '(
 
 ("my-blog"
- :base-directory "/home/hugs/Projects/writing/blog/"
+ :base-directory "/home/hugs/Dropbox/writing/blog/"
  :base-extension "org"
- :publishing-directory "/home/hugs/Projects/writing/blog_published/"
+ :publishing-directory "/home/hugs/Dropbox/writing/blog_published/"
  :recursive t
  :publishing-function org-html-publish-to-html
  :headline-levels 4             ; Just the default for this project.

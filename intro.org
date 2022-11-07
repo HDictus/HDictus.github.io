@@ -34,6 +34,7 @@ Note that I'm using a 'digital gardening' approach here, so instead of a traditi
 - [[id:c6ae58d7-87fe-4b65-bcd9-6bea4b9f6d3f][microwaving-kevlar]] (work in progress)
 - [[id:9e217027-4354-4ca9-b9e5-13e4d056b017][Likelihood and Regression]]
 - [[id:d2494e49-8840-4773-8783-6cd586ded217][best-practices-for-programming]]
+- [[id:20f9b573-7e60-4226-8707-f8a4918e1533][helplessness-index]]
 
 * summaries
 These are accessible summaries of interesting scientific papers, or chapter-by-chapter summaries of books.

@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       8641ab70-b5a0-4d75-b9fe-4b09bd3a387a
+:END:
+#+title: programming-is-theoretical-science
+
+
+I've been playing with these ideas for a while now.
+I'm not sure I know how to put it into words, but there's no way to know without trying.
+Sometimes it seems too mundane and obvious to be worth mentioning.
+But many good ideas are, in retrospect.
+
+There are clear parellels between the process of software development and the process of science.
+I don't think this is coincidental - rather I believe that the process of software development is exactly the process of science, expressed in code.
+Good programming practice is, for epistemological reasons, precisely the same thing as good scientific practice.
+Where to go from here, to explain this?
+I guess i'll break it down into sub-topics, and maybe after writing each of these it will become clear to me how to express my point.
+Or maybe, its falsity will reveal itself.
+That's worthwhile too.
+
+
+* programming as modeling
+
+* a computational model is a theory
+
+* Empiricism and software testing
+
+* parsimony in epistemology and programming
+
+
+* practically speaking...
+** behavior-driven development as an aspect of scientific development
+
+** code availability and reuse 
+
+* what is a model
+* how can models interact
+* an open-ended collaborative infrastructure

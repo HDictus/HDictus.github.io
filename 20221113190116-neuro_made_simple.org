@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       a6f32845-17cc-443d-9c0b-6ad54bcc154b
+:END:
+#+title: neuro-made-simple
+
+So I don't quite know what I'm doing here.
+Neuroscience is insanely complicated, yet I feel like I glimpse a unifying simplicity behind a lot of it.
+I think one role of theory is to identify this simple version and build up its strengths as well as its limitations.
+But it seems like the limitations are always so many and so obvious that a framework is often abandoned before much of an effort has been made to overcome the limits.
+
+I'm rambling. I'm jetlagged. Whatever.
+
+In this piece I'll be trying to put together a simple skeleton of how nervious systems function, on which other forms of complexity can be layered.
+
+The most common theme when it comes to things we understand fairly well in neuroscience is Hebbian plasticity.
+Cells which are active at the same time tend to become more strongly wired together.
+Whether we're talking about sensory processing, memory formation and retrieval, or reinforcement learning, this principle seems to underlie all of them.
+The evidence that this occurs is widespread at the cellular and network level, and theoretical approaches show that it leads to computationally advantageous operations.
+I'm told there are exceptions, evidence of cases where plasticity is non-hebbian.
+There's an intuition behind it too: if a chemical signal is synchonized with a neuron's activity, then that signal must in some way be relevant to what the neuron is doing.
+If there's no relationship, it must be irrelevant.
+Yet I have trouble finding anything that is unambiguously non-hebbian.
+In any case, it seems to me that we havent' really tried to see how far a holistic, pure hebbian neuroscience gets us. Let's take a look.
+
+Let's start with excitation and inhibition.
+Each excitatory cell strengthens inputs which strongly predict its own activity.
+Since its activity is based on its inputs, it therefore selects inputs which are maximally predictive of the other inputs (weighted by their extant contribution).
+When it comes to excitatory inputs, this leads to a sharpening and magnification of statistically prevalent features.
+When it comes to inhibitory inputs, this leads to the canceling out of predictable, redundant elements.
+In this case, predictable means predictable on the basis of 'nearby' neural signals.
+This means that in order to be active, neurons need to display activity that predicts incoming signals, while not being predictable by incoming signals.
+This pushes a certain level of uniqueness, that cells which attempt to encode information already encoded by other cells will be silenced by those other cells.
+Since they seek to strengthen connections which predict their own activity, and they can only be active when they are not predictable, they will sample unpredictable signals.
+This is a mess, this is unclear, I'm only making it seem more confusing in my writing.
+It seems so clear in my head, why is it hard to explain?
+
+The lower dimensionality of inhibitory signals prevents complete silencing, while the relative superlinearity (synaptic facilitation) of inhibition prevents constant increases of synaptic strength.
+
+Now, there is the question of what the cells sample input FROM.
+One way to start looking at this is peters' rule. It seems that overall, connectivity scales linearly with axodendritic overlap.
+But this is one of many factors, most of which are independent of it.

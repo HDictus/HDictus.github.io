@@ -18,9 +18,12 @@ Or maybe, its falsity will reveal itself.
 That's worthwhile too.
 
 
-* programming as modeling
+* programming is modeling
+
+When you have a theory 
 
 * a computational model is a theory
+
 
 * Empiricism and software testing
 
@@ -31,6 +34,8 @@ That's worthwhile too.
 ** behavior-driven development as an aspect of scientific development
 
 ** code availability and reuse 
+
+** automation lets us be more flexible and change paradigms on a whim
 
 * what is a model
 * how can models interact

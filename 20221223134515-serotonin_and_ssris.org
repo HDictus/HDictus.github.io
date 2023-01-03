@@ -1,8 +1,88 @@
 :PROPERTIES:
 :ID:       84c5b566-23ff-4036-9f58-8b3fcbb1b8b1
 :END:
-#+title: serotonin-and-ssris
+#+title:Serotonin, Anxiety and Depression
 
-One topic I find interesting is the role of serotonin in the central nervous system.
-It's also a popular topic of research because of the relationships between depression, anxiety, and serotonin.
+Serotonin is a molecule used in the bodies of, as far as I'm aware, all animals.
+It's used extensively in the human digestive system, but what makes it interesting for me to talk about is the things it does in the brain.
+Serotonin-based signaling is known to play a roal in a variety of psychiatric conditions, especially anxiety and depression.
+The most common antidepressants are called Selective Serotonin Reuptake Inhibitors (SSRIs), which act on serotonin-based signals.
+
+You may have heard the idea that depression is due to a deficit of serotonin in the brain, and that SSRIs correct this defecit.
+In truth, this is still a hotly debated topic because like anything in biology, it's never so simple as "molecule good".
+SSRIs clearly do help with depression (TODO: grab a few citations) but not for everyone, and sometimes one SSRI will work for someone while a different one doesn't.
+Other medications which seem to have no significant effect on serotonin are also [[https://www.nature.com/articles/mp2017255][effective]] in many cases.
+
+I want to take a deep dive into the role that serotonin plays in anxiety and depression, and go over some ideas regarding why they work (when they do).
+Want to come with?
+
+* Neurotransmission
+
+Let's start with the basic neuroscience of serotonin, which you'll need to keep up with the rest here.
+
+Neurotransmitters like serotonin are released mostly from the axons of neurons, huge branching structures which may extend to locations very far removed from the actual body of the cell.
+[[../../art/euron_1672384040197.png]]
+
+This is the case for many cells which produce serotonin.
+These are all located in a few regions of the brainstem called raphe nuclei.
+One of these nuclei, the dorsal raphe nucleus has axons that extend to the most distant parts of the brain, the regions of the neocortex.
+I'll be calling it the DRN going forward.
+When the electric potenial inside one of these neurons increases enough they undergo a rapid change called an action potential, which releases neurotransmitters from the axons.
+
+[[../../art/aphe_1672384049333.png]]
+
+Neurotransmitters interact with cells by reacting with proteins on the cell's outside, called receptors.
+What the neurotransmitter does to the cell depends on the specific type of receptor.
+Some receptors allow positively charged ions into the cell, some allow positively charged ions out, some allow negatively charged ions in.
+Those are forms of excitation (increasing the cell's electric potential) and inhibition (decreasing it).
+Many receptors instead interact with proteins inside the cell, and have more subtle, less well understood effects.
+
+Different neurons in different parts of the brain will have different receptors, and so different neurons will respond in different ways to the presence of serotonin.
+Since the chemical name for serotonin is 5-hydroxytryptamine, serotonin receptors are named with the abbreviation 5HT.
+They are grouped into 7 numbered families, so 5HT1, 5HT2, 5HT3, 5HT4, 5HT5, 5HT6 and 5HT7 based on their chemical properties.
+
+
+In summary:
+ - Serotonin is released by cells in the raphe nuclei
+ - these cells release it in various locations of the brain
+ - 5HT receptors respond to serotonin
+ - different kinds of 5HT receptors have different effects
+ - different cells will have different kinds of receptors
+
+
+* The link between serotonin and helplessness
+
+Sometimes something bad is happening and there is nothing you can do about it.
+Sometimes it only feels that way.
+
+The researchers Martin Seligman and Steven Maier performed a series of experiments on various mammals in which they were exposed to something unpleasant from which they could not escape.
+Afterwards, when the animals were put in an environment where they had the means to escape something unpleasant, they simply didn't try.
+Animals which had not been exposed to anything unpleasant, or had had the means to escape the unpleasant stimulus learned how to escape in the new situation just fine.
+But most of the animals exposed to helplessness had to be physically moved to safety more than once before they learned it was a possibility.
+Maier and Seligman recently wrote an engaging and thorough retrospective: [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4920136/][learned helplessness at fifty]]. They discuss the psychology and neuroscience of this phenomenon.
+For me, reading about these distressing experiments reminds me of days where I was depressed, and knew on some rational level that going out - for instance to a cafe - would help, but in my gut feeling that no matter what I do, nothing will ever make me feel better.
+If I had been living alone, I probably wouldn't have done much besides feel sorry for myself, I had to be pushed out the door time and time again before my instinct would allow me to take that step myself.
+
+Animals exposed to these conditions of helplessness often display many symptoms of depression.
+Learned helplessness has become one of the major theories of depression, and probably describes at least part of the picture for many patients.
+It's an especially interesting theory for me because it lays a certain link with anxiety, and describes a prominent role for serotonin.
+
+For the following sections I'll be summarizing the overall picture the evidence presented by Maier and Seligman paints, but rememeber that it is one interperetation of this evidence, and not the only valid one.
+If you want an explanation of the experiments to evaluate the evidence itself, Maier and Seligman's paper does that better than I can.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

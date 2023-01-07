@@ -4,12 +4,12 @@
 #+title:Serotonin, Anxiety and Depression
 
 Serotonin is a molecule used in the bodies of, as far as I'm aware, all animals.
-It's used extensively in the human digestive system, but what makes it interesting for me to talk about is the things it does in the brain.
-Serotonin-based signaling is known to play a roal in a variety of psychiatric conditions, especially anxiety and depression.
+It's used extensively in the human digestive system, but what makes it interesting for me to talk about is what it does in the brain.
+Serotonin-based signaling is known to play a role in a variety of psychiatric conditions, especially anxiety and depression.
 The most common antidepressants are called Selective Serotonin Reuptake Inhibitors (SSRIs), which act on serotonin-based signals.
 
 You may have heard the idea that depression is due to a deficit of serotonin in the brain, and that SSRIs correct this defecit.
-In truth, this is still a hotly debated topic because like anything in biology, it's never so simple as "molecule good".
+In truth the role of serotonin is much more complicated and much less well understood.
 SSRIs clearly do help with depression (TODO: grab a few citations) but not for everyone, and sometimes one SSRI will work for someone while a different one doesn't.
 Other medications which seem to have no significant effect on serotonin are also [[https://www.nature.com/articles/mp2017255][effective]] in many cases.
 
@@ -23,11 +23,10 @@ Let's start with the basic neuroscience of serotonin, which you'll need to keep 
 Neurotransmitters like serotonin are released mostly from the axons of neurons, huge branching structures which may extend to locations very far removed from the actual body of the cell.
 [[../../art/euron_1672384040197.png]]
 
-This is the case for many cells which produce serotonin.
-These are all located in a few regions of the brainstem called raphe nuclei.
+When the electric potenial inside one of these neurons increases enough they undergo a rapid change called an action potential, which releases neurotransmitters from the axons.
+The neurons which release serotonin are all located in a few regions of the brainstem called raphe nuclei.
 One of these nuclei, the dorsal raphe nucleus has axons that extend to the most distant parts of the brain, the regions of the neocortex.
 I'll be calling it the DRN going forward.
-When the electric potenial inside one of these neurons increases enough they undergo a rapid change called an action potential, which releases neurotransmitters from the axons.
 
 [[../../art/aphe_1672384049333.png]]
 
@@ -56,9 +55,10 @@ Sometimes something bad is happening and there is nothing you can do about it.
 Sometimes it only feels that way.
 
 The researchers Martin Seligman and Steven Maier performed a series of experiments on various mammals in which they were exposed to something unpleasant from which they could not escape.
-Afterwards, when the animals were put in an environment where they had the means to escape something unpleasant, they simply didn't try.
-Animals which had not been exposed to anything unpleasant, or had had the means to escape the unpleasant stimulus learned how to escape in the new situation just fine.
-But most of the animals exposed to helplessness had to be physically moved to safety more than once before they learned it was a possibility.
+They had three groups: one in the experimental environment without any stimulation, one exposed to an unpleasant stimulus they can escape (for example by pressing a lever or jumping over a barrier), and one exposed to an unpleasant stimulu with no means of escape.
+When placed in a different environment with an unpleasant stimulus and a means of escape, the first two groups easily figured out how to get to safety.
+Most of the animals in the third group however, had to be physically moved to safety more than once before they learned it was a possibility.
+
 Maier and Seligman recently wrote an engaging and thorough retrospective: [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4920136/][learned helplessness at fifty]]. They discuss the psychology and neuroscience of this phenomenon.
 For me, reading about these distressing experiments reminds me of days where I was depressed, and knew on some rational level that going out - for instance to a cafe - would help, but in my gut feeling that no matter what I do, nothing will ever make me feel better.
 If I had been living alone, I probably wouldn't have done much besides feel sorry for myself, I had to be pushed out the door time and time again before my instinct would allow me to take that step myself.
@@ -68,8 +68,22 @@ Learned helplessness has become one of the major theories of depression, and pro
 It's an especially interesting theory for me because it lays a certain link with anxiety, and describes a prominent role for serotonin.
 
 For the following sections I'll be summarizing the overall picture the evidence presented by Maier and Seligman paints, but rememeber that it is one interperetation of this evidence, and not the only valid one.
-If you want an explanation of the experiments to evaluate the evidence itself, Maier and Seligman's paper does that better than I can.
+If you want an explanation of the experiments so you can evaluate the evidence itself, Maier and Seligman's paper does that better than I can.
 
+* The role of the DRN in helplessness
+
+Unpleasant stimuli activate the DRN and the amygdala. The amygdala is best known for its role in fear, so it's not surprising it would be activated in these circumstances.
+The DRN neurons affect the amygdala, periaqueductal gray, and striatum. The striatum is mostly known for its role in determining action.
+When the DRN releases serotonin there, it makes the animal more passive.
+Serotonin is also released within the DRN, where it activates 5HT1A receptors which reduce the firing of the neurons.
+The DRN is therefore self-inhibiting: the more it is activated, the more it inhibits itself.
+
+If an animal believes it is able to control the stimulus, cells in the prefrontal cortex activate and silence the DRN.
+This frees up the animal to act.
+If the stimulus is inescapable however, these neurons do not activate and the animal remains passive.
+
+When the DRN fires and activates its own 5HT1A receptors, these receptors slowly and temporarily desenstitize.
+This makes the DRN more active in future cases, and harder to silence and this is what Maier and Seligman suggest is the state of learned helplessness.
 
 
 

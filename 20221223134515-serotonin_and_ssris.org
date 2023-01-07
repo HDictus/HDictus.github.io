@@ -3,6 +3,7 @@
 :END:
 #+title:Serotonin, Anxiety and Depression
 
+
 Serotonin is a molecule used in the bodies of, as far as I'm aware, all animals.
 It's used extensively in the human digestive system, but what makes it interesting for me to talk about is what it does in the brain.
 Serotonin-based signaling is known to play a role in a variety of psychiatric conditions, especially anxiety and depression.
@@ -16,34 +17,34 @@ Other medications which seem to have no significant effect on serotonin are also
 I want to take a deep dive into the role that serotonin plays in anxiety and depression, and go over some ideas regarding why they work (when they do).
 Want to come with?
 
+At the end of each section I'll put a little summary of the main points you need to grasp to succeed.
+
 * Neurotransmission
 
 Let's start with the basic neuroscience of serotonin, which you'll need to keep up with the rest here.
 
+Neurotransmitters are molecules used by neurons to send signals to each other: Serotonin is one of them, you have probably also heard of dopamine, endorphin, and adrenaline, these are also neurotransmitters.
 Neurotransmitters like serotonin are released mostly from the axons of neurons, huge branching structures which may extend to locations very far removed from the actual body of the cell.
 [[../../art/euron_1672384040197.png]]
 
-When the electric potenial inside one of these neurons increases enough they undergo a rapid change called an action potential, which releases neurotransmitters from the axons.
-The neurons which release serotonin are all located in a few regions of the brainstem called raphe nuclei.
-One of these nuclei, the dorsal raphe nucleus has axons that extend to the most distant parts of the brain, the regions of the neocortex.
-I'll be calling it the DRN going forward.
+When a neuron is activated it fires an electrical signal called an action potential which travels along the axon and causes it to release neurotransmitters.
 
 [[../../art/aphe_1672384049333.png]]
 
 Neurotransmitters interact with cells by reacting with proteins on the cell's outside, called receptors.
 What the neurotransmitter does to the cell depends on the specific type of receptor.
-Some receptors allow positively charged ions into the cell, some allow positively charged ions out, some allow negatively charged ions in.
-Those are forms of excitation (increasing the cell's electric potential) and inhibition (decreasing it).
+Some receptors directly increase or decrease the activity of a cell, called excitation and inhibition.
 Many receptors instead interact with proteins inside the cell, and have more subtle, less well understood effects.
 
 Different neurons in different parts of the brain will have different receptors, and so different neurons will respond in different ways to the presence of serotonin.
 Since the chemical name for serotonin is 5-hydroxytryptamine, serotonin receptors are named with the abbreviation 5HT.
-They are grouped into 7 numbered families, so 5HT1, 5HT2, 5HT3, 5HT4, 5HT5, 5HT6 and 5HT7 based on their chemical properties.
+They are grouped into 7 numbered families 5HT1 to 5HT7 based on their chemical properties.
+Each family contains several subtypes usually denoted by a letter (e.g. 5HT1A, 5HT1B).
 
 
 In summary:
  - Serotonin is released by cells in the raphe nuclei
- - these cells release it in various locations of the brain
+ - when these cells are activated they release it to various parts of the brain
  - 5HT receptors respond to serotonin
  - different kinds of 5HT receptors have different effects
  - different cells will have different kinds of receptors
@@ -54,6 +55,7 @@ In summary:
 Sometimes something bad is happening and there is nothing you can do about it.
 Sometimes it only feels that way.
 
+TODO: redo this paragraph, either with a story or with more specific experiments
 The researchers Martin Seligman and Steven Maier performed a series of experiments on various mammals in which they were exposed to something unpleasant from which they could not escape.
 They had three groups: one in the experimental environment without any stimulation, one exposed to an unpleasant stimulus they can escape (for example by pressing a lever or jumping over a barrier), and one exposed to an unpleasant stimulu with no means of escape.
 When placed in a different environment with an unpleasant stimulus and a means of escape, the first two groups easily figured out how to get to safety.
@@ -72,6 +74,7 @@ If you want an explanation of the experiments so you can evaluate the evidence i
 
 * The role of the DRN in helplessness
 
+Remember the dorsal raphe nucleus (DRN)?
 Unpleasant stimuli activate the DRN and the amygdala. The amygdala is best known for its role in fear, so it's not surprising it would be activated in these circumstances.
 The DRN neurons affect the amygdala, periaqueductal gray, and striatum. The striatum is mostly known for its role in determining action.
 When the DRN releases serotonin there, it makes the animal more passive.

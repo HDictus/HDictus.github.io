@@ -11,7 +11,7 @@ The most common antidepressants are called Selective Serotonin Reuptake Inhibito
 
 You may have heard the idea that depression is due to a deficit of serotonin in the brain, and that SSRIs correct this defecit.
 In truth the role of serotonin is much more complicated and much less well understood.
-SSRIs clearly do help with depression (TODO: grab a few citations) but not for everyone, and sometimes one SSRI will work for someone while a different one doesn't.
+SSRIs clearly [[https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32802-7/fulltext][do help]] with depression, but not for everyone, and sometimes one SSRI will work for someone while a different one doesn't.
 Other medications which seem to have no significant effect on serotonin are also [[https://www.nature.com/articles/mp2017255][effective]] in many cases.
 
 I want to take a deep dive into the role that serotonin plays in anxiety and depression, and go over some ideas regarding why they work (when they do).
@@ -55,14 +55,24 @@ In summary:
 Sometimes something bad is happening and there is nothing you can do about it.
 Sometimes it only feels that way.
 
-TODO: redo this paragraph, either with a story or with more specific experiments
-The researchers Martin Seligman and Steven Maier performed a series of experiments on various mammals in which they were exposed to something unpleasant from which they could not escape.
-They had three groups: one in the experimental environment without any stimulation, one exposed to an unpleasant stimulus they can escape (for example by pressing a lever or jumping over a barrier), and one exposed to an unpleasant stimulu with no means of escape.
-When placed in a different environment with an unpleasant stimulus and a means of escape, the first two groups easily figured out how to get to safety.
-Most of the animals in the third group however, had to be physically moved to safety more than once before they learned it was a possibility.
+A child studies hard for a subject she finds challenging but despite her best efforts still gets a low grade.
+She is told off for this, and though she tries to sit down and study again she finds that she can't concentrate.
+She's lost the will to study and lost the feeling that doing so will lead to a better grade.
+Now that she is struggling to concentrate, she's not entirely wrong.
+Helplessness is a powerful inhibitor of learning.
+
+The researchers Martin Seligman and Steven Maier explored the psychology behind this phenomenon.
+They performed a series of experiments on various mammals where they had three groups.
+The first group was exposed to something unpleasant, say a mild electric shock, and had a means of escaping the shock, for example by pulling a nearby lever.
+The second group was exposed to exactly the same shock, but without a way to escape.
+The third group wasn't exposed to any shock at ll.
+After this all three groups were placed into a new environment where there was an electric shock.
+This time it could be escaped by a different means, say jumping over a barrier.
+The first and third groups had no problem learning to escape.
+In contrast, most of the animals in the second group had to be physically moved to safety more than once before they learned it was a possibility.
 
 Maier and Seligman recently wrote an engaging and thorough retrospective: [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4920136/][learned helplessness at fifty]]. They discuss the psychology and neuroscience of this phenomenon.
-For me, reading about these distressing experiments reminds me of days where I was depressed, and knew on some rational level that going out - for instance to a cafe - would help, but in my gut feeling that no matter what I do, nothing will ever make me feel better.
+For me, reading about these distressing experiments reminds me of days where I was depressed, and knew on some rational level that going out - for instance to a cafe - would help, but in my gut feeling that no matter what I do nothing will ever make me feel better.
 If I had been living alone, I probably wouldn't have done much besides feel sorry for myself, I had to be pushed out the door time and time again before my instinct would allow me to take that step myself.
 
 Animals exposed to these conditions of helplessness often display many symptoms of depression.
@@ -76,9 +86,10 @@ If you want an explanation of the experiments so you can evaluate the evidence i
 
 Remember the dorsal raphe nucleus (DRN)?
 Unpleasant stimuli activate the DRN and the amygdala. The amygdala is best known for its role in fear, so it's not surprising it would be activated in these circumstances.
-The DRN neurons affect the amygdala, periaqueductal gray, and striatum. The striatum is mostly known for its role in determining action.
-When the DRN releases serotonin there, it makes the animal more passive.
-Serotonin is also released within the DRN, where it activates 5HT1A receptors which reduce the firing of the neurons.
+The DRN neurons affect (among others) the amygdala and striatum. The striatum is mostly known for its role in determining action.
+When the DRN releases serotonin in the amygdala it makes the animal more fearful.
+When the DRN releases serotonin in the striatum, it makes the animal more passive.
+Serotonin is also released within the DRN itself, where it activates 5HT1A receptors which reduce the firing of the neurons.
 The DRN is therefore self-inhibiting: the more it is activated, the more it inhibits itself.
 
 If an animal believes it is able to control the stimulus, cells in the prefrontal cortex activate and silence the DRN.
@@ -86,20 +97,41 @@ This frees up the animal to act.
 If the stimulus is inescapable however, these neurons do not activate and the animal remains passive.
 
 When the DRN fires and activates its own 5HT1A receptors, these receptors slowly and temporarily desenstitize.
-This makes the DRN more active in future cases, and harder to silence and this is what Maier and Seligman suggest is the state of learned helplessness.
+This makes the DRN more active in future cases, and harder to silence.
+This is what Maier and Seligman suggest is the state of learned helplessness.
 
+There is some indication of a more complicated picture: [[https://www.nature.com/articles/nature11617][one study]] found that when they activated the DRN overall they saw increased activity from an animal instead of passivity.
+This conflicts with some of the studies mentioned by Maier and Seligman, and may be related to the different activation methods they used activating different subsets of the DRN.
+So as usual in biology, it likely isn't as simple as it at first appears. 
 
+Additionally, it's important to note that the neuroscience side of learned helplessness hasn't been studied much in humans yet, and could be different for us.
+Although many studies on the psychology of learned helplessness and its relationship to depression have been done in humans, the experiments on the neuroscience of it have mostly been done in rats and mice.
+More work is necessary to see if this applies to humans too.
 
+You may notice that under this theory a depressed state is one in which __more__ serotonin is released rather than __less__.
+This is at odds with the theory that most people have heard: that depression is the result from not having enough serotonin in the brain.
+Let's tackle that topic next.
 
+* There is little evidence that depression results from reduced serotonin
 
+One of the most prevalent theories of depression is the serotonin deficiency theory.
+The theory is that depression is a result of having too little serotonin in the brain and can only be corrected by increasing the amount of serotonin, for instance through drugs.
+The main evidence [[https://doi.org/10.1192/bjp.113.504.1237][presented for this theory]] at first was the fact that drugs which increase the release of serotonin help to alleviate depression.
+Initially these were [[https://en.wikipedia.org/wiki/Monoamine_oxidase_inhibitor][drugs which affected a number of neurotransmitters]] besides serotonin, but the theory led to the development of more specialized drugs with more specific effects.
+[[https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor][selective serotonin reuptake inhibitors]] (SSRIs) block the activity of a protein called SERT.
+SERT takes serotonin in the brain and absorbs it - to clean it up and metabolize it.
+So if SERT is blocked then any serotonin released is going to float around for longer and is more likely to interact with 5HT receptors.
+That perception is not unwarranted - he truest trial of a scientific idea is not merely a match with the evidence, but whether it can be used to develop beneficial technology.
+For a while, this theory passed that test.
 
+Pharmaceutical companies selling SSRIs naturally latched on to the theory and used it extensively in their marketing, which is why it is so well known among laypeople.
+Recently, a splash was made by a [[https://www.nature.com/articles/s41380-022-01661-0.pdf][paper]] by Joanna Moncrieff and colleagues which shows that attempts to demonstrate a relationship between serotonin concentration and depression severity have not borne fruit.
+They excluded studies using animals and studies focusing on specific subtypes of depression, and tried to answer six questions:
 
+ 1. whether people with depression have lower concentrations of serotonin in their bodily fluids
+ 2. whether the levels of serotonin receptors are altered in people with depression
+ 3. Whether people with depression have more SERT or more active versions of SERT
+ 4.
 
-
-
-
-
-
-
-
+- note : taking antidepressants was associated with LOWER 5HT metabolite concentrations
 

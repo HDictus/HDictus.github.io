@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       6f952799-ab73-473a-af5f-45faa882716e
+:END:
+#+title: slow-is-smooth-and-smooth-is-fast
+
+In many sports (I first heard it in the context of boxing) there is a saying that 'slow is smooth and smooth is fast'.
+It means that to move fast in the long term, you should slow down your movement today and ensure you move smoothly and with good technique.
+In my experience, this concept applies outside of sports and outside of individuals.
+
+
+I tend not to shut up about the importance of bieng rigorous while programming.
+If you rush to implement a feature today at the expense of proper automated testing, code readability and structure, you will pay for it later.
+Bugs, restructurng, and general confusion will plague the next feature you try to implement and make it take longer.
+Maybe you manage to rush that one out as well, only to cause bigger problems going forward.
+If you're working in a team this effect is amplified, because instead of just you paying for your sloppiness, now your whole team has to.
+I think this is fairly uncontroversial, and if you want some broad strokes on how to avoid these issues, see [[id:d2494e49-8840-4773-8783-6cd586ded217][best-practices-for-programming]].
+
+What may be more controversial is how I think this applies to scientific communities.
+I'm simultaneously staggered by how many papers I have to read to keep up with my field and by how long it takes for real progress to take place in our understanding of the brain.
+As a computational modeler, a lot of what I'm looking for is empirical data that I can use for my models.
+The trouble is that even after some relevant data is published, actually using it takes longer than you would think.
+Data is often published in a way that is intimately entwined with the experimental method.
+
+

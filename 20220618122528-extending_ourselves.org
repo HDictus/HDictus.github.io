@@ -211,6 +211,30 @@ Once we accept the increased accuracy, precision, and resolution of instruments 
 Humphreys argues that use of instruments in science is in itself valid, and does not need to be broken down into anything more elementary.
 
 
+* Computational Science
 
+In this chapter, Humphreys appeasrs to be establishing some groundwork - a general formal framework - describing the process of computational science. 
 
+** The rise of computational science
+
+The importance of computer simulations to science and engineering has rapidly grown, leading many to argue that it represents a revolution in the way we do science on par with the introduction of widespread systematic experimentation.
+Humphreys argues against three objections to the claim that computational scence is a third mode of science (alongside theory and experiment).
+
+1. Computational methods introduce nothing new into science, and are merely a more efficient form of numerical methods.
+2. Numerical experiments do not contain direct empirical content, therefore cannot replace true experiments and are not legitemate science (I'd argue the same argument can be levelled at Theory, but you don't see people doing that do you?).
+3. The correctness of computational methods cannot be conclusively verified and therefore does not meet the standard needed for science.
+
+The argument against the first point is that though computational methods may not do anything not in principle possible without them, what is relevant is not what is possible in principle but what is possible in practice.
+I can relate this to Humphery's point about extrapolating experimental aparratus : sure we may in principle be able to see jupiter up close without them, but does that really mean a telescope doesn't provide something new to science?
+It is what is possible in practice that matters, a sentiment echoed in [[id:0dd3219a-f246-4e75-815f-07fb31a8ef72][later work]] by Eric Winsberg.
+
+For the second point, Humphreys concedes that computational methods can be applied in a way that has no empirical content, and that doing so is not science.
+However, it is precisely the ability of computational methods to enable the comparison of a much wider range of ideas to empirical data that provides their value.
+
+Humphreys' argument against the third is a little hard to understand.
+I think he's saying that the extent to which computational processes can be accurately verified is no less than that of other manual or experimental processes used by people.
+It's hard to say, the language is not especially clear in this paragraph.
+
+Classical empiricism by saying that while classical empiricism is concerned with what is in principle possible for unaided humans, what is relevant for scientific practice is what is possible in practice with the instruments available to us.
+Humphreys argues that it is only within the classical empiricist view he has argued agains that these points hold water.
 

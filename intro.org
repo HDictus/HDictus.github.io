@@ -36,6 +36,7 @@ Note that I'm using a 'digital gardening' approach here, so instead of a traditi
 - [[id:d2494e49-8840-4773-8783-6cd586ded217][best-practices-for-programming]]
 - [[id:20f9b573-7e60-4226-8707-f8a4918e1533][helplessness-index]]
 - [[id:84c5b566-23ff-4036-9f58-8b3fcbb1b8b1][serotonin-and-ssris]]
+- [[id:6f952799-ab73-473a-af5f-45faa882716e][slow-is-smooth-and-smooth-is-fast]] : scientists need to slow down for scientific progress to speed up
   
 * summaries
 These are accessible summaries of interesting scientific papers, or chapter-by-chapter summaries of books.

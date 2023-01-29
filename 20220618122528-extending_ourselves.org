@@ -235,6 +235,35 @@ Humphreys' argument against the third is a little hard to understand.
 I think he's saying that the extent to which computational processes can be accurately verified is no less than that of other manual or experimental processes used by people.
 It's hard to say, the language is not especially clear in this paragraph.
 
-Classical empiricism by saying that while classical empiricism is concerned with what is in principle possible for unaided humans, what is relevant for scientific practice is what is possible in practice with the instruments available to us.
+While classical empiricism is concerned with what is in principle possible for unaided humans, what is relevant for scientific practice is what is possible in practice with the instruments available to us.
 Humphreys argues that it is only within the classical empiricist view he has argued agains that these points hold water.
+
+** Two Principles.
+
+Humphreys argues that the development of computational methods represents a step forward in science greater than that brought on by the introduction of calculus or statistics.
+The available mathematics constrains the theories we are capable of applying and putting to the test.
+Computational science makes this constraint nearly disappear: leaving only material computational limitations.
+Humphreys says that standard accounts of how theories are applied to the world no longer suffice for this new mathematics, and we need to figure out a new way of viewing this.
+
+** Units of Analysis
+
+Humphreys mentions several ways of dividing scientific ideas.
+The first is by theories, to which much attention has been devoted resulting in many conceptualizations.
+The most popular form remains that of a set of axioms from which all the claims of the theory can be derived.
+
+The second is scientific laws, sometimes considered part of theory sometimes separate.
+They are generalizations that are supposed to apply across the scope of a theory.
+How they can be distinguished from other statements of a theory is unclear, but Humphreys says we will not need to refer to laws anyway.
+
+The third is the research programmes of Lakatos, a hard core of unchanging scientific principles that determine the values by which theories are evaluated.
+
+The fourth is paradigms, collections of core principles, assumptions, experimental procedures and exemplary results that form the basis of research in a field.
+
+The fifth is models, having a smaller scope than theories by applying to a particular system.
+(I disagree with models having a smaller scope than theories, given that when studying a highly complex system, a model can incorporate multiple bodies of theory to actually cover a wider scope than any of the individual theories.)
+
+Humphreys argues that none of these units of analysis suffice for describing the process of science, and that they do not well describe computational science.
+Models and theories especially are hard to distinguish, as models tend to form essential parts of theories.
+I think Humphreys means to argue that we should discard these classifications moving forward.
+
 

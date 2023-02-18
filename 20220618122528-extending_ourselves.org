@@ -267,3 +267,19 @@ Models and theories especially are hard to distinguish, as models tend to form e
 I think Humphreys means to argue that we should discard these classifications moving forward.
 
 
+** Computational templates
+
+Humphreys introduces the idea of computational templates.
+A law or axiom of a theory such as F=ma is a theoretical template, into which expressions for m, a etc. can be substituted.
+Depending on which expressions are substituted, the result may be analytically intractable.
+There are many many cases where this is so.
+In this case we move from the theoretical template to a computational template: expressing derivatives as discrete differences instead.
+
+Because so many theories are analytically intractable and computational science allows us to apply nonanalytic methods, it is a significant addition to the scientific method.
+Because science is constrained and driven by the available mathematics, computational science has enabled a great deal of progress.
+
+Humphreys further argues that as whether a law is analytically tractable depends so closely on its boundary conditions that in a practical sense the conditions and law are not seperable from one another.
+For computational science, computaional templates, not laws or theories, are what matter.
+Templates are not models, Humphreys argues, because models are context-specific and particularistic, while computational templates are more general.
+I am not sure I agree, it seems as though Humphreys views models only as models when they represent an instance of a system, not when they represent a class of systems.
+I think this distinction may become clearer later on.

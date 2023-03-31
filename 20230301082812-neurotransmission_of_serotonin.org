@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       c924678f-5230-48d7-85d7-bf7413e5b2c8
+:END:
+#+title: neurotransmission-of-serotonin
+
+Let's start with the basic neuroscience of serotonin, which you'll need to keep up with the rest here.
+
+Neurotransmitters are molecules used by neurons to send signals to each other: Serotonin is one of them, you have probably also heard of dopamine, endorphin, and adrenaline, these are also neurotransmitters.
+Neurotransmitters like serotonin are released from neurons (aka nerve cells).
+Mostly, this release comes from their _axons_, huge branching structures which may extend to locations very far removed from the actual body of the cell.
+[[../../art/euron_1672384040197.png]]
+
+When a neuron is activated it fires an electrical signal called an action potential which travels along the axon and causes it to release neurotransmitters.
+# TODO: a diagram or animation for the action potential
+The neurons which release serotonin are located in few regions of the brain called raphe nuclei.
+Each nucleus has axons which target different parts of the brain.
+One of these, the Dorsal Raphe Nucleus (DRN), has axons that extend all the way to the most distant parts of the brain, the cortex.
+
+[[../../art/aphe_1672384049333.png]]
+
+Neurotransmitters interact with cells by reacting with proteins on the cell's outside, called receptors.
+What the neurotransmitter does to the cell depends on the specific type of receptor.
+Some receptors directly increase or decrease the activity of a cell, called excitation and inhibition.
+Many receptors instead interact with proteins inside the cell, and have more subtle, less well understood effects.
+
+Different neurons in different parts of the brain will have different receptors, and so different neurons will respond in different ways to the presence of serotonin.
+Since the chemical name for serotonin is 5-hydroxytryptamine, serotonin receptors are named with the abbreviation 5HT.
+They are grouped into 7 numbered families 5HT1 to 5HT7 based on their chemical properties.
+Each family contains several subtypes usually denoted by a letter (e.g. 5HT1A, 5HT1B).
+
+
+In summary:
+ - Serotonin is released by cells in the raphe nuclei
+ - when these cells are activated they release it to various parts of the brain
+ - 5HT receptors respond to serotonin
+ - different kinds of 5HT receptors have different effects
+ - different cells will have different kinds of receptors
+
+
+

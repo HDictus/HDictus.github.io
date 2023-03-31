@@ -47,3 +47,7 @@ These are accessible summaries of interesting scientific papers, or chapter-by-c
  - [[id:a1a77873-0e53-4cd4-ab21-b4782d86d240][the-noonday-demon]]
  - [[id:197f325b-2b2f-46bf-9ed3-6b692fc12b80][theory-and-reality]]
  - [[id:90ca531b-a872-4b8a-a44d-bac5e60e668a][x-plus-y]]
+
+* other
+
+[[id:bb9e7c86-d383-4beb-a0da-77e180c4023a][athletics-with-dyspraxia]]

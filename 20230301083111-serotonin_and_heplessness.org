@@ -31,7 +31,7 @@ If I had been living alone, I probably wouldn't have done much besides feel sorr
 
 Animals exposed to these conditions of helplessness display many symptoms of depression.
 Learned helplessness has become one of the major theories of depression, and probably describes at least part of the picture for many patients.
-It's an especially interesting theory for me because it lays a certain link with anxiety, and describes a prominent role for serotonin.
+It's an especially interesting theory for because it links depression to anxiety, and describes a prominent role for serotonin.
 
 For the following sections I'll be summarizing the overall picture the evidence presented by Maier and Seligman paints, but rememeber that it is one interperetation of this evidence, and not the only valid one.
 If you want an explanation of the experiments so you can evaluate the evidence itself, Maier and Seligman's paper does that better than I can.
@@ -65,7 +65,7 @@ More work is necessary to see if this applies to humans too.
 
 You may notice that under this theory a depressed state is one in which __more__ serotonin is released rather than __less__.
 So why do drugs that increase serotonin levels tend to alleviate depression?
-Now, remember that serotonin comes from raphe nucl_ei_, as in plural, as in there is more than one of them.
+Now, remember that serotonin comes from raphe nucl*ei*, as in plural, as in there is more than one of them.
 The dorsal raphe nucleus is just one of these nuclei, and the amygdala and periaqueductal grey just two of its many targets.
 Other raphe nuclei, or even other neurons in DRN which have axons targeting other regions, may have very different effects.
 # TODO: bring up karl diesseroth's studies and the habenula here.

@@ -53,7 +53,8 @@ Related concepts include the distinction between observational and theoretical l
 
 One critique of this approach came from Quine, who argued that it is not individual statements or theories which are verifiable, but only ever one's whole network of beliefs, that analytic claims can be revised by changing logical systems and potentially on the basis of observation (e.g. certain results from quantum physics suggesting a deductive rule is sometimes violated).
 
-Another challenge came from scientific realism. The idea that science is concerned only with observables leads to the conclusion that any discussion about abstract entities (e.g. electrons, genes, etc.) is really just a discussion about their empirical consequences. PGS states that this is a mistake, and that science ca only be understood by treating much of it as describing hidden structures that give rise to observable phenomena. He does not defend this in detail here, but does so in later chapters.
+Another challenge came from scientific realism. The idea that science is concerned only with observables leads to the conclusion that any discussion about abstract entities (e.g. electrons, genes, etc.) is really just a discussion about their empirical consequences.
+PGS states that this is a mistake, and that science ca only be understood by treating much of it as describing hidden structures that give rise to observable phenomena. He does not defend this in detail here, but does so in later chapters.
 
 ** key takeaways
 

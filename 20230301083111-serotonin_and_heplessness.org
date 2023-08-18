@@ -65,7 +65,8 @@ More work is necessary to see if this applies to humans too.
 
 You may notice that under this theory a depressed state is one in which __more__ serotonin is released rather than __less__.
 So why do drugs that increase serotonin levels tend to alleviate depression?
-Now, remember that serotonin comes from raphe nucl*ei*, as in plural, as in there is more than one of them.
+We don't know. It's possible that their action is somehow related to this mechanism.
+On the other hand, remember that serotonin comes from raphe nucl/ei/, as in plural, as in there is more than one of them.
 The dorsal raphe nucleus is just one of these nuclei, and the amygdala and periaqueductal grey just two of its many targets.
 Other raphe nuclei, or even other neurons in DRN which have axons targeting other regions, may have very different effects.
 # TODO: bring up karl diesseroth's studies and the habenula here.

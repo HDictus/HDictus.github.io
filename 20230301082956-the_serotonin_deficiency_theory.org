@@ -17,13 +17,15 @@ The attention the serotonin deficiency theory got was not unwarranted - the true
 For a while, this theory passed that test.
 
 Pharmaceutical companies selling SSRIs naturally latched on to the theory and used it extensively in their marketing, which is why it is so well known among laypeople.
+However, in spite of extesive efforts new evidence for the serotonin deficiency theory has been hard to find, and as a result it never formed a firm scientific consensus.
+Most research into depression has regarded serotonin deficiency as (at best) one factor of many in the pathlology of depression.
 Recently, a splash was made by a [[https://www.nature.com/articles/s41380-022-01661-0.pdf][paper]] by Joanna Moncrieff and colleagues which shows that attempts to demonstrate a relationship between serotonin concentration and depression severity have not borne fruit.
 They excluded studies using animals and studies focusing on specific subtypes of depression, and tried to answer six questions:
 
  1. whether people with depression have lower concentrations of serotonin in their bodily fluids
  2. whether the levels of 5HT1a receptors are lower in people with depression
  3. Whether people with depression have more SERT or more active versions of SERT
- 4. whether depleting serotnin can cause depression
+ 4. whether depleting serotonin can cause depression
  5. whether the gene for SERT is more expressed in people with depression
  6. whether a mutation of the SERT gene combined with stressful events leads to depression
 
@@ -39,7 +41,7 @@ I'm going to assume that if I ran into these papers while looking into it casual
 
 
 So why do SSRI's still work? Montcrieff suggests that they have the effect of dulling emotions in general, helping patients deal with depression more easily.
-However, there are loads of other things SSRIs do, therefore many, many theories about how they help with depression. Let's get into a few next.
+However, there are loads of other things SSRIs do and therefore many, many theories about how they help with depression. Let's get into a few next.
 
 ** takewaways
 

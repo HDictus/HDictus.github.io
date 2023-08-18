@@ -17,8 +17,7 @@ I think this is fairly uncontroversial, and if you want some broad strokes on ho
 
 What may be more controversial is how I think this applies to scientific communities.
 I'm simultaneously staggered by how many papers I have to read to keep up with my field and by how long it takes for real progress to take place in our understanding of the brain.
-As a computational modeler, a lot of what I'm looking for is empirical data that I can use for my models.
-The trouble is that even after some relevant data is published, actually using it takes longer than you would think.
-Data is often published in a way that is intimately entwined with the experimental method.
-
+# # A lot of the papers I do read have poor statistical power and may have publication bias.
+# I'm certainly not the only person who thinks we need fewer, higher quality studies - I think it's a consensus really.
+work in progress.
 

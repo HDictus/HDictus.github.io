@@ -163,6 +163,90 @@ PGS subsequently argues for a holistic way of using Popper's ideas, such that th
  - allowing induction enables us to expose ideas to epistemological risk (holistically)
 
 
+* Kuhn and normal science
+
+PGS starts to describe the work of Kuhn, from his book The Structure of Scientific Revolutions.
+
+For kuhn, a field of science will start out in an unorgamized way with everyone doing their own thing.
+After a few examples of good work done a particular way show others how it should be done, something called a paradigm forms.
+A paradigm is a set of methods for the practice of science.
+People working together under a paradigm agree on some fundamentals regarding the systems they study, as well as on what problems need solving what it means for these problems to be solved.
+In this state, scientists can work efficiently, expanding their theories without arguing over fundamentals.
+A paradigm is resistant to change - revealing flaws even in its foundations will not prevent its confinued use.
+These flaws need to reach a critical mass and an alternative needs to present itself and only then will science proceed outside of 'normal science' into a critical period.
+
+The most striking aspect of Kuhns work in comparison to that of Popper and the positivists is that Kuhn argues the resistance of normal science to change is a good thing.
+A good scientist does not question the paradigm, or else they will end up getting nothing done.
+I can make an anaology to programming here, when you've got a pretty well-working program but a new feature that shows up close to release doesn't fit very easily into its architecture, you don't revise the architecture but you find some trick to incorporate it.
+"See when you think about it, a helicopter is just a very advanced kind of door...".
+
+The obviously flawed structuring nature into easy to understand categories is essential according to Kuhn, so that people can focus their efforts on other problems.
+But what if the problems people focus on are related to this classification? Isn't it a dead end when classification is fundamentally the wrong approach?
+I'm thinking of the classification of neurons based on their morphology here for instance.
+I think I can relate this to the way we tend to build software.
+If your software is mostly built and some feature comes along that doesn't fit neatly with what you have envisioned, you can still stick to your guns and "work with it" in a hacky way.
+Eventually you will find that you need to rewite much of your program, but well do I know you don't always want to do that every time you encounter something like this.
+You'd not get very much done.
+However, I feel that there are methods to write programs in the first place so that they are flexible to such changes without needing a complete rewrite.
+And treating any assumptions you notice yourself making with deep suspicion is a part of writing software this way.
+I usually find the method of 'over-structuring' to be a bad habit, and the more you avoid it the easier it becomes to avoid.
+
+To Kuhn, it is working within a paradigm that leads to most of the progress in science.
+Especially, the puzzling out of little, inconsequential-seeming problems turns out to be very important.
+
+** key takeaways
+
+ - in normal science, scientists agree on which problems are important and how to adress them
+ - kuhn's description of normal science has it being more rigid than empiricists and deductivists propose
+ - kuhn believes that resisting change is part of what makes science work - as paradigms remain functioning efficiently even with some unresolved counterexamples
+ - the flawed structuring of scienfic practice is (to kuhn) entirely necessary
+ - kuhn was novel in that he approached philosophy of science by looking at how scientists actually behave, instead of ratocinating about how they should.
+ - a paradigm arises when some exemplars show everyone 'how it should be done' in a field of science.
+ - kuhn marvels over how scientists puzzle over seemingly inconsequential problems which turn out to be greatly important
 
 
+* Kuhn and Revolutions
+
+PGS describes Kuhn's theory of scientific revolutions, in which normal science is disrupted by disorder and fundamental assumptions are questioned until a new paradigm is arrived at.
+
+Kuhn believed that a scientific revolution occurs after a crisis in which the existing paradigm is inadequeate, and begins when a rival paradigm arrives.
+PGS criticizes Kuhn's emphasis on crisis, stating that many scientific revolutions, such as that of genetics, were not preceded by a crisis.
+
+Kuhn states that how evidence is interpereted and evaluated changes fundamentally in a revolution.
+However, several elements remain common to all successful paradigms, and hence are assumed to be central to science.
+Namely:
+ - theories should accurately predct observations.
+ - theories should be consistent with neighboring fields
+ - they should be able to unify disparate phenomena
+ - they should be fruitful with new ideas and discoveries (this one is vague. maybe Kuhn was more specific?)
+
+Kuhn believed that on their own these principles are too vague to be used for anything, and it is their specific implementation and emphasis on some over others that defines a paradigm and allows for normal science.
+
+Kuhn believed that progress across revolutions is not vertical, but horizontal.
+That is to say, the new paradigm is no truer or better than the old: or at least that there is no unbiased method of comparing the two.
+Scientists working in different paradigms will use the same terminology slightly differently, and so struggle to communicate (although PGS argues that historically it is hard to find evidence of this).
+Moreover, the above principles will be applied differently.
+PGS uses the example of Newton's theory of gravity, where he gave a mathematical description of gravity but no causal mechanism, which was at the time regarded as a flaw of his theory.
+But what if the demand for a certain "causality", which seems to be a shaky concept anyway when you examine it too closely, is simply unscientific?
+I think what we really want when we look for causaility is the ability to relate a phenomenon to more variables, ideally ones under our control.
+This may be an argument against the idea that inter-paradigm progress is horizontal: a vertical progression occurs not just in the explanatory power of our scientific ideas, but in our understanding of what constitutes good science.
+But then I suppose this may be the biased post-revolution perspective, of course the way we do things now looks better! It's what we've decided is best.
+
+There is some debate on whether Kuhn is an epistemic relativist (he has denied it) or if relativism is a necessary consequence of his views.
+He has stated he isnt, and indeed seems to contradict himself by stating that newer paradigms have more problem-solving power than old ones.
+The number and precision of the solutions to problems (predictions of observations?) grows in a scientific field over time.
+
+However, Kuhn does state the the differences in the ways the two paradigms interperet observations is so fundamental that in effect they live in different worlds.
+I personally feel this is just flowery language for what we have already discussed.
+PGS seems to agree at least that this is messy.
+
+PGS concludes by criticizing Kuhn for focusing too much on changes in the way we fundamentally regard reality, like many philosphers too obsessed with fundamental physics.
+PGS feels that many fundamentals in chemistry and biology are less likely to change.
+However... it seems to me that shortly before the discovery of quantum mechanics and relativity, people would have said the same about much of physics.
+
+Fields are not dominated by a single paradigm like kuhn suggests, and radical progress can be made without crises.
+Others built and improved upon Kuhn's approach to analyzing the process of science.
+
+PGS draws an analogy between Kuhn's theory and puncutated equilibrium in evolutionary biology.
+I think I can draw a similar analogy with implementing and refactoring.
 

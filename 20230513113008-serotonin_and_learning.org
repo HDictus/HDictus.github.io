@@ -1,0 +1,118 @@
+:PROPERTIES:
+:ID:       00813f54-3bba-432c-8032-acc000dc5311
+:END:
+#+title: serotonin-and-learning
+
+Serotonin plays a role in the process of learning. Exactly what role is not clear, but there is some evidence that the effects of SSRIs on depression come from boosting the capacity to learn.
+Learning occurs in the brain by neurons changing how they are wired up (and probably other things too, but that is the main one we know about).
+
+* Plasticity: how your brain learns
+
+The way neurons are connected to one another isn't set in stone.
+Recall that the locations where neurons signal to one another are called synapses.
+The strength of the effects of these synapses can change over time, and sometimes synapses disappear or new synapses grow.
+This process is called synaptic plasticity.
+# The word plasticity derives from a greek root meaning to mould (as in moulding clay).
+# It shares this root with the words plastic, plaster, plasma and others.
+
+These changes are thought to be how animals learn:
+ - lived experiences cause the neurons to fire in particular patterns
+ - the synapses change in response to these patterns (and potentially in response to other things too)
+
+** Hebbian plasticity
+
+The majority of cells in the brain emit the neurotransmitter Glutamate.
+Compared to serotonin or dopamine the effects of glutamate are very simple: it activates receptors which increase the electrical potential of the neuron.
+This increase in electrical potential brings the targeted neuron closer to firing an action potential itself, thereby releasing its own neurotransmitter.
+
+Donald Hebb hypothesized in 1949 that when a glutamate-emitting neuron consistently makes another one fire, the connection between them should be strengthened.
+Remember that each neuron usually recieves input from hundreds or thousands of others.
+If one neuron consistently takes part in firing another one, it does not do so alone.
+This means that neurons which tend to fire at around the same time will be likely to both contribute to firing the same target neuron.
+This leads each neuron to select inputs which tend to be active at the same time.
+This kind of learning is usually summed up as "cells that fire together wire together", and the process is called Hebbian plasticity.
+Hebbian plasticity leads to neural activity that efficiently represents the input data.
+You can think of it as a form of data compression.
+
+Imagine that you have a catalogue of images, each of which is a white background with a bunch of triangles on it.
+Say you had a neural network look at these images with a hebbian learning rule, such that the inputs to the neurons are the intensity of the pixels of the image.
+Inputs from pixels in triangle formations would very often occur, and so the connectivity to neurons from groups of pixels in triangle formation would gradually become stronger.
+Eventually, the neurons would in a way become 'triangle-selective', where they respond most strongly to triangle patterns.
+Their activity therefore comes to represent the locations of triangles in the image, which is much more efficient than representing every single pixel alone.
+Of course, this is a really simplistic example: real sensory data are way more diverse, and way more complex.
+
+Hebbian plasticity can use similar mechanisms to learn associations: for instance if a bell is rung and then a reward is given, then the neurons that tend to be active after a bell will form stronger connections with the neurons that are active when there is a reward.
+Over time this process will lead to the bell itself activating the reward-coding neurons.
+This makes sense for an organism: if you want a reward, you should seek out things that lead to rewards, not just the rewards themselves.
+Besides rewards, a process like this could underlie associations we have between sounds or smells and times in our lives.
+
+We experience a memory as a set of associated experiences triggered by something that reminds us of them.
+Maybe you can see how hebbian plasticity could contribute to this.
+The neurons that were active at the same time during the event you remember will wire together more strongly, and any one part of that memory can activate the others and remind you of the whole.
+
+In the years since it was proposed we have seen that Hebbian plasticity does play a role in the brain.
+However, we know from various attempts to apply Hebbian rules to AI that they don't get us very far by themselves.
+Representing the world efficiently is useless if it doesn't help you decide what to do.
+You shouldn't develop an association for just every single coincidence, and not every moment does (or should) become a memory.
+It's clear that determining the strength and location of a synapse purely based on the activity of the pre and post synaptic cell is not enough.
+You need some additional factors.
+   
+* Three-factor learning
+
+An idea that has been gaining popularity is that the changes in connectivity between neurons are affected not just by the moment-to-moment activity of those neurons, but also some other, global factor.
+One example of how this could work is with reward signals: when something is pleasing, a chemical (for example, Dopamine) is released and makes it so that the synapses which led to this outcome are strengthened.
+Those synapses would be the ones where the recieving cell is activated by the sending cell, as with a hebbian rule.
+In other words, the hebbian plasticity is activated and made permanent by the presence of a reward.
+We know that something like this goes on in at least one part of the brain (the Striatum. If you remember from [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]], this region plays a role in determining whether or not to act in a given situation).
+
+This is called a three-factor learning rule, or sometimes a neo-hebbian learning rule.
+I feel like the first name is clearer, less academic and I like It better for that reason, but the truth is there are a lot more than just three factors in the brain.
+Loads of neurotransmitters (Serotonin, noradrenaline, acetylcholine) besides dopamine have an effect on plasticity.
+Recall from [[id:c924678f-5230-48d7-85d7-bf7413e5b2c8][neurotransmission-of-serotonin]] that for each of these neurotransmitters, there are different groups of cells which each send their signals to different parts of the brain.
+These may be active under different circumstances and so signal different things.
+Also remember that what effect a neurotransmitter has on a cell will depend on the receptor proteins that cell expresses: so a neurotransmitter that activates hebbian plasticity in one cell may have no effect, or even the opposite effect in its neighbor.
+All of this is to say that it is likely very complicated with many factors determining plasticity throughout the brain.
+
+Some other candidate signals which have been suggested besides reward are
+ - surprise: when something is unexpected, the synapses that calculated your expectation probably need to be reconfigured
+ - novelty: when something is new, you may want strong and fast plasticity to adjust to it ASAP
+
+We know from studies in mice that serotonin can change the plasticity of synapses.
+We don't really know what kind of signal it sends in these cases, or what exactly the effect of these changes on thoughts or behavior are.
+But I'm going to take a little look at what we have, and see how it fits in with the rest of what we've covered so far.
+
+
+* key takeaways
+
+** the activity of neurons alters the connections between them.
+** neurotransmitters like serotonin can change how these connections are altered by the neural activity
+
+ 
+Various studies show that increases in serotonin enhance plasticity.
+It is possible that this is the source of their therapeutic effects: making it easier to learn new habits or thought patterns that bring you out of whatever mental place you find yourself paralysed in.
+
+A common method for assessing the plasticity of a mammal's cortex is to cover one eye and assess how the responses in its visual cortex change in response to this.
+The covered eye is signaling nothing - so in time the visual cortex should learn to take its cues only from the uncovered eye.
+In young animals this happens quite readily, but in adults it takes much longer.
+
+This method has been used to look at how serotonin affects plasticity.
+It turns out that when you deprive young animals of serotonin, their visual cortex does not learn to only respond to the open eye (Gu and Singer 1995, Bradley et al. 1987).
+Conversely, when you increase the amount of serotonin in the cortex by adiministering an SSRI, adult visual cortex learns more similarly to a young one (Vetencourt et al. 2011).
+
+Another way that plasticity is studied involves attaching glass pipettes to neurons in a slice of brain tissue for manipilating and recording their electrical potential.
+A basic approach is to attach a pipette to one neuron, attach a pipette to another, then stimulate the first cell to see if it causes a change in the potential of the second.
+If so, the first cell is connected to the second and that connection can be studied.
+You can record the strength of the effect the first cell has on the second, then stimulate both cells to make them fire in particular patterns, and then record the strength of the connection again.
+[[https://www.cmor-faculty.rice.edu/~caam415/lec_gab/g4/markram_etal98.pdf][In the 90s, Henry Markram used this method extensively]] to study hebbian plasticity in cells.
+Making the first cell spike and the second soon after generally strengthens the connection.
+Making the second cell spike and the first soon after generally weakens the conection.
+This is called Spike-timing dependent plasticity and is a fairly straightforward way for hebbian learning to be implemented.
+New experiments suggest, however, that serotonin may turn this on its head.
+
+
+* mice, serotonin, learning
+
+_martinowich_interaction_2008
+schmidt_identification_2012
+
+* What does serotonin signal in learning?

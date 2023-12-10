@@ -21,8 +21,8 @@ These changes are thought to be how animals learn:
 
 ** Hebbian plasticity
 
-The majority of cells in the brain emit the neurotransmitter Glutamate.
-Compared to serotonin or dopamine the effects of glutamate are very simple: it activates receptors which increase the electrical potential of the neuron.
+The majority of neurons in the brain emit the neurotransmitter Glutamate.
+Although it can have other effects, the main effect of glutamate is relatively simple: it activates receptors which increase the electrical potential of the neuron.
 This increase in electrical potential brings the targeted neuron closer to firing an action potential itself, thereby releasing its own neurotransmitter.
 
 Donald Hebb hypothesized in 1949 that when a glutamate-emitting neuron consistently makes another one fire, the connection between them should be strengthened.
@@ -35,7 +35,8 @@ Hebbian plasticity leads to neural activity that efficiently represents the inpu
 You can think of it as a form of data compression.
 
 Imagine that you have a catalogue of images, each of which is a white background with a bunch of triangles on it.
-Say you had a neural network look at these images with a hebbian learning rule, such that the inputs to the neurons are the intensity of the pixels of the image.
+-- TODO: images
+Say you had a neural network look at these images with a hebbian learning rule, such that the inputs to the neurons are the intensity (or whiteness) of the pixels of the image.
 Inputs from pixels in triangle formations would very often occur, and so the connectivity to neurons from groups of pixels in triangle formation would gradually become stronger.
 Eventually, the neurons would in a way become 'triangle-selective', where they respond most strongly to triangle patterns.
 Their activity therefore comes to represent the locations of triangles in the image, which is much more efficient than representing every single pixel alone.
@@ -66,8 +67,8 @@ In other words, the hebbian plasticity is activated and made permanent by the pr
 We know that something like this goes on in at least one part of the brain (the Striatum. If you remember from [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]], this region plays a role in determining whether or not to act in a given situation).
 
 This is called a three-factor learning rule, or sometimes a neo-hebbian learning rule.
-I feel like the first name is clearer, less academic and I like It better for that reason, but the truth is there are a lot more than just three factors in the brain.
-Loads of neurotransmitters (Serotonin, noradrenaline, acetylcholine) besides dopamine have an effect on plasticity.
+I feel like the first name is clearer, less academic and I like It better for that reason, but the truth is there are a lot more than just three factors in at play at any one time.
+Loads of neurotransmitters besides dopamine (including Serotonin, noradrenaline, acetylcholine)  have an effect on plasticity.
 Recall from [[id:c924678f-5230-48d7-85d7-bf7413e5b2c8][neurotransmission-of-serotonin]] that for each of these neurotransmitters, there are different groups of cells which each send their signals to different parts of the brain.
 These may be active under different circumstances and so signal different things.
 Also remember that what effect a neurotransmitter has on a cell will depend on the receptor proteins that cell expresses: so a neurotransmitter that activates hebbian plasticity in one cell may have no effect, or even the opposite effect in its neighbor.
@@ -84,12 +85,11 @@ But I'm going to take a little look at what we have, and see how it fits in with
 
 * key takeaways
 
-** the activity of neurons alters the connections between them.
-** neurotransmitters like serotonin can change how these connections are altered by the neural activity
+- the activity of neurons alters the connections between them, leading to learning
+- neurotransmitters like serotonin can change how these connections are altered by the neural activity
 
- 
-Various studies show that increases in serotonin enhance plasticity.
-It is possible that this is the source of their therapeutic effects: making it easier to learn new habits or thought patterns that bring you out of whatever mental place you find yourself paralysed in.
+* Serotonin in plasticity 
+Various studies show effects of altering serotoninergic activity on the process of plasticity.
 
 A common method for assessing the plasticity of a mammal's cortex is to cover one eye and assess how the responses in its visual cortex change in response to this.
 The covered eye is signaling nothing - so in time the visual cortex should learn to take its cues only from the uncovered eye.
@@ -107,7 +107,51 @@ You can record the strength of the effect the first cell has on the second, then
 Making the first cell spike and the second soon after generally strengthens the connection.
 Making the second cell spike and the first soon after generally weakens the conection.
 This is called Spike-timing dependent plasticity and is a fairly straightforward way for hebbian learning to be implemented.
-New experiments suggest, however, that serotonin may turn this on its head.
+One experiment suggests that serotonin may turn this on its head.
+
+[[https://www.cell.com/neuron/fulltext/S0896-6273(15)00826-0][A paper from 2015]] (which I found via [[https://pubmed.ncbi.nlm.nih.gov/30108488/][this excellent review ]]) found  that if you make the postsynaptic cell spike right after the presynaptic but spray a little serotonin on it the connection actually gets weaker instead of stronger.
+It's just one paper studying one interaction in one brain region in one species of animal so almost any broader statement on the basis of it is highly speculative.
+It is consistent however with a possibility I have been thinking about for a while.
+
+When an animal is put in a helpless position and their DRN starts releasing serotonin into their cortex it would make the cells that are firing in concert weaken their connections, and thereby suppress whatever thoughts or behaviors the animal is having going forward.
+Un-learning the ability to think of a way out of the situation may be a direct effect of serotonin stimulation.
+
+Remember that serotonin receptors come in different types.
+When He et al. suppressed the 5HT2c receptor they found that putting serotonin on the cell no longer weakens the connection of the spiking cells.
+# Interestingly, the wikipedia article on 5HT2C receptors contains a variety of claims linking increases in their activity in depression and anxiety, and decreases in their activity with recovery.
+# for the claim that the therapeutic effects of SSRIs come at the same time as decreases in 5HT3c receptor downregulation, the link was to an article which did not discuss this - I think this was most likely an accident.
+# For the claim that 5HT3c receptors are more active in suicide victims, a paper https://www.nature.com/articles/1395631 is cited which found
+# 1. no significant differences in RNA editing (not sure what that means) between depression, schizophrenia, control populations
+# 2. significant difference in suicide victims
+# I'm not convinced that the RNA editing they're talking about means increased efficacy in suicide victims
+# Although the effect size was very large and the result significant, the sample size was still small
+# I'd say this needs a replication or two
+# for the claims regarding effects of some antidepressants on 5HT2C efficiency, I found some decent sources.
+# However, I'm not sure if this is meaningful in itself - I'm sure a huge variety of drugs have some effect on loads of receptors
+# what is the prior probability that a random drug, effective or not for depression, has an affinity with some receptor, and is it really much lower than the posterior if they are effective.
+It is interesting that this receptor is involved, since it has specifically been researched for its role in [[id:37ab6d0d-68c7-4df3-bb4b-648f2a499ece][learned-helplessness]].
+[[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3415988/][One study]] finds that increasing the activity of 5HT2C receptors increases the expression of learned helplessness after social defeat (in hamsters).
+There is also a [[[[https://www.proquest.com/openview/b21a676c9a5282a0e4ab1c8a48d80087/1?pq-origsite=gscholar&cbl=18750]]][master's dissertation]] dedicated to their involvement in learned helplessness (though it is behind a paywall even for university-afilliated researchers).
+
+
+* un-learning
+
+Since plasticity is learning, another important way of studying it is of course by observing the capacity of a test subject to learn a task.
+One kind of experiment on learning ability is called reversal learning.
+In a reversal learning experiment subjects are first taught to do things one way, and once they get the hang of it they have to learn to do the exact opposite.
+It is seen as a way to measure cognitive flexibility.
+One way to try and relate these learning tasks to the underlying biology is to genetically or pharmacologically alter animals and see how it affects their performance.
+
+Recall from  [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]] that the serotonin transporter SERT is responsible for moving serotinin back into the cell that emitted it.
+Reducing the activity of SERT will make it so that serotonin released from your neurons lingers for longer and will be more likely to affect nearby neurons.
+[[https://academic.oup.com/cercor/article/20/8/1955/40590977][Brigman et al. 2010]] Found that when you either genetically or chemically reduced the activity of SERT in mice, they more quickly learn to reverse their task.
+This does seem to match what I suggested before; that serotonin plays a role in un-learning.
+
+https://www.cell.com/neuron/pdf/S0896-6273(13)00789-7.pdf
+https://www.jneurosci.org/content/25/2/532.short
+https://www.nature.com/articles/npp2009233
+https://www.nature.com/articles/s41380-021-01240-9
+https://www.sciencedirect.com/science/article/pii/S030645221600244X?casa_token=HQQ7sNlVtREAAAAA:RhX4ALapUtgx54gmpsTxHwoLoZgwGb02neRpAlOnXW4E0kG_-R5tk_zyeYYtiAfjjo2Wd3uNNg
 
 
 * mice, serotonin, learning

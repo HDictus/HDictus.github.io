@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       37ab6d0d-68c7-4df3-bb4b-648f2a499ece
+:END:
+#+title: learned-helplessness
+Learned helplessness is a psychological phenomenon in which an animal will become so used to being unable to escape an unpleasant situation that they will not even attempt to escape.
+
+It has a tendency to generalize: when animals are put in one situation without the ability to escape, and subsequently a similar situation where it is possible to escape, they will not even attempt to escape the second.
+On the other hand, that aren't put in the first situation figure out just fine how to escape the second.
+
+Learned helplessness is commonly applied in pedagogy and therapeutic approaches to treating depression.
+The tendency of some otherwise competent athletes to "choke" in particular situations has been attributed to learned helplessness:
+they struggled with those situations in the past to the point that their subconscious has decided to not even try.
+
+Additionally, animals in a condition of learned helplessness tend to show symptoms of depression.
+It is theorized that clinical depression in humans is a consequence of learned helplessness generalizing from some important part of their life to the whole of it.
+
+

@@ -22,6 +22,7 @@ I hope I've made it not only clear, but engaging enough.
 TODO: add some damn humor.
 
 * likelihood: probability, but backwards
+TODO: this needs more upfront explanation for the example to make sense
 
 Feel free to skip this section if you are already familiar with the distinction.
 
@@ -42,7 +43,7 @@ Therefore, if we see his car outside Sarah's house, the probability of Jared bei
 Here when we see the car, the likelihood that Jared is at the party is 70%, the likelihood that he is not at the party is 10%.
 Those don't sum to 100%, so they're clearly not probabilities.
 So what is the probability that Jared is at the party? 
-We actually can't calculate it based on the information we have, but most people's intuition would say that since it is more likely that his is at the party, it is also more probable.
+We actually can't calculate it based on the information we have, but most people's intuition would say that since it is more likely that he is at the party, it is also more probable.
 As we will see in the [[Bayes rule][bayes]] section, this intuition is often correct but sometimes wrong. 
 If it's a burning question for you, skip ahead and skip back. Otherwise read on, and it will get relevant later.
 
@@ -58,7 +59,7 @@ When you get a computer to make this line for you it usually (but not always) do
 By squared error, I mean the squared y distance from the line to each datapoint.
 (TODO: diagram)
 The line we get is a /model/ of y based on x. 
-So for a given value of x, the line predicts a specific value of y (100 points if you guess where I'm going with this).
+So for a given value of x, the line predicts a specific value of y.
 
 So this line is almost always going to be wrong, because nothing is ever simple and easy.
 So making a line of /best/ fit is about finding the line that is the /least/ wrong.

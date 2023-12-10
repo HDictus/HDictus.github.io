@@ -22,13 +22,14 @@ I really value simplicity and accessibility in other people's scientific writing
 If you're willing to read that hodgepodge of various content, thanks so much! Since feedback is important to improve please leave me short reviews of the entries, what you liked, what I could improve, including which specific phrases are not clear or have a poor choice of words.
 
 Note that I'm using a 'digital gardening' approach here, so instead of a traditional blog this will be full of in-progress drafts, and everything may be changed over time.
-* Short stories
+* Creative writing
 - [[id:245d134a-80ac-4d13-a899-b52465bb36aa][tremble-and-zemble]]
 - [[id:b34052c5-b67a-43a7-bed1-2eaa706aaf45][on-the-sonic-habits-of-terra]]
 - [[id:dd9bf4ca-f058-4d8d-9377-e1d7586c3cb1][letter-from-ponder]]
 - [[id:52db35dc-ee22-4ec0-816d-8eed5058fc40][the-soundtrack-of-the-apocalypse]]
 - [[id:73805a16-a739-4a75-b0b2-2414beb5319f][m-a-d]]
 - 
+
 
   
 * Science

@@ -15,6 +15,8 @@ When a neuron is activated it fires an electrical signal called an action potent
 The neurons which release serotonin are located in few regions of the brain called raphe nuclei.
 Each nucleus has axons which target different parts of the brain.
 One of these, the Dorsal Raphe Nucleus (DRN), has axons that extend all the way to the most distant parts of the brain, the cortex.
+It is particularly relevant in later entries here, remember it.
+Also remember its neighbor, the Medial Raphe Nucleus which targets different regions of the brain, and seems to have something of an opposing purpose with the DRN.
 
 [[../../art/aphe_1672384049333.png]]
 

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       fdf0b971-5273-4565-9a24-b4b85be36a6e
+:END:
+#+title: serotonin-and-resilience
+This is a stub for a topic I plan to write about, starting from this article:
+https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub

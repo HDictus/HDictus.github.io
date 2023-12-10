@@ -270,11 +270,12 @@ function, a class, a module, a script or the complete software, the
 design should be independent of the implementation. The point here is
 that you need to define in specific terms what your piece of code needs
 to do before you think about how it will do it. This is the premise for
-"Abstraction and Specification in program development", mentioned in
-"Smalltalk, objects, and design", and the subject of an extended rant
+"Abstraction and Specification in program development" by Barbara Liskov and Jon Guttag, mentioned in
+"Smalltalk, objects, and design" by Chamond Liu, and when applied to whole software
+products it is the subject of an extended rant
 called "The Inmates Are Running the Asylum: Why High Tech Products Drive
-Us Crazy and How to Restore the Sanity" by Alan Cooper. Though Alan
-controversially states that engineers should have no influence over a
+Us Crazy and How to Restore the Sanity" by Alan Cooper. Though Cooper
+ states that engineers should have no influence over a
 program's design (which should be left to specialized designers), the
 principles he mentions crop up time and again at a more fine-grained
 level in software engineering. A phrase of his that I like is: Pretend

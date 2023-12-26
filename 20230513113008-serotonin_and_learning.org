@@ -129,7 +129,7 @@ When He et al. suppressed the 5HT2c receptor they found that putting serotonin o
 # for the claims regarding effects of some antidepressants on 5HT2C efficiency, I found some decent sources.
 # However, I'm not sure if this is meaningful in itself - I'm sure a huge variety of drugs have some effect on loads of receptors
 # what is the prior probability that a random drug, effective or not for depression, has an affinity with some receptor, and is it really much lower than the posterior if they are effective.
-It is interesting that this receptor is involved, since it has specifically been researched for its role in [[id:37ab6d0d-68c7-4df3-bb4b-648f2a499ece][learned-helplessness]].
+It is interesting that this receptor is involved, since it has specifically been researched for its role in [[id:277b1451-9929-43bf-a225-9a2570b7aadf][learned helplessness]].
 [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3415988/][One study]] finds that increasing the activity of 5HT2C receptors increases the expression of learned helplessness after social defeat (in hamsters).
 There is also a [[[[https://www.proquest.com/openview/b21a676c9a5282a0e4ab1c8a48d80087/1?pq-origsite=gscholar&cbl=18750]]][master's dissertation]] dedicated to their involvement in learned helplessness (though it is behind a paywall even for university-afilliated researchers).
 

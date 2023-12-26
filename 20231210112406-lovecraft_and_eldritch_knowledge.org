@@ -1,0 +1,144 @@
+:PROPERTIES:
+:ID:       94ba5a79-0e68-48b4-b05b-826aa98ca855
+:END:
+#+title: Lovecraft and the Eldritch: when reason defies sense
+
+
+This is a work of fiction.
+It is a headcanon of a real life figure cobbled together from a casual familiarity with his work, and ideas expressed by a handful of video essayists (linked at the bottom).
+I am not a scholar on lovecraft and I've done only minimal research for this. It is most likely, completely untrue.
+Nonetheless it's a fiction that occupies space in my mind and is a vessel for concepts I think are important.
+And above all, I hope it is interesting.
+
+One of the most influential writers of horror, Howard Phillips Lovecraft was born to a wealthy, conservative family in new england. He grew up in a world where scientific racism buttressed culturally dominant ideas about race. It was common sense, to many, that there are different races of people and that some are superior to others.
+
+"Common sense is actually nothing more than a deposit of prejudices laid down in the mind prior to the age of eighteen"
+
+- Albert Einstein (The Universe and Dr Einstein Part 2, attibuted by Lincoln Barnett, via quoteinvestigator)
+
+The centerpiece of lovecraft's horror is cosmic horror: the fear that comes from acknowledging the vastness of the universe in comparison to human experience.
+Many of his stories center around the existence of entities so old and powerful that they are to us, as we are to insects.
+He frequently describes such creatures as indescribable, and the spaces they inhabit as impossible.
+Much of the work derived from lovecraft's terms these entities and the knowledge of them as 'eldritch'.
+
+Often, the revelation of these cosmic entities is preceded by a different kind of horror.
+Lovecrafts protagonists express unease at fairly mundane things that nonetheless cause them fear.
+It may be the expressions on peoples faces or their appearances, such as the fact that they are black (lmao).
+These stories are filled with an ever-present fear of even mundane otherness.
+
+“The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown”
+
+― H.P. Lovecraft, Supernatural Horror in Literature, 1927
+
+Although he never finished school, Lovecraft was reportedly bright and maintained an interest in the sciences throughout his life, especially physics.
+It was an exciting time for physics, as Einsteins theory of general relativity and early quantum mechanics were advancing. They showed us that what we thought were inviolable laws of the universe are, in fact, sometimes false.
+This showed in Lovecraft's writing as he used concepts from the new physics to paint imagery of impossible landscapes and creatures.
+For example, in Call of Cthulu the Great Old one Cthulu dwells beneath the sea in a dead city of non-euclidean geometry.
+
+" Modern philosophers of all tendencies — Descartes and Hobbes, Spinoza and Locke, Hume and Kant — had regarded Euclidean geometry as a paradigm of epistemic certainty.
+ The sudden shrinking of Euclidean geometry to a subspecies of the vast family of mathematical theories of space shattered some illusions and prompted important changes in the philosophical conception of human knowledge."
+
+- Nineteenth Century Geometry, https://plato.stanford.edu/entries/geometry-19th/, accessed December 22 2023
+
+Euclidean geometry is also known by most people as just "Geometry".
+How shapes work: the angles of a triangle add up to 180 degrees, parallel lines never converge or diverge, and the shortest distance between two points is a straight line, all that elementary stuff.
+Mathematicians can imagine other geometries that take place in a curved space where these rules are violated.
+Einstein suggested that our universe is such a curved space.
+Imagine a sheet of rubber, fold it together and inflate it like a balloon.
+Draw three points on its curved surface and connect them with shortest three lines you can manage.
+Because it is curved, those lines will be curved. Add up the angles of your *thicc* triangle and you'll find they add up to more than 180.
+The two dimensions of the sheet are wrapped around in a third dimension, affecting its geometry.
+If you take three stars in our universe and connect them the same way, as physicists have done, you will find that the angles add up to slightly more than 180.
+Euclidean geometry, taken by rationalist philosophers as an inviolable logical truth, does not describe our universe.
+It illustrates the difference between what seems obvious and what is actually rational.
+Sometimes something seems obvious simply because the alternative is unfamiliar.
+In this case it is not Reason, but common sense.
+Common sense tells us the universe is flat, because as far as we can tell in our day to day lives it may as well be, but reason and careful observation tells us otherwise.
+Common sense tells us the earth is flat, because it seems that way in our everyday lives, reason and observation tell us it is a oblate spheroid.
+Common sense told people like Lovecraft that some races are superior, even as Reason and Observation were beginning to demonstrate otherwise.
+
+
+“Geneticists believe that anthropologists have decided what race is.
+Ethnologists assume that their classifications embody principles which genetic science has proved correct.
+Politicians believe that their prejudices have the sanction of genetic laws and the findings of physical anthropology to sustain them.”
+- Lancelot Hogben (Genetic Principles in Medicine and Social Science (London: Williams and Norgate, 1931), quoted [[https://www.betterworldbooks.com/product/detail/the-rise-and-fall-of-the-caucasian-race-a-political-history-of-racial-identity-0814798926][here]].
+
+Many of lovecrafts stories feature characters that embrace the eldritch and become insane.
+Those which appear to be most suceptible, and most receptive, tend to be intellectuals and artists.
+One important element of the horror of these characters is that they are /right/. 
+When truth defies sanity, insanity is insight. 
+
+Lovecraft was exposed to intellectuals arguing for things that seemed strange to him, from non-euclidean geometry to rights for people of color and miscegnation.
+How much of the horror in his stories, and perhaps tne anxiety in his own personality, stemmed from the recognition that these people may be right?
+It should be noted that cosmicism - the idea that humans are an insignificant part of a strange and inhospitable universe - formed a part of his personal philosophy as well as his horror.
+
+"To shake off the maddening and wearying limitations of time and space and natural law—to be linked with the vast outside—to come close to the nighted and abysmal secrets of the infinite and the ultimate—surely such a thing was worth the risk of one's life, soul, and sanity!"
+
+- H.P. Lovecraft, The Whisperer in the Darkness
+
+"Now I ride with the mocking and friendly ghouls on the night-wind, and play by day amongst the catacombs of Nephren-Ka in the sealed and unknown valley of Hadoth by the Nile. 
+I know that light is not for me, save that of the moon over the rock tombs of Neb, nor any gaiety save the unnamed feasts of Nitokris beneath the Great Pyramid;
+ yet in my new wildness and freedom I almost welcome the bitterness of alienage."
+
+ - A Lovecraft story I will not name, lest I spoil it
+  
+
+If we identify the eldritch with truths that defy common sense, and recognize how common sense and prejudice are entangled, the meanings of lovecrafts stories change.
+I'm not talking about what he meant by them - I'm pretty sure he just meant to scare, excite, and intrigue. I'm talking about what the story means to its reader. 
+The eldritch is not wrong, and fear of it is not the right response.
+That which defies common sense taps into that oldest fear, the fear of the unknown.
+The right response to that is curiosity - here a manifestation of courage.
+The protagonists of the story are thematically in the wrong, in their response to the mundane other well as their response to the the eldritch other. 
+
+One has to wonder at which point the bright mind and intellectual curiosity attributed to lovecraft would overcome his common sense.
+Several people have noted his softening stances on race later in his life.
+We will never know where that could have taken him, for in lovecrafts stories those who glimpse the enlritch seldom live long.
+He died around a year after penning the following words:
+
+"I can better understand the inert blindness & defiant ignorance of the reactionaries from having been one of them. I know how smugly ignorant I was—wrapped up in the arts, the natural (not social) sciences, the externals of history & antiquarianism, the abstract academic phases of philosophy, & so on—all the one-sided standard lore to which, according to the traditions of the dying order, a liberal education was limited. God! the things that were left out—the inside facts of history, the rational interpretation of periodic social crises, the foundations of economics & sociology, the actual state of the world today ... & above all, the habit of applying disinterested reason to problems hitherto approached only with traditional genuflections, flag-waving, & callous shoulder-shrugs!"
+
+- (Selected Letters V, 1934-1937 edited by August Derleth and Donald Wandrei, pp. 407-408 , via wikiquote).
+
+Perhaps, before the end, he replaced fear and sense with compassion and reason. 
+
+Audiovisual media based on lovecraft often tries to capture its fear, but personally I was rarely afraid reading his work. I felt wonder more often than fear, which I think is why I tend to like cosmic horror when it crops up anywhere (while i generally dislike other forms of horror). The impossibility and indescribability of his monsters is impossible to capture in a visual format alone. In fact, it is poorly captured even in his own writing (describing something as indescribable followed by several words that seem to have been pulled from the thesaurus entry for "scary" expects the readers imagination to do a lot of the heavy lifting!). Stories, especially video games, tend to recreate the fear by making the eldritch actively hostile. For me, this undermines my interperetation and my preferred cosmic horror experience. 
+
+I'd like to see more work lean into strangeness and indifference.
+I think games might be the best medium for this.
+Many successfully create an eldritch effect, and there are still many tricks that remain (to my knowledge) unexplored.
+Mechanics inspired by quantum physics (See [[https://store.steampowered.com/app/753640/Outer_Wilds/][Outer Wilds]]) or relativity ([[http://gamelab.mit.edu/games/a-slower-speed-of-light/][A slower speed of light]] and [[https://store.steampowered.com/app/219890/Antichamber/][Antichamber]]).
+In VR immense scale can be used for that effect ([[https://store.steampowered.com/app/2091960/The_Utility_Room/][The Utility Room]]), or the 3d effect can be messed around with.
+The eldritch may break established patterns in the game's design.
+Outside of things specific to games there are interactive tricks often used to convey strangeness, such as dissonance of tone ([[https://undertale.com/][Undertale]] does this), breaking the fourth wall ([[https://store.steampowered.com/app/1697700/Whos_Lila/][Who's Lila']]).
+Tricks of perspective may work well too.
+I like to see this strangeness without it being framed as malicious.
+Dangerous, yes : thats often part of the thrill.
+The universe is dangerous but it is not actively hostile. It is strange, dangerous and beautiful. Embrace it.
+
+
+
+Though not directly cited in this essay, I'd like to credit a number of video essays that informed these ideas.
+
+
+Hbomberguy, Outsiders: how to adapt H.P. Lovecraft in the 21st Centory
+https://www.youtube.com/watch?v=l8u8wZ0WvxI
+
+
+Zoe Bee's videos on lovecraft:
+ - https://www.youtube.com/watch?v=TCB3R1txbJk
+ - https://www.youtube.com/watch?v=ni-cUZQiH88
+ - https://www.youtube.com/watch?v=GhXx67IkOew
+
+   
+I learned about how race science was challenged in the 1920s and 30s in this video essay, it is thanks to the youtuber that I found the quote from Lancelot Hogben.
+https://www.youtube.com/watch?v=lmdJ_MBR6qQ
+
+This essay is the inspiration for the idea of breaking a game's tone as a way to establish something eldritch:
+https://www.youtube.com/watch?v=xCIvrzCV6xI
+
+I'd also like to credit this redditor, whose post helped me begin putting these thoughts into words
+https://www.reddit.com/r/Lovecraft/comments/dd5vb3/the_other_gods_as_a_symbolic_reaction_to_general/
+
+
+Several of the games I reference in the last paragraph I know about thanks to the following video by Jacob Geller:
+   Three Specific Kinds of Terror https://www.youtube.com/watch?v=ZDrHpmkL4rY

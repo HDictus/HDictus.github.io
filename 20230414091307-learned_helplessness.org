@@ -1,4 +1,4 @@
-f:PROPERTIES:
+:PROPERTIES:
 :ID:       277b1451-9929-43bf-a225-9a2570b7aadf
 :END:
 #+title: learned helplessness

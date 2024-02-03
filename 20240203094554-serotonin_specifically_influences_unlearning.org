@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       aab01968-25fd-4714-8016-682095ad0f43
+:END:
+#+title: serotonin-specifically-influences-unlearning
+
+This is a list of studies containing evidence that alterations in serotoninergic function specifically influence learning from aversive events.
+
+ - [[id:b04fba1a-e7ee-4320-ab00-2099bf50ee97][denOuden-dissociable-2013]]
+ - [[id:d275a9e8-eef1-493a-9b56-a11ed2515476][chamberlain-neurochemical-2006]]
+ - [[id:5a3af560-e7e8-4fc0-8652-f784bc722379][cools-acute-2008]]
+ - [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][boulougouris-enhancement-2010]] TODO: summarize
+ - [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] TODO: summarize

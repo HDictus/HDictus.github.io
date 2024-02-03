@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       d275a9e8-eef1-493a-9b56-a11ed2515476
+:END:
+#+title: chamberlain-neurochemical-2006
+
+
+Chamberlain et al. administered a noradrenaline uptake inhibitor to one group, a serotonin reuptake inhibitor (citalopram) to another, and compaed both to a control group.
+
+Those with inhibited serotonin reuptake (and therefore stronger serotoninergic activity) performed worse on a task where they were asked to choose either a red or green stimulus.
+One (green/red) is correct, one (red/green) is wrong. When the participant selects a stimulus, they will be told whether or not they were correct, but this answer has a 20% chance to be misleading.
+One of the differences in the citalopram group is that they were more likely to change their estimate when told they were wrong - and so were more frequently misled by the feedback.
+
+https://pubmed.ncbi.nlm.nih.gov/16469930/

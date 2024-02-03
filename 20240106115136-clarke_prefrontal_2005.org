@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       656608d6-3e8a-4b8a-bf50-972fb7a221f7
+:END:
+#+title: clarke-prefrontal-2005
+
+this paper details experiments on lesioned monkeys, suggesting that lack of prefrontal 5HT affects reversal learning but not attentional set shifting (another measure of cognitive flexibility).

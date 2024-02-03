@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       b04fba1a-e7ee-4320-ab00-2099bf50ee97
+:END:
+#+title: denOuden-dissociable-2013
+
+
+Chamberlain et al. 2006 showed that citalopram leads people to shift away more frequently from aversive stimuli
+Cools et al. 2008 showed that depleting serotonin improves prediction of punishment but not reward
+Boulougouris et al. 2008, 2010 showed that antagonizing 2A and 2C receptors affected errors in reversal learning
+Clarke et al. 2007 showed that serotonin depletion reduced performance in reversal learning
+
+den Ouden et al. assessed the reversal learning abilities of humans grouped by genetic mutations in serotonin and dopamine based genes.
+
+The task required the subject to select one of two stimuli.
+At first, stimulus A is rewarded 70% of the time and punished 30%.
+Later this is switched around.
+
+TODO: I really ought to learn more about genetics
+
+The following results appear not to have been corrected for the number of comparisons performed. I think this is ok for the first (p < 0.005), but is a problem for the second (p < 0.05). 
+
+Those with an L'/L' mutation in the SERT region were more likely to shift away from the old strategy on a loss (lose-shift)
+Those with a 9R/9R mutation in DAT1 region were likely to persevere through more errors post-reversal.
+
+
+There was no significant difference in the tendency to stay on the old strategy after a win.
+
+https://www.cell.com/neuron/pdf/S0896-6273(13)00789-7.pdf

@@ -60,7 +60,7 @@ You need some additional factors.
    
 * Three-factor learning
 
-An idea that has been gaining popularity is that the changes in connectivity between neurons are affected not just by the moment-to-moment activity of those neurons, but also some other, global factor.
+An idea that has been gaining popularity is that the changes in connectivity between neurons are affected not just by the moment-to-moment activity of those neurons, but also some other factors.
 One example of how this could work is with reward signals: when something is pleasing, a chemical (for example, Dopamine) is released and makes it so that the synapses which led to this outcome are strengthened.
 Those synapses would be the ones where the recieving cell is activated by the sending cell, as with a hebbian rule.
 In other words, the hebbian plasticity is activated and made permanent by the presence of a reward.
@@ -92,6 +92,7 @@ But I'm going to take a little look at what we have, and see how it fits in with
 Various studies show effects of altering serotoninergic activity on the process of plasticity.
 
 A common method for assessing the plasticity of a mammal's cortex is to cover one eye and assess how the responses in its visual cortex change in response to this.
+The visual cortex is a region of the brain which processes what is seen by the eyes - so if you cover one eye you change the kind of input this region is recieving.
 The covered eye is signaling nothing - so in time the visual cortex should learn to take its cues only from the uncovered eye.
 In young animals this happens quite readily, but in adults it takes much longer.
 
@@ -99,7 +100,7 @@ This method has been used to look at how serotonin affects plasticity.
 It turns out that when you deprive young animals of serotonin, their visual cortex does not learn to only respond to the open eye (Gu and Singer 1995, Bradley et al. 1987).
 Conversely, when you increase the amount of serotonin in the cortex by adiministering an SSRI, adult visual cortex learns more similarly to a young one (Vetencourt et al. 2011).
 
-Another way that plasticity is studied involves attaching glass pipettes to neurons in a slice of brain tissue for manipilating and recording their electrical potential.
+Another way that plasticity is studied involves attaching glass pipettes to neurons in a slice of brain tissue for manipulating and recording their electrical potential.
 A basic approach is to attach a pipette to one neuron, attach a pipette to another, then stimulate the first cell to see if it causes a change in the potential of the second.
 If so, the first cell is connected to the second and that connection can be studied.
 You can record the strength of the effect the first cell has on the second, then stimulate both cells to make them fire in particular patterns, and then record the strength of the connection again.
@@ -137,7 +138,7 @@ There is also a [[[[https://www.proquest.com/openview/b21a676c9a5282a0e4ab1c8a48
 * un-learning
 
 Since plasticity is learning, another important way of studying it is of course by observing the capacity of a test subject to learn a task.
-One kind of experiment on learning ability is called reversal learning.
+One kind of experiment on learning ability is called [[id:a13dcc9a-91d5-46a1-aa2b-4c960626f1f7][reversal learning.]]
 In a reversal learning experiment subjects are first taught to do things one way, and once they get the hang of it they have to learn to do the exact opposite.
 It is seen as a way to measure cognitive flexibility.
 One way to try and relate these learning tasks to the underlying biology is to genetically or pharmacologically alter animals and see how it affects their performance.
@@ -147,8 +148,11 @@ Reducing the activity of SERT will make it so that serotonin released from your 
 [[https://academic.oup.com/cercor/article/20/8/1955/40590977][Brigman et al. 2010]] Found that when you either genetically or chemically reduced the activity of SERT in mice, they more quickly learn to reverse their task.
 This does seem to match what I suggested before; that serotonin plays a role in un-learning.
 
-https://www.cell.com/neuron/pdf/S0896-6273(13)00789-7.pdf
-https://www.jneurosci.org/content/25/2/532.short
+As I look into it, I find a [[id:aab01968-25fd-4714-8016-682095ad0f43][growing list]] of studies indicating that changes related to serotonin specifically affect learning from failure.
+Not all of them are consistent with the idea that the release of serotonin leads to un-learning.
+
+https://www.cell.com/neuron/pdf/S0896-6273(13)00789-7.pdf [[id:b04fba1a-e7ee-4320-ab00-2099bf50ee97][denOuden-dissociable-2013]]
+https://www.jneurosci.org/content/25/2/532.short [[id:656608d6-3e8a-4b8a-bf50-972fb7a221f7][clarke-prefrontal-2005]]
 https://www.nature.com/articles/npp2009233
 https://www.nature.com/articles/s41380-021-01240-9
 https://www.sciencedirect.com/science/article/pii/S030645221600244X?casa_token=HQQ7sNlVtREAAAAA:RhX4ALapUtgx54gmpsTxHwoLoZgwGb02neRpAlOnXW4E0kG_-R5tk_zyeYYtiAfjjo2Wd3uNNg

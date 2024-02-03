@@ -16,7 +16,9 @@ The most common theme when it comes to things we understand fairly well in neuro
 Cells which are active at the same time tend to become more strongly wired together.
 Whether we're talking about sensory processing, memory formation and retrieval, or reinforcement learning, this principle seems to underlie all of them.
 The evidence that this occurs is widespread at the cellular and network level, and theoretical approaches show that it leads to computationally advantageous operations.
-I'm told there are exceptions, evidence of cases where plasticity is non-hebbian.
+Many of the cases where plasticity is non-hebbian we are talking about inhibitory cells, and we see anti-hebbian learning.
+Nonetheless this is still like-to-like associative plasticity, only the effect is reversed.
+
 There's an intuition behind it too: if a chemical signal is synchonized with a neuron's activity, then that signal must in some way be relevant to what the neuron is doing.
 If there's no relationship, it must be irrelevant.
 Yet I have trouble finding anything that is unambiguously non-hebbian.

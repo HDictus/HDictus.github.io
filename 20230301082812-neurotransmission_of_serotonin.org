@@ -8,7 +8,10 @@ Let's start with the basic neuroscience of serotonin, which you'll need to keep 
 Neurotransmitters are molecules used by neurons to send signals to each other: Serotonin is one of them, you have probably also heard of dopamine, endorphin, and adrenaline, these are also neurotransmitters.
 Neurotransmitters like serotonin are released from neurons (aka nerve cells).
 Mostly, this release comes from their _axons_, huge branching structures which may extend to locations very far removed from the actual body of the cell.
-[[../../art/euron_1672384040197.png]]
+
+[[file:../../euron_1702032621789.png]]
+
+
 
 When a neuron is activated it fires an electrical signal called an action potential which travels along the axon and causes it to release neurotransmitters.
 # TODO: a diagram or animation for the action potential
@@ -18,7 +21,8 @@ One of these, the Dorsal Raphe Nucleus (DRN), has axons that extend all the way 
 It is particularly relevant in later entries here, remember it.
 Also remember its neighbor, the Medial Raphe Nucleus which targets different regions of the brain, and seems to have something of an opposing purpose with the DRN.
 
-[[../../art/aphe_1672384049333.png]]
+
+[[file:../..//aphe_1702031353442.png]]
 
 Neurotransmitters interact with cells by reacting with proteins on the cell's outside, called receptors.
 What the neurotransmitter does to the cell depends on the specific type of receptor.
@@ -40,3 +44,5 @@ In summary:
 
 
 
+
+ 

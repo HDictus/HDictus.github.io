@@ -20,7 +20,6 @@ The phrase was a question, but the tone was entirely flat.
 "I could have sworn I left them on the cupboard next to the wardrobe".
 
 Zemble chanced a look around the room, barren stone and iron, crates and barrels. Certainly no wardrobe or similar furniture.
-The creature wasn't wearing any clothes, why would it even need a wardrobe?
 
 "Um..., no I haven't seen your keys."
 
@@ -37,10 +36,13 @@ Its eyes snap back upwards, and the maw opens again, revealing rows of tiny teet
 
 "Nice weather we're having."
 
-Maybe the storm Zemble left behind is nice weather to a beastie like this, not that its likely ever been aboveground.
+Maybe the storm Zemble left behind is nice weather to a beastie like this.
+Not that zemble expects it has ever been aboveground.
+
 The creature uses a woman's voice, clear and pleasant but void of intonation.
-Zemble was all too ready to cleave this horror, but curiosity overcomes fear.
-After all, curiosity brought him here.
+Curiosity suppresses zemble's fear.
+Whatever he expected to find down here, this wasn't it.
+/Serra will want to see this, dangerous or not./ He thinks.
 
 "Sure... would you like to go outside?"
 
@@ -102,22 +104,21 @@ And so Zemble leads the way out.
 * part 2
 
 
-<!-- TODO this is overexplaining -->
-Controlling his breathing to contain his fear at having the monster behind him, Zemble takes a moment to examine possibilities.
-Perhaps one of the biomancer's creations, it has some markers of artificial life.
-Zemble glances behind, the eyes are not looking where it is going, still staring blankly upwards.
-A little experiment is in order.
-Zemble climbs over a barrel, and looks back as he moves on to see what the creature does.
-It mimics his climbing motion without looking down at all.
-All right then.
+As Zemble proceeds he frequently glances over his shoulder.
+The creature follows, the eyes still staring blankly upwards.
+
+Zemble goes out of his way to climb over a barrel and glances back.
+The creature mimics his climbing motion without any movement of the eyes.
+/All right then./
 
 
 The ruined castle sits on a barren peak among forested hills.
 Into the storm emerges Zemble with the hulking monstrosity.
-<!-- TODO: italics -->
-I can't very well lead her back to camp, not if I don't know what she's after; Zemble thinks.
+
+
+/I can't very well lead her back to camp, not if I don't know what she's after/; Zemble thinks.
 Ah dear, the voice alone is leading him to gender the thing.
-Might as well give her a name now, does she seem like a Lucy?
+/Might as well give her a name now, does she seem like a Lucy?/
 She does not seem like a Lucy.
 
 "What should I call you?" asks Zemble.
@@ -157,7 +158,7 @@ The creature uncurls into its full height, easily three meters, the maw opens an
 
 Could a creature construct such a sound? Or is she copying something she heard before? Does she know what it means? 
 She wails on.
-Zemble shelters under a nearby eave, afraid to act, afraid to leave her unsupervised.
+Zemble shelters under a nearby eave.
 Only some minutes later, a crash of nearby thunder interrupts her, and she shrinks to the curled two meter shape Zemble found her in.
 
 Shudder.
@@ -171,8 +172,7 @@ Tremble.
 
 "Hello, my name is Tremble." Tremble says flatly.
 
-It's a terrible name thinks Zemble, but it's not like she'll care.
-Certainly a better fit than Lucy.
+/It's a terrible name/ thinks Zemble, /but it's certainly a better fit than Lucy/
 
 "Can you wait here for me, Tremble?"
 
@@ -180,15 +180,15 @@ Blink.
 
 "Wait." says Tremble, and all tension leaves her body, and she rests her limbs on the ground.
 
-Zemble has no idea how well she can stand the cold and rain, so he had better hurry.
+Zemble hurries off.
 
 
 * part 3
 
 
-Zemble rushes to the camp and fetches Serrandi.
+Zemble rushes into camp and fetches gestures wildly for Serrandi to follow.
 
-"Where are we going in such a hurry?" Serrendi asks.
+"Where are we going in such a hurry?" Serrandi asks.
 
 "Found a Bioautomaton, I think. I'm hoping you might know what's up with this one."
 
@@ -232,7 +232,7 @@ Serrandi gapes and Zemble places a hand on her back as she steps away.
 
 Shudder.
 
-"Uh oh Serra, I think you've done it now"
+"Oh Serra, I think you've done it now"
 
 Shudder. 
 
@@ -269,7 +269,7 @@ It's why she picked this place for her castle."
 
 "Anamit would've made her for a reason. Action requires purpose."
 
-"I remember Ana was against the idea that this applies to nonsentient creatures. I always thought she was onto something, look at non-animated life. They still act in response to the world - flowers turning to the sun and all. I don't think anyone would say they have purpose."
+"I remember Ana was against the idea that this applies to nonsentient creatures. I always thought she was onto something, look at non-animated life. They still act in response to the world - flowers turning to the sun and all. I don't think anyone would say they have a sense of purpose."
 
 "Flowers have the purpose of growing and reproducing, they just aren't aware of that purpose".
 
@@ -293,10 +293,9 @@ Serrandi shoots Zemble an angry look.
 
 "Of course, Ana would never experiment with sentience - she had a heart you know."
 
-TODO: this could be confusing, should clarify 'for complex minds'
-"The best psychomancers today don't know how to guarantee nonsentience. How would Ana?"
+"The best psychomancers today don't know how to guarantee nonsentience with complex behavior. How would Ana?"
 
-"Yeah, there's the problem I guess. Ana thought she had that figured out. Looking at Tremble it's hard to say she was right."
+"Ana had that figured out." Serra hesitates and glances at Trenble. "Or, she thought she had that figured out"
 
 They were quiet for a long time.
 
@@ -329,9 +328,3 @@ With the sun shining outside, Serrandi speaks to Tremble.
 
 
 
-
-
-
-* in tremble's story, trim down the paragraph where he performs his little expriment, say less, imply more
-* in tremble's story, especially when serrandi comes into the mix, prefix actions for the speakers to imply intent and mood, it's very flat with only said-said-said
-* the paragraph with 'cleave the monster' and stuff does nothing, is stylistically inconsistent. but the slower pacing at the start here helps to build to the climax. Maybe something here that gives zemble some characterization, motivations, or something? The one thing this paragraph does is establish his curiosity, perhaps too explicitly. Try something with that.

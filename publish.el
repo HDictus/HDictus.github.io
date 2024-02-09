@@ -10,7 +10,7 @@
     <button onclick=\"submitComment()\">Submit</button>
   </div>
 
-  <script src=\"scripts/comments.js\"></script>
+  <script src=\"../scripts/comments.js\"></script>
 "
 )
 

@@ -1,6 +1,17 @@
 (require 'ox-publish)
 
 
+(setq org-html-postamble
+      "<script src=\"https://utteranc.es/client.js\"
+        repo=\"https://github.com/HDictus/HDictus.github.io\"
+        issue-term=\"pathname\"
+        theme=\"github-light\"
+        crossorigin=\"anonymous\"
+        async>
+      </script>"
+)
+
+
 (setq org-publish-project-alist
       '(
 

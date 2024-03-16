@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>serotonin-and-learning</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">serotonin-and-learning</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgebf27de">Plasticity: how your brain learns</a>
+<ul>
+<li><a href="#orgf864ba2">Hebbian plasticity</a></li>
+</ul>
+</li>
+<li><a href="#orgd9e2b8e">Three-factor learning</a></li>
+<li><a href="#org278b2fe">key takeaways</a></li>
+<li><a href="#orgc73020c">Serotonin in plasticity</a></li>
+<li><a href="#org67b8832">un-learning</a></li>
+<li><a href="#org9bcb5ba">mice, serotonin, learning</a></li>
+<li><a href="#org8b46ccb">What does serotonin signal in learning?</a></li>
+</ul>
+</div>
+</div>
+<p>
+Serotonin plays a role in the process of learning. Exactly what role is not clear, but there is some evidence that the effects of SSRIs on depression come from boosting the capacity to learn.
+Learning occurs in the brain by neurons changing how they are wired up (and probably other things too, but that is the main one we know about).
+</p>
+
+<div id="outline-container-orgebf27de" class="outline-2">
+<h2 id="orgebf27de">Plasticity: how your brain learns</h2>
+<div class="outline-text-2" id="text-orgebf27de">
+<p>
+The way neurons are connected to one another isn't set in stone.
+Recall that the locations where neurons signal to one another are called synapses.
+The strength of the effects of these synapses can change over time, and sometimes synapses disappear or new synapses grow.
+This process is called synaptic plasticity.
+</p>
+
+<p>
+These changes are thought to be how animals learn:
+</p>
+<ul class="org-ul">
+<li>lived experiences cause the neurons to fire in particular patterns</li>
+<li>the synapses change in response to these patterns (and potentially in response to other things too)</li>
+</ul>
+</div>
+
+<div id="outline-container-orgf864ba2" class="outline-3">
+<h3 id="orgf864ba2">Hebbian plasticity</h3>
+<div class="outline-text-3" id="text-orgf864ba2">
+<p>
+The majority of neurons in the brain emit the neurotransmitter Glutamate.
+Although it can have other effects, the main effect of glutamate is relatively simple: it activates receptors which increase the electrical potential of the neuron.
+This increase in electrical potential brings the targeted neuron closer to firing an action potential itself, thereby releasing its own neurotransmitter.
+</p>
+
+<p>
+Donald Hebb hypothesized in 1949 that when a glutamate-emitting neuron consistently makes another one fire, the connection between them should be strengthened.
+Remember that each neuron usually recieves input from hundreds or thousands of others.
+If one neuron consistently takes part in firing another one, it does not do so alone.
+This means that neurons which tend to fire at around the same time will be likely to both contribute to firing the same target neuron.
+This leads each neuron to select inputs which tend to be active at the same time.
+This kind of learning is usually summed up as "cells that fire together wire together", and the process is called Hebbian plasticity.
+Hebbian plasticity leads to neural activity that efficiently represents the input data.
+You can think of it as a form of data compression.
+</p>
+
+<p>
+Imagine that you have a catalogue of images, each of which is a white background with a bunch of triangles on it.
+&#x2013; TODO: images
+Say you had a neural network look at these images with a hebbian learning rule, such that the inputs to the neurons are the intensity (or whiteness) of the pixels of the image.
+Inputs from pixels in triangle formations would very often occur, and so the connectivity to neurons from groups of pixels in triangle formation would gradually become stronger.
+Eventually, the neurons would in a way become 'triangle-selective', where they respond most strongly to triangle patterns.
+Their activity therefore comes to represent the locations of triangles in the image, which is much more efficient than representing every single pixel alone.
+Of course, this is a really simplistic example: real sensory data are way more diverse, and way more complex.
+</p>
+
+<p>
+Hebbian plasticity can use similar mechanisms to learn associations: for instance if a bell is rung and then a reward is given, then the neurons that tend to be active after a bell will form stronger connections with the neurons that are active when there is a reward.
+Over time this process will lead to the bell itself activating the reward-coding neurons.
+This makes sense for an organism: if you want a reward, you should seek out things that lead to rewards, not just the rewards themselves.
+Besides rewards, a process like this could underlie associations we have between sounds or smells and times in our lives.
+</p>
+
+<p>
+We experience a memory as a set of associated experiences triggered by something that reminds us of them.
+Maybe you can see how hebbian plasticity could contribute to this.
+The neurons that were active at the same time during the event you remember will wire together more strongly, and any one part of that memory can activate the others and remind you of the whole.
+</p>
+
+<p>
+In the years since it was proposed we have seen that Hebbian plasticity does play a role in the brain.
+However, we know from various attempts to apply Hebbian rules to AI that they don't get us very far by themselves.
+Representing the world efficiently is useless if it doesn't help you decide what to do.
+You shouldn't develop an association for just every single coincidence, and not every moment does (or should) become a memory.
+It's clear that determining the strength and location of a synapse purely based on the activity of the pre and post synaptic cell is not enough.
+You need some additional factors.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd9e2b8e" class="outline-2">
+<h2 id="orgd9e2b8e">Three-factor learning</h2>
+<div class="outline-text-2" id="text-orgd9e2b8e">
+<p>
+An idea that has been gaining popularity is that the changes in connectivity between neurons are affected not just by the moment-to-moment activity of those neurons, but also some other factors.
+One example of how this could work is with reward signals: when something is pleasing, a chemical (for example, Dopamine) is released and makes it so that the synapses which led to this outcome are strengthened.
+Those synapses would be the ones where the recieving cell is activated by the sending cell, as with a hebbian rule.
+In other words, the hebbian plasticity is activated and made permanent by the presence of a reward.
+We know that something like this goes on in at least one part of the brain (the Striatum. If you remember from <a href="20230301083111-serotonin_and_heplessness.html#ID-02504069-e1e7-43c8-a746-43ed27a2f807">serotonin-and-heplessness</a>, this region plays a role in determining whether or not to act in a given situation).
+</p>
+
+<p>
+This is called a three-factor learning rule, or sometimes a neo-hebbian learning rule.
+I feel like the first name is clearer, less academic and I like It better for that reason, but the truth is there are a lot more than just three factors in at play at any one time.
+Loads of neurotransmitters besides dopamine (including Serotonin, noradrenaline, acetylcholine)  have an effect on plasticity.
+Recall from <a href="20230301082812-neurotransmission_of_serotonin.html#ID-c924678f-5230-48d7-85d7-bf7413e5b2c8">neurotransmission-of-serotonin</a> that for each of these neurotransmitters, there are different groups of cells which each send their signals to different parts of the brain.
+These may be active under different circumstances and so signal different things.
+Also remember that what effect a neurotransmitter has on a cell will depend on the receptor proteins that cell expresses: so a neurotransmitter that activates hebbian plasticity in one cell may have no effect, or even the opposite effect in its neighbor.
+All of this is to say that it is likely very complicated with many factors determining plasticity throughout the brain.
+</p>
+
+<p>
+Some other candidate signals which have been suggested besides reward are
+</p>
+<ul class="org-ul">
+<li>surprise: when something is unexpected, the synapses that calculated your expectation probably need to be reconfigured</li>
+<li>novelty: when something is new, you may want strong and fast plasticity to adjust to it ASAP</li>
+</ul>
+
+<p>
+We know from studies in mice that serotonin can change the plasticity of synapses.
+We don't really know what kind of signal it sends in these cases, or what exactly the effect of these changes on thoughts or behavior are.
+But I'm going to take a little look at what we have, and see how it fits in with the rest of what we've covered so far.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org278b2fe" class="outline-2">
+<h2 id="org278b2fe">key takeaways</h2>
+<div class="outline-text-2" id="text-org278b2fe">
+<ul class="org-ul">
+<li>the activity of neurons alters the connections between them, leading to learning</li>
+<li>neurotransmitters like serotonin can change how these connections are altered by the neural activity</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc73020c" class="outline-2">
+<h2 id="orgc73020c">Serotonin in plasticity</h2>
+<div class="outline-text-2" id="text-orgc73020c">
+<p>
+Various studies show effects of altering serotoninergic activity on the process of plasticity.
+</p>
+
+<p>
+A common method for assessing the plasticity of a mammal's cortex is to cover one eye and assess how the responses in its visual cortex change in response to this.
+The visual cortex is a region of the brain which processes what is seen by the eyes - so if you cover one eye you change the kind of input this region is recieving.
+The covered eye is signaling nothing - so in time the visual cortex should learn to take its cues only from the uncovered eye.
+In young animals this happens quite readily, but in adults it takes much longer.
+</p>
+
+<p>
+This method has been used to look at how serotonin affects plasticity.
+It turns out that when you deprive young animals of serotonin, their visual cortex does not learn to only respond to the open eye (Gu and Singer 1995, Bradley et al. 1987).
+Conversely, when you increase the amount of serotonin in the cortex by adiministering an SSRI, adult visual cortex learns more similarly to a young one (Vetencourt et al. 2011).
+</p>
+
+<p>
+Another way that plasticity is studied involves attaching glass pipettes to neurons in a slice of brain tissue for manipulating and recording their electrical potential.
+A basic approach is to attach a pipette to one neuron, attach a pipette to another, then stimulate the first cell to see if it causes a change in the potential of the second.
+If so, the first cell is connected to the second and that connection can be studied.
+You can record the strength of the effect the first cell has on the second, then stimulate both cells to make them fire in particular patterns, and then record the strength of the connection again.
+<a href="https://www.cmor-faculty.rice.edu/~caam415/lec_gab/g4/markram_etal98.pdf">In the 90s, Henry Markram used this method extensively</a> to study hebbian plasticity in cells.
+Making the first cell spike and the second soon after generally strengthens the connection.
+Making the second cell spike and the first soon after generally weakens the conection.
+This is called Spike-timing dependent plasticity and is a fairly straightforward way for hebbian learning to be implemented.
+One experiment suggests that serotonin may turn this on its head.
+</p>
+
+<p>
+<a href="https://www.cell.com/neuron/fulltext/S0896-6273(15)00826-0">A paper from 2015</a> (which I found via <a href="https://pubmed.ncbi.nlm.nih.gov/30108488/">this excellent review </a>) found  that if you make the postsynaptic cell spike right after the presynaptic but spray a little serotonin on it the connection actually gets weaker instead of stronger.
+It's just one paper studying one interaction in one brain region in one species of animal so almost any broader statement on the basis of it is highly speculative.
+It is consistent however with a possibility I have been thinking about for a while.
+</p>
+
+<p>
+When an animal is put in a helpless position and their DRN starts releasing serotonin into their cortex it would make the cells that are firing in concert weaken their connections, and thereby suppress whatever thoughts or behaviors the animal is having going forward.
+Un-learning the ability to think of a way out of the situation may be a direct effect of serotonin stimulation.
+</p>
+
+<p>
+Remember that serotonin receptors come in different types.
+When He et al. suppressed the 5HT2c receptor they found that putting serotonin on the cell no longer weakens the connection of the spiking cells.
+</p>
+
+<p>
+It is interesting that this receptor is involved, since it has specifically been researched for its role in <a href="20230414091307-learned_helplessness.html#ID-277b1451-9929-43bf-a225-9a2570b7aadf">learned helplessness</a>.
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3415988/">One study</a> finds that increasing the activity of 5HT2C receptors increases the expression of learned helplessness after social defeat (in hamsters).
+There is also a [[<a href="https://www.proquest.com/openview/b21a676c9a5282a0e4ab1c8a48d80087/1?pq-origsite=gscholar&amp;cbl=18750">https://www.proquest.com/openview/b21a676c9a5282a0e4ab1c8a48d80087/1?pq-origsite=gscholar&amp;cbl=18750</a>][master's dissertation]] dedicated to their involvement in learned helplessness (though it is behind a paywall even for university-afilliated researchers).
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org67b8832" class="outline-2">
+<h2 id="org67b8832">un-learning</h2>
+<div class="outline-text-2" id="text-org67b8832">
+<p>
+Since plasticity is learning, another important way of studying it is of course by observing the capacity of a test subject to learn a task.
+One kind of experiment on learning ability is called <a href="20240203100607-reversal_learning.html#ID-a13dcc9a-91d5-46a1-aa2b-4c960626f1f7">reversal learning.</a>
+In a reversal learning experiment subjects are first taught to do things one way, and once they get the hang of it they have to learn to do the exact opposite.
+It is seen as a way to measure cognitive flexibility.
+One way to try and relate these learning tasks to the underlying biology is to genetically or pharmacologically alter animals and see how it affects their performance.
+</p>
+
+<p>
+Recall from  <a href="20230301082956-the_serotonin_deficiency_theory.html#ID-9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa">the-serotonin-deficiency-theory</a> that the serotonin transporter SERT is responsible for moving serotinin back into the cell that emitted it.
+Reducing the activity of SERT will make it so that serotonin released from your neurons lingers for longer and will be more likely to affect nearby neurons.
+<a href="https://academic.oup.com/cercor/article/20/8/1955/40590977">Brigman et al. 2010</a> Found that when you either genetically or chemically reduced the activity of SERT in mice, they more quickly learn to reverse their task.
+This does seem to match what I suggested before; that serotonin plays a role in un-learning.
+</p>
+
+<p>
+As I look into it, I find a <a href="20240203094554-serotonin_specifically_influences_unlearning.html#ID-aab01968-25fd-4714-8016-682095ad0f43">growing list</a> of studies indicating that changes related to serotonin specifically affect learning from failure.
+Not all of them are consistent with the idea that the release of serotonin leads to un-learning.
+</p>
+
+<p>
+<a href="https://www.cell.com/neuron/pdf/S0896-6273(13)00789-7.pdf">https://www.cell.com/neuron/pdf/S0896-6273(13)00789-7.pdf</a> <a href="20240106112102-denouden_dissociable_2013.html#ID-b04fba1a-e7ee-4320-ab00-2099bf50ee97">denOuden-dissociable-2013</a>
+<a href="https://www.jneurosci.org/content/25/2/532.short">https://www.jneurosci.org/content/25/2/532.short</a> <a href="20240106115136-clarke_prefrontal_2005.html#ID-656608d6-3e8a-4b8a-bf50-972fb7a221f7">clarke-prefrontal-2005</a>
+<a href="https://www.nature.com/articles/npp2009233">https://www.nature.com/articles/npp2009233</a>
+<a href="https://www.nature.com/articles/s41380-021-01240-9">https://www.nature.com/articles/s41380-021-01240-9</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S030645221600244X?casa_token=HQQ7sNlVtREAAAAA:RhX4ALapUtgx54gmpsTxHwoLoZgwGb02neRpAlOnXW4E0kG_-R5tk_zyeYYtiAfjjo2Wd3uNNg">https://www.sciencedirect.com/science/article/pii/S030645221600244X?casa_token=HQQ7sNlVtREAAAAA:RhX4ALapUtgx54gmpsTxHwoLoZgwGb02neRpAlOnXW4E0kG_-R5tk_zyeYYtiAfjjo2Wd3uNNg</a>
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org9bcb5ba" class="outline-2">
+<h2 id="org9bcb5ba">mice, serotonin, learning</h2>
+<div class="outline-text-2" id="text-org9bcb5ba">
+<p>
+_martinowich<sub>interaction</sub><sub>2008</sub>
+schmidt<sub>identification</sub><sub>2012</sub>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8b46ccb" class="outline-2">
+<h2 id="org8b46ccb">What does serotonin signal in learning?</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

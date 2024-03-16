@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>likelihood-regression</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">likelihood-regression</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orga7c6e6b">likelihood: probability, but backwards</a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgf9769b3">scenario 1: if Jared doesn't go to the party, his car never ends up outside of Sarah's house.</a></li>
+<li><a href="#orgac8e278">scenario 2: if Jared doesn't go to the party, there is a 10% chance his parent's car will end up there anyway.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgda0f57f">Least-squares linear regression</a></li>
+<li><a href="#orge99b2b6">Bayes rule</a></li>
+<li><a href="#orgb361693">References</a></li>
+</ul>
+</div>
+</div>
+<p>
+Hey friends, I'm hoping this blog entry can give an intuitive understanding of some math concepts for people who aren't math-minded.
+Some of my later posts are going to rely on this information.
+A little primer on why this math matters:
+</p>
+
+<p>
+Firstly, these are really common statistical methods, and understanding the difference between probability and likelihood is really important for understanding scientific findings in many contexts.
+Secondly, two big hot topics in neuroscience at the moment are <a href="20220703115738-predictive_coding.html#ID-db36b9dc-5c6e-430d-88b7-31dbb02634e8">predictive coding</a> and the related concept of the <a href="20220703115715-bayesian_brain_hypothesis.html#ID-e00f0048-cba8-48b8-9289-3269c903639b">bayesian-brain-hypothesis</a>.
+Understanding what predictive coding is, why it is so exciting, how it relates to the bayesian brain hypothesis all depend on the math concepts I explain here.
+Predictive coding in the broadest sense is a strategy for the brain to understand the world around it by creating a version of that world inside it, and using this internal world to predict the external one.
+It's based on image compression algorithms we use in computers all the time, but applied to a way bigger scale.
+I think these ideas can be made clear to a lay audience, and have a potential to get people engaging in neuroscience, which is an otherwise pretty inaccessible field.
+I should state here though, that predictive coding as a concept is still very much up in the air.
+It has the potential to explain a lot of things, but we really don't know <i>if</i> let alone <i>how</i> it happens in the brain.
+</p>
+
+<p>
+I hope I've made it not only clear, but engaging enough.
+</p>
+
+<p>
+TODO: add some damn humor.
+</p>
+
+<div id="outline-container-orga7c6e6b" class="outline-2">
+<h2 id="orga7c6e6b">likelihood: probability, but backwards</h2>
+<div class="outline-text-2" id="text-orga7c6e6b">
+<p>
+TODO: this needs more upfront explanation for the example to make sense
+</p>
+
+<p>
+Feel free to skip this section if you are already familiar with the distinction.
+</p>
+
+<p>
+In statistics, we draw a distinction between likelihood and probability.
+The difference is tricky to explain, but simple once it clicks, so let's start with an example.
+</p>
+
+<p>
+If Jared goes to Sarah's house party, he has access to his parent's car 70% of the time and parks it outside Sarah's house.
+So, if we know Jared is going to the party, then the probability of the car being outside Sarah's house is 70%.
+On the other hand, if we don't know whether Jared is going to the party, but we see the car, the likelihood that he is at the party is 70%.
+</p>
+
+<p>
+To see how this is different from the probability that Jared is at the party, consider this.
+</p>
+</div>
+
+<div id="outline-container-orgf9769b3" class="outline-4">
+<h4 id="orgf9769b3">scenario 1: if Jared doesn't go to the party, his car never ends up outside of Sarah's house.</h4>
+<div class="outline-text-4" id="text-orgf9769b3">
+<p>
+So if the car is only ever outside Sarah's house if he went to the party and took his car. 
+Therefore, if we see his car outside Sarah's house, the probability of Jared being at the party is 100%, which is different from the likelihood of 70%.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgac8e278" class="outline-4">
+<h4 id="orgac8e278">scenario 2: if Jared doesn't go to the party, there is a 10% chance his parent's car will end up there anyway.</h4>
+<div class="outline-text-4" id="text-orgac8e278">
+<p>
+Here when we see the car, the likelihood that Jared is at the party is 70%, the likelihood that he is not at the party is 10%.
+Those don't sum to 100%, so they're clearly not probabilities.
+So what is the probability that Jared is at the party? 
+We actually can't calculate it based on the information we have, but most people's intuition would say that since it is more likely that he is at the party, it is also more probable.
+As we will see in the <a href="#orge99b2b6">bayes</a> section, this intuition is often correct but sometimes wrong. 
+If it's a burning question for you, skip ahead and skip back. Otherwise read on, and it will get relevant later.
+</p>
+
+<p>
+So in short, if the <b>probability</b> of thing <i>A</i> given thing <b>B</b> is p, the <b>likelihood</b> of thing <b>B</b> <i>given</i> thing <i>A</i> is also p.
+But this does <i>not</i> mean that the probability of thing <i>A</i> given thing <b>B</b> is p - to know that, you need more info.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgda0f57f" class="outline-2">
+<h2 id="orgda0f57f">Least-squares linear regression</h2>
+<div class="outline-text-2" id="text-orgda0f57f">
+<p>
+Y'all remember lines of best fit? You've definitely seen them on plots before, showing that something correlates with something else.
+(TODO: find example of silly correlation).
+</p>
+
+<p>
+When you get a computer to make this line for you it usually (but not always) does this by minimizing the squared error of the line.
+By squared error, I mean the squared y distance from the line to each datapoint.
+(TODO: diagram)
+The line we get is a <i>model</i> of y based on x. 
+So for a given value of x, the line predicts a specific value of y.
+</p>
+
+<p>
+So this line is almost always going to be wrong, because nothing is ever simple and easy.
+So making a line of <i>best</i> fit is about finding the line that is the <i>least</i> wrong.
+If we do this by finding the one with the least squared error, it actually turns out we are also finding the most <i>likely</i> one, so long as a few things are true.
+</p>
+
+<p>
+Take the line in the graph above to show the average height for a given age, and assume that for each age, the probability of a given height looks like this:
+TODO: normal distribution
+Which is called a normal distribution. 
+Then, we can get the likelihood of the line for the height data we have.
+For each person, we look at how far they are from the average and use the normal distribution to calculate how likely that average is <i>given</i> this person's height and age.
+TODO: diagram
+Then, we can multiply all the individual likelihoods together to get the overall likelihood.
+</p>
+
+<p>
+So if we are looking for the most likely line, that's the number we want to maximize.
+Ok, I'm going to show you the definition of the normal distribution.
+If you're not used to math, it would be appropriate to play some dramatic music now. I reccommend Carl Orff's O Fortuna.
+</p>
+
+<p>
+\(\frac{e^{-(\frac{d}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma}\)
+</p>
+
+<p>
+It's a little hard to work with if we want to multiply a whole bunch of these together and then find the maximum.
+Luckily, this gets a lot easier to work with if we look for the maximum of the <a href="20220703123209-logarithm.html#ID-a40e5cc0-98e3-4335-b9b2-2b2b0458240b"><i>logarithm</i></a> of the normal distribution (click on the link for a refresher on logarithms).
+</p>
+
+<p>
+\(-(\frac{d}{2 \sigma})^2} - log{\sqrt{2 \pi}\sigma}\)
+</p>
+
+<p>
+The second part of that doesn't depend on \(d\) (the difference between the person's height and the average our line predicts), so it will be the same for every line, and we can ignore it when trying to find the best line.
+</p>
+
+
+
+<p>
+The gaussian distribution, AKA the normal distribution AKA the bell curve, looks like this:
+TODO (figure)
+</p>
+
+<p>
+So a given normal distribution has a mean (the average value) and a standard deviation (the average amount by which a random value differs from the mean).
+So the position of the peak on the x axis depends on the mean, and how flat the distribution is depends on the standard deviation.
+</p>
+
+<p>
+A lot of things in nature follow a gaussian distribution, and it also happens to have some handy mathematical properties.
+We don't need to worry too much about what 'probability density' means, we can treat it about the same a probability for today's topic.
+Suffice to say for now, probability density is to probability what the crowdedness of a room is to the numer of people in a given part of that room.
+</p>
+
+<p>
+Assuming height is a normal distribution with a mean of 1m70 and a standard deviation of 20, 50% of all people are between 1m50 and 1m90, and 50% of people are either shorter or taller.
+</p>
+
+<p>
+Now, let's take some heights and stick a line of best fit through them (not actual data):
+</p>
+
+<p>
+TODO: diagram age an height
+</p>
+
+<p>
+Clearly the average height depends on age. If we assume that for any age, height is a normal distribution with an average at whatever the line predicts, we can calculate the probablity density of all the datapoints given our line and standard deviation.
+As we learned, this is equal to the likelihood (density) of a given line and standard deviation.
+</p>
+
+<p>
+TODO: plot with standard deviation
+</p>
+
+<p>
+So for each datapoint, the probability that it is within standard deviation away from the given line is 0.5, the chance that it is between 1 and 2 standard deviations away is 0.25, between 2 and 3 standard deviations away is 0.125 and so on.
+Overall, \(p = \frac{1}{2^{n^2}}\) is the probability of a point being within a given standard deviation window (between \(n-1\) and \(n\) standard deviations).
+To really calculate the most likely line accurately though, we need to look at the the probability for any value, rather than just windows. 
+Ok don't freak out, I'm going to show you the definition of the gaussian distribution.
+</p>
+
+<p>
+\(\frac{e^{-(\frac{d}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma}\)
+</p>
+
+<p>
+This is basically the same form as the equation I gave before, only 2 is replaced with $e=2.718281828459&#x2026;$, n with \(\frac{d}{\sqrt{2 \pi} \sigma}\) and the whole thing is scaled by \(\frac{1}{2 \sigma}\).
+\(d=y - \mu\) is the distance of our datapoint \(y\) from the mean \(mu\).
+\(\mu = a x\) is formed by our line, with a slope of \(a\).
+</p>
+
+<p>
+TODO: diagram, line, x, y, mu
+</p>
+
+<p>
+So putting it all together we get:
+\(\frac{e^{-(\frac{y - (ax)}{2 \sigma})^2}}{\sqrt{2 \pi}\sigma}\).
+As you may guess, finding the value of a for which this is highest is just not practical.
+Fortunately, this can be made a lot simpler with logarithms.
+</p>
+
+<p>
+In case you need to refresh your memory on logarithms. A logartithm is the opposite of a power. So \(log_3 (3^2) = 2\), and likewise \(log_e (e^x) = x\).
+The handy thing about logarithms here is that the maximum of \(log_{whatever} A\) is the same as the maximum of \(A\), for any \(A\) and whatever logarithm base \(whatever\).
+So this applies to our likelihood too. So we are going to calculate the maximum of the logarithm of the likelihood, and for convenience's sake we will use the logarithm of \(e\).
+</p>
+
+<p>
+$log<sub>e</sub> \frac{e<sup>-(\frac{y - (ax)}{2 \sigma})<sup>2</sup></sup>}{\sqrt{2 \pi}&sigma;} = $.
+</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div id="outline-container-orge99b2b6" class="outline-2">
+<h2 id="orge99b2b6">Bayes rule</h2>
+</div>
+
+
+
+
+<div id="outline-container-orgb361693" class="outline-2">
+<h2 id="orgb361693">References</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lovecraft and the Eldritch: when reason defies sense</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Lovecraft and the Eldritch: when reason defies sense</h1>
+<p>
+This is a work of fiction.
+It is a headcanon of a real life figure cobbled together from a casual familiarity with his work, and ideas expressed by a handful of video essayists (linked at the bottom).
+I am not a scholar on lovecraft and I've done only minimal research for this. It is most likely, completely untrue.
+Nonetheless it's a fiction that occupies space in my mind and is a vessel for concepts I think are important.
+And above all, I hope it is interesting.
+</p>
+
+<p>
+One of the most influential writers of horror, Howard Phillips Lovecraft was born to a wealthy, conservative family in new england. He grew up in a world where scientific racism buttressed culturally dominant ideas about race. It was common sense, to many, that there are different races of people and that some are superior to others.
+</p>
+
+<p>
+"Common sense is actually nothing more than a deposit of prejudices laid down in the mind prior to the age of eighteen"
+</p>
+
+<ul class="org-ul">
+<li>Albert Einstein (The Universe and Dr Einstein Part 2, attibuted by Lincoln Barnett, via quoteinvestigator)</li>
+</ul>
+
+<p>
+The centerpiece of lovecraft's horror is cosmic horror: the fear that comes from acknowledging the vastness of the universe in comparison to human experience.
+Many of his stories center around the existence of entities so old and powerful that they are to us, as we are to insects.
+He frequently describes such creatures as indescribable, and the spaces they inhabit as impossible.
+Much of the work derived from lovecraft's terms these entities and the knowledge of them as 'eldritch'.
+</p>
+
+<p>
+Often, the revelation of these cosmic entities is preceded by a different kind of horror.
+Lovecrafts protagonists express unease at fairly mundane things that nonetheless cause them fear.
+It may be the expressions on peoples faces or their appearances, such as the fact that they are black (lmao).
+These stories are filled with an ever-present fear of even mundane otherness.
+</p>
+
+<p>
+“The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown”
+</p>
+
+<p>
+― H.P. Lovecraft, Supernatural Horror in Literature, 1927
+</p>
+
+<p>
+Although he never finished school, Lovecraft was reportedly bright and maintained an interest in the sciences throughout his life, especially physics.
+It was an exciting time for physics, as Einsteins theory of general relativity and early quantum mechanics were advancing. They showed us that what we thought were inviolable laws of the universe are, in fact, sometimes false.
+This showed in Lovecraft's writing as he used concepts from the new physics to paint imagery of impossible landscapes and creatures.
+For example, in Call of Cthulu the Great Old one Cthulu dwells beneath the sea in a dead city of non-euclidean geometry.
+</p>
+
+<p>
+" Modern philosophers of all tendencies — Descartes and Hobbes, Spinoza and Locke, Hume and Kant — had regarded Euclidean geometry as a paradigm of epistemic certainty.
+ The sudden shrinking of Euclidean geometry to a subspecies of the vast family of mathematical theories of space shattered some illusions and prompted important changes in the philosophical conception of human knowledge."
+</p>
+
+<ul class="org-ul">
+<li>Nineteenth Century Geometry, <a href="https://plato.stanford.edu/entries/geometry-19th/">https://plato.stanford.edu/entries/geometry-19th/</a>, accessed December 22 2023</li>
+</ul>
+
+<p>
+Euclidean geometry is also known by most people as just "Geometry".
+How shapes work: the angles of a triangle add up to 180 degrees, parallel lines never converge or diverge, and the shortest distance between two points is a straight line, all that elementary stuff.
+Mathematicians can imagine other geometries that take place in a curved space where these rules are violated.
+Einstein suggested that our universe is such a curved space.
+Imagine a sheet of rubber, fold it together and inflate it like a balloon.
+Draw three points on its curved surface and connect them with shortest three lines you can manage.
+Because it is curved, those lines will be curved. Add up the angles of your <b>thicc</b> triangle and you'll find they add up to more than 180.
+The two dimensions of the sheet are wrapped around in a third dimension, affecting its geometry.
+If you take three stars in our universe and connect them the same way, as physicists have done, you will find that the angles add up to slightly more than 180.
+Euclidean geometry, taken by rationalist philosophers as an inviolable logical truth, does not describe our universe.
+It illustrates the difference between what seems obvious and what is actually rational.
+Sometimes something seems obvious simply because the alternative is unfamiliar.
+In this case it is not Reason, but common sense.
+Common sense tells us the universe is flat, because as far as we can tell in our day to day lives it may as well be, but reason and careful observation tells us otherwise.
+Common sense tells us the earth is flat, because it seems that way in our everyday lives, reason and observation tell us it is a oblate spheroid.
+Common sense told people like Lovecraft that some races are superior, even as Reason and Observation were beginning to demonstrate otherwise.
+</p>
+
+
+<p>
+“Geneticists believe that anthropologists have decided what race is.
+Ethnologists assume that their classifications embody principles which genetic science has proved correct.
+Politicians believe that their prejudices have the sanction of genetic laws and the findings of physical anthropology to sustain them.”
+</p>
+<ul class="org-ul">
+<li>Lancelot Hogben (Genetic Principles in Medicine and Social Science (London: Williams and Norgate, 1931), quoted <a href="https://www.betterworldbooks.com/product/detail/the-rise-and-fall-of-the-caucasian-race-a-political-history-of-racial-identity-0814798926">here</a>.</li>
+</ul>
+
+<p>
+Many of lovecrafts stories feature characters that embrace the eldritch and become insane.
+Those which appear to be most suceptible, and most receptive, tend to be intellectuals and artists.
+One important element of the horror of these characters is that they are <i>right</i>. 
+When truth defies sanity, insanity is insight. 
+</p>
+
+<p>
+Lovecraft was exposed to intellectuals arguing for things that seemed strange to him, from non-euclidean geometry to rights for people of color and miscegnation.
+How much of the horror in his stories, and perhaps tne anxiety in his own personality, stemmed from the recognition that these people may be right?
+It should be noted that cosmicism - the idea that humans are an insignificant part of a strange and inhospitable universe - formed a part of his personal philosophy as well as his horror.
+</p>
+
+<p>
+"To shake off the maddening and wearying limitations of time and space and natural law—to be linked with the vast outside—to come close to the nighted and abysmal secrets of the infinite and the ultimate—surely such a thing was worth the risk of one's life, soul, and sanity!"
+</p>
+
+<ul class="org-ul">
+<li>H.P. Lovecraft, The Whisperer in the Darkness</li>
+</ul>
+
+<p>
+"Now I ride with the mocking and friendly ghouls on the night-wind, and play by day amongst the catacombs of Nephren-Ka in the sealed and unknown valley of Hadoth by the Nile. 
+I know that light is not for me, save that of the moon over the rock tombs of Neb, nor any gaiety save the unnamed feasts of Nitokris beneath the Great Pyramid;
+ yet in my new wildness and freedom I almost welcome the bitterness of alienage."
+</p>
+
+<ul class="org-ul">
+<li>A Lovecraft story I will not name, lest I spoil it</li>
+</ul>
+
+
+<p>
+If we identify the eldritch with truths that defy common sense, and recognize how common sense and prejudice are entangled, the meanings of lovecrafts stories change.
+I'm not talking about what he meant by them - I'm pretty sure he just meant to scare, excite, and intrigue. I'm talking about what the story means to its reader. 
+The eldritch is not wrong, and fear of it is not the right response.
+That which defies common sense taps into that oldest fear, the fear of the unknown.
+The right response to that is curiosity - here a manifestation of courage.
+The protagonists of the story are thematically in the wrong, in their response to the mundane other well as their response to the the eldritch other. 
+</p>
+
+<p>
+One has to wonder at which point the bright mind and intellectual curiosity attributed to lovecraft would overcome his common sense.
+Several people have noted his softening stances on race later in his life.
+We will never know where that could have taken him, for in lovecrafts stories those who glimpse the enlritch seldom live long.
+He died around a year after penning the following words:
+</p>
+
+<p>
+"I can better understand the inert blindness &amp; defiant ignorance of the reactionaries from having been one of them. I know how smugly ignorant I was—wrapped up in the arts, the natural (not social) sciences, the externals of history &amp; antiquarianism, the abstract academic phases of philosophy, &amp; so on—all the one-sided standard lore to which, according to the traditions of the dying order, a liberal education was limited. God! the things that were left out—the inside facts of history, the rational interpretation of periodic social crises, the foundations of economics &amp; sociology, the actual state of the world today &#x2026; &amp; above all, the habit of applying disinterested reason to problems hitherto approached only with traditional genuflections, flag-waving, &amp; callous shoulder-shrugs!"
+</p>
+
+<ul class="org-ul">
+<li>(Selected Letters V, 1934-1937 edited by August Derleth and Donald Wandrei, pp. 407-408 , via wikiquote).</li>
+</ul>
+
+<p>
+Perhaps, before the end, he replaced fear and sense with compassion and reason. 
+</p>
+
+<p>
+Audiovisual media based on lovecraft often tries to capture its fear, but personally I was rarely afraid reading his work. I felt wonder more often than fear, which I think is why I tend to like cosmic horror when it crops up anywhere (while i generally dislike other forms of horror). The impossibility and indescribability of his monsters is impossible to capture in a visual format alone. In fact, it is poorly captured even in his own writing (describing something as indescribable followed by several words that seem to have been pulled from the thesaurus entry for "scary" expects the readers imagination to do a lot of the heavy lifting!). Stories, especially video games, tend to recreate the fear by making the eldritch actively hostile. For me, this undermines my interperetation and my preferred cosmic horror experience. 
+</p>
+
+<p>
+I'd like to see more work lean into strangeness and indifference.
+I think games might be the best medium for this.
+Many successfully create an eldritch effect, and there are still many tricks that remain (to my knowledge) unexplored.
+Mechanics inspired by quantum physics (See <a href="https://store.steampowered.com/app/753640/Outer_Wilds/">Outer Wilds</a>) or relativity (<a href="http://gamelab.mit.edu/games/a-slower-speed-of-light/">A slower speed of light</a> and <a href="https://store.steampowered.com/app/219890/Antichamber/">Antichamber</a>).
+In VR immense scale can be used for that effect (<a href="https://store.steampowered.com/app/2091960/The_Utility_Room/">The Utility Room</a>), or the 3d effect can be messed around with.
+The eldritch may break established patterns in the game's design.
+Outside of things specific to games there are interactive tricks often used to convey strangeness, such as dissonance of tone (<a href="https://undertale.com/">Undertale</a> does this), breaking the fourth wall (<a href="https://store.steampowered.com/app/1697700/Whos_Lila/">Who's Lila'</a>).
+Tricks of perspective may work well too.
+I like to see this strangeness without it being framed as malicious.
+Dangerous, yes : thats often part of the thrill.
+The universe is dangerous but it is not actively hostile. It is strange, dangerous and beautiful. Embrace it.
+</p>
+
+
+
+<p>
+Though not directly cited in this essay, I'd like to credit a number of video essays that informed these ideas.
+</p>
+
+
+<p>
+Hbomberguy, Outsiders: how to adapt H.P. Lovecraft in the 21st Centory
+<a href="https://www.youtube.com/watch?v=l8u8wZ0WvxI">https://www.youtube.com/watch?v=l8u8wZ0WvxI</a>
+</p>
+
+
+<p>
+Zoe Bee's videos on lovecraft:
+</p>
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=TCB3R1txbJk">https://www.youtube.com/watch?v=TCB3R1txbJk</a></li>
+<li><a href="https://www.youtube.com/watch?v=ni-cUZQiH88">https://www.youtube.com/watch?v=ni-cUZQiH88</a></li>
+<li><a href="https://www.youtube.com/watch?v=GhXx67IkOew">https://www.youtube.com/watch?v=GhXx67IkOew</a></li>
+</ul>
+
+
+<p>
+I learned about how race science was challenged in the 1920s and 30s in this video essay, it is thanks to the youtuber that I found the quote from Lancelot Hogben.
+<a href="https://www.youtube.com/watch?v=lmdJ_MBR6qQ">https://www.youtube.com/watch?v=lmdJ_MBR6qQ</a>
+</p>
+
+<p>
+This essay is the inspiration for the idea of breaking a game's tone as a way to establish something eldritch:
+<a href="https://www.youtube.com/watch?v=xCIvrzCV6xI">https://www.youtube.com/watch?v=xCIvrzCV6xI</a>
+</p>
+
+<p>
+I'd also like to credit this redditor, whose post helped me begin putting these thoughts into words
+<a href="https://www.reddit.com/r/Lovecraft/comments/dd5vb3/the_other_gods_as_a_symbolic_reaction_to_general/">https://www.reddit.com/r/Lovecraft/comments/dd5vb3/the_other_gods_as_a_symbolic_reaction_to_general/</a>
+</p>
+
+
+<p>
+Several of the games I reference in the last paragraph I know about thanks to the following video by Jacob Geller:
+   Three Specific Kinds of Terror <a href="https://www.youtube.com/watch?v=ZDrHpmkL4rY">https://www.youtube.com/watch?v=ZDrHpmkL4rY</a>
+</p>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

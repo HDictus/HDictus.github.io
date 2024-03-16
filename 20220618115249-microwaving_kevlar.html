@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>microwaving-kevlar</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">microwaving-kevlar</h1>
+<p>
+What happens when you microwave Kevlar?
+</p>
+
+
+<p>
+TODO: I've been talking out my ass LOL, see <a href="https://en.wikipedia.org/wiki/Dielectric_heating">https://en.wikipedia.org/wiki/Dielectric_heating</a>
+TODO: wtf, where is the dependence on the resonant frequency?
+</p>
+
+<p>
+TODO: think about - who is this for? would people be reading this if they didn't already have a basic interest in science?
+&#x2014;   Maybe the best way to structure this would be to have collapsable submenus for different terms/ideas which people may/may not be familiar with.
+-&#x2014;  that way you can teach an unknowledgeable audience without boring the knowledgeable one
+-&#x2014;  with links to the collapsed sections for each piece of jargon!!
+</p>
+
+<p>
+I remember I had always learned that microwaves act on water molecules, so my first thought at this question is "Nothing, unless it is at least a little damp".
+It didn't take a lot of thinking to realize that this is simplistic - microwaves act on water molecules by driving oscillations in them.
+They are particularly effective for making water molecules oscillate (at least at the wavelengths we use in commercial microwaves) because the frequency of the microwaves is very close to the resonant frequency of a water molecule.
+However, water molecules are certainly not unique in being driven by electromagnetic waves.
+Does kevlar contain molecules which could be driven to oscillate by microwaves?
+</p>
+
+<p>
+Alright, so lets back up and make sure we've all got the basics down.
+Microwaves are electromagnetic radiation, just like visible light.
+Electromagnetic radiation, just like a wave in the ocean or a vibrating string, is an oscillation.
+Specifically, it is an oscillating electric field and a corresponding oscillating magnetic field.
+(TODO: diagrams would be great here)
+(If you're thinking "wait, where do photons come in then?", you'll want to look up wave-particle duality. It's trippy stuff.)
+</p>
+
+<p>
+Electric fields exert force on charged particles, so when an electric field passes over a charged particle it moves it.
+If that electric field oscillates, the force it exerts on a particle changes with the oscillation.
+Electromagnetic waves can then affect molecules where some parts of the molecule are charged.
+We call these molecules <b>polar molecules</b>.
+Water molecules are polar because the oxygen atom attracts the electrons more strongly, leading to the oxygen end of the atom being more negative than the hydrogen ends.
+(TODO: a diagram would go nicely here, see <a href="https://study.com/learn/lesson/polar-molecule.html">https://study.com/learn/lesson/polar-molecule.html</a>).
+So the more positive and more negative regions of the molecule are going to be affected in opposing ways by the electromagnetic field, leading to vibrations throughout the molecule.
+With me so far? Ok.
+</p>
+
+<p>
+Everything that oscillates does so at a particular frequency, meaning how many times it oscillates in a given time window.
+If we are talking about an oscillation that travels in space, it makes sense to talk about a wavelength - the disance between any two identical points in the oscillation.
+(TODO: diagrams would be really helpful here)
+Now, take the example of a vibrating string, when you pluck it it makes a particular note.
+That note represents a particular frequency, which is called the resonant frequency of the string.
+If plucked, and allowed to vibrate on its own, the string vibrates at its resonant frequency, but what if some oscillation, say a different note, pushes it consistently and makes it vibrate then?
+(Ever seen a rockstar shout something into their guitar at a concert? This is what's going on there, the sound waves from their voice are making the strings vibrate).
+(TODO: include a picture. was it slash that did that? someone else?
+</p>
+
+<p>
+If the driving force oscillates at the string's resonant frequency, its energy is transferred efficently to the string.
+At other frequencies, the string partially 'resists' the oscillation, as it naturally tends towards its resonant frequency, so the energy transfer is not so efficient.
+There is a formula for this (shown here is the one for <b>undamped</b> oscillations, which is simpler. you can find the full verision [here](<a href="https://physicscourses.colorado.edu/phys2210/phys2210_fa20/lecture/lec38-driving-resonance/">https://physicscourses.colorado.edu/phys2210/phys2210_fa20/lecture/lec38-driving-resonance/</a>), among other places).
+</p>
+
+<p>
+\[ x(t) = \frac{F_0}{m(\omega_0_2 - \omega^2)} cos (\omega t) \]
+</p>
+
+<p>
+Where x(t) is the position of the oscillator, \(F_0\) is the maximum magnitude of the driving force, \(\omega\) is the frequency of the driving force, \(\omega_0\) is the natural frequency, and \(m\) is the mass of the oscillator.
+The force applied at any point T is $ F0 cos(&omega; t) $, which we can see in the formula above.
+We can see that the closer \(\omega\) gets to \(\omega_0\), the smaller the bottom of the fraction is, and so the larger \(x(t)\) becomes. (strictly speaking, its magnitude gets larger, because x(t) can be negative).
+In fact, if \(\omega = \omega_0\), the whole thing breaks (dividing by 0), but in real life oscillators are never entirely undamped (e.g. air resistance on the string).
+</p>
+
+
+<p>
+The reason microwaves work so well on water, is that for the microwaves we use, their frequency is very close to the resonant frequency of water molecules.
+So the amplitude of the oscillations is large, leading to a lot of kinetic energy in the molecules, which means a high temperature.
+</p>
+
+<p>
+Now, back to kevlar.
+Are the molecules in kevlar heated by microwaves.
+Theoretically, yes: because kevlar molecules contain polar components.
+But what is the resonant frequency of these polar bonds?
+Looking into this, there are some approximations we could do to calculate it, but once you consider many factors it becomes way more complex than I can do for fun in my free time.
+Fortunately, someone already did this for us, and then someone [else](<a href="https://ntrs.nasa.gov/api/citations/20070022474/downloads/20070022474.pdf">https://ntrs.nasa.gov/api/citations/20070022474/downloads/20070022474.pdf</a>) did experiments to boot!
+</p>
+
+<p>
+Due to the complexity of the molecule, it actually has a lot of different vibrational modes.
+From table 1 in the above paper, these are (in $cm<sup>-1</sup>, a proxy of sorts for frequency):
+630, 732, 786, 845, 863, 1103, 1181, 1277, 1327, 1514, 1318, &#x2026;etc etc.
+</p>
+
+
+<p>
+&lt;!&#x2013; According to Wikipedia (shut up, wikipedia is a great source for math and basic physics), molecular bonds can be treated as <b>simple harmonic oscillators</b> (read: weights-on-a-spring). &#x2013;&gt;
+&lt;!&#x2013; (TODO: diagram) &#x2013;&gt;
+&lt;!&#x2013; The resonant frequency in this case is: &#x2013;&gt;
+</p>
+
+<p>
+&lt;!&#x2013; \[ \omega_0 = \frac{1}{2 \pi} \sqrt{\frac{k}{u}} \] &#x2013;&gt;
+</p>
+
+<p>
+&lt;!&#x2013; Where k is the <b>spring constant</b> of the bond, and u is the <b>reduced mass</b> of the atoms in the bond. &#x2013;&gt;
+&lt;!&#x2013; For kevlar, the bonds in question are Hydrogen-Nitrogen and a double Carbon-Oxygen bond (these are also the key to kevlar's strength, as these polar bonds form hydrogen bonds with one another). &#x2013;&gt;
+&lt;!&#x2013; (TODO: include picture from wikipedia) &#x2013;&gt;
+</p>
+
+<p>
+wavenumber = cycles / unit distance
+unit distance = cm-1
+wavenumber = cycles / cm-1
+wavelength = cm-1 / cycle
+</p>
+
+<p>
+microwave wavelength = 
+</p>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

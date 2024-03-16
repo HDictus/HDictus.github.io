@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>learned-helplessness-insights-from-neuroscience</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">learned-helplessness-insights-from-neuroscience</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orged3de5e">Learned Helplessness at fifty: Insights from Neuroscience</a>
+<ul>
+<li><a href="#org78d9f77">Summary</a></li>
+<li><a href="#orgc43c1b0">Key takeaways</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orged3de5e" class="outline-2">
+<h2 id="orged3de5e">Learned Helplessness at fifty: Insights from Neuroscience</h2>
+<div class="outline-text-2" id="text-orged3de5e">
+</div>
+<div id="outline-container-org78d9f77" class="outline-3">
+<h3 id="org78d9f77">Summary</h3>
+<div class="outline-text-3" id="text-org78d9f77">
+<p>
+&lt;!&#x2013; TODO: for accessible writing, it's probably better to take concrete examples rather than to continue working with abstractions. I could say something unpleasant (e.g. electric shock) and then refer to electric shock exclusively going forward. &#x2013;&gt;
+&lt;!&#x2013; TODO: this is still a pretty long and detailed summary. a lot of this could go in key takeaways. should I simplify it more? &#x2013;&gt;
+</p>
+
+<p>
+The article details the major experiments on <a href="20230414091307-learned_helplessness.html#ID-277b1451-9929-43bf-a225-9a2570b7aadf">learned helplessness</a> in psychology and especially neuroscience in the last fifty years.
+</p>
+
+<p>
+Learned helplessness is a phenomenon where an animal will learn it is helpless to escape an unpleasant situation, and so will fail to even attempt to escape similar situations, even when escape is possible.
+</p>
+
+<p>
+The key experiments used three experimental groups:
+ESC: exposed to something unpleasant but able to escape it by some means (e.g. a button press)
+INESC: exposed to the same amounts of unpleasantness, but unable to escape
+0: exposed only to the general experimental environment, but no unpleasantness.
+</p>
+
+<p>
+After these 'training' environments, the three groups are put into a new situation where there is a method to escape present (different than the one from the ESC group). Over 90% of the ESC and 0 groups easily learned to escape (roughly equal for both groups) while over 66% of the INESC group did not earn to escape. Under learned helplessness this is interpereted as the animals having learned that they are helpless to avoid the aversive stimulus, and so making to attempt to fight it.
+</p>
+
+<p>
+These experiments have since been replicated many times in a variety of animals including humans. 
+An early criticism to the learned helplessness interperetation of these results is the suggestion that the INESC group was learning ("superstitiously") that keeping still made the unpleasant stimulus go away.
+Maier's experiments in 1970 addressed this by including a fourth group for which the action to escape the unpleasant stimulus was holding still.
+This fourth group performed similarly to the ESC and 0 groups, supporting the learned helplessness (cognitive) account and discrediting the alternative (contiguity) account.
+</p>
+
+<p>
+The key difference is theorized to be the perception of control, where control is defined as 
+\[P(O | R) < P(O | ~R) \] 
+</p>
+
+<p>
+Where O is the unpleasant stimulus and R is a response. Maier and Seiglman don't explain that this seems to cover multiple responses, but this would be a necessary feature of their model and I believe it is implicit here.
+</p>
+
+<p>
+One challenge to learned helplessness was a different interperetation where the difference between ESC and INESC is not one of learning helplessness, but instead of INESC experiencing increased fear. The action which halted the electric shock became a conditioned inhibitor of fear. This was experimentally supported: A tone right after the cessation of the stimulus prevented LH behaviors in the INESC group.
+</p>
+
+<p>
+Subsequent work in neuroscience showed that the INESC group had reduced norepinephrine in the Locus Coereolus, which resulted in more norepinephrine in the forebrain (as LC is inhibited by NE but sends NE to forebrain).
+</p>
+
+<p>
+Of nine symptoms of depression in the DSM 3 and 4, the INESC groups generally displayed 8. This is the basis for suggesting learned helplessness as a form of depression.
+</p>
+
+
+<p>
+Maier's subsequent work was in the neurosceince of learned helplessness. In brief, his findings are that:
+</p>
+
+<p>
+The electric shock activates 5HT neurons in the Dorsal Raphe Nucleus (DRN) projecting to periaqueductal gray, striatum and amygdala. In the former two 5HT inhibits action (inducing passivity) and in the latter potentiates fear (increasing anxiety).
+Activation of these DRN 5HT neurons sensitizes them making them easier to activate.
+When the shock is controllible, projections from prelimbic prefrontal cortex (PFCpl) to dorsomedial striatum (DMS) and back, followed by activation of a projection from PFCpl to DRN which selectively excites inhibitory cells, silencing 5HT cells.
+Inactivating these circuits leads to passive response to escapable stimuli.
+Activation of these circuits biases stress response towards them, such that even uncontrollable stimuli activate them.
+</p>
+
+<p>
+The key experiments underlying these results were as follows:
+INESC and ESC groups both had increased 5HT in the DRN during the initial shocks, but this reduced dramatically in the ESC group as they figured out how to escape.
+Experiments revealed HTR1A receptors on 5HT cells in DRN - making 5HT activation self-inhibiting.
+HTR1A receptors became desensitized (for about three days) with elevated 5HT, leading to increased excitability of 5HT cells.
+</p>
+
+<p>
+Blockade of DRN made INESC behave like 0 group.
+Antagonizing HTR1A during INESC (preventing desensitization) prevented long-term effects of LH.
+Blockade of 5HT in periaqueductal gray, striatum, and amygdyla removed LH effects.
+Activating DRN causes similar effects to INESC.
+</p>
+
+<p>
+NE cells in LC (1970 results) respond equally to ESC and INESC, but blockade of NE receptors in DRN prevented LH.
+Similar patterns to other DRN inputs - activated on both ESC and INESC shock.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgc43c1b0" class="outline-3">
+<h3 id="orgc43c1b0">Key takeaways</h3>
+<div class="outline-text-3" id="text-orgc43c1b0">
+<ul class="org-ul">
+<li>animals exposed to inescapable shock are less likely to attempt escape when presented with escapable shock</li>
+<li>in this state animals present 8 of the 9 symptoms of major depressive disorder at increased rates</li>
+<li>this is not due to mere association, but involves the active detection of controllability/helplessness</li>
+
+<li>these effects can also be prevented by pairing a tone with shock cessation (confusing?)</li>
+
+<li>DRN fires when helpless and is suppressed by PFC-pl, which signals control</li>
+<li>DRN self-inhibits through 5HT receptors</li>
+<li>DRN becomes hypersensitive when activated</li>
+<li>PFC-pl becomes hypersensitive when activated, inoculating against helplessness in varied situations</li>
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

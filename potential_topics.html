@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org1aa3225">likelihood, bayes, and least-squares regression</a>
+<ul>
+<li><a href="#orgf4dbf00">Likelihood v.s. Probability</a></li>
+<li><a href="#org7d668ca">Linear regression for probability</a></li>
+<li><a href="#orgadb25ec">Maximum likelihood</a></li>
+<li><a href="#org567caea">Bayes' rule: (insert intuitive title here)</a></li>
+<li><a href="#orgdc69b2a">Maximum probability</a></li>
+<li><a href="#orgb53ee41">least-squares regression implements bayesian inference</a></li>
+</ul>
+</li>
+<li><a href="#org52e8e70">explaining predictive coding</a>
+<ul>
+<li><a href="#org4c17417">what is predictive coding?</a></li>
+<li><a href="#orga8d00e5">why is it exciting?: Bayesian Brain</a></li>
+<li><a href="#org4ec2d3b">what's the evidence?</a></li>
+</ul>
+</li>
+<li><a href="#org0231978">strengths and limitations of falsificationism</a>
+<ul>
+<li><a href="#orgefe5d88">naive falsificationism</a></li>
+<li><a href="#org160a08f">what problems does it solve?</a></li>
+<li><a href="#org535b6f5">why did my bridge collapse?</a></li>
+<li><a href="#orgff75b8c">the problem of holism</a></li>
+<li><a href="#orgf3aba33">For everyday reasoning&#x2026;</a></li>
+</ul>
+</li>
+<li><a href="#orga05d9cb">strengths and limitations of bayesianist epistemology</a>
+<ul>
+<li><a href="#org65ebbaf">refresher: Bayes' rule</a></li>
+<li><a href="#orgcce50c4">Bayesian epistemology</a></li>
+<li><a href="#org0b1cb22">common criticisms</a></li>
+<li><a href="#org7003535">ain't nobody got time for that</a></li>
+</ul>
+</li>
+<li><a href="#org01e5edf">reductionism and holism in computational modeling</a></li>
+<li><a href="#orgd7af5c1">Software is magic: designing software modules</a>
+<ul>
+<li><a href="#org8bb6cf8">engineers benefit from design practices too</a></li>
+<li><a href="#orgcc4368e">how this applies to science?</a></li>
+<li><a href="#org58e28cb">applies to science communication?</a></li>
+<li><a href="#orga48eee7">research to do:</a>
+<ul>
+<li><a href="#orgc2a748a">find some passages of 'the inmates are running the asylum'</a></li>
+<li><a href="#org7754bba">find some relevant passages from liskov</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgb3893e5">parallels between test driven development and the scientific method</a>
+<ul>
+<li><a href="#orgf096bbb">TDD - test driven development</a></li>
+<li><a href="#org24f782e">theory, experiment, revised theory</a></li>
+<li><a href="#orga1ceb63">Parallels</a></li>
+<li><a href="#orga98ecb2">The the goals of computational models are no different from any other software, and so we should apply those practices</a></li>
+<li><a href="#orgafab372">specialization and comminication</a></li>
+<li><a href="#org4522e90">the problem of holism</a></li>
+<li><a href="#org1e864bc">preventing regressions</a></li>
+<li><a href="#org0a5eb0c">black-box testing v.s. implementation testing</a></li>
+<li><a href="#orgfa8791e">specification</a></li>
+</ul>
+</li>
+<li><a href="#org5675c73">Scientists: write code properly please</a>
+<ul>
+<li><a href="#org51e02be">scientific models are non-trivial</a></li>
+<li><a href="#orge17640f">analysis is sometimes non-trivial</a></li>
+<li><a href="#org8635731">time pressure, deadlines, preliminary results, exploratory analysis</a></li>
+<li><a href="#orgdc3885d">a possible solution: prototyping</a></li>
+</ul>
+</li>
+<li><a href="#orge8e0d59">layered-sprites: gamedev for the artistically challenged</a></li>
+<li><a href="#org148947e">Short story: Happy Automata</a></li>
+<li><a href="#orgd4621fe">first sight and second thoughts: epistemology of the Tiffany Aching series</a>
+<ul>
+<li><a href="#org5f69085">first sight: empiricism</a></li>
+<li><a href="#orgcee5e77">second thoughts: rationalism</a></li>
+<li><a href="#org9223e60">third thoughts: willingness to question(??? &#x2026; philosophy, postmodernism)</a></li>
+<li><a href="#org55e76df">research to do:</a>
+<ul>
+<li><a href="#orgaf231d8">re-read aching books</a></li>
+<li><a href="#orgb4f403d">read some review of aching books</a></li>
+<li><a href="#orgf5d840b">read some more discworld reviews/analyses</a></li>
+<li><a href="#org8f4dcbb">re-read theory and reality</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org089b7fa">the necessity of meaning</a>
+<ul>
+<li><a href="#org4df7e14">to live is to act, acting requires meaning (or value)</a></li>
+<li><a href="#org5e55e5b">Accepting Induction</a>
+<ul>
+<li><a href="#org749e496">induction is necessary to learn about the world and act in it</a></li>
+</ul>
+</li>
+<li><a href="#org8046043">Accepting Logic</a>
+<ul>
+<li><a href="#orge5cbe75">logic is necessary to learn about the world and act in it</a></li>
+</ul>
+</li>
+<li><a href="#org38fec67">Accepting Meaning</a>
+<ul>
+<li><a href="#org0aab115">value is necessary to learn about the world and act in it</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org1856e9d">learned helplessness in various contexts</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1aa3225" class="outline-2">
+<h2 id="org1aa3225">likelihood, bayes, and least-squares regression</h2>
+<div class="outline-text-2" id="text-org1aa3225">
+</div>
+<div id="outline-container-orgf4dbf00" class="outline-3">
+<h3 id="orgf4dbf00">Likelihood v.s. Probability</h3>
+</div>
+<div id="outline-container-org7d668ca" class="outline-3">
+<h3 id="org7d668ca">Linear regression for probability</h3>
+</div>
+<div id="outline-container-orgadb25ec" class="outline-3">
+<h3 id="orgadb25ec">Maximum likelihood</h3>
+</div>
+<div id="outline-container-org567caea" class="outline-3">
+<h3 id="org567caea">Bayes' rule: (insert intuitive title here)</h3>
+</div>
+<div id="outline-container-orgdc69b2a" class="outline-3">
+<h3 id="orgdc69b2a">Maximum probability</h3>
+</div>
+<div id="outline-container-orgb53ee41" class="outline-3">
+<h3 id="orgb53ee41">least-squares regression implements bayesian inference</h3>
+</div>
+</div>
+<div id="outline-container-org52e8e70" class="outline-2">
+<h2 id="org52e8e70">explaining predictive coding</h2>
+<div class="outline-text-2" id="text-org52e8e70">
+</div>
+<div id="outline-container-org4c17417" class="outline-3">
+<h3 id="org4c17417">what is predictive coding?</h3>
+</div>
+<div id="outline-container-orga8d00e5" class="outline-3">
+<h3 id="orga8d00e5">why is it exciting?: Bayesian Brain</h3>
+</div>
+<div id="outline-container-org4ec2d3b" class="outline-3">
+<h3 id="org4ec2d3b">what's the evidence?</h3>
+</div>
+</div>
+<div id="outline-container-org0231978" class="outline-2">
+<h2 id="org0231978">strengths and limitations of falsificationism</h2>
+<div class="outline-text-2" id="text-org0231978">
+</div>
+<div id="outline-container-orgefe5d88" class="outline-3">
+<h3 id="orgefe5d88">naive falsificationism</h3>
+</div>
+<div id="outline-container-org160a08f" class="outline-3">
+<h3 id="org160a08f">what problems does it solve?</h3>
+</div>
+<div id="outline-container-org535b6f5" class="outline-3">
+<h3 id="org535b6f5">why did my bridge collapse?</h3>
+</div>
+<div id="outline-container-orgff75b8c" class="outline-3">
+<h3 id="orgff75b8c">the problem of holism</h3>
+</div>
+<div id="outline-container-orgf3aba33" class="outline-3">
+<h3 id="orgf3aba33">For everyday reasoning&#x2026;</h3>
+</div>
+</div>
+<div id="outline-container-orga05d9cb" class="outline-2">
+<h2 id="orga05d9cb">strengths and limitations of bayesianist epistemology</h2>
+<div class="outline-text-2" id="text-orga05d9cb">
+</div>
+<div id="outline-container-org65ebbaf" class="outline-3">
+<h3 id="org65ebbaf">refresher: Bayes' rule</h3>
+</div>
+<div id="outline-container-orgcce50c4" class="outline-3">
+<h3 id="orgcce50c4">Bayesian epistemology</h3>
+</div>
+<div id="outline-container-org0b1cb22" class="outline-3">
+<h3 id="org0b1cb22">common criticisms</h3>
+</div>
+<div id="outline-container-org7003535" class="outline-3">
+<h3 id="org7003535">ain't nobody got time for that</h3>
+</div>
+</div>
+<div id="outline-container-org01e5edf" class="outline-2">
+<h2 id="org01e5edf">reductionism and holism in computational modeling</h2>
+</div>
+
+<div id="outline-container-orgd7af5c1" class="outline-2">
+<h2 id="orgd7af5c1">Software is magic: designing software modules</h2>
+<div class="outline-text-2" id="text-orgd7af5c1">
+</div>
+<div id="outline-container-org8bb6cf8" class="outline-3">
+<h3 id="org8bb6cf8">engineers benefit from design practices too</h3>
+</div>
+<div id="outline-container-orgcc4368e" class="outline-3">
+<h3 id="orgcc4368e">how this applies to science?</h3>
+</div>
+<div id="outline-container-org58e28cb" class="outline-3">
+<h3 id="org58e28cb">applies to science communication?</h3>
+</div>
+<div id="outline-container-orga48eee7" class="outline-3">
+<h3 id="orga48eee7">research to do:</h3>
+<div class="outline-text-3" id="text-orga48eee7">
+</div>
+<div id="outline-container-orgc2a748a" class="outline-4">
+<h4 id="orgc2a748a">find some passages of 'the inmates are running the asylum'</h4>
+</div>
+<div id="outline-container-org7754bba" class="outline-4">
+<h4 id="org7754bba">find some relevant passages from liskov</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb3893e5" class="outline-2">
+<h2 id="orgb3893e5">parallels between test driven development and the scientific method</h2>
+<div class="outline-text-2" id="text-orgb3893e5">
+</div>
+<div id="outline-container-orgf096bbb" class="outline-3">
+<h3 id="orgf096bbb">TDD - test driven development</h3>
+<div class="outline-text-3" id="text-orgf096bbb">
+<p>
+Test Driven Development is a strategy for developing software that goes something like this:
+</p>
+<ol class="org-ol">
+<li>Write a test to check that your software does the right thing under particular circumstances</li>
+<li>Run the test - it should fail the first time since you haven't modified the software itself yet</li>
+<li>Update the software until the test runs</li>
+</ol>
+
+<p>
+If you're writing any moderate/large software, you will want to have a bunch of tests that you can run at
+any time to check that all its parts are still working. TDD just means writing a test before you write the
+code to make it happen. My points in this post would apply to a code-then-test paradigm as well, but why would you do it that way? 
+</p>
+</div>
+</div>
+<div id="outline-container-org24f782e" class="outline-3">
+<h3 id="org24f782e">theory, experiment, revised theory</h3>
+<div class="outline-text-3" id="text-org24f782e">
+<p>
+The requirements of software are that its behavior should match the desired behavior under as large a set of circumstances as possible.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga1ceb63" class="outline-3">
+<h3 id="orga1ceb63">Parallels</h3>
+<div class="outline-text-3" id="text-orga1ceb63">
+<p>
+Of course, these steps don't quite line up
+</p>
+</div>
+</div>
+<div id="outline-container-orga98ecb2" class="outline-3">
+<h3 id="orga98ecb2">The the goals of computational models are no different from any other software, and so we should apply those practices</h3>
+</div>
+<div id="outline-container-orgafab372" class="outline-3">
+<h3 id="orgafab372">specialization and comminication</h3>
+</div>
+<div id="outline-container-org4522e90" class="outline-3">
+<h3 id="org4522e90">the problem of holism</h3>
+</div>
+<div id="outline-container-org1e864bc" class="outline-3">
+<h3 id="org1e864bc">preventing regressions</h3>
+</div>
+<div id="outline-container-org0a5eb0c" class="outline-3">
+<h3 id="org0a5eb0c">black-box testing v.s. implementation testing</h3>
+</div>
+<div id="outline-container-orgfa8791e" class="outline-3">
+<h3 id="orgfa8791e">specification</h3>
+</div>
+</div>
+<div id="outline-container-org5675c73" class="outline-2">
+<h2 id="org5675c73">Scientists: write code properly please</h2>
+<div class="outline-text-2" id="text-org5675c73">
+</div>
+<div id="outline-container-org51e02be" class="outline-3">
+<h3 id="org51e02be">scientific models are non-trivial</h3>
+</div>
+<div id="outline-container-orge17640f" class="outline-3">
+<h3 id="orge17640f">analysis is sometimes non-trivial</h3>
+</div>
+<div id="outline-container-org8635731" class="outline-3">
+<h3 id="org8635731">time pressure, deadlines, preliminary results, exploratory analysis</h3>
+</div>
+<div id="outline-container-orgdc3885d" class="outline-3">
+<h3 id="orgdc3885d">a possible solution: prototyping</h3>
+</div>
+</div>
+<div id="outline-container-orge8e0d59" class="outline-2">
+<h2 id="orge8e0d59">layered-sprites: gamedev for the artistically challenged</h2>
+</div>
+
+<div id="outline-container-org148947e" class="outline-2">
+<h2 id="org148947e">Short story: Happy Automata</h2>
+</div>
+<div id="outline-container-orgd4621fe" class="outline-2">
+<h2 id="orgd4621fe">first sight and second thoughts: epistemology of the Tiffany Aching series</h2>
+<div class="outline-text-2" id="text-orgd4621fe">
+</div>
+<div id="outline-container-org5f69085" class="outline-3">
+<h3 id="org5f69085">first sight: empiricism</h3>
+</div>
+<div id="outline-container-orgcee5e77" class="outline-3">
+<h3 id="orgcee5e77">second thoughts: rationalism</h3>
+</div>
+<div id="outline-container-org9223e60" class="outline-3">
+<h3 id="org9223e60">third thoughts: willingness to question(??? &#x2026; philosophy, postmodernism)</h3>
+</div>
+<div id="outline-container-org55e76df" class="outline-3">
+<h3 id="org55e76df">research to do:</h3>
+<div class="outline-text-3" id="text-org55e76df">
+</div>
+<div id="outline-container-orgaf231d8" class="outline-4">
+<h4 id="orgaf231d8">re-read aching books</h4>
+</div>
+<div id="outline-container-orgb4f403d" class="outline-4">
+<h4 id="orgb4f403d">read some review of aching books</h4>
+</div>
+<div id="outline-container-orgf5d840b" class="outline-4">
+<h4 id="orgf5d840b">read some more discworld reviews/analyses</h4>
+</div>
+<div id="outline-container-org8f4dcbb" class="outline-4">
+<h4 id="org8f4dcbb">re-read theory and reality</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org089b7fa" class="outline-2">
+<h2 id="org089b7fa">the necessity of meaning</h2>
+<div class="outline-text-2" id="text-org089b7fa">
+</div>
+<div id="outline-container-org4df7e14" class="outline-3">
+<h3 id="org4df7e14">to live is to act, acting requires meaning (or value)</h3>
+</div>
+<div id="outline-container-org5e55e5b" class="outline-3">
+<h3 id="org5e55e5b">Accepting Induction</h3>
+<div class="outline-text-3" id="text-org5e55e5b">
+</div>
+<div id="outline-container-org749e496" class="outline-4">
+<h4 id="org749e496">induction is necessary to learn about the world and act in it</h4>
+</div>
+</div>
+<div id="outline-container-org8046043" class="outline-3">
+<h3 id="org8046043">Accepting Logic</h3>
+<div class="outline-text-3" id="text-org8046043">
+</div>
+<div id="outline-container-orge5cbe75" class="outline-4">
+<h4 id="orge5cbe75">logic is necessary to learn about the world and act in it</h4>
+</div>
+</div>
+<div id="outline-container-org38fec67" class="outline-3">
+<h3 id="org38fec67">Accepting Meaning</h3>
+<div class="outline-text-3" id="text-org38fec67">
+</div>
+<div id="outline-container-org0aab115" class="outline-4">
+<h4 id="org0aab115">value is necessary to learn about the world and act in it</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org1856e9d" class="outline-2">
+<h2 id="org1856e9d">learned helplessness in various contexts</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

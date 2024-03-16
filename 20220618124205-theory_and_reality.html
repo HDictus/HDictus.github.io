@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>theory-and-reality</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">theory-and-reality</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org7aeba1c">Introduction</a>
+<ul>
+<li><a href="#org5ca81ed">Key takeaways</a></li>
+</ul>
+</li>
+<li><a href="#org3aff4f2">Logic Plus Empiricism</a>
+<ul>
+<li><a href="#org805a7ea">key takeaways</a></li>
+</ul>
+</li>
+<li><a href="#orgb3aaa2f">Induction and Confirmation</a>
+<ul>
+<li><a href="#orgc6fa987">Key takeaways</a></li>
+</ul>
+</li>
+<li><a href="#org838eb73">Popper: Conjecture and Refutation</a>
+<ul>
+<li><a href="#org09a67e8">Key takeaways</a></li>
+</ul>
+</li>
+<li><a href="#org9daaf21">Kuhn and normal science</a>
+<ul>
+<li><a href="#org1a9507d">key takeaways</a></li>
+</ul>
+</li>
+<li><a href="#org32f88a7">Kuhn and Revolutions</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7aeba1c" class="outline-2">
+<h2 id="org7aeba1c">Introduction</h2>
+<div class="outline-text-2" id="text-org7aeba1c">
+<p>
+Note: this time this chapter was read using the following skimming techique:
+</p>
+<ol class="org-ol">
+<li>read the section headings</li>
+<li>read the first and last paragraphs</li>
+<li>read the first sentence of each paragraph</li>
+</ol>
+
+<p>
+I did get distracted here and there and read a little more.
+</p>
+
+<p>
+In this chapter Peter Godfrey-Smith starts by briefly outlining the topic of the book: principally the attempts to answer the questions of what science is, how it works, and what, if anything, separates it from other forms of acquiring knowledge.
+He primes the reader on the different forms these questions can take, whether relating to epistemology or metaphysics, are descriptive or normative, and where they relate to questions of realism and objectivity.
+He describes three aspects of the approaches to these questions: empiricism, mathematics, and social organization, and mentions an example or argument for and against the importance of each aspect.
+For empiricism: he mentions the example of John Snow hypothesizing that cholera spreads through drinking water and testing this by removing the handle of key water fountains, resulting in a reduction in the cholera outbreak in London.
+As a counterexample, he mentions Pettenkofer drinking a vial of cholera and being fine - suggesting he had falsified the germ theory of disease, when really its empirical consequences simply weren't so straightforward.
+For mathematics, he mentions the importance that it has had in physical science, but also mentions that very major developments in science have occurred without any formal mathematics.
+For the social structure, he emphasizes the role of trust and authority in the passing on of knowledge, but subsequenly describes how social and empirical ideas in science can be reconciled as social structures making scientific communities especially receptive to empirical observations.
+</p>
+
+<p>
+The last section of the chapter provides a brief history of different attitudes surrounding science from aristotle through medieval times, into the renaissance through Copernicus and Galileo, followed by the enlightenment and scientific revolution.
+The aristotelian approach relied heavily on ideas regarding naturalness and purpose.
+Copernicus used this naturalness principle to create a heliocentric model of the solar system, which was regarded as simplifyig and useful, but not objectively true.
+Galileo argued for the objective truth of this model and attempted to explain it through both mathematics and experiment.
+Kepler documented the movements of planets extensively and used this information to build on the copernican model by changing circular motion to elliptical.
+Subsequently, Newton explained this in the form of a number of mathematical laws.
+During this time the Scientific Revolution was occurring, and Boyle (among others) adopted ideas around causality into a mechanistic view of the universe.
+Later, Linneaus extensively systematized biology laying the groundwork for Darwin, Mendel, and the germ theory of disease.
+He mentions how much of the social philosophy in subsequent years was based on an effort to emulate these successes.
+This section lays some of the groundwork regarding what we have historically considered to be science.
+</p>
+</div>
+
+<div id="outline-container-org5ca81ed" class="outline-3">
+<h3 id="org5ca81ed">Key takeaways</h3>
+<div class="outline-text-3" id="text-org5ca81ed">
+<ul class="org-ul">
+<li>the questions about what science is, how it should be done, and whether there are other ways of acquiring knowledge are largely unanswered.</li>
+<li>what we refer to as science has been uniquely successful, and shares some commonalities in its reliance on empiricism, mathematics and formal logic, and particular social structures.</li>
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3aff4f2" class="outline-2">
+<h2 id="org3aff4f2">Logic Plus Empiricism</h2>
+<div class="outline-text-2" id="text-org3aff4f2">
+<p>
+In this chapter Peter Godfrey-Smith summarizes the logical positivist/empiricist movment.
+</p>
+
+<p>
+The logical empiricists had a view on epistemology based on the analytic-synthetic distinction, and the verfiability principle.
+Analytic statements are inherently true or false, logical tautologies or contradictions.
+Synthetic statements are statements about observations, and we can find them to be true or false based on what we observe.
+The logical positivists argued that all a-priori knowledge is purely analytic, and therefore has no bearing on the observable universe by itself.
+Knowledge about the universe requires synthetic truths, requiring observation.
+The verifiability principle states that the meaning of a statement depends on its observable consequences - meaning that a statement is meaningful if and only if there is some way to check empirically whether it is true or false.
+In effect this says that the only source of knowledge about the universe is experience.
+Related concepts include the distinction between observational and theoretical language, inductive logic.
+</p>
+
+<p>
+One critique of this approach came from Quine, who argued that it is not individual statements or theories which are verifiable, but only ever one's whole network of beliefs, that analytic claims can be revised by changing logical systems and potentially on the basis of observation (e.g. certain results from quantum physics suggesting a deductive rule is sometimes violated).
+</p>
+
+<p>
+Another challenge came from scientific realism. The idea that science is concerned only with observables leads to the conclusion that any discussion about abstract entities (e.g. electrons, genes, etc.) is really just a discussion about their empirical consequences.
+PGS states that this is a mistake, and that science ca only be understood by treating much of it as describing hidden structures that give rise to observable phenomena. He does not defend this in detail here, but does so in later chapters.
+</p>
+</div>
+
+<div id="outline-container-org805a7ea" class="outline-3">
+<h3 id="org805a7ea">key takeaways</h3>
+<div class="outline-text-3" id="text-org805a7ea">
+<ul class="org-ul">
+<li>unlike e.g. Kant, positivists believed there are no a-priori synthetic statements (see example of euclidean geometry).</li>
+<li>key errors of logical positivism included
+<ul class="org-ul">
+<li>inability to establish inductive logic</li>
+<li>dismissed relevance of psychology or sociology to epistemology</li>
+<li>verifiability principle lead to paradoxes (e.g. A &amp; B is verifiable if A is verifiable)</li>
+<li>inadequately accomodated holism</li>
+<li>assertion that analytic claims can never be revised considered uncertain</li>
+<li>dismissing/bracketing scientific realism</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgb3aaa2f" class="outline-2">
+<h2 id="orgb3aaa2f">Induction and Confirmation</h2>
+<div class="outline-text-2" id="text-orgb3aaa2f">
+<p>
+Peter Godfrey-Smith explains several puzzles with the related questions of Induction, confirmation and explanatory inference.
+The problem of induction is whether past observations can give us knowledge about future observations.
+Confirmation is the more general question of whether observations of some specific cases can give us knowledge about more general cases.
+The logical empiricists viewed these as the only forms of nondeductive inference, but there is also explanatory inference.
+PGS uses the example of the hypothesis that a meteor hit the earth 65 million years ago, supported by the evidence of unusually high levels of certain minerals in the corresponding layers of the earth's crust.
+The logical-empiricist framework of generalizations being supported by individual cases does not straighforwardly apply to this.
+Logical empiricists argued that such cases could be broken down into sets of multiple generalizations to form confirmation. (this could be an exercise?)
+Others argued the reverse - that confirmation and induction are special cases of explanatory inference.
+A subset of induction is projection - inference not about all observable cases, but just about the next observable case.
+</p>
+
+<p>
+PGS describes two logical empiricist suggestions for these problems: Carnap's probabilistic approach and Hempel's approach, which intended to resemble deductive logic.
+Probabilistic approaches will be revisited in chapter 14, but it is mentioned that the attempt seemed increasingly disconnected from real science and eventually ran out of steam. 
+The hypothetico-deductivist approach is that if some hypothesis logically implies some outcome, observing that outcome provides logical support for the hypothesis.
+Besides the problem of holism, this runs into several problems (not all of which are listed here).
+Similar to the criteron of testability in section 2.4, T -&gt; T or s, where T and s are any statements at all. T or s can be checked by confirming s, therefore supporting T.
+Situations like these became part of the criticism of logical empiricism - the use of abstract simplified hypotheticals which differ greatly from any real science being done. 
+With regard to generalizations, one solution offered is that for each raven observed to be black, there are fewer unobserved ravens which could be non-black, and hence the generalization that all are black is more likely to be true.
+This does not work for generalizations over infinite sets, and does not work for projection.
+Hempel's approach to generalization was to state that any observation of a specific case lends support to the general case.
+This leads to a problem: all ravens are black is equivalent to all nonblack things are not ravens.
+This means that specific cases lending support to the statement include things like&#x2026; the observation of a white shoe, since it is a nonblack thing which is not a raven.
+Good suggested that the validity of this will depend on related contextual knowledge (TODO: revisit his example when clearheaded).
+Another possibility is that it depends on the procedure for these observations (to be expanded on in chapter 14).
+Briefly, if someone tells you they have a nonblack object behind their back, you may want to see if it is a raven. 
+If they say they have a nonraven behind their back, subsequently revealing its color tells you nothing about the generalization.
+In this view it is the potential of the observation to falsify which is relevant. 
+The logical empiricists did not agree with these solutions, as they were hoping for an abstract, general connection between the general and specific case independent of contextual factors.
+</p>
+
+<p>
+Another problem posed to these theories of inference is Goodman's riddle of induction.
+An object is grue if it was observed before present day and is green, or if it is observed after present day and is blue.
+The statement 'all emeralds are grue' is equally well supported by previous observations of green emeralds as 'all emeralds are green'.
+Goodman's aim was to show that induction void of context is not possible.
+Arguments that this is invalid because 'grue' is not a real property of objects turn out to be difficult to defend, due to difficulty in defining which properties are real.
+Arguments from simplicity suffer a similar problem.
+</p>
+</div>
+
+<div id="outline-container-orgc6fa987" class="outline-3">
+<h3 id="orgc6fa987">Key takeaways</h3>
+<div class="outline-text-3" id="text-orgc6fa987">
+<p>
+General theories
+</p>
+<ul class="org-ul">
+<li>hypothetico-deductivisim: faces a variety of logic problems + holism</li>
+</ul>
+
+<p>
+Early theories of confirmation/generalization:
+</p>
+<ul class="org-ul">
+<li>'ways to be wrong' approach - cannot explain projection (therefore useless) or infinite sets</li>
+<li>Carnap's probabilistic theories (incomplete and not pragmatic)</li>
+<li>Hempel's theories: indoor ornithology</li>
+<li>Good's solution : contextual</li>
+<li>falsifiability solution: contextual</li>
+</ul>
+
+<p>
+problems: 
+ T -&gt; T or s
+ indoor ornithology, falsifiability, squares
+ Goodman's riddle (grue and bleen)
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org838eb73" class="outline-2">
+<h2 id="org838eb73">Popper: Conjecture and Refutation</h2>
+<div class="outline-text-2" id="text-org838eb73">
+<p>
+This chapter describes the contributions of Karl Popper's contributions to philosophy of science. It can be summarized as stating that induction cannot give us knowledge about the world, but observation and deductive logic can. This results in two similar answers to the questions of demarcation and scientific practice.
+For Popper, an idea is scientific only if some observation has the postential to refute it. 
+In normal scientific practice, this refustation is the only role of observation.
+An idea passing a test (an attempt to falsify it) does not increase our confidence in it in any way.
+PGS likens this to a knight searching for a holy grail, the holy grail glows forever but there is an infinite set of nonholy grails which someday stop glowing, and the glow is the only way to distinguish them.
+Popper believed that it is best for both the conjecture and the refutation to be made by the same person, lest they refuse to change their minds about the conjecture when someon else refutes them,
+</p>
+
+<p>
+PGS then launches into a summary of the many criticisms leveled at popper's philosophy of science.
+One of the major problems with falsificationism as a demarcation of science is holism.
+Say you want to falsify the statement that iron bars expand when heated.
+If you find what you believe to be an iron bar which contracts while heated, how do you know for sure that what you found is really iron?
+The problem may be with the theory, or it may be with some auxillary assumption used in the measurement process.
+A more nuanced way of describing falsificationism can be constructed by stating that rather than a particular idea being scientific, an idea can be treated in a scientific way by exposing it to empirical risk (through embedding it in a surrounding theoretical body).
+This however requires us to have some confidence in the surrounding theoretical body - a possibility which Popper rejected.
+For demarcation, this could be stated to be a matter of attributing the observation to the falisty of the conjecture being tested instead of auxillary assumptions, but popper's theory cannot provide an explanation of why this decision would be preferable.
+Another problem for falsification is the fact that many theories do not state that some observation is impossible, only that it is unlikely.
+These theories are then not falsifiable - and therefore not scientific - wrt. that observation.
+Popper conceded that these can be falsified 'in practice' by extremely unlikely results, which is a departure from his pure deductivisim.
+</p>
+
+<p>
+Popper's lack of induction form a problem for his theory of science.
+PGS uses the example of building a brige, where we can try to use a tried and tested method that has withstood falsification, or a wholly new one.
+Popper provides no basis for choosing one over the other, even though it is obvious which decision is the better one.
+Popper attempted to patch this with 'corroboration'.
+The difference being that corroboration indicated a past of empirical success, without predicting a future of empirical success (think a resume vs a letter of reccomendation).
+This does not address the problem in any way.
+</p>
+
+<p>
+PGS subsequently argues for a holistic way of using Popper's ideas, such that the scientific treatment of an idea is in building a theoretical framework which can be combined with induction to expose ideas to empirical risk.
+</p>
+</div>
+
+<div id="outline-container-org09a67e8" class="outline-3">
+<h3 id="org09a67e8">Key takeaways</h3>
+<div class="outline-text-3" id="text-org09a67e8">
+<ul class="org-ul">
+<li>lacking induction, Popper's theory cannot provide an epistemological basis for science</li>
+<li>allowing induction enables us to expose ideas to epistemological risk (holistically)</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org9daaf21" class="outline-2">
+<h2 id="org9daaf21">Kuhn and normal science</h2>
+<div class="outline-text-2" id="text-org9daaf21">
+<p>
+PGS starts to describe the work of Kuhn, from his book The Structure of Scientific Revolutions.
+</p>
+
+<p>
+For kuhn, a field of science will start out in an unorgamized way with everyone doing their own thing.
+After a few examples of good work done a particular way show others how it should be done, something called a paradigm forms.
+A paradigm is a set of methods for the practice of science.
+People working together under a paradigm agree on some fundamentals regarding the systems they study, as well as on what problems need solving what it means for these problems to be solved.
+In this state, scientists can work efficiently, expanding their theories without arguing over fundamentals.
+A paradigm is resistant to change - revealing flaws even in its foundations will not prevent its confinued use.
+These flaws need to reach a critical mass and an alternative needs to present itself and only then will science proceed outside of 'normal science' into a critical period.
+</p>
+
+<p>
+The most striking aspect of Kuhns work in comparison to that of Popper and the positivists is that Kuhn argues the resistance of normal science to change is a good thing.
+A good scientist does not question the paradigm, or else they will end up getting nothing done.
+I can make an anaology to programming here, when you've got a pretty well-working program but a new feature that shows up close to release doesn't fit very easily into its architecture, you don't revise the architecture but you find some trick to incorporate it.
+"See when you think about it, a helicopter is just a very advanced kind of door&#x2026;".
+</p>
+
+<p>
+The obviously flawed structuring nature into easy to understand categories is essential according to Kuhn, so that people can focus their efforts on other problems.
+But what if the problems people focus on are related to this classification? Isn't it a dead end when classification is fundamentally the wrong approach?
+I'm thinking of the classification of neurons based on their morphology here for instance.
+I think I can relate this to the way we tend to build software.
+If your software is mostly built and some feature comes along that doesn't fit neatly with what you have envisioned, you can still stick to your guns and "work with it" in a hacky way.
+Eventually you will find that you need to rewite much of your program, but well do I know you don't always want to do that every time you encounter something like this.
+You'd not get very much done.
+However, I feel that there are methods to write programs in the first place so that they are flexible to such changes without needing a complete rewrite.
+And treating any assumptions you notice yourself making with deep suspicion is a part of writing software this way.
+I usually find the method of 'over-structuring' to be a bad habit, and the more you avoid it the easier it becomes to avoid.
+</p>
+
+<p>
+To Kuhn, it is working within a paradigm that leads to most of the progress in science.
+Especially, the puzzling out of little, inconsequential-seeming problems turns out to be very important.
+</p>
+</div>
+
+<div id="outline-container-org1a9507d" class="outline-3">
+<h3 id="org1a9507d">key takeaways</h3>
+<div class="outline-text-3" id="text-org1a9507d">
+<ul class="org-ul">
+<li>in normal science, scientists agree on which problems are important and how to adress them</li>
+<li>kuhn's description of normal science has it being more rigid than empiricists and deductivists propose</li>
+<li>kuhn believes that resisting change is part of what makes science work - as paradigms remain functioning efficiently even with some unresolved counterexamples</li>
+<li>the flawed structuring of scienfic practice is (to kuhn) entirely necessary</li>
+<li>kuhn was novel in that he approached philosophy of science by looking at how scientists actually behave, instead of ratocinating about how they should.</li>
+<li>a paradigm arises when some exemplars show everyone 'how it should be done' in a field of science.</li>
+<li>kuhn marvels over how scientists puzzle over seemingly inconsequential problems which turn out to be greatly important</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org32f88a7" class="outline-2">
+<h2 id="org32f88a7">Kuhn and Revolutions</h2>
+<div class="outline-text-2" id="text-org32f88a7">
+<p>
+PGS describes Kuhn's theory of scientific revolutions, in which normal science is disrupted by disorder and fundamental assumptions are questioned until a new paradigm is arrived at.
+</p>
+
+<p>
+Kuhn believed that a scientific revolution occurs after a crisis in which the existing paradigm is inadequeate, and begins when a rival paradigm arrives.
+PGS criticizes Kuhn's emphasis on crisis, stating that many scientific revolutions, such as that of genetics, were not preceded by a crisis.
+</p>
+
+<p>
+Kuhn states that how evidence is interpereted and evaluated changes fundamentally in a revolution.
+However, several elements remain common to all successful paradigms, and hence are assumed to be central to science.
+Namely:
+</p>
+<ul class="org-ul">
+<li>theories should accurately predct observations.</li>
+<li>theories should be consistent with neighboring fields</li>
+<li>they should be able to unify disparate phenomena</li>
+<li>they should be fruitful with new ideas and discoveries (this one is vague. maybe Kuhn was more specific?)</li>
+</ul>
+
+<p>
+Kuhn believed that on their own these principles are too vague to be used for anything, and it is their specific implementation and emphasis on some over others that defines a paradigm and allows for normal science.
+</p>
+
+<p>
+Kuhn believed that progress across revolutions is not vertical, but horizontal.
+That is to say, the new paradigm is no truer or better than the old: or at least that there is no unbiased method of comparing the two.
+Scientists working in different paradigms will use the same terminology slightly differently, and so struggle to communicate (although PGS argues that historically it is hard to find evidence of this).
+Moreover, the above principles will be applied differently.
+PGS uses the example of Newton's theory of gravity, where he gave a mathematical description of gravity but no causal mechanism, which was at the time regarded as a flaw of his theory.
+But what if the demand for a certain "causality", which seems to be a shaky concept anyway when you examine it too closely, is simply unscientific?
+I think what we really want when we look for causaility is the ability to relate a phenomenon to more variables, ideally ones under our control.
+This may be an argument against the idea that inter-paradigm progress is horizontal: a vertical progression occurs not just in the explanatory power of our scientific ideas, but in our understanding of what constitutes good science.
+But then I suppose this may be the biased post-revolution perspective, of course the way we do things now looks better! It's what we've decided is best.
+</p>
+
+<p>
+There is some debate on whether Kuhn is an epistemic relativist (he has denied it) or if relativism is a necessary consequence of his views.
+He has stated he isnt, and indeed seems to contradict himself by stating that newer paradigms have more problem-solving power than old ones.
+The number and precision of the solutions to problems (predictions of observations?) grows in a scientific field over time.
+</p>
+
+<p>
+However, Kuhn does state the the differences in the ways the two paradigms interperet observations is so fundamental that in effect they live in different worlds.
+I personally feel this is just flowery language for what we have already discussed.
+PGS seems to agree at least that this is messy.
+</p>
+
+<p>
+PGS concludes by criticizing Kuhn for focusing too much on changes in the way we fundamentally regard reality, like many philosphers too obsessed with fundamental physics.
+PGS feels that many fundamentals in chemistry and biology are less likely to change.
+However&#x2026; it seems to me that shortly before the discovery of quantum mechanics and relativity, people would have said the same about much of physics.
+</p>
+
+<p>
+Fields are not dominated by a single paradigm like kuhn suggests, and radical progress can be made without crises.
+Others built and improved upon Kuhn's approach to analyzing the process of science.
+</p>
+
+<p>
+PGS draws an analogy between Kuhn's theory and puncutated equilibrium in evolutionary biology.
+I think I can draw a similar analogy with implementing and refactoring.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

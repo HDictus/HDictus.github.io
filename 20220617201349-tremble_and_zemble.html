@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>tremble-and-zemble</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">tremble-and-zemble</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org1426158">prompt:</a></li>
+<li><a href="#org0244836">part 1</a></li>
+<li><a href="#org29cf6f6">part 2</a></li>
+<li><a href="#org86962ab">part 3</a></li>
+<li><a href="#org1ee3af0">part 4</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1426158" class="outline-2">
+<h2 id="org1426158">prompt:</h2>
+<div class="outline-text-2" id="text-org1426158">
+<p>
+The shadow of the huge monster approaches the door, and as you accept your fate, you see the most horrifying thing in the doorway. It walks over to you, opens its big mouth and &#x2026; "Have you seen my keys?".
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0244836" class="outline-2">
+<h2 id="org0244836">part 1</h2>
+<div class="outline-text-2" id="text-org0244836">
+<p>
+How is it forming those words? Its gaping maw opens and the words simply roll out, the eyes staring blankly.
+Zemble blinks. The creature blinks.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+The phrase was a question, but the tone was entirely flat. 
+</p>
+
+<p>
+"I could have sworn I left them on the cupboard next to the wardrobe".
+</p>
+
+<p>
+Zemble chanced a look around the room, barren stone and iron, crates and barrels. Certainly no wardrobe or similar furniture.
+</p>
+
+<p>
+"Um&#x2026;, no I haven't seen your keys."
+</p>
+
+<p>
+The mouth closes, the eyes stare at some space above Zemble's head.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+The eyes snap to look him in the face, the monster trembles.
+Its eyes snap back upwards, and the maw opens again, revealing rows of tiny teeth and a throat zemble could crawl through.
+</p>
+
+<p>
+"Nice weather we're having."
+</p>
+
+<p>
+Maybe the storm Zemble left behind is nice weather to a beastie like this.
+Not that zemble expects it has ever been aboveground.
+</p>
+
+<p>
+The creature uses a woman's voice, clear and pleasant but void of intonation.
+Curiosity suppresses zemble's fear.
+Whatever he expected to find down here, this wasn't it.
+<i>Serra will want to see this, dangerous or not.</i> He thinks.
+</p>
+
+<p>
+"Sure&#x2026; would you like to go outside?"
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+"let me just get my keys."
+</p>
+
+<p>
+The monster turns, lumbers to the other end of the room, gestures vaguely at the wall.
+</p>
+
+<p>
+Turned at a slight angle, Zemble sees the eyes moving again.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink Blink.
+</p>
+
+
+<p>
+The creature turns and wanders back to Zemble. Is that hesitation in its step?
+</p>
+
+<p>
+"Let's go outside".
+</p>
+
+<p>
+Zemble steps aside and gestures for the creature to walk by him.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+"Right this way, friend".
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+"This way.", echoes the cavernous maw.
+</p>
+
+<p>
+"To go outside. You want to go outside?".
+</p>
+
+<p>
+"This way. This way."
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+"This way?"
+</p>
+
+<p>
+Intoned like a question.
+</p>
+
+<p>
+"Yes, this way. Here, I'll lead."
+</p>
+
+<p>
+And so Zemble leads the way out.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org29cf6f6" class="outline-2">
+<h2 id="org29cf6f6">part 2</h2>
+<div class="outline-text-2" id="text-org29cf6f6">
+<p>
+As Zemble proceeds he frequently glances over his shoulder.
+The creature follows, the eyes still staring blankly upwards.
+</p>
+
+<p>
+Zemble goes out of his way to climb over a barrel and glances back.
+The creature mimics his climbing motion without any movement of the eyes.
+<i>All right then.</i>
+</p>
+
+
+<p>
+The ruined castle sits on a barren peak among forested hills.
+Into the storm emerges Zemble with the hulking monstrosity.
+</p>
+
+
+<p>
+<i>I can't very well lead her back to camp, not if I don't know what she's after</i>; Zemble thinks.
+Ah dear, the voice alone is leading him to gender the thing.
+<i>Might as well give her a name now, does she seem like a Lucy?</i>
+She does not seem like a Lucy.
+</p>
+
+<p>
+"What should I call you?" asks Zemble.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+"My name is Zemble, it's nice to meet you." says Zemble, as pleasantly as he can.
+</p>
+
+<p>
+"Nice to meet you Zemble". 
+</p>
+
+<p>
+"What is your name?'
+</p>
+
+<p>
+She shudders.
+</p>
+
+<p>
+"Why were you down there?"
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Shudder.
+</p>
+
+<p>
+"Is there anything you want?"
+</p>
+
+<p>
+Shudder.
+</p>
+
+<p>
+Shudder.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+The creature uncurls into its full height, easily three meters, the maw opens and from it emerges a despairing wail.
+</p>
+
+
+<p>
+Could a creature construct such a sound? Or is she copying something she heard before? Does she know what it means? 
+She wails on.
+Zemble shelters under a nearby eave.
+Only some minutes later, a crash of nearby thunder interrupts her, and she shrinks to the curled two meter shape Zemble found her in.
+</p>
+
+<p>
+Shudder.
+</p>
+
+<p>
+Shudder.
+</p>
+
+<p>
+Tremble.
+</p>
+
+
+<p>
+"I will give you a name." Says Zemble. "Your name is Tremble. Isn't that fun? Zemble and Tremble."
+</p>
+
+<p>
+"Hello, my name is Tremble." Tremble says flatly.
+</p>
+
+<p>
+<i>It's a terrible name</i> thinks Zemble, <i>but it's certainly a better fit than Lucy</i>
+</p>
+
+<p>
+"Can you wait here for me, Tremble?"
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+"Wait." says Tremble, and all tension leaves her body, and she rests her limbs on the ground.
+</p>
+
+<p>
+Zemble hurries off.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org86962ab" class="outline-2">
+<h2 id="org86962ab">part 3</h2>
+<div class="outline-text-2" id="text-org86962ab">
+<p>
+Zemble rushes into camp and fetches gestures wildly for Serrandi to follow.
+</p>
+
+<p>
+"Where are we going in such a hurry?" Serrandi asks.
+</p>
+
+<p>
+"Found a Bioautomaton, I think. I'm hoping you might know what's up with this one."
+</p>
+
+<p>
+"Odd one is it?"
+</p>
+
+<p>
+"I think she's having an existential crisis or something&#x2026;"
+</p>
+
+<p>
+"She?"
+</p>
+
+<p>
+"you'll see -er. Hear what I mean".
+</p>
+
+<p>
+"What?"
+</p>
+
+<p>
+"No more talking, running".
+</p>
+
+<p>
+And they ran.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org1ee3af0" class="outline-2">
+<h2 id="org1ee3af0">part 4</h2>
+<div class="outline-text-2" id="text-org1ee3af0">
+<p>
+"Hello Tremble, this is my friend Serrandi".
+</p>
+
+<p>
+"Done waiting." says Tremble, standing up again.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Blink.
+</p>
+
+<p>
+Serrandi gapes and Zemble places a hand on her back as she steps away.
+</p>
+
+<p>
+"My name is Tremble, it is nice to meet you."
+</p>
+
+<p>
+"Ana's voice. That's Ana's voice. Oh Ana what did you do?"
+</p>
+
+<p>
+"Do you know Ana, Tremble? Anamit?" Asks Zemble.
+</p>
+
+<p>
+"Mistress Anamit. Mistress Anamit?".
+</p>
+
+<p>
+"Ana made you. What did she make you for?" Serrandi asks.
+</p>
+
+<p>
+Shudder.
+</p>
+
+<p>
+"Oh Serra, I think you've done it now"
+</p>
+
+<p>
+Shudder. 
+</p>
+
+<p>
+Uncurl. 
+</p>
+
+<p>
+Wail.
+</p>
+
+
+
+<p>
+Until the next crash of thunder, Serrandi blocked her ears and cried.
+Tremble curls back up.
+</p>
+
+<p>
+"&#x2026;Ana's voice. Oh that sound breaks my heart".
+</p>
+
+<p>
+"Do you think Tremble know what that sound means? Is Tremble in pain?"
+</p>
+
+<p>
+"Tell me how you found Tremble."
+</p>
+
+<p>
+"I'll tell you, inside. Come on Tremble, come inside."
+</p>
+
+<p>
+Once back underground, Zemble lights a fire from the dry wood of a shattered barrel, and as tremble sits staring at the ceiling he tells Serrandi the events so far.
+</p>
+
+
+<p>
+"Tremble must have been alone here for four hundred years".
+</p>
+
+<p>
+"How could she have stayed alive?".
+</p>
+
+<p>
+"Ana didn't give any of her creations a digestive system - had them all using ambient magic.
+It's why she picked this place for her castle."
+</p>
+
+<p>
+"And then what about my question? Is Tremble in pain?"
+</p>
+
+<p>
+"I have a hunch. She follows your requests without much issue, but wails when you ask her purpose."
+</p>
+
+<p>
+"Anamit would've made her for a reason. Action requires purpose."
+</p>
+
+<p>
+"I remember Ana was against the idea that this applies to nonsentient creatures. I always thought she was onto something, look at non-animated life. They still act in response to the world - flowers turning to the sun and all. I don't think anyone would say they have a sense of purpose."
+</p>
+
+<p>
+"Flowers have the purpose of growing and reproducing, they just aren't aware of that purpose".
+</p>
+
+<p>
+Serrandi shoots Zemble an angry look.
+</p>
+
+<p>
+"I thought you'd know better than that. Survival is not purpose, survival simply is. Purpose is a conscious construct".
+</p>
+
+<p>
+"I'm not sure."
+</p>
+
+<p>
+"Psychomancers distinguish betweeen habitual and purposeful behavior. In that sense, you could absolutely have an organism which acts without purpose."
+</p>
+
+<p>
+"Certainly in an artifical lifeform that habit would be crafted to a purpose?".
+</p>
+
+<p>
+"Not the lifeform's purpose though. Just the creator's."
+</p>
+
+<p>
+"Fine. I don't really care either way. What about this hunch of yours?"
+</p>
+
+<p>
+"I think Ana made Tremble to see if you could have an agent define its own habits without sentience or preassigned purpose".
+</p>
+
+<p>
+"Without sentience?"
+</p>
+
+<p>
+"Of course, Ana would never experiment with sentience - she had a heart you know."
+</p>
+
+<p>
+"The best psychomancers today don't know how to guarantee nonsentience with complex behavior. How would Ana?"
+</p>
+
+<p>
+"Ana had that figured out." Serra hesitates and glances at Trenble. "Or, she thought she had that figured out"
+</p>
+
+<p>
+They were quiet for a long time.
+</p>
+
+
+<p>
+"You know those eyes are blind?"
+</p>
+
+<p>
+"Yeah. Probably uses a magical sense. Can probably see every tiny detail from here to the lesser rivers. Ana was good with those. Normally a creature has to direct its senses to an extent, at least if the senses are complex enough. Magical senses can cut through a lot of that, give the direct sense of objects. Probably makes it easier to navigate without purpose".
+</p>
+
+<p>
+"Sees everything, but has no reason to make sense of it. Explains the mimicry - acting out human conversations without understanding them".
+</p>
+
+<p>
+"mimicry&#x2026; when do you think she heard Ana scream like that?"
+</p>
+
+<p>
+"Did Ana suffer melancholy, or anything like that?"
+</p>
+
+<p>
+"Yeah, her wrestling with purpose had something to do with that I think."
+</p>
+
+<p>
+"Maybe that explains why Tremble mimics the wail when the question is brought up."
+</p>
+
+<p>
+Until the storm passed, the rest of the day was spent in silence.
+</p>
+
+<p>
+With the sun shining outside, Serrandi speaks to Tremble.
+</p>
+
+<p>
+"Come with us, Tremble. Your purpose is to help us understand you. Is that ok?"
+</p>
+
+<p>
+"Ok?" Shudder. "Ok?"
+</p>
+
+<p>
+"It's ok."
+</p>
+
+<p>
+"Ok."
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

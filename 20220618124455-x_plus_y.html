@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-16 Sa 19:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>x-plus-y</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">x-plus-y</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgea0a7aa">The difficulties of difference</a>
+<ul>
+<li><a href="#orgd2edfa7">Key takeaways</a></li>
+</ul>
+</li>
+<li><a href="#org07a6706">The problem with leaning in</a>
+<ul>
+<li><a href="#orgd379ce7">Key takeaways</a></li>
+</ul>
+</li>
+<li><a href="#org63c0063">A new dimension</a>
+<ul>
+<li><a href="#orgcd8d07d">Key takeaways</a></li>
+</ul>
+</li>
+<li><a href="#orgd8e5532">Structures and Society</a>
+<ul>
+<li><a href="#orgd2fe230">Key takeaways</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgea0a7aa" class="outline-2">
+<h2 id="orgea0a7aa">The difficulties of difference</h2>
+<div class="outline-text-2" id="text-orgea0a7aa">
+<p>
+In this chapter Euginia Cheng takes us through the problems with some common arguments that gender inequalities are natural and necessary based on ideas about differences between men and women.
+</p>
+
+<p>
+She establishes an abstract form of the presented arguments:
+</p>
+<ol class="org-ol">
+<li>Men are by nature always X</li>
+<li>Quality X is beneficial for Z</li>
+<li>hence men are by nature better at Z</li>
+</ol>
+
+<p>
+She subsequently explains that getting to this argument requires some leaps from what we actually know. The more honest form of the argument is:
+</p>
+
+<ol class="org-ol">
+<li>men are observed to have quality X on average, under select circumstances</li>
+<li>quality X believed to be beneficial for Z (without a strong basis)</li>
+<li>therefore men are naturally better at Z</li>
+<li>therefore we don't need to do anything about the gender imbalances</li>
+</ol>
+
+<p>
+she outlines the three key leaps:
+</p>
+<ol class="org-ol">
+<li>Assuming that an observed difference applies consistently and in all circumstances (from on average under circumstances to always in general)</li>
+<li>Assuming that the observed difference is 'naturally' there (from observed to have to naturally have)</li>
+<li>Assuming that the measured quality (X) is a valid measure of ability Z (from 'have X' to 'better at Z')</li>
+</ol>
+
+<p>
+She uses an example in physics, where you might take the number of citations as a measure of ability in physics (leap 3).
+This could measure ability in physics, but also many confounding factors.
+</p>
+
+<p>
+for point 2:
+She then mentions the difficulty in separating nature from nurture in experiments, the dual issue that the older your test subjects the more influenced by culture and people's attitudes towards them they are, and the younger they are the less their behavior is reflective of theri natural inclinations at older ages.
+Furthermore she challenges the way that qualities are often measured (e.g. time spent looking at faces vs objects and ability to systematize, intelligence tests, arithmetic as measure of mathematics).
+</p>
+
+<p>
+for point 1:
+The leap disregards the role of variance and the ways in which averages can be misleading.
+she cites a book <i>Testosterone Rex</i> that for most qualities where there are observed statistical differences between genders, that if you select a woman and man at random, the chance is 40% that the trait is more masculine in the woman, very close to chance.
+</p>
+
+<p>
+She briefly touches on the question that until (if ever) the question of innate differences is settled, should we adopt a null hypothesis that the differences are fair, or unfair? Where is the burden of proof?
+She says it would be more reasonable to ask the extent of the innate differences rather than whether or not they exist, but cautions that even in this case they would be too unreliable to really be applied in any reasonable way.
+She brings up a book <i>the orchid and the dandelion</i> in which it is argued that different people thrive in different circumstances, which introduces the point: Even with innate gender differences, how these affect performance is partly contextual.
+ This provides the bridge to the next chapter: we should be looking at the factors in workplace and school environments which are impacting the success of women and address those instead of using quotas or affirmative action.
+</p>
+
+<p>
+There is an inconsistency in this chapter which I hope will be addressed later: the first parts of the chapter establish that gender differences are not meaningful, but it looks like she is going to use those differences to argue for changing work environments. Based on material I find online, it looks like she will be using personal differences rather than gendered ones, sidestepping the issue of gendered differences.
+</p>
+</div>
+
+<div id="outline-container-orgd2edfa7" class="outline-3">
+<h3 id="orgd2edfa7">Key takeaways</h3>
+<div class="outline-text-3" id="text-orgd2edfa7">
+<ul class="org-ul">
+<li>there are three key unwarranted distortions that underlie arguments for inequality from biological differences
+<ol class="org-ol">
+<li>simplistic generalizations from uncertain data</li>
+<li>biological essentialism</li>
+<li>unwarranted association of an attribute and a skill</li>
+</ol></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org07a6706" class="outline-2">
+<h2 id="org07a6706">The problem with leaning in</h2>
+<div class="outline-text-2" id="text-org07a6706">
+<p>
+TODO: I think these summaries are too detailed - but the info that I put down here is great stuff&#x2026; However, I'm not going to remember these details either way. If I want to retrieve them, perhaps its best to reread the chapter.
+</p>
+
+<p>
+In this chapter Euginia Cheng argues that pushing women to succeed in male-dominated spaces by emulating masculine behavior is a common but misguided approach to remedying gender imbalances.
+She argues that we should first decouple character traits from gender, and then reevaluate which traits we should value in our society.
+As described in the previous chapter, she argues that gender is a poor predictor of character traits and so should be considered an independent variable.
+She blames reactionary masculinity and femininity on a push for women to become more masculine and men become more feminine.
+She argues that attempts to redifine masculinity and femininity to include more traits considered of the other gender ultimately fail ("women's struggle to equally participate in the oppression of the poor and the powerless"), ("still just a hero man with an emotional woman").
+</p>
+
+<p>
+(when decoupled from character traits and behaviors, does gender even exist? in this chapter Cheng seems to use gender to mean biological sex. However, in a footnote she clarifies that transgender men can bear children as well, so maybe she really does mean gender identity.).
+</p>
+
+<p>
+She subsequently lists many examples of women's contributions being culturally undervalued, and argues that these cases are partly due to explicit bias and partly due to undervaluing of their role.
+In hunter-gatherer societies, two thirds of food came from gathering and only one third from hunting - but hunting is what is remembered and popularly celebrated.
+The two-thirds women workforce in Alan Turing's codebreaking operation recieved very little recognition, most of it being reserved for the men spearheading the thing.
+She argues that alan turing as well was undervalued at the time for being homosexual.
+She states that the less risky, less glamorous, but more essential day-to-day work of the women in these situations was what was undervalued.
+In Margaret Sullivan's obituary, the NYT opened with a paragraph describing exclusively domestic achievements.
+Florence Nightingale is remembered as a nurse, but it was her mathematical skill and ability to visualize data that made her so successful as one.
+Emmy Noether, founder of category theory provided a great deal of support to Einstein and Hilbert, but is rarely remembered for this.
+(Incidentally Cheng credits her as the founder of category theory)
+(other examples mentioned later:)
+Young mothers who are part-time programmers are undervalued by an industry of presenteeism.
+A study into the performance of men and women on history examinations found that men tended to argue a strong position fiercely, and this was rewarded, while women tended to provide a more balanced perspective, and this was not valued.
+</p>
+
+<p>
+Next, Cheng describes her own experiences emulating masculine behaviors in the mathematical academic field.
+She points to other cultural trends in this direction.
+She attributes this to distortion 3.
+In evaluating which of the traits she emulated where valuable, cheng finds that they were largely only valuable within the given culture of her field, and that if that culture were changed for the better these traits would not be as neccessary.
+</p>
+
+<p>
+Cheng uses the example of the math olympiad, which tends to exclude women and girls, to illustrate how inappropriate indicators of success are used - yes, the olympiad requires mathematical skill, but it also requires a competitive spirit and does not measure or value cooperation.
+Rather than finding ways for women to succeed in such competitions, we should identify worthwhile strengths that do not shine in such competitions and value them.
+</p>
+
+<p>
+As an example of achieving success in an alternative way, she cites Dame Stephanie Shirley: who made a fortune exclusively employing women - often mothers of young children - as programmers.
+She paid them based on their productivity rather than by hour, playing to the strengths of time-strapped mothers and part-time workers. 
+She did need to pretend to be a man in correspondence in order to recieve work - showing examples of direct categorical bias.
+</p>
+
+<p>
+Cheng distinguishes between diversity - the hiring of a diverse set of people - and inclusivity: the creation of an environment where diverse people are valued and thrive.
+She argues that pushes for diversity only will result in more 'miserable women', while pushes for inclusivity only will result in 'gender blindness', where categorical bias and biological factors (menstruation, childbirth) go unaccounted for.
+(the former here relies on a difference in the kinds of environments women are happy in though - as I mentioned above, this is at odds with the decoupling of character traits from gender.)
+</p>
+
+<p>
+To illustrate the importance of changing workplace culture as a whole she uses the mtaphor of a luggage belt. 
+If everyone stands back, then everyone can have a clear view of their luggage, but when one person stands to the front for a better view, it becomes necessary for the people near them to stand to the front as well.
+Cheng says that there would be an uproar if she said that standing to the front is a masculine behavior, but she clearly implies that it is.
+Maybe this question of decoupling from gender is really just a defensive strategy? She says that we need to change the way we talk about traits to be non-gendered specifically so that we can avoid the drama that would be associated with this.
+</p>
+
+<p>
+It's not entirely clear to me what she's getting at.
+</p>
+
+<p>
+Ah, I think I may have it: feminine traits are undervalued, and the one-dimensionalization leads to people seeing all women as having feminine but not masculine traits, compounding this undervaluing for women.
+The one-dimensionalization has an additional problem in that it is not just descriptive, but proscriptive, to some extent a self-fulfilling prophecy.
+It just isn't clear why solving gender inequality would require addressing both problems - but that may just be a matter of them reinforcing each other culturally?
+This analyzis is missing from Cheng's work so far, but at least it's getting me thinking about it more clearly.
+</p>
+</div>
+
+<div id="outline-container-orgd379ce7" class="outline-3">
+<h3 id="orgd379ce7">Key takeaways</h3>
+<div class="outline-text-3" id="text-orgd379ce7">
+<ul class="org-ul">
+<li>In addition to plain discrimination based on gender, women are disadvantaged by undervaluing of the traits they statistically have</li>
+<li>we should decouple the discussions around these traits from gender</li>
+<li>we should change workplace cultures to value cooperation, empathy, balance and nuance, etc.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org63c0063" class="outline-2">
+<h2 id="org63c0063">A new dimension</h2>
+<div class="outline-text-2" id="text-org63c0063">
+<p>
+In this chapter Cheng argues for the adoption of ungendered language in discussing people's characteristics and systemic oppression.
+She emphasizes that while characteristics may be correlated with gender and this can have an effect at the collective level (indeed, I believe this is the crux of her argument), the use of gendered language surrounding them is what leads to their misapplication at the individual level.
+Additionally, the proscriptive role of gendered language has negative effects, and the gendered language used in feminist discourse (feminist being an example) leads to division and straw-manning.
+She uses the example of the books "why we should all be feminists" and "why I am not a feminist" agreeing with one another on many points, but not on the definition of feminism.
+Other confusion-causing terms she includes are patriarchy and mansplaining.
+</p>
+
+
+<p>
+She suggests the terms ingressive and congressive:
+</p>
+
+<p>
+Ingressive: focusing on oneself, imposing on others more than taking them into account, emphasizing independence and competition, tendency toward single-track thought process
+Congressive: focusing on community, taking others into account more than imposing on them, emphasizing interdependence and cooperation, tendency toward circumspect thought processes.
+</p>
+
+<p>
+She argues that in our society ingressive traits are associated with men, and overvalued, while congressive traits are associated with women and undervalued.
+In fact she states (toward the end) that congressive traits are more valuable to society and should be the ones which are valued.
+The definitions make them seem like opposite traits, but EC describes them as orthogonal, forming a plane  (this doesn't really make sense to me).
+</p>
+
+<p>
+In a helpful diagram she describes two aspects of sexism, implicit and explicit.
+In explicit sexism women are excluded because of their gender per se.
+While in implicit sexism women are excluded because they do not, or are percieved to not, embody ingressive traits.
+She argues against tackling this by questioning the idea that women are less ingressive - because it is beside the point.
+Instead, we should be questioning the idea that ingressive traits are more desirable in general.
+For this purpose, to not conflate implicit and explicit sexism, the ungendered language for traditionally gendered traits is presented as useful.
+</p>
+
+<p>
+This chapter does address my concerns to an extent, but something didn't sit right, yet I can't recall what it was. Maybe it'll be clear if I return to this chapter later.
+</p>
+</div>
+
+
+<div id="outline-container-orgcd8d07d" class="outline-3">
+<h3 id="orgcd8d07d">Key takeaways</h3>
+<div class="outline-text-3" id="text-orgcd8d07d">
+<ul class="org-ul">
+<li>use ungendered language for describing character traits and how they should be valued</li>
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgd8e5532" class="outline-2">
+<h2 id="orgd8e5532">Structures and Society</h2>
+<div class="outline-text-2" id="text-orgd8e5532">
+<p>
+In this chapter euginia cheng describes some ways in which society encourages ingressive behavior, with special focus on her own experiences in education.
+She arugues that besides making classroom environments more collaborative and less competitive, we should place less emphasis on speed and more on depth and flexibility.
+She provides the finnish school system as a good example of a congressive and successful school system.
+She also uses results obtained within it as evidence that girls tend to do better on the more congressive aspects of these fields.
+</p>
+
+<p>
+She mentions that competition works through contriving scarcity, but that in most contexts there is no scarcity and hence collaboration is better.
+Math and science are such fields.
+</p>
+</div>
+
+
+<div id="outline-container-orgd2fe230" class="outline-3">
+<h3 id="orgd2fe230">Key takeaways</h3>
+<div class="outline-text-3" id="text-orgd2fe230">
+<ul class="org-ul">
+<li>educattion is the most imporatn place to emphasize more congressive behavior</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hugs</p>
+<p class="date">Created: 2024-03-16 Sa 19:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

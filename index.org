@@ -3,53 +3,44 @@
 :END:
 Hey there,
 
-I'm a doctoral student in neuroscience at the EPFL in Lausanne. I'll be using this space to write about a variety of topics to practice my writing in a low-pressure environment. Before I was a doctoral student I worked as a programmer for a few years, and I made a lot of progress as a programmer by coding in my spare time without expectations or time pressure. I'm hoping a blog can lead to the same advances in my writing skills. The other reason I'll be blogging is to discuss ideas that I'm not specialized enough on to do rigorous academic work on, but that I'm more casually interested in. So you might hear from me on:
+I'm a doctoral student in neuroscience at the EPFL in Lausanne.
+I'll be using this space to write about a variety of topics to practice my writing in a low-pressure environment.
+Before I was a doctoral student I worked as a programmer for a few years, and I made a lot of progress as a programmer by coding in my spare time without expectations or time pressure.
+I'm hoping a blog can lead to the same advances in my writing skills.
+Some of my interests on which I'll write include:
  - epistemology
  - software engineering
  - game design
  - psychology
 
-I might throw in some creative writing or media reviews too.
+Naturally, I'll also write a fair bit about neuroscience.
+In order to keep this feeling like play rather than work I will shy away from my own topic of research (the functioning of the mouse visual cortex).
+Instead, I'll branch out into other aresa.
 
-My own area of research is the functioning of the mouse visual cortex. I will be steering clear of that topic here, since writing about it is already part of my day job, and I need this to be a leisure activity. I will make some posts on other neuroscience topics I'm interested in that I don't get to talk about much professionally:
- - the bayesian brain hypothesis
- - computational psychiatry
- - Artificial/deep neural networks
- - neuroscience of stress appraisal
- - neuroscience of depression
- 
-I really value simplicity and accessibility in other people's scientific writing, and want to develop that myself. As an excercise in that I'll be aiming for a lay audience with these topics. That's going to be a real challenge, but I do believe that each of these topics is understandable without a university degree.
-If you're willing to read that hodgepodge of various content, thanks so much! Since feedback is important to improve please leave me short reviews of the entries, what you liked, what I could improve, including which specific phrases are not clear or have a poor choice of words.
+I really value simplicity and accessibility in other people's scientific writing, and want to develop that myself.
+As an excercise in that I'll be aiming for a lay audience with these topics.
+That's going to be a real challenge, but I do believe that each of these topics is understandable without a university degree.
+If you're willing to read that hodgepodge of various content, thanks so much!
+Since feedback is important to improve please leave me short reviews of the entries, what you liked, what I could improve, including which specific phrases are not clear or have a poor choice of words.
 
-Note that I'm using a 'digital gardening' approach here, so instead of a traditional blog this will be full of in-progress drafts, and everything may be changed over time.
-* Creative writing
-- [[id:245d134a-80ac-4d13-a899-b52465bb36aa][tremble-and-zemble]]
-- [[id:b34052c5-b67a-43a7-bed1-2eaa706aaf45][on-the-sonic-habits-of-terra]]
-- [[id:dd9bf4ca-f058-4d8d-9377-e1d7586c3cb1][letter-from-ponder]]
-- [[id:52db35dc-ee22-4ec0-816d-8eed5058fc40][the-soundtrack-of-the-apocalypse]]
-- [[id:73805a16-a739-4a75-b0b2-2414beb5319f][m-a-d]]
+* Neuroscience
+- [[id:84c5b566-23ff-4036-9f58-8b3fcbb1b8b1][serotonin-and-ssris]]
+  - [[id:c924678f-5230-48d7-85d7-bf7413e5b2c8][neurotransmission-of-serotonin]]
+  - [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]]  
+  - [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]]
+  - [[id:00813f54-3bba-432c-8032-acc000dc5311][serotonin-and-learning]]
+
+* Programming / software engineering
+- [[id:d2494e49-8840-4773-8783-6cd586ded217][best-practices-for-programming]]
+
+
+* Essays
 - [[id:94ba5a79-0e68-48b4-b05b-826aa98ca855][lovecraft-and-eldritch-knowledge]]
 
 
-  
-* Science
-- [[id:c6ae58d7-87fe-4b65-bcd9-6bea4b9f6d3f][microwaving-kevlar]] (work in progress)
-- [[id:9e217027-4354-4ca9-b9e5-13e4d056b017][Likelihood and Regression]]
-- [[id:d2494e49-8840-4773-8783-6cd586ded217][best-practices-for-programming]]
-- [[id:20f9b573-7e60-4226-8707-f8a4918e1533][helplessness-index]]
-- [[id:84c5b566-23ff-4036-9f58-8b3fcbb1b8b1][serotonin-and-ssris]]
-- [[id:6f952799-ab73-473a-af5f-45faa882716e][slow-is-smooth-and-smooth-is-fast]] : scientists need to slow down for scientific progress to speed up
-  
-* summaries
-These are accessible summaries of interesting scientific papers, or chapter-by-chapter summaries of books.
- - [[id:0ca51e9e-2729-4ee7-8488-9dd89ff2d651][learned-helplessness-insights-from-neuroscience]] 
- - [[id:e1bf5827-0366-4bd5-8542-a77de9096a9c][extending-ourselves]]
- - [[id:c31dfd2c-cfa6-4194-8579-90311814d509][leviathan-and-the-air-pump]]
- - [[id:dc09347f-47dc-40dc-aa82-a4a01689c83a][lost-connections]]
- - [[id:a1a77873-0e53-4cd4-ab21-b4782d86d240][the-noonday-demon]]
- - [[id:197f325b-2b2f-46bf-9ed3-6b692fc12b80][theory-and-reality]]
- - [[id:90ca531b-a872-4b8a-a44d-bac5e60e668a][x-plus-y]]
+* creative writing (prompts)
+To help me get started with writing consistently, my sister gave me a set of creative writing prompts.
 
-* other
-
-[[id:bb9e7c86-d383-4beb-a0da-77e180c4023a][athletics-with-dyspraxia]]
+- [[id:245d134a-80ac-4d13-a899-b52465bb36aa][tremble-and-zemble]]
+- [[id:b34052c5-b67a-43a7-bed1-2eaa706aaf45][on-the-sonic-habits-of-terra]]
+- [[id:dd9bf4ca-f058-4d8d-9377-e1d7586c3cb1][letter-from-ponder]]

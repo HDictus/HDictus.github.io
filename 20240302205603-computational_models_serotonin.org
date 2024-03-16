@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       3d0856ea-f7dd-4ba8-a9d9-574c3ad3050e
+:END:
+#+title: computational-models-serotonin
+
+
+https://www.sciencedirect.com/science/article/pii/S2451902218301782?casa_token=_tJ9lu7rZzkAAAAA:jVZlMJmlWs5Clp5Bbwz9fkTPv-bLjrqGQ0tbSB5XKXIAaIA13KJsogyIWNGQtBy5T-hjsDuhRw
+https://www.sciencedirect.com/science/article/pii/S0028390820301866
+https://www.frontiersin.org/articles/10.3389/fnint.2013.00071/full
+https://www.nature.com/articles/s41593-021-00824-6
+https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcs.1420?casa_token=ArIOWN8OlVEAAAAA:IcdidI3LliRP7PvJDk5x7ZfqAgUNNQLzmKKFN8XrFeAP4A6u1I08s5JnpkCFXko5QzwCTQGdHQtWFw
+https://academic.oup.com/cercor/article/27/1/660/3056182

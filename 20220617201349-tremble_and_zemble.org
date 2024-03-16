@@ -3,6 +3,8 @@
 :END:
 #+title: tremble-and-zemble
 
+* prompt:
+
 The shadow of the huge monster approaches the door, and as you accept your fate, you see the most horrifying thing in the doorway. It walks over to you, opens its big mouth and ... "Have you seen my keys?".
 
 * part 1

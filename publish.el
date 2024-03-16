@@ -1,19 +1,5 @@
 (require 'ox-publish)
 
-(setq org-html-postamble
-"  <div id=\"comments\">
-    <h2>Comments</h2>
-    <div id=\"comment-list\"></div>
-    <div><textarea id=\"author\" placeholder=\"Name\"></textarea></div>
-
-    <div><textarea id=\"comment-input\" placeholder=\"Leave a comment...\"></textarea></div>
-    <button onclick=\"submitComment()\">Submit</button>
-  </div>
-
-  <script src=\"../scripts/comments.js\"></script>
-"
-)
-
 
 (setq org-publish-project-alist
       '(

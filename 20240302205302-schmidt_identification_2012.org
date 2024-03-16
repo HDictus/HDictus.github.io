@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e3b7bee3-1c15-4f66-a035-ed048aefb1a4
+:END:
+#+title: schmidt-identification-2012
+
+Schmidt et al. found that a sub-population of corticostriatal L5 porjection neurons expressing the protein p11 increase their expression of p11 and of 5HT4 receptors in response to fluoxetine treatment.
+When they removed p11 expression from this subset of neurons in some mice, they ceased to show this.
+
+When they removed p11 expression from the cortex altogether they found that mice no longer had the same behavioral response to fluoxetine, suggesting it is important for the response to SSRIs.
+

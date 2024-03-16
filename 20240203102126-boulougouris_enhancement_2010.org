@@ -3,4 +3,5 @@
 :END:
 #+title: boulougouris-enhancement-2010
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6633094/
+boulourgouris et al build on the results of [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] to show that it acts only in some regions of the brain.
+They find that a 5HT2C antagonist improves reversal learning wen injected into OFC, but not mPFC or NAc.

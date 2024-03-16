@@ -19,7 +19,8 @@ lot of different opinions about the specifics and starategies involved,
 but the principles themselves are not controversial in software
 engineering circles. If there is one overarching theme here it is: be
 kind to whoever works with your code, /which includes your future self/.
-# yup; exactly! Programming is a lot of delayed gratification: effort
+# yup; exactly!
+Programming is a lot of delayed gratification: effort
 now for clean, simple code saves a lot more effort next week, or even
 tomorrow. It's fine for your discipline to slip: there will be a lot of
 times you don't see the point in applying these principles.
@@ -33,13 +34,12 @@ You will probably see that not following the principle backfires; but next time 
 
 I should note that by far the best way to learn these things is from
 working alongside someone. It's difficult to see at first how these
-ideas apply to your own case. I would be happy to help you out with your
-code and explain how these apply, if you would like.
+ideas apply to your own case. 
 
 I'll give a quick overview here, the rest of the document is expanding
 on each of these points. Don't be overwhelmed by the details in the
 rest: applying the basic principles to some extent helps plenty already.
-# I'd mention not being too hard on oneself; programming well is hard, but can be learned, and doing is the best (only?) way to learn
+
 If you're struggling, don't worry about it; applying these practices well
 is really difficult, and the only way to get good at it is to learn by doing.
 As a magical cartoon dog once said: "Sucking at something is the first step
@@ -54,7 +54,7 @@ These practices help both to ensure the quality of the code you are
 working on, but also to improve your skill over time.
 
 1. Version control: use software like git to track your changes and
-   store different versions of your code
+   store different versions of your code.
    # commit early, commit often - need to get over the mindset that code needs to be perfect before 'checking in'; better to have the false starts, in some cases
    # also, I don't think people starting off know how much code is thrown away by 'senior' ppl; probably at least 1/3 of what I type is deleted at some point, better ways of doing things come up
     # new ideas, more clear versions, etc
@@ -68,6 +68,7 @@ working on, but also to improve your skill over time.
    specifically /what/ it should do (inputs, outputs, usage) before you
    worry about /how/ it should do it. If you are not sure, there are certain
    techniques that can help give you a clearer picture.
+   TODO: rephrase this, change the emphasis
    # specification is hard ahead of time, and getting bogged down in the details can be discouraging; often I find that writing some inital trial version, writing some tests,
    # and then trying to specify things works best - but that's my personal workflow
 
@@ -132,7 +133,7 @@ a findable way in case you choose to use it after all.
 The most commonly used version control software is Git.
 It is tricky software to understand, but fortunately you don't need
 to undestand it very deeply to use it.
-A few of its main features will suffice.
+A few of its main features and a willingness to google will suffice.
 # make it clear that git has a hard UI; and try not to get discouraged by it - it requires a 'deap' knowledge of what is happening behind the scenes, which shouldn't be required to use it
 # a savior of 'getting out of trouble' is the reflog; but it only works for things that are committed - more reason to commit often!
 There are plenty of tutorials
@@ -534,3 +535,6 @@ but if a comment clarifies /what/ the code does, it is a sign that code
 could be written more clearly.
 
 
+* acknowledgement
+
+I'd like to thank Mike Gvaert for his feedback on this document.

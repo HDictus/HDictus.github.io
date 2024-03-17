@@ -4,7 +4,7 @@
 (setq org-html-postamble
       "<script src=\"https://utteranc.es/client.js\"
         repo=\"https://github.com/HDictus/HDictus.github.io\"
-        issue-term=\"pathname\"
+        issue-term=\"title\"
         theme=\"github-light\"
         crossorigin=\"anonymous\"
         async>

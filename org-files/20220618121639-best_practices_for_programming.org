@@ -2,7 +2,8 @@
 :ID:       d2494e49-8840-4773-8783-6cd586ded217
 :END:
 #+title: best-practices-for-programming
-# TODO use mike's feedback, cite relevant papers.
+
+
 I made this for a friend who is a novice programmer and needs to write
 code for his thesis. I do think that every programmer needs to be reminded
 of these things every now and then.
@@ -215,20 +216,15 @@ be accomplished with manual testing, after all): but that changes you
 make now don't break functionality you implemented previously.
 The best part of this is that with your tests in place you can go back
 to refactor and improve old code without fear of breaking anything.
-I can straight up feel the difference in stress levels when refactoring
-tested v.s. untested code.
-# cannot stress this enough; perhaps name the benefits; being able to fearlessly refactor code once you've decided to change it is a superpower
-It is
-also a good idea to write tests reproducing any bugs you run into, to
-check that you don't reintroduce them down the line (which happens way
-more often than you would ever expect). The chapter on testing from
+Working with well tested code is, if nothing else, simply less stressful.
+
+It is also a good idea to write tests reproducing any bugs you run into, to check that you don't reintroduce them down the line (which happens way more often than you would ever expect).
+The chapter on testing from
 'Abstraction and specification in program development' by Barbara Liskov
 provides a really useful overview of the most important elements of
 testing, though it is focused on unit testing. Each language will have
 frameworks for writing and running automated tests: for python I
-personally really like pytest. I haven't used R in a long time, but when
-I started looking I found this page:
-https://www.r-bloggers.com/2019/11/automated-testing-with-testthat-in-practice/
+personally really like pytest.
 
 Depending on how you do it, testing can also help improve the design of
 your program. Code that is easy to test is often easy to use as well.
@@ -278,7 +274,7 @@ you can then throw away the prototype (discarding code is normal and often good)
 and start over with a well-defined idea.
 Another thing which helps is to break down the usage into individual, specific scenarios.
 I'll get into a specific strategy for implementing this in the next section.
-# there is likely more iteration to the above workflow that is required to make it practical, I think; you touch on it w/ prototyping below
+
 
 * An example of a software workflow
   :PROPERTIES:
@@ -367,7 +363,7 @@ And sometimes, you accidentally make a messy prototype while trying to
 make the real deal. Sometimes, it is worthwhile to restart with lessons
 learned even if you weren't intending to at first. (saved me a lot of
 headache on my masters thesis).
-# goes w/ the 'lots of code is thrown out' from above
+
 
 * Principles
   :PROPERTIES:
@@ -476,7 +472,7 @@ that gets the job done is way better than an impressively complicated
 program that does the same job /even if the former took longer to
 develop/. It's easier to understand, easier to improve on,
 easier to prevent and spot bugs in, and just plain better for your sanity.
-# complications often result in code that can't be debugged; bugs are (often) beyond the complexity of the code, if one's brain can only keep the complexiy in mind, there's no 'room' to debug
+
 
 ** Honorable mention: modularity
    :PROPERTIES:

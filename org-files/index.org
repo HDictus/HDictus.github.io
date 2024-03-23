@@ -1,6 +1,7 @@
 :PROPERTIES:
 :ID:       271b4fb8-cf96-4d49-82ef-db83cc0ce91d
 :END:
+#+title: homepage
 Hey there,
 
 I'm a doctoral student in neuroscience at the EPFL in Lausanne.

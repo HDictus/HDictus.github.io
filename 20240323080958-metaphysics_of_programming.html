@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-03-23 Sa 13:01 -->
+<!-- 2024-03-23 Sa 12:57 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>the-serotonin-deficiency-theory</title>
+<title>metaphysics-of-programming</title>
 <meta name="author" content="Hugs" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -196,70 +196,66 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">the-serotonin-deficiency-theory</h1>
+<h1 class="title">metaphysics-of-programming</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org306a91e">takewaways</a></li>
+<li><a href="#org3e8c027">Object Oriented Plato</a></li>
+<li><a href="#orgcb706cb">Structural typing, objects and properties</a></li>
+<li><a href="#org5332845">Entity-component systems as property-cluster realism</a></li>
+<li><a href="#org1330be9">BDD - beyond metaphysics</a></li>
 </ul>
 </div>
 </div>
 <p>
-One of the most well-known theories of depression is the serotonin deficiency theory.
-The theory is that depression is a result of having too little serotonin in the brain and can only be corrected by increasing the amount of serotonin, for instance through drugs.
-The main evidence <a href="https://doi.org/10.1192/bjp.113.504.1237">presented for this theory</a> at first was the fact that drugs which increase the release of serotonin help to alleviate depression.
-Initially these were <a href="https://en.wikipedia.org/wiki/Monoamine_oxidase_inhibitor">drugs which affected a number of neurotransmitters</a> besides serotonin, but the theory led to the development of more specialized drugs with more specific effects.
-<a href="https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor">selective serotonin reuptake inhibitors</a> (SSRIs) block the activity of a protein called SERT.
-SERT takes serotonin in the brain and absorbs it - to clean it up and metabolize it.
-So if SERT is blocked then any serotonin released is going to float around for longer and is more likely to interact with 5HT receptors.
-Hence, reuptake inhibitors.
+When we write programs there are different ways that we can organize our code.
+Different ways of programming, especially in computational science, represent different ways of representing the structure of reality.
+Questions regarding what is 'really' real and what reality consits of fall under the domain of metaphysics.
+Metaphysical assumptions are embedded in computer programs, and often have parallels in historical philosophies.
 </p>
 
 <p>
-The attention the serotonin deficiency theory got was not unwarranted - the truest trial of a scientific idea is not merely a match with the evidence, but whether it can be used to develop beneficial technology.
-For a while, this theory passed that test.
+Metaphysics is by its nature not demonstrable - we do not have access to reality as it really is, so we will never truly know.
+Despite this, no one is truly metaphysically agnostic - we all reason about a real world and make assumptions about it in order to navigate our surroundings.
+The role of metaphysics then is more about organizing thought.
+It is about analyzing our mental representations of reality and how these constrain and empower us.
+In my evaluation then, the strengths and limitations of different programming tools are powerful ways to explore metaphysical questions, and metaphysics can be a useful guide for understanding the strengths and limiations of programming practice.
+</p>
+
+<div id="outline-container-org3e8c027" class="outline-2">
+<h2 id="org3e8c027">Object Oriented Plato</h2>
+<div class="outline-text-2" id="text-org3e8c027">
+<p>
+TODO: there is a disconnect at the heart of this - what is real? stateless processes that determine the transitions of state (functions, classes), or only those things that represent state?
 </p>
 
 <p>
-Pharmaceutical companies selling SSRIs naturally latched on to the theory and used it extensively in their marketing, which is why it is so well known among laypeople.
-However, in spite of extesive efforts new evidence for the serotonin deficiency theory has been hard to find, and as a result it never formed a firm scientific consensus.
-Most research into depression has regarded serotonin deficiency as (at best) one factor of many in the pathlology of depression.
-Recently, a splash was made by a <a href="https://www.nature.com/articles/s41380-022-01661-0.pdf">paper</a> by Joanna Moncrieff and colleagues which shows that attempts to demonstrate a relationship between serotonin concentration and depression severity have not borne fruit.
-They excluded studies using animals and studies focusing on specific subtypes of depression, and tried to answer six questions:
+The dominant programming methodology for the last forty years or so has been Object Oriented Programming (OOP).
+In classical OOP a program - including any real-world systems it represents- consists of objects which are instances of classes.
+A class represents a category of object, like a Chair class represents the category of chairs, while your living room chair is a specific instance of that class.
+Any specific chair has additional, changeable properties like color, position, or velocity (during particularly heated arguments).
+The class of chairs itself though does not (strictly speaking) have these properties and is defined one way, and stays that way.
 </p>
-
-<ol class="org-ol">
-<li>whether people with depression have lower concentrations of serotonin in their bodily fluids</li>
-<li>whether the levels of 5HT1a receptors are lower in people with depression</li>
-<li>Whether people with depression have more SERT or more active versions of SERT</li>
-<li>whether depleting serotonin can cause depression</li>
-<li>whether the gene for SERT is more expressed in people with depression</li>
-<li>whether a mutation of the SERT gene combined with stressful events leads to depression</li>
-</ol>
-
 
 <p>
-For each point they were unable to uncover compelling evidence.
-When I was reading papers for this blog entry, I did find papers which were cited as evidence for many of the 6 claims analyzed by Montcrieff. et al.
-I'm going to assume that if I ran into these papers while looking into it casually, they encountered them as well when conducting a professional review and excluded them for good reason.
+Those familair with classical greek philosophy have likely already spotted a parallel.
+In Plato's metaphysics the objects we interact with in the real world are instances of some eternal, perfect "form" that defines them.
 </p>
-
-
-<p>
-So why do SSRI's still work? Montcrieff suggests that they have the effect of dulling emotions in general, helping patients deal with depression more easily.
-However, there are loads of other things SSRIs do and therefore many, many theories about how they help with depression. I'll get into a few others in later posts.
-</p>
-
-<div id="outline-container-org306a91e" class="outline-2">
-<h2 id="org306a91e">takewaways</h2>
-<div class="outline-text-2" id="text-org306a91e">
-<ul class="org-ul">
-<li>medications like SSRIs help patients recover from depression</li>
-<li>however, there is next to no evidence of the theory that depression is the result of a serotonin deficiency</li>
-<li>there are many possible explanations for why SSRIs work, with no clear leader</li>
-</ul>
 </div>
+</div>
+
+
+<div id="outline-container-orgcb706cb" class="outline-2">
+<h2 id="orgcb706cb">Structural typing, objects and properties</h2>
+</div>
+
+<div id="outline-container-org5332845" class="outline-2">
+<h2 id="org5332845">Entity-component systems as property-cluster realism</h2>
+</div>
+
+<div id="outline-container-org1330be9" class="outline-2">
+<h2 id="org1330be9">BDD - beyond metaphysics</h2>
 </div>
 </div>
 <div id="postamble" class="status">

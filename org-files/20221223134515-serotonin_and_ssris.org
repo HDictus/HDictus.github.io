@@ -20,13 +20,13 @@ Want to come with?
 Ok, I say a deep dive. There is so much on this topic and so little consensus that an actual deep dive would take a whole career.
 Keep in mind that I am not specialized in the study of serotonin, or anxiety, or depression, or pharmacology.
 
-I'll organize this in a series of posts, each regarding one hypothesized or apparent role of serotonin anxiety or depression.
+I'll organize this in a series of posts, each regarding one hypothesized or apparent role of serotonin in anxiety or depression.
 At the end of each post I'll put a little summary of the main points you need to grasp to carry on to the subsequent posts.
 
   - [[id:c924678f-5230-48d7-85d7-bf7413e5b2c8][neurotransmission-of-serotonin]]
   - [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]]  
   - [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]]
-  - [[id:00813f54-3bba-432c-8032-acc000dc5311][serotonin-and-learning]]
+
 
   
 # * SSRIs and SERT

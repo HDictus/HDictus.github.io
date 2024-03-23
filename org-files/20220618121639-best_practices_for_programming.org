@@ -24,11 +24,7 @@ Programming is a lot of delayed gratification: effort
 now for clean, simple code saves a lot more effort next week, or even
 tomorrow. It's fine for your discipline to slip: there will be a lot of
 times you don't see the point in applying these principles.
-# yes; make sure ppl aren't hard on themselves, I usually say "in a perfect world" I do all the below, but world isn't perfect - once can refine the descipline over time, depending on the use case
-If you don't understand
-why the principle should be used in your case; skip it rather than
-applying it blindly.
-# or ask for clarification
+If you don't understand why the principle should be used in your case; skip it rather than applying it blindly.
 You will probably see that not following the principle backfires; but next time you will know
 /why/, and apply the principle intentionally.
 

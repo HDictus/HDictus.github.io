@@ -51,22 +51,13 @@ working on, but also to improve your skill over time.
 
 1. Version control: use software like git to track your changes and
    store different versions of your code.
-   # commit early, commit often - need to get over the mindset that code needs to be perfect before 'checking in'; better to have the false starts, in some cases
-   # also, I don't think people starting off know how much code is thrown away by 'senior' ppl; probably at least 1/3 of what I type is deleted at some point, better ways of doing things come up
-    # new ideas, more clear versions, etc
 2. Code review: have others give you feedback on your code if possible,
    return to your code to reflect on it yourself if not
 3. Automated testing: write automated tests of your code (at least the
    most complex and/or important parts), and run these each time you
    make changes to verify you didn't accidentally break something.
-   # thank you!
-4. Abstraction and specification: for each piece of your program, define
-   specifically /what/ it should do (inputs, outputs, usage) before you
-   worry about /how/ it should do it. If you are not sure, there are certain
-   techniques that can help give you a clearer picture.
-   TODO: rephrase this, change the emphasis
-   # specification is hard ahead of time, and getting bogged down in the details can be discouraging; often I find that writing some inital trial version, writing some tests,
-   # and then trying to specify things works best - but that's my personal workflow
+4. Abstraction and specification: For each part of your program separate /what/ it does from /how/ it does it.
+   Ideally, define the \what\ before thinking about the \how\, though this is hard to pull off consistently.
 
 Version control and code review can be easily combined by using a
 repository hosting tool like github, which lets you upload your version
@@ -85,15 +76,12 @@ code. This is very much non-exhaustive, but they're the ones that seem
 to crop up the most early on.
 None are hard and fast rules, and occaisionally you will have to choose
 between them.
-# I'd make it clear that these are not hard and fast
+
 
 1. DRY: don't repeat yourself
-   # this is a funny one; there's a tradeoff w/ SRP & KISS; sometimes there is a bunch of overlap in a function w/ another function, but adding flags to unify them into a single function makes things
-   # brittle more long term
 2. SRP: single responsiblity principle, each piece of code should have a
    single, well-defined task
 3. use a consistent style: enforce consistency to improve readability
-   # worth recommending linters / code formatters, imo: once you get used to the 'style' (which will prob. be distasteful at first), it takes a load off ones mind
 4. approximate natural language: the closer your code resembles natural
    language, the easier it is to read
 5. Premature optimization is the root of all evil: write your program in
@@ -124,14 +112,12 @@ the changes made and integrating with other practices here. It lets you
 safely explore different ways of doing things, different changes and
 features without fear of mucking up the rest - and stores the result in
 a findable way in case you choose to use it after all.
-# nice
+
 
 The most commonly used version control software is Git.
 It is tricky software to understand, but fortunately you don't need
 to undestand it very deeply to use it.
 A few of its main features and a willingness to google will suffice.
-# make it clear that git has a hard UI; and try not to get discouraged by it - it requires a 'deap' knowledge of what is happening behind the scenes, which shouldn't be required to use it
-# a savior of 'getting out of trouble' is the reflog; but it only works for things that are committed - more reason to commit often!
 There are plenty of tutorials
 on the basic commands, but they often leave out the structure of git
 workflows - which most people are taught informally by experience
@@ -151,7 +137,7 @@ dedicated to a specific and nameable change (commits should be
 changed where, and that you always know which point to go back to when
 something breaks.
 You can view the changes made using the commands 'git log' or 'git reflog show',
-# very nice
+
 
 For complex changes you'll often recurse: you might make a branch for a
 feature 'generate-bananas' and then branch off that for
@@ -175,25 +161,19 @@ and approve them. People learn about new libraries, conventions,
 readability, and language features through review, and since you act on
 the feedback in the review by implementing it in your own code it
 actually sticks in your memory more than if you read about it somwhere.
+Having feedback on your code from an outsider helps a great deal with improving it clarity.
+When reviewing code, strive to critique and improve the clarity of the code above all.
+
 The general rule of thumb is three pairs of eyes on each line of code.
-Code review usually takes the form of the reviewer reading over the
-changes, noting issues and suggesting modifications, which the one who
-made the changes then either implements or discusses. This may go for a
-few rounds, early on it takes a lot of time because there is a lot to
-improve, but before long it is less of an issue. Sometimes you may spot
-an issue, but not have a clear idea of a solution. In this case, it is
-important to still note it down. Someone else may have a solution, or an
-idea will come to you later.
+Code review usually takes the form of the reviewer reading over the changes, noting issues and suggesting modifications, which the one who made the changes then either implements or discusses.
+This may go for a few rounds, early on it takes a lot of time because there is a lot to improve, but before long it is less of an issue.
+Sometimes you may spot an issue, but not have a clear idea of a solution.
+In this case, it is important to still note it down. Someone else may have a solution, or an idea will come to you later.
 
-There is no real replacement for engaging in code review with other
-experienced programmers, but when working solo you can still get some of
-the benefits by self-review. After writing changes, give it some time
-(maybe just sleep on it, maybe come back to it next week), and then
-review them, edit, and merge.
+There is no real replacement for engaging in code review with other experienced programmers, but when working solo you can still get some of the benefits by self-review.
+After writing changes, give it some time (maybe just sleep on it, maybe come back to it next week), and then review them, edit, and merge.
 
-Contributing to open source software can be a good way to get practice
-with code review, as well as seeing some of the other practices here in
-action.
+Contributing to open source software can be a good way to get practice with code review, as well as seeing some of the other practices here in action.
 
 It's unfortunate that this practice depends to some degree on the
 environment around you to work. Part of my motivation to become a
@@ -203,20 +183,18 @@ programmer and the quality of ones output. There is also an aspect of
 scientific integrity to this: peer review usually does not include
 review of the code used for a study, even in computational fields. This
 is, in the most technical terms, bonkers.
-# bonkers indeed
+
 The code is as important as any derivation,
 and it also provides the most precise picture of what was done for the
 study (there have been several studies that did not make sense to me
-until I read the code, others where unaddressed assumptions were hidden
-in the code which should have been acknowledged in the paper).
+until I read the code, others where some assumptions were hidden
+in the code).
 
 If you have colleagues who are doing similar work in the same language,
 consider suggesting mutually reviewing one another's code using
 something like github, gitlab, or bitbucket (I'll expand on this in a
-later section).
+later section). 
 
-# finding the balance of what to review is hard, and might be worth mentioning. I tailor my reviews to whom I'm reviewing, but getting 'clarity' out of the code that exists
-# is something that is always at the forefront; style, speed/efficiency, etc, can all come later
 
 ** Automated testing
    :PROPERTIES:

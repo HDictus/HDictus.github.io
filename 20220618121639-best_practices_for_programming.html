@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-03-23 Sa 14:09 -->
+<!-- 2024-03-23 Sa 14:26 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>best-practices-for-programming</title>
@@ -786,7 +786,7 @@ is when there is some complicated set of operations that could be given
 an intuitive name as a function. For example
 </p>
 
-<pre class="example" id="org66ba056">
+<pre class="example" id="org80164cd">
 for item in inventory:
     if item.nutritional_content &gt; 0 and (item.isliquid and item.viscosity &lt; 1 or item.hardness &gt; TOOTH_HARDNESS):
         self.mouth.angle += 25
@@ -797,7 +797,7 @@ for item in inventory:
 could be
 </p>
 
-<pre class="example" id="org449268c">
+<pre class="example" id="org235f93c">
 for item in inventory:
     if _is_edible(item):
         self.eat(item)
@@ -891,7 +891,6 @@ I'd like to thank Mike Gvaert for his feedback on this document.
         issue-term="title"
         theme="github-light"
         crossorigin="anonymous"
-        type="post"
         async>
       </script>
 </div>

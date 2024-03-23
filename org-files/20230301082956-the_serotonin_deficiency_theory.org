@@ -4,7 +4,7 @@
 #+title: the-serotonin-deficiency-theory
 
 
-One of the most prevalent theories of depression is the serotonin deficiency theory.
+One of the most well-known theories of depression is the serotonin deficiency theory.
 The theory is that depression is a result of having too little serotonin in the brain and can only be corrected by increasing the amount of serotonin, for instance through drugs.
 The main evidence [[https://doi.org/10.1192/bjp.113.504.1237][presented for this theory]] at first was the fact that drugs which increase the release of serotonin help to alleviate depression.
 Initially these were [[https://en.wikipedia.org/wiki/Monoamine_oxidase_inhibitor][drugs which affected a number of neurotransmitters]] besides serotonin, but the theory led to the development of more specialized drugs with more specific effects.

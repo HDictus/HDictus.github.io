@@ -7,6 +7,7 @@
         issue-term=\"title\"
         theme=\"github-light\"
         crossorigin=\"anonymous\"
+        type=\"post\"
         async>
       </script>"
 )

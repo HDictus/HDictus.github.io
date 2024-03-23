@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-03-17 So 10:10 -->
+<!-- 2024-03-23 Sa 12:57 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>best-practices-for-programming</title>
@@ -193,6 +193,38 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="content" class="content">
@@ -264,15 +296,7 @@ Programming is a lot of delayed gratification: effort
 now for clean, simple code saves a lot more effort next week, or even
 tomorrow. It's fine for your discipline to slip: there will be a lot of
 times you don't see the point in applying these principles.
-</p>
-
-<p>
-If you don't understand
-why the principle should be used in your case; skip it rather than
-applying it blindly.
-</p>
-
-<p>
+If you don't understand why the principle should be used in your case; skip it rather than applying it blindly.
 You will probably see that not following the principle backfires; but next time you will know
 <i>why</i>, and apply the principle intentionally.
 </p>
@@ -313,11 +337,8 @@ return to your code to reflect on it yourself if not</li>
 <li>Automated testing: write automated tests of your code (at least the
 most complex and/or important parts), and run these each time you
 make changes to verify you didn't accidentally break something.</li>
-<li>Abstraction and specification: for each piece of your program, define
-specifically <i>what</i> it should do (inputs, outputs, usage) before you
-worry about <i>how</i> it should do it. If you are not sure, there are certain
-techniques that can help give you a clearer picture.
-TODO: rephrase this, change the emphasis</li>
+<li>Abstraction and specification: For each part of your program separate <i>what</i> it does from <i>how</i> it does it.
+Ideally, define the \what\ before thinking about the \how\, though this is hard to pull off consistently.</li>
 </ol>
 
 <p>
@@ -341,6 +362,7 @@ to crop up the most early on.
 None are hard and fast rules, and occaisionally you will have to choose
 between them.
 </p>
+
 
 <ol class="org-ol">
 <li>DRY: don't repeat yourself</li>
@@ -383,14 +405,12 @@ features without fear of mucking up the rest - and stores the result in
 a findable way in case you choose to use it after all.
 </p>
 
+
 <p>
 The most commonly used version control software is Git.
 It is tricky software to understand, but fortunately you don't need
 to undestand it very deeply to use it.
 A few of its main features and a willingness to google will suffice.
-</p>
-
-<p>
 There are plenty of tutorials
 on the basic commands, but they often leave out the structure of git
 workflows - which most people are taught informally by experience
@@ -411,6 +431,7 @@ changed where, and that you always know which point to go back to when
 something breaks.
 You can view the changes made using the commands 'git log' or 'git reflog show',
 </p>
+
 
 <p>
 For complex changes you'll often recurse: you might make a branch for a
@@ -437,29 +458,25 @@ and approve them. People learn about new libraries, conventions,
 readability, and language features through review, and since you act on
 the feedback in the review by implementing it in your own code it
 actually sticks in your memory more than if you read about it somwhere.
+Having feedback on your code from an outsider helps a great deal with improving it clarity.
+When reviewing code, strive to critique and improve the clarity of the code above all.
+</p>
+
+<p>
 The general rule of thumb is three pairs of eyes on each line of code.
-Code review usually takes the form of the reviewer reading over the
-changes, noting issues and suggesting modifications, which the one who
-made the changes then either implements or discusses. This may go for a
-few rounds, early on it takes a lot of time because there is a lot to
-improve, but before long it is less of an issue. Sometimes you may spot
-an issue, but not have a clear idea of a solution. In this case, it is
-important to still note it down. Someone else may have a solution, or an
-idea will come to you later.
+Code review usually takes the form of the reviewer reading over the changes, noting issues and suggesting modifications, which the one who made the changes then either implements or discusses.
+This may go for a few rounds, early on it takes a lot of time because there is a lot to improve, but before long it is less of an issue.
+Sometimes you may spot an issue, but not have a clear idea of a solution.
+In this case, it is important to still note it down. Someone else may have a solution, or an idea will come to you later.
 </p>
 
 <p>
-There is no real replacement for engaging in code review with other
-experienced programmers, but when working solo you can still get some of
-the benefits by self-review. After writing changes, give it some time
-(maybe just sleep on it, maybe come back to it next week), and then
-review them, edit, and merge.
+There is no real replacement for engaging in code review with other experienced programmers, but when working solo you can still get some of the benefits by self-review.
+After writing changes, give it some time (maybe just sleep on it, maybe come back to it next week), and then review them, edit, and merge.
 </p>
 
 <p>
-Contributing to open source software can be a good way to get practice
-with code review, as well as seeing some of the other practices here in
-action.
+Contributing to open source software can be a good way to get practice with code review, as well as seeing some of the other practices here in action.
 </p>
 
 <p>
@@ -477,18 +494,19 @@ is, in the most technical terms, bonkers.
 The code is as important as any derivation,
 and it also provides the most precise picture of what was done for the
 study (there have been several studies that did not make sense to me
-until I read the code, others where unaddressed assumptions were hidden
-in the code which should have been acknowledged in the paper).
+until I read the code, others where some assumptions were hidden
+in the code).
 </p>
 
 <p>
 If you have colleagues who are doing similar work in the same language,
 consider suggesting mutually reviewing one another's code using
 something like github, gitlab, or bitbucket (I'll expand on this in a
-later section).
+later section). 
 </p>
 </div>
 </div>
+
 
 <div id="outline-container-automated-testing" class="outline-3">
 <h3 id="automated-testing">Automated testing</h3>
@@ -508,22 +526,17 @@ be accomplished with manual testing, after all): but that changes you
 make now don't break functionality you implemented previously.
 The best part of this is that with your tests in place you can go back
 to refactor and improve old code without fear of breaking anything.
-I can straight up feel the difference in stress levels when refactoring
-tested v.s. untested code.
+Working with well tested code is, if nothing else, simply less stressful.
 </p>
 
 <p>
-It is
-also a good idea to write tests reproducing any bugs you run into, to
-check that you don't reintroduce them down the line (which happens way
-more often than you would ever expect). The chapter on testing from
+It is also a good idea to write tests reproducing any bugs you run into, to check that you don't reintroduce them down the line (which happens way more often than you would ever expect).
+The chapter on testing from
 'Abstraction and specification in program development' by Barbara Liskov
 provides a really useful overview of the most important elements of
 testing, though it is focused on unit testing. Each language will have
 frameworks for writing and running automated tests: for python I
-personally really like pytest. I haven't used R in a long time, but when
-I started looking I found this page:
-<a href="https://www.r-bloggers.com/2019/11/automated-testing-with-testthat-in-practice/">https://www.r-bloggers.com/2019/11/automated-testing-with-testthat-in-practice/</a>
+personally really like pytest.
 </p>
 
 <p>
@@ -583,6 +596,7 @@ I'll get into a specific strategy for implementing this in the next section.
 </div>
 </div>
 </div>
+
 
 <div id="outline-container-an-example-of-a-software-workflow" class="outline-2">
 <h2 id="an-example-of-a-software-workflow">An example of a software workflow</h2>
@@ -694,6 +708,7 @@ headache on my masters thesis).
 </div>
 </div>
 
+
 <div id="outline-container-principles-1" class="outline-2">
 <h2 id="principles-1">Principles</h2>
 <div class="outline-text-2" id="text-principles-1">
@@ -771,7 +786,7 @@ is when there is some complicated set of operations that could be given
 an intuitive name as a function. For example
 </p>
 
-<pre class="example" id="orgd808cf4">
+<pre class="example" id="orga482855">
 for item in inventory:
     if item.nutritional_content &gt; 0 and (item.isliquid and item.viscosity &lt; 1 or item.hardness &gt; TOOTH_HARDNESS):
         self.mouth.angle += 25
@@ -782,7 +797,7 @@ for item in inventory:
 could be
 </p>
 
-<pre class="example" id="orgdc79707">
+<pre class="example" id="org7048d72">
 for item in inventory:
     if _is_edible(item):
         self.eat(item)
@@ -822,6 +837,7 @@ easier to prevent and spot bugs in, and just plain better for your sanity.
 </p>
 </div>
 </div>
+
 
 <div id="outline-container-honorable-mention-modularity" class="outline-3">
 <h3 id="honorable-mention-modularity">Honorable mention: modularity</h3>

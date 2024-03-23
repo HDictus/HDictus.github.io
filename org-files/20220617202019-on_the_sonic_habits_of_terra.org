@@ -8,7 +8,8 @@ In a universe where sound is the ultimate weapon, earth is notorious for enjoyin
 * On the sonic habits of Terra
 
 
-<!-- TODO: a little dry - I can storify it up some more, maybe anecdotes? -->
+# TODO: a little dry - I can storify it up some more, maybe anecdotes?
+
 Contained in these pages is the outcome of several years of observation of, and communication with the people of Terra.
 Since contact was made remote efforts to stall their spacefaring technology were successful, granting us valuable time to assess the risk they may pose.
 The purpose of this document is to establish whether they can be allowed to join the galactic community, and if so how their society can best be integrated.
@@ -42,4 +43,4 @@ In chapters 4 and 5 we describe these problems as well as proposals by both Terr
 Contact with creatures so different from any known previously is scientifically and culturally invaluable.
 Though there are risks involved in this contact, it is essential that our efforts are focused on overcoming these risks and effecting mutual prosperity.
 
-* in sonic habits of Terra, most paragraphs have some examples of bad, verbose academic writing. Simplify sentences, and add in some anecdotes or something.
+# in sonic habits of Terra, most paragraphs have some examples of bad, verbose academic writing. Simplify sentences, and add in some anecdotes or something.

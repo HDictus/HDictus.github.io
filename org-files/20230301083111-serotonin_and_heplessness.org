@@ -90,3 +90,4 @@ Let's tackle that topic next.
 - the release of serotonin by the DRN is associated with this helplessness behavior
 - If the animal realizes it has control, the DRN will be silenced by neurons in the prefrontal cortex.
 
+next: [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]]

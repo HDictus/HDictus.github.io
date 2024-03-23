@@ -42,7 +42,7 @@ In summary:
  - different kinds of 5HT receptors have different effects
  - different cells will have different kinds of receptors
 
-
+next: [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]]
 
 
  

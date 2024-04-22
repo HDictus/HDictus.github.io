@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       14baaec1-d68e-4fab-88a0-8e51986e4499
+:END:
+#+title: hebbian-plasticity
+
+The majority of neurons in the brain emit the neurotransmitter Glutamate.
+Although it can have other effects, the main effect of glutamate is relatively simple: it activates receptors which increase the electrical potential of the neuron.
+This increase in electrical potential brings the targeted neuron closer to firing an action potential itself, thereby releasing its own neurotransmitter.
+
+
+Donald Hebb hypothesized in 1949 that when a glutamate-emitting neuron consistently makes another one fire, the connection between them should be strengthened.
+Remember that each neuron usually recieves input from hundreds or thousands of others.
+If one neuron consistently takes part in firing another one, it does not do so alone.
+This means that neurons which tend to fire at around the same time will be likely to both contribute to firing the same target neuron.
+This leads each neuron to select inputs which tend to be active at the same time.
+This kind of learning is usually summed up as "cells that fire together wire together", and the process is called Hebbian plasticity.
+
+* Hebbian plasticity encodes information efficiently
+
+One thing that hebbian plasticity does is that it creates the ability to more efficiently represent incoming data.
+Think of it as a form of data compression.
+For instance:
+
+Imagine that you have a catalogue of images, each of which is a white background with a bunch of triangles on it.
+-- TODO: images
+Say you had a neural network look at these images with a hebbian learning rule, such that the inputs to the neurons are the intensity (or whiteness) of the pixels of the image.
+Inputs from pixels in triangle formations would very often occur, and so the connectivity to neurons from groups of pixels in triangle formation would gradually become stronger.
+Eventually, the neurons would in a way become 'triangle-selective', where they respond most strongly to triangle patterns.
+Their activity therefore comes to represent the locations of triangles in the image, which is much more efficient than representing every single pixel alone.
+Of course, this is a really simplistic example: real sensory data are way more diverse, and way more complex.
+
+# TODO: should I include a mention of hebbian principal component analysis here?
+
+Hebbian plasticity can use similar mechanisms to learn associations: for instance if a bell is rung and then a reward is given, then the neurons that tend to be active after a bell will form stronger connections with the neurons that are active when there is a reward.
+Over time this process will lead to the bell itself activating the reward-coding neurons.
+This makes sense for an organism: if you want a reward, you should seek out things that lead to rewards, not just the rewards themselves.
+Besides rewards, a process like this could underlie associations we have between sounds or smells and times in our lives.
+
+We experience a memory as a set of associated experiences triggered by something that reminds us of them.
+Maybe you can see how hebbian plasticity could contribute to this.
+The neurons that were active at the same time during the event you remember will wire together more strongly, and any one part of that memory can activate the others and remind you of the whole.
+

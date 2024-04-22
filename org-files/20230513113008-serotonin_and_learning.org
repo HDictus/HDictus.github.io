@@ -4,9 +4,9 @@
 #+title: serotonin-and-learning
 
 Serotonin plays a role in the process of learning. Exactly what role is not clear, but there is some evidence that the effects of SSRIs on depression come from boosting the capacity to learn.
-Learning occurs in the brain by neurons changing how they are wired up (and probably other things too, but that is the main one we know about).
+Learning occurs in the brain by neurons changing how they are wired up (and other things too, but that is the main one we know about).
 
-* Plasticity: how your brain learns
+* Synaptic plasticity
 
 The way neurons are connected to one another isn't set in stone.
 Recall that the locations where neurons signal to one another are called synapses.
@@ -19,44 +19,26 @@ These changes are thought to be how animals learn:
  - lived experiences cause the neurons to fire in particular patterns
  - the synapses change in response to these patterns (and potentially in response to other things too)
 
+   
 ** Hebbian plasticity
 
 The majority of neurons in the brain emit the neurotransmitter Glutamate.
 Although it can have other effects, the main effect of glutamate is relatively simple: it activates receptors which increase the electrical potential of the neuron.
 This increase in electrical potential brings the targeted neuron closer to firing an action potential itself, thereby releasing its own neurotransmitter.
 
-Donald Hebb hypothesized in 1949 that when a glutamate-emitting neuron consistently makes another one fire, the connection between them should be strengthened.
-Remember that each neuron usually recieves input from hundreds or thousands of others.
-If one neuron consistently takes part in firing another one, it does not do so alone.
-This means that neurons which tend to fire at around the same time will be likely to both contribute to firing the same target neuron.
-This leads each neuron to select inputs which tend to be active at the same time.
-This kind of learning is usually summed up as "cells that fire together wire together", and the process is called Hebbian plasticity.
-Hebbian plasticity leads to neural activity that efficiently represents the input data.
-You can think of it as a form of data compression.
+In 1949 Donald Hebb suggested that when a glutamate-emitting neuron causes a different neuron to fire an action potential, the synapse between them should be strengthened.
+Theoretically, this leads to things like the ability to associate related things, the formation of habits.
+Different versions of this rule have been shown to implement a hige variety of tasks.
+We now have very strong evidence that this process does indeed take place in the brain.
 
-Imagine that you have a catalogue of images, each of which is a white background with a bunch of triangles on it.
--- TODO: images
-Say you had a neural network look at these images with a hebbian learning rule, such that the inputs to the neurons are the intensity (or whiteness) of the pixels of the image.
-Inputs from pixels in triangle formations would very often occur, and so the connectivity to neurons from groups of pixels in triangle formation would gradually become stronger.
-Eventually, the neurons would in a way become 'triangle-selective', where they respond most strongly to triangle patterns.
-Their activity therefore comes to represent the locations of triangles in the image, which is much more efficient than representing every single pixel alone.
-Of course, this is a really simplistic example: real sensory data are way more diverse, and way more complex.
+If you want to get a more intuitive understanding of why Hebbian plasticity matters (which may help you understand the relevance of later sections) [[id:14baaec1-d68e-4fab-88a0-8e51986e4499][click here.]]
 
-Hebbian plasticity can use similar mechanisms to learn associations: for instance if a bell is rung and then a reward is given, then the neurons that tend to be active after a bell will form stronger connections with the neurons that are active when there is a reward.
-Over time this process will lead to the bell itself activating the reward-coding neurons.
-This makes sense for an organism: if you want a reward, you should seek out things that lead to rewards, not just the rewards themselves.
-Besides rewards, a process like this could underlie associations we have between sounds or smells and times in our lives.
-
-We experience a memory as a set of associated experiences triggered by something that reminds us of them.
-Maybe you can see how hebbian plasticity could contribute to this.
-The neurons that were active at the same time during the event you remember will wire together more strongly, and any one part of that memory can activate the others and remind you of the whole.
-
-In the years since it was proposed we have seen that Hebbian plasticity does play a role in the brain.
-However, we know from various attempts to apply Hebbian rules to AI that they don't get us very far by themselves.
+However, we  know from various attempts to apply Hebbian rules to AI that they don't get us very far by themselves.
 Representing the world efficiently is useless if it doesn't help you decide what to do.
 You shouldn't develop an association for just every single coincidence, and not every moment does (or should) become a memory.
-It's clear that determining the strength and location of a synapse purely based on the activity of the pre and post synaptic cell is not enough.
+It's clear that determining the strength and location of a synapse purely based on the activity of emitting and recieivng neurons is not enough.
 You need some additional factors.
+
    
 * Three-factor learning
 
@@ -77,6 +59,7 @@ All of this is to say that it is likely very complicated with many factors deter
 Some other candidate signals which have been suggested besides reward are
  - surprise: when something is unexpected, the synapses that calculated your expectation probably need to be reconfigured
  - novelty: when something is new, you may want strong and fast plasticity to adjust to it ASAP
+ - danger: You need to be attentive to danger, but at the same time you need to avoid 
 
 We know from studies in mice that serotonin can change the plasticity of synapses.
 We don't really know what kind of signal it sends in these cases, or what exactly the effect of these changes on thoughts or behavior are.
@@ -100,7 +83,17 @@ This method has been used to look at how serotonin affects plasticity.
 It turns out that when you deprive young animals of serotonin, their visual cortex does not learn to only respond to the open eye (Gu and Singer 1995, Bradley et al. 1987).
 Conversely, when you increase the amount of serotonin in the cortex by adiministering an SSRI, adult visual cortex learns more similarly to a young one (Vetencourt et al. 2011).
 
-Another way that plasticity is studied involves attaching glass pipettes to neurons in a slice of brain tissue for manipulating and recording their electrical potential.
+Since plasticity is learning, another important way of studying it is of course by observing the capacity of a test subject to learn a task.
+Hence, a second kind of experiment on plasticity is called [[id:a13dcc9a-91d5-46a1-aa2b-4c960626f1f7][reversal learning.]]
+In a reversal learning experiment subjects are first taught to do things one way, and once they get the hang of it they have to learn to do the exact opposite.
+It is seen as a way to measure cognitive flexibility.
+One way to try and relate these learning tasks to the underlying biology is to genetically or pharmacologically alter animals and see how it affects their performance.
+
+Recall from  [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]] that the serotonin transporter SERT is responsible for moving serotinin back into the cell that emitted it.
+Reducing the activity of SERT will make it so that serotonin released from your neurons lingers for longer and will be more likely to affect nearby neurons.
+[[https://academic.oup.com/cercor/article/20/8/1955/40590977][Brigman et al. 2010]] Found that when you either genetically or chemically reduced the activity of SERT in mice, they more quickly learn to reverse their task.
+
+A third way that plasticity is studied involves attaching glass pipettes to neurons in a slice of brain tissue for manipulating and recording their electrical potential.
 A basic approach is to attach a pipette to one neuron, attach a pipette to another, then stimulate the first cell to see if it causes a change in the potential of the second.
 If so, the first cell is connected to the second and that connection can be studied.
 You can record the strength of the effect the first cell has on the second, then stimulate both cells to make them fire in particular patterns, and then record the strength of the connection again.
@@ -114,53 +107,58 @@ One experiment suggests that serotonin may turn this on its head.
 It's just one paper studying one interaction in one brain region in one species of animal so almost any broader statement on the basis of it is highly speculative.
 It is consistent however with a possibility I have been thinking about for a while.
 
-When an animal is put in a helpless position and their DRN starts releasing serotonin into their cortex it would make the cells that are firing in concert weaken their connections, and thereby suppress whatever thoughts or behaviors the animal is having going forward.
-Un-learning the ability to think of a way out of the situation may be a direct effect of serotonin stimulation.
+* Learning and unlearning depression
 
-Remember that serotonin receptors come in different types.
-When He et al. suppressed the 5HT2c receptor they found that putting serotonin on the cell no longer weakens the connection of the spiking cells.
-# Interestingly, the wikipedia article on 5HT2C receptors contains a variety of claims linking increases in their activity in depression and anxiety, and decreases in their activity with recovery.
-# for the claim that the therapeutic effects of SSRIs come at the same time as decreases in 5HT3c receptor downregulation, the link was to an article which did not discuss this - I think this was most likely an accident.
-# For the claim that 5HT3c receptors are more active in suicide victims, a paper https://www.nature.com/articles/1395631 is cited which found
-# 1. no significant differences in RNA editing (not sure what that means) between depression, schizophrenia, control populations
-# 2. significant difference in suicide victims
-# I'm not convinced that the RNA editing they're talking about means increased efficacy in suicide victims
-# Although the effect size was very large and the result significant, the sample size was still small
-# I'd say this needs a replication or two
-# for the claims regarding effects of some antidepressants on 5HT2C efficiency, I found some decent sources.
-# However, I'm not sure if this is meaningful in itself - I'm sure a huge variety of drugs have some effect on loads of receptors
-# what is the prior probability that a random drug, effective or not for depression, has an affinity with some receptor, and is it really much lower than the posterior if they are effective.
-It is interesting that this receptor is involved, since it has specifically been researched for its role in [[id:277b1451-9929-43bf-a225-9a2570b7aadf][learned helplessness]].
-[[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3415988/][One study]] finds that increasing the activity of 5HT2C receptors increases the expression of learned helplessness after social defeat (in hamsters).
-There is also a [[[[https://www.proquest.com/openview/b21a676c9a5282a0e4ab1c8a48d80087/1?pq-origsite=gscholar&cbl=18750]]][master's dissertation]] dedicated to their involvement in learned helplessness (though it is behind a paywall even for university-afilliated researchers).
+These are a few choice examples from the [[id:aab01968-25fd-4714-8016-682095ad0f43][growing list]] of studies I've found indicating that serotonin specifically plays a role in un-learning.
+It enhances plasticity by allowing the subject to change existing patterns.
+It has been [[https://www.sciencedirect.com/science/article/pii/S0306453010002301?casa_token=zMNJ58V1W_AAAAAA:JW9cxCqnS68UxW_iE5ArLB8xd3DwfBQO5rCX6JokorIt7cfIkDYxzdU414Qbf0_k9lJSipTuXg][suggested]] that this effect of serotonin is responsible for the antidepressant effects of SSRIs, but also that it may be important for the development of depression in the first place.
+By enhancing the ability to change the way you think, SSRIs can help you break out of unhealthy cognitive habits.
+We also have some evidence that serotonin plays a role in getting depressed in the first place.
 
+Considering what we know about [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]], the un-learning capabilities of serotonin could well play a role in animals un-learning the ability to respond to a situation, and thereby make way for helplessness.
+If you take some action, but it turns out to be no use, then serotonin is released and weakens the connections that led to that action.
+I personally consider this a more compelling explanation for learned helplessness than the sensitization of the DRN [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4920136/][suggested]] by Maier and Seligman.
 
-* un-learning
+* key takeaways
 
-Since plasticity is learning, another important way of studying it is of course by observing the capacity of a test subject to learn a task.
-One kind of experiment on learning ability is called [[id:a13dcc9a-91d5-46a1-aa2b-4c960626f1f7][reversal learning.]]
-In a reversal learning experiment subjects are first taught to do things one way, and once they get the hang of it they have to learn to do the exact opposite.
-It is seen as a way to measure cognitive flexibility.
-One way to try and relate these learning tasks to the underlying biology is to genetically or pharmacologically alter animals and see how it affects their performance.
+ - Serotonin appears to be important for the ability to un-learn existing habits
+ - This has been suggested to be responsible both for its role in the development of depression, and in recovery from depression.
 
-Recall from  [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]] that the serotonin transporter SERT is responsible for moving serotinin back into the cell that emitted it.
-Reducing the activity of SERT will make it so that serotonin released from your neurons lingers for longer and will be more likely to affect nearby neurons.
-[[https://academic.oup.com/cercor/article/20/8/1955/40590977][Brigman et al. 2010]] Found that when you either genetically or chemically reduced the activity of SERT in mice, they more quickly learn to reverse their task.
-This does seem to match what I suggested before; that serotonin plays a role in un-learning.
-
-As I look into it, I find a [[id:aab01968-25fd-4714-8016-682095ad0f43][growing list]] of studies indicating that changes related to serotonin specifically affect learning from failure.
-Not all of them are consistent with the idea that the release of serotonin leads to un-learning.
-
-https://www.cell.com/neuron/pdf/S0896-6273(13)00789-7.pdf [[id:b04fba1a-e7ee-4320-ab00-2099bf50ee97][denOuden-dissociable-2013]]
-https://www.jneurosci.org/content/25/2/532.short [[id:656608d6-3e8a-4b8a-bf50-972fb7a221f7][clarke-prefrontal-2005]]
-https://www.nature.com/articles/npp2009233
-https://www.nature.com/articles/s41380-021-01240-9
-https://www.sciencedirect.com/science/article/pii/S030645221600244X?casa_token=HQQ7sNlVtREAAAAA:RhX4ALapUtgx54gmpsTxHwoLoZgwGb02neRpAlOnXW4E0kG_-R5tk_zyeYYtiAfjjo2Wd3uNNg
+# When an animal is put in a helpless position and their DRN starts releasing serotonin into their cortex it would make the cells that are firing in concert weaken their connections, and thereby suppress whatever thoughts or behaviors the animal is having going forward.
+# Un-learning the ability to think of a way out of the situation may be a direct effect of serotonin stimulation.
+# # Remember that serotonin receptors come in different types.
+# # When He et al. suppressed the 5HT2c receptor they found that putting serotonin on the cell no longer weakens the connection of the spiking cells.
+# # Interestingly, the wikipedia article on 5HT2C receptors contains a variety of claims linking increases in their activity in depression and anxiety, and decreases in their activity with recovery.
+# # for the claim that the therapeutic effects of SSRIs come at the same time as decreases in 5HT3c receptor downregulation, the link was to an article which did not discuss this - I think this was most likely an accident.
+# # For the claim that 5HT3c receptors are more active in suicide victims, a paper https://www.nature.com/articles/1395631 is cited which found
+# # 1. no significant differences in RNA editing (not sure what that means) between depression, schizophrenia, control populations
+# # 2. significant difference in suicide victims
+# # I'm not convinced that the RNA editing they're talking about means increased efficacy in suicide victims
+# # Although the effect size was very large and the result significant, the sample size was still small
+# # I'd say this needs a replication or two
+# # for the claims regarding effects of some antidepressants on 5HT2C efficiency, I found some decent sources.
+# # However, I'm not sure if this is meaningful in itself - I'm sure a huge variety of drugs have some effect on loads of receptors
+# # what is the prior probability that a random drug, effective or not for depression, has an affinity with some receptor, and is it really much lower than the posterior if they are effective.
+# It is interesting that this receptor is involved, since it has specifically been researched for its role in [[id:277b1451-9929-43bf-a225-9a2570b7aadf][learned helplessness]].
+# [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3415988/][One study]] finds that increasing the activity of 5HT2C receptors increases the expression of learned helplessness after social defeat (in hamsters).
 
 
-* mice, serotonin, learning
 
-_martinowich_interaction_2008
-schmidt_identification_2012
+# This does seem to match what I suggested before; that serotonin plays a role in un-learning.
 
-* What does serotonin signal in learning?
+# As I look into it, I find a [[id:aab01968-25fd-4714-8016-682095ad0f43][growing list]] of studies indicating that changes related to serotonin specifically affect learning from failure.
+# Not all of them are consistent with the idea that the release of serotonin leads to un-learning.
+
+# https://www.cell.com/neuron/pdf/S0896-6273(13)00789-7.pdf [[id:b04fba1a-e7ee-4320-ab00-2099bf50ee97][denOuden-dissociable-2013]]
+# https://www.jneurosci.org/content/25/2/532.short [[id:656608d6-3e8a-4b8a-bf50-972fb7a221f7][clarke-prefrontal-2005]]
+# https://www.nature.com/articles/npp2009233
+# https://www.nature.com/articles/s41380-021-01240-9
+# https://www.sciencedirect.com/science/article/pii/S030645221600244X?casa_token=HQQ7sNlVtREAAAAA:RhX4ALapUtgx54gmpsTxHwoLoZgwGb02neRpAlOnXW4E0kG_-R5tk_zyeYYtiAfjjo2Wd3uNNg
+
+
+# * mice, serotonin, learning
+
+# _martinowich_interaction_2008
+# schmidt_identification_2012
+
+# * What does serotonin signal in learning?

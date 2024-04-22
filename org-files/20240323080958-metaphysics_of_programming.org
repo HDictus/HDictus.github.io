@@ -6,13 +6,13 @@
 When we write programs there are different ways that we can organize our code.
 Different ways of programming, especially in computational science, represent different ways of representing the structure of reality.
 Questions regarding what is 'really' real and what reality consits of fall under the domain of metaphysics.
-Metaphysical assumptions are embedded in computer programs, and often have parallels in historical philosophies.
+Metaphysical assumptions are embedded in computer programs, and often have parallels in metaphysical theses in history.
 
 Metaphysics is by its nature not demonstrable - we do not have access to reality as it really is, so we will never truly know.
 Despite this, no one is truly metaphysically agnostic - we all reason about a real world and make assumptions about it in order to navigate our surroundings.
-The role of metaphysics then is more about organizing thought.
+The role of metaphysics then is more about organizing thought than establishing truth.
 It is about analyzing our mental representations of reality and how these constrain and empower us.
-In my evaluation then, the strengths and limitations of different programming tools are powerful ways to explore metaphysical questions, and metaphysics can be a useful guide for understanding the strengths and limiations of programming practice.
+In my evaluation then, the strengths and limitations of different programming tools are powerful ways to explore metaphysical questions, and metaphysics can be a useful guide for understanding the strengths and limiations of a programming practice.
 
 * Object Oriented Plato
 
@@ -26,11 +26,22 @@ The class of chairs itself though does not (strictly speaking) have these proper
 
 Those familair with classical greek philosophy have likely already spotted a parallel.
 In Plato's metaphysics the objects we interact with in the real world are instances of some eternal, perfect "form" that defines them.
+The form in this case is similar to a class, and the real object is an instance.
 
+This approach to programming and metaphysics has limitations.
+For one thing, the world loves to defy classification.
+Things in the natural world tend to blend together and be clustered together only loosely.
+The desire to categorize and organize the world to understand it is common, understandable, but I think often misguided.
+Besides this, it is often difficult to say where one object ends and the other begins.
+We often (and rightly) end up separating objects based on practical concerns rather than what clearly and concisely describes the model system.
 
-* Structural typing, objects and properties
+A lot of the more advanced object oriented practices and design patterns concern working around these limitations.
+
 
 * Entity-component systems as property-cluster realism
+
+
+
 
 * BDD - beyond metaphysics
 

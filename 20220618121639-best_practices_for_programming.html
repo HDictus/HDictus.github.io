@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-04-22 Mo 18:46 -->
+<!-- 2024-04-28 So 13:48 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>best-practices-for-programming</title>
@@ -193,6 +193,7 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<link rel="stylesheet" href="stylesheet.css"
 <script>
   window.MathJax = {
     tex: {
@@ -797,7 +798,7 @@ is when there is some complicated set of operations that could be given
 an intuitive name as a function. For example
 </p>
 
-<pre class="example" id="org3cd5232">
+<pre class="example" id="org855be7f">
 for item in inventory:
     if item.nutritional_content &gt; 0 and (item.isliquid and item.viscosity &lt; 1 or item.hardness &gt; TOOTH_HARDNESS):
         self.mouth.angle += 25
@@ -808,7 +809,7 @@ for item in inventory:
 could be
 </p>
 
-<pre class="example" id="org2688cd2">
+<pre class="example" id="org3084ab3">
 for item in inventory:
     if _is_edible(item):
         self.eat(item)

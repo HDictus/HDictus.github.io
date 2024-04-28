@@ -9,7 +9,11 @@
     (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
     ml('account', '919123');
 </script>
-<!-- End MailerLite Universal -->"
+<!-- End MailerLite Universal -->
+"
+    )
+(setq org-html-head
+   "<link rel=\"stylesheet\" href=\"stylesheet.css\""
 )
 
 (setq org-html-postamble
@@ -20,7 +24,10 @@
         theme=\"github-light\"
         crossorigin=\"anonymous\"
         async>
-      </script>"
+      </script>
+
+      <a href=\"index.html\"> home </a>
+"
 )
 
 

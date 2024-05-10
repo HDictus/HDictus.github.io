@@ -1,0 +1,115 @@
+:PROPERTIES:
+:ID:       94473826-b302-43e7-9fcf-3d2691c45911
+:END:
+#+title: Violence, proportionality, and self defense
+
+In a gym in Amsterdam, an instructor grimly tells us how to deal with someone who places their hand on your shoulder from behind.
+You pinch their fingers between your ear and shoulder and violently turn to face them, breaking their fingers.
+Then, of course, you batter their groin with knees.
+And the first timers are left wondering: in what situation is that actually the appropriate response?
+
+Of course, we practiced it very slowly and without any kind of resistance or reaction from the "assailant".
+But there was a lot of tough talk, a very serious atmosphere.
+It felt raw, real, even though the violence was practically symbolic.
+
+Krav Maga is marketed as being used extensively by militaries and police forces.
+American police are often sent to train alongside israeli police.
+Several organizations have noted a similar, and similarly agressive, approach to policing in both countries.
+And perhaps there is no better indictment of the paranoia of Krav Maga's philosophy than the failure of this method of policing in the USA.
+
+Among these failings of self defense and policing there is a lesson about conflict resolution, martial arts, human relationships, and analogous lessons in international relations.
+
+* The failings of brutality
+
+Krav Maga is not actually a specific martial art.
+It refers to any hand-to-hand fighting taugh to the israeli military.
+In terms of technique, that could be anything from aikido to boxing.
+What sets it apart is the emphasis on building agression over technique, doing damage over maintaining control.
+No draftee heading off to war has time to master martial arts, you just need to make sure they fight hard.
+
+The branded krav maga taught to civilians does tend to have a clear technical throughline: do stuff you aren't allowed to do in combat sports.
+Hit the groin (a lot), gouge eyes, snap fingers.
+Technique doesn't matter: what matters is that you're meaner than the other guy.
+
+In online communities dedicated to combat sports Krav Maga has been the target of ridicule ever since it rose to widespread popularity.
+In Mixed Martial Arts, the examples I have seen of Krav Maga fighters involved the Krav fighter being handily controlled by the combat athlete.
+They never even recieved an opening where they could have used a groin kick or eye poke had they been allowed.
+If you want to gouge someone's eyes, you need to get past their defenses to touch their face.
+If you want to kick someone's groin, you need to manage the distance and set it up just like any other kick.
+So you need a certain parity of skill if you're going to use these techniques.
+And conversely, if you have a sufficient skill advantage, you don't need to use them.
+
+
+* The violent power of compassion
+
+What is the alternative?
+What does build that kind of skill?
+The exact opposite: focus on techniques that are safe to apply and apply them for real.
+When Judo (at the time, Kano-ryu Jujitsu) was emerging as a martial art this was the philosophy that set it apart from other Jujitsu styles.
+In competitions between Judoka and other Jujitsy-ryu where injurious techniques were permitted it was the group that used them the least that prevailed.
+Judoka trained at higher intensity and with less injuries than their contempories, and this is a large part of why it was so successful.
+
+The advantage to an individual fighter isn't just that they get injured less, but that their training partners get injured less.
+In BJJ circles it is a saying that the more you help your training partners improve, the more they will have to teach you.
+Martial arts training has an inherently cooperative element, which helps prepare people for the eventual competitive aspects.
+Which brings me to another point about how a less aggressive approach to preparing for violence is actually more effective.
+
+I do not want to overemphasize the importance of training intensity and realism - facing off against a partner who is fighting hard to best you is a crucial part of training, but the growing consensus is that this should not be most of your training.
+Any martial arts forum will furnish you with complaints of people going 'too hard' in sparring practice or focusing on "winning" over learning.
+Most of your sparring should be at substantially less than full speed and less than full force, as this lowers the risk of injury.
+Futhermore, it is important to adjust to the level of your partner and not resist them so hard that they are completely shut down.
+To keep both parties learning and challenged, both parties need to have opportunities to work, to attack, defend, and counter.
+I once recieved advice to seek out the tallest, most skilled person in the school to spar with for kickboxing - as they're the greatest challenge and therefore the best learning experience.
+It turns out that being so outclassed that everything you do ends in failure is not actually conducive to learning.
+On the contrary, it is so bad for learning that it is used as an experimental protocol for inducing a [[id:94ac0879-77e6-4b0a-be68-7b0c9de848a6][helpless state in which learning ability is impaired]].
+
+So the central theme is not so much resistance and intensity (although that is important), but freedom of play and safety from injury.
+Where the high-brow pacifistic musings of some (especially buddhism-influenced) martial arts and the actual development of combative skill meet is here: to develop a group of students into capable fighters they must learn to exercise kindness towards one another.
+
+* The cowardice of cruelty
+
+I don't wish to imply that people don't have a right to seriously harm others when they defend themselves.
+All that is necessary to secure your safety is justified.
+Harming the other party only becomes an issue when it is unnecessary or counterproductive.
+Of course it will be hard to recognize in the moment where justified self defense ends and retribution begins.
+I have no doubt that the retributive impulse is in fact very important when it comes to avoiding victimization.
+Accordinly, the law is rightfully lenient with those who overstep when faced with a real threat.
+
+
+The reality and magnitude of that threat is important.
+If you are attacked by an unarmed person of a weak and diminuitive stature, say a child, you have no right to seriously injure them no matter how murderous their intent, and no matter how much you dislike them.
+The responsibility to avoid harm rests with the party with the upper hand.
+The party with control over the situation is the party with the luxury and obligation of deescalation.
+
+In "self-defense" oriented combatives circles (like civilian Krav Maga) you tend to see a lot of "tough" talk about all the ways you can maim someone who tries to hurt you.
+This is a part of the hard, no-nonsense aesthetic on which these arts sell themselves.
+This aggressive, retributive, "hard masculinity" mindeset is fundamentally defensive.
+It is rooted in fear, and can only be justified in the context of vulnerability.
+Unless everyone genuinely is out to get you, unless you are actually likely to face a potent threat this isn't toughness or courage, it is paranoia.
+Someone who actually is strong, capable, and able to keep themselves safe has no need for it.
+In such a person, the impulse to cruelty is nothing but cowardice.
+
+A reasonable response to this may be: "Wouldn't you rather be prepared in the event that such an attitude is justified?"
+Isn't such an eventuality worth preparing for?
+In the case of combat in the ring aggression and a focus on maiming techniques may not get you far - but self defense situations are different from an arranged fight.
+Discounting for the moment the psycholgical and social costs of hyper-vigilance, I admit the concession that being psychologically prepared to hurt another person can help to protect you in a violent confrontation.
+In self defense, unlike in the ring, you don't need to out-fight your agressor, only to make them believe it is more trouble to mess with you than it is worth.
+This brings us to a much broader point.
+Contrary to the way it is discussed by most practitioners of martial arts (thus far, myself included), hand-to-hand combat is the least important part of self defense.
+Women's self defense specifically has been a topic of a small but significant amount of empirical research.
+The findings of this research are flattering neither to combat sports nor Krav Maga.
+
+* Effective self defense
+
+
+
+* Our flawed understanding of violence
+
+
+* community policing, prison abolition
+
+
+* A missile is a machine that creates terrorists
+
+
+* 

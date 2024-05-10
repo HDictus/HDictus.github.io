@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7bffa60b-22d2-4ac4-a8f8-c7c90ed54cad
+:END:
+#+title: panic-disorder
+
+
+Panic disorder is a mental condition characterized by frequent panic attacks.
+

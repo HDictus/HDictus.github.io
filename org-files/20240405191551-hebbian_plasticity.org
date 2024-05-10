@@ -31,10 +31,14 @@ Of course, this is a really simplistic example: real sensory data are way more d
 
 # TODO: should I include a mention of hebbian principal component analysis here?
 
+* Hebbian plasticity allows forming associations
+
 Hebbian plasticity can use similar mechanisms to learn associations: for instance if a bell is rung and then a reward is given, then the neurons that tend to be active after a bell will form stronger connections with the neurons that are active when there is a reward.
 Over time this process will lead to the bell itself activating the reward-coding neurons.
 This makes sense for an organism: if you want a reward, you should seek out things that lead to rewards, not just the rewards themselves.
 Besides rewards, a process like this could underlie associations we have between sounds or smells and times in our lives.
+
+* Hebbian plasticity allows memories to form
 
 We experience a memory as a set of associated experiences triggered by something that reminds us of them.
 Maybe you can see how hebbian plasticity could contribute to this.

@@ -50,7 +50,7 @@ When the DRN releases serotonin in the striatum, it makes the animal more passiv
 Serotonin is also released within the DRN itself, where it activates 5HT1A receptors which reduce the firing of the neurons.
 The DRN is therefore self-inhibiting: the more it is activated, the more it inhibits itself.
 
-If an animal believes it is able to control the stimulus, cells in the prefrontal cortex activate and silence the DRN.
+If an animal believes it is able to control the stimulus, cells in the ventromedial prefrontal cortex activate and silence the DRN.
 This frees up the animal to act.
 If the stimulus is inescapable however, these neurons do not activate and the animal remains passive.
 
@@ -91,3 +91,5 @@ Let's tackle that topic next.
 - If the animal realizes it has control, the DRN will be silenced by neurons in the prefrontal cortex.
 
 next: [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]]
+
+

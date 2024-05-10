@@ -8,8 +8,6 @@
 ** Summary
 
 
-<!-- TODO: for accessible writing, it's probably better to take concrete examples rather than to continue working with abstractions. I could say something unpleasant (e.g. electric shock) and then refer to electric shock exclusively going forward. -->
-<!-- TODO: this is still a pretty long and detailed summary. a lot of this could go in key takeaways. should I simplify it more? -->
 
 The article details the major experiments on [[id:277b1451-9929-43bf-a225-9a2570b7aadf][learned helplessness]] in psychology and especially neuroscience in the last fifty years.
 

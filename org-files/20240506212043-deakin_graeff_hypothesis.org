@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4624e030-0806-41ad-b5fb-17ffc0117692
+:END:
+#+title: Deakin/Graeff hypothesis
+
+The Deakin/Graeff hypothesis is that while
+a: serotoninergic neurons in the DRN potentiate stress
+b: serotonenergic neurons in the MRN enhance resilience
+
+
+https://journals.sagepub.com/doi/abs/10.1177/0269881113490328
+https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_4
+https://journals.sagepub.com/doi/abs/10.1177/026988119100500414

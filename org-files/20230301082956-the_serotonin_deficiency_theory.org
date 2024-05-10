@@ -35,15 +35,12 @@ When I was reading papers for this blog entry, I did find papers which were cite
 I'm going to assume that if I ran into these papers while looking into it casually, they encountered them as well when conducting a professional review and excluded them for good reason.
 # TODO: email montcrieff and ask.
 # TODO: look into a few other articles
-# TODO: I should somehow make it clear that there was never an overwhelming consensus on this.
-# TODO: some authors - I think Johann Hari but also andrew solomon, had straighforward reasons for casting doubt
-# I'll need to reevaludate this piece as a whole. I shouldn't just recount Montcrieff but give a broader story.
 
 
 So why do SSRI's still work? Montcrieff suggests that they have the effect of dulling emotions in general, helping patients deal with depression more easily.
 However, there are loads of other things SSRIs do and therefore many, many theories about how they help with depression. I'll get into a few others in later posts.
 
-** takewaways
+** takeaways
 
  - medications like SSRIs help patients recover from depression
  - however, there is next to no evidence of the theory that depression is the result of a serotonin deficiency

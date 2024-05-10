@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       94ac0879-77e6-4b0a-be68-7b0c9de848a6
+:END:
+#+title: learned-helplessness
+
+Learned helplessness is a psychological concept often used as a model for depression.
+
+When an animal is exposed to an unpleasant stimulus and unable to escape it, it goes into a passive state.
+Furthermore, when the animal is placed in a different context and exposed to a different unpleasant stimulus it will generally not even attempt to escape it, even when the opportunity presents itself.
+

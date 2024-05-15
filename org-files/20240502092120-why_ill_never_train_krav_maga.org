@@ -24,10 +24,11 @@ Among these failings of self defense and policing there is a lesson about confli
 Krav Maga is not actually a specific martial art.
 It refers to any hand-to-hand fighting taugh to the israeli military.
 In terms of technique, that could be anything from aikido to boxing.
-What sets it apart is the emphasis on building agression over technique, doing damage over maintaining control.
+What sets it apart is the emphasis on building aggression over technique, doing damage over maintaining control.
 No draftee heading off to war has time to master martial arts, you just need to make sure they fight hard.
 
-The branded krav maga taught to civilians does tend to have a clear technical throughline: do stuff you aren't allowed to do in combat sports.
+The branded krav maga taught to civilians does tend to have some technical cohesion, mediated by the organizations that sell it.
+There are specific techniques and principles, but the most consistent one seems to be this: do stuff you aren't allowed to do in combat sports.
 Hit the groin (a lot), gouge eyes, snap fingers.
 Technique doesn't matter: what matters is that you're meaner than the other guy.
 
@@ -46,8 +47,9 @@ What is the alternative?
 What does build that kind of skill?
 The exact opposite: focus on techniques that are safe to apply and apply them for real.
 When Judo (at the time, Kano-ryu Jujitsu) was emerging as a martial art this was the philosophy that set it apart from other Jujitsu styles.
-In competitions between Judoka and other Jujitsy-ryu where injurious techniques were permitted it was the group that used them the least that prevailed.
-Judoka trained at higher intensity and with less injuries than their contempories, and this is a large part of why it was so successful.
+Nowadays in competitions like mixed martial arts, where it is permitted to violently wrench an opponet's joints, those who prevail are not those who spend time practicing this, like in pre-judo jujitsu.
+Those with the greatest success are those who focus on techniques with a lower risk for injury - especially wrestling and brazilian jiu jitsu, but also other combat sports like boxing, muay thai and indeed Judo.
+
 
 The advantage to an individual fighter isn't just that they get injured less, but that their training partners get injured less.
 In BJJ circles it is a saying that the more you help your training partners improve, the more they will have to teach you.
@@ -61,10 +63,20 @@ Futhermore, it is important to adjust to the level of your partner and not resis
 To keep both parties learning and challenged, both parties need to have opportunities to work, to attack, defend, and counter.
 I once recieved advice to seek out the tallest, most skilled person in the school to spar with for kickboxing - as they're the greatest challenge and therefore the best learning experience.
 It turns out that being so outclassed that everything you do ends in failure is not actually conducive to learning.
-On the contrary, it is so bad for learning that it is used as an experimental protocol for inducing a [[id:94ac0879-77e6-4b0a-be68-7b0c9de848a6][helpless state in which learning ability is impaired]].
+On the contrary, it is so bad for learning that it is used as an experimental protocol for inducing a [[id:02504069-e1e7-43c8-a746-43ed27a2f807][helpless state in which learning ability is impaired]].
 
 So the central theme is not so much resistance and intensity (although that is important), but freedom of play and safety from injury.
 Where the high-brow pacifistic musings of some (especially buddhism-influenced) martial arts and the actual development of combative skill meet is here: to develop a group of students into capable fighters they must learn to exercise kindness towards one another.
+
+"As long as we coexist, each member of society and the groups organised
+within must function in harmony and cooperation with the others.
+Nothing is more important than living prosperously together. If everyone
+acts with the spirit of mutual cooperation, each person’s work benefits
+not only himself, but also others, and attaining this together will bring
+mutual happiness. [...] This great principle of harmony and
+cooperation is, in other words, the concept of Jita-Kyoei, or mutual
+prosperity for self and others." - Jigoro Kano, founder of Judo, in an essay published in 1925, this translation is from *The Gentle Way, Maximising Efficacy and Minimizing Violence in Judo* by Dario Mazzola
+
 
 * The cowardice of cruelty
 
@@ -73,38 +85,76 @@ All that is necessary to secure your safety is justified.
 Harming the other party only becomes an issue when it is unnecessary or counterproductive.
 Of course it will be hard to recognize in the moment where justified self defense ends and retribution begins.
 I have no doubt that the retributive impulse is in fact very important when it comes to avoiding victimization.
-Accordinly, the law is rightfully lenient with those who overstep when faced with a real threat.
-
+Accordingly, the law is rightly lenient with those who overstep when responding to a threat.
 
 The reality and magnitude of that threat is important.
 If you are attacked by an unarmed person of a weak and diminuitive stature, say a child, you have no right to seriously injure them no matter how murderous their intent, and no matter how much you dislike them.
 The responsibility to avoid harm rests with the party with the upper hand.
 The party with control over the situation is the party with the luxury and obligation of deescalation.
 
-In "self-defense" oriented combatives circles (like civilian Krav Maga) you tend to see a lot of "tough" talk about all the ways you can maim someone who tries to hurt you.
-This is a part of the hard, no-nonsense aesthetic on which these arts sell themselves.
-This aggressive, retributive, "hard masculinity" mindeset is fundamentally defensive.
-It is rooted in fear, and can only be justified in the context of vulnerability.
-Unless everyone genuinely is out to get you, unless you are actually likely to face a potent threat this isn't toughness or courage, it is paranoia.
-Someone who actually is strong, capable, and able to keep themselves safe has no need for it.
-In such a person, the impulse to cruelty is nothing but cowardice.
+"Self defense" focused combatives like civilian Krav Maga often market themselves as protecting you from a dangerous world.
+Although rates of violent crime have been decreasing across the developed world, people nonetheless feel threatened by the possibility of violent crime.
+Using hypothetical assaults by bands of armed strangers, "self defense" systems promise you security from violence.
+Besides safety, they offer retribution: "we do bad things to bad people" says the marketing catchphrase of Deutsche Krav Maga Verband in 2022.
+
+Germany today - like most european countries - is a very safe place to be, safer than it has ever been and unfathomably safer than most times and places throughout human history.
+In the unlikely event that you are attacked it will not be by a group of strangers but almost certainly by an acquiantance.
+The retributive, aggressive attitude of KM and similar schools is an expression of an irrational fear.
+Capitulation to an irrational fear to the detriment of yourself and others is cowardice.
+
 
 A reasonable response to this may be: "Wouldn't you rather be prepared in the event that such an attitude is justified?"
 Isn't such an eventuality worth preparing for?
 In the case of combat in the ring aggression and a focus on maiming techniques may not get you far - but self defense situations are different from an arranged fight.
 Discounting for the moment the psycholgical and social costs of hyper-vigilance, I admit the concession that being psychologically prepared to hurt another person can help to protect you in a violent confrontation.
-In self defense, unlike in the ring, you don't need to out-fight your agressor, only to make them believe it is more trouble to mess with you than it is worth.
+In self defense, unlike in the ring, you don't need to out-fight your aggressor, only to make them believe it is more trouble to mess with you than it is worth.
 This brings us to a much broader point.
 Contrary to the way it is discussed by most practitioners of martial arts (thus far, myself included), hand-to-hand combat is the least important part of self defense.
 Women's self defense specifically has been a topic of a small but significant amount of empirical research.
 The findings of this research are flattering neither to combat sports nor Krav Maga.
 
-* Effective self defense
+* Evidence-based self defense
 
+When I went looking for [[id:5d38c8d0-8c5e-4dee-8f04-5427a806c285][peer-reviewed articles on self defense]] I found that all the evidence based literature was focused on women's self defense.
+Although [[https://www.sciencedirect.com/science/article/pii/S1359178907000766?casa_token=3DvBAIeZ9IAAAAAA:tErJw-u3458JUwdfI7TstyKi1o3AmYhoBR5tDdwDyZvW7VWZViuVd56kVmz04SPYhC3S9zhQVw][some evidence]] exists for benefits from a variety of self defense courses, only one approach (as far as I could find) has solid, systematic, controlled data collection backing it up.
+This is [[https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/soc4.12597?casa_token=a_u-H1-xxVYAAAAA:ep0_5otMwbp3xzbalKCcxyKrLAipUO7e6GXbxdsSSW6q73XMV97u7Jc28FiTUHEY6NK4ds76lq4BUQ][Empowerment self defense]] (ESD), researched extensively by Jocelyn Hollander.
+
+A very interesting aspect of this research, at least reading as a martial artist, is that the physical techniques are the least important aspect of the training.
+Rather, much of the education in ESD focuses on the setting, communicating, and enforcing of boundaries, and of understanding one's right to autonomy.
+This may be a peculiarity important to women's self defense specifically.
+Although I would not be surprised if it was applicable to a wider variety of people and contexts.
+Still, women more than men are often discouraged from clear boundary setting, and righting this wrong is an important part of ESD.
+
+Physical self defense clearly does play a role however.
+Despite the physical disadvantages faced, women who fight back physically when assaulted are less likely to have an assault completed on them and likely to suffer fewer psychological consequences.
+The quality of physical techniques taught in women's self defense courses tends to be low.
+Additionally, any martial artist knows that you acquire and retain very little fighting skill from the small number of lessons in a self defense course.
+I propose that the importance of these physical skills is not in how they teach the women to fight back, but simply to teach them that they can.
+For women's self defense, *that* you are willing to fight is far more important than *how* you fight.
+I suspect that this is  something Krav Maga and similar arts do offer that combat sports don't - simulating a situation in which you should fight, and ensuring you do.
+Although it should be noted that this is most effectively done with a resisting partner rather than an inanimate one: as noted by @brecklin_evaluation_2004, and consistent with what we know about developing skill for combat sports.
+
+Jumping straightaway to the nuclear, groin-destroying, eye-blinding option is not a feature of these self defense systems.
+Rather, they offer a range of techniques for interrupting an assault before it comes to that.
+Well, why not? If a stranger ambushes you and attempts to rape you, don't you have every right, and every reason to jump straight to this?
+-- TODO: I need to track down the sources I found before for this
+The fact of the matter is that stranger rape is the exception, not the rule when it comes to violence against women.
+The vast majority of sexual assaults are perpetrated by acquaintances, family, friends, and especially intimate partners.
+The use of extreme violence in these situations brings with it social and psychological consequences.
+
+This is also why the non-physical strategies and traits imparted by ESD are so important.
+The research shows that when ESD is taught to populations of women they are not just better at protecting themselves - but less likely to be assaulted in the first place.
+We need to understand that sexual violence, indeed all violence, is socially situated and involves aspects of manipulation, coercion, rationalization and justification.
+Resistance to these non-physical means of enacting violence in personal relationships plays an important role.
+
+The ambitions of many martial arts, especially Judo extend beyond providing physical skills, safety, and physical education to its participants, but also to exert a transformative influence on society.
+This is an ambition that ESD shares, and Hollander emphasizes its potential in changing the culture that creates violence against women.
 
 
 * Our flawed understanding of violence
 
+file:///home/hugs/Downloads/49-Artikeltext-279-3-10-20190123.pdf
+https://psycnet.apa.org/record/2010-13682-006
 
 * community policing, prison abolition
 

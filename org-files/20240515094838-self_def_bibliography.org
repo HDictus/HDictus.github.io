@@ -1,0 +1,86 @@
+:PROPERTIES:
+:ID:       5d38c8d0-8c5e-4dee-8f04-5427a806c285
+:END:
+#+title: self-def-bibliography
+
+ - https://journals.sagepub.com/doi/abs/10.1177/1077801214526051
+   This one discussed a feminist approach to women's self defense. Although there are some commonalities with Hollander's work, there is little attempt to appeal to the empirical evidence and it focuses almost exclusively on stranger rape.
+
+ - https://journals.sagepub.com/doi/abs/10.1177/0361684319897937
+   this one is just more evidence from Hollander
+
+ - https://link.springer.com/article/10.1007/s11199-023-01425-2
+   Here Hollander outlines empowerment self defense. She references Thompson's article (the first one), so perhaps despite its shortcomings it was still influential for her work.
+   The emphasis of this article is on the primacy of the non-physical skills learned in the self defense courses, and how these address specific vulnerabilities of women
+
+ - https://journals.sagepub.com/doi/abs/10.1177/1077801214526046
+   This is one of Hollander's early empirical studies, using a sample of college students. She found a dramatically reduced risk of sexual assault in students who took the course compared to those who didnt'
+
+ - https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/soc4.12597?casa_token=a_u-H1-xxVYAAAAA:ep0_5otMwbp3xzbalKCcxyKrLAipUO7e6GXbxdsSSW6q73XMV97u7Jc28FiTUHEY6NK4ds76lq4BUQ
+   This is probably the most comprehensive source for the evidence behind ESD. One important conclusion is that not enough empirical research has been done on how race influences the efficacy of self defense training in the united states: as the work thus far has focused either on predominantly white populations in the united states, or majority groups in african countries.
+   Hollander emphasizes that the non-phsyical side of an ESD curriculum helps to break down the systemic cultural factors that are causative of violence against women - something for which she has some evidence.
+   Specifically, the participants end up better educated on violence and their right to say no and defend themselves.
+   This influences their lives positively and reduces their oppression experiences even outside of violence.
+   However, the idea that this ripples outward from the women taking the course to the broader society in which the violence is situated remains, to my knowledge, speculative.
+
+ - https://www.sciencedirect.com/science/article/abs/pii/S0065260106380045
+   This is ultimately not that relevant - it relates to the defense of ones self image, and how this is defended against various setbacks in life.
+   Not that there isn't likely some relevance here to defending oneself against violence, but there is no established link in the literature.
+
+ - https://www.sciencedirect.com/science/article/pii/S1359178907000766?casa_token=3DvBAIeZ9IAAAAAA:tErJw-u3458JUwdfI7TstyKi1o3AmYhoBR5tDdwDyZvW7VWZViuVd56kVmz04SPYhC3S9zhQVw
+   This early review seems to have been written before much of the work on ESD was.
+   It shows that a variety of self defense approaches seem to have some evidence of their efficacy.
+   One of the limitations it notes is that relatively little research has been done comparing the efficacy of different approaches.
+   The only finding it does note in this sense is that there were better outcomes in physical altercations for women who trained with a "live" padded assailant than with an inanimate object (e.g. a heavy bag).
+   Additionally, the evidence was (with a few exceptions) short term and focused on abstract personality constructs, subject to a variety of distorting effects.
+   Many of the reccomendations in this article seem to have been taken to heart by Hollander in her own, later work.
+
+ - https://journals.sagepub.com/doi/abs/10.1177/15248380231179727
+   This article is a review of empirical studies on women's ESD, focusing on outcomes other than sexual assault prevenion. I was unable to access the article, so I actually don't know their results.
+
+ - https://orca.cardiff.ac.uk/id/eprint/163874/1/6516ee7b496da.pdf
+   This article discusses the rise in popularity of Krav Maga in Germany.
+   Of note is its assertion that the popularity of Krav Maga is attributable to a decrease in  percieved safety in german society (one that is inconsistent with the actual safety, with crime rates going down throughout this period).
+   They note three problems with Krav Maga's approach to self defense:
+     1. The slogan "we do bad things to bad people" presupposes that one is a good person, and one's opponent is not. Real world conflicts tend to be more complex. Krav maga training violates the social complexity of conflict.
+     2. The focus on "bad things" as a means of self defense ignores the important role of other skills in conflict resolution.
+     3. The narrative of a dangerous world that Krav Maga teaches is inconsistent with the data on our increasingly safe societies.
+     4. Krav maga promotes radicalization by creating an us-vs-them dynamic, they cite the reccomendation by ISIS to their terrorist fighters that they study Krav Maga as evidence of this.
+
+ - https://www.tandfonline.com/doi/abs/10.1080/02701367.2003.10609077?casa_token=A8w1mNN0TeUAAAAA:jHHzts4LNggGWihIre678oO9r-HKpugTO6tcMYXrl4ch2Nb0dNST4RL5zgXmCXq3zaG9fZnc8puy
+   This one I find is not very clearly written. As I understad it, the researchers outline an analytic method for measuring the effects of training on the fear for personal safety.
+   They do not seem to have read the aforementioned research on self defense, as they say there is no empirical research on the topic and do not cite the authors in question.
+   To be fair, this was in 2013, when much of the research above wasn't out yet.
+
+ - https://www.proquest.com/openview/19519a2456a972449e8ac357ff506e06/1?pq-origsite=gscholar&cbl=18750&diss=y
+   This is a thesis, I was only able to read the introduction as I cannot access the whole.
+   It emphasizes the role of women's attitudes towards violence in self defense, it seems largely consistent with Hollander's findings.
+
+ 
+ - https://www.tandfonline.com/doi/full/10.1080/17430437.2014.882906?scroll=top&needAccess=true
+   I'll be honest, this one mostly reads like gibberish to me. I get the broad impression they are assessing the cultural, pedagogical, and bodily impacts of martial arts and combat sports training.
+   I can't get anything more specific out of it about what kinds of impacts they did actually find.
+   So... ???
+
+
+ - https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-0127ce14-bac2-4718-8a92-12b05bca87dd
+   This study assessed the self-esteem and resilience of krav-maga students. Students who had practiced more had higher self esteem and resilience, leading them to conclude that krav maga practice is associated with better self esteem and resilience.
+   I don't find this hard to believe, but their analysis is not thorough.
+   They do not appear to have analyzed the role of nuisance variables (age, gender, stature) in the correlation, or the possibility that students with lower self-esteem or resilience are more likely to drop out.
+   From my casual assessment of the correlations they observed it looks like the effects on self-esteem and resilience are explainable entirely by the age variable.
+
+ - https://link.springer.com/chapter/10.1007/978-3-031-41100-7_7
+   This one seems really interesting, but I haven't been able to find a version of the full document.
+   It seems to discuss ideas about what makes combatives training realistic.
+   It places these in historical context and regards them as similar in nature to the myths that were historically used to lend legitimacy to ancient martial arts.
+
+ - https://www.ceeol.com/search/article-detail?id=911778
+   Mazzola takes a historical perspective on the two main principles of judo: maximizing efficiency and mutual prosperity.
+   The gist of it seems to be that minimizing violence both inside and outisde the dojo were important to Kano's conception of Judo.
+   Behaviors that occur with some scandals - such as hazing or physical discipline - are seen as in conflict with this.
+   Mazzola states that there is a tension between maximizing efficiency and minimizing violence - which I interperet as him saying that a more violent atmosphere is better for developing efficient fighters, though he is never so explicit.
+   He resolves this tension by appealing to the idea that the goal of judo is nonviolence, and therefore minimizing violence is maximizing efficiency.
+   I would agree that that resolves it just fine, but I am skeptical of the premise that the two were ever in conflict, even if the goal were to develop capable fighters.
+
+
+ https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(13)61030-2/fulltext?source=post_page---------------------------

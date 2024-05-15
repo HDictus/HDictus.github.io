@@ -12,6 +12,9 @@ Of course, we practiced it very slowly and without any kind of resistance or rea
 But there was a lot of tough talk, a very serious atmosphere.
 It felt raw, real, even though the violence was practically symbolic.
 
+This way of approaching self defense is neither unique to Krav Maga nor universal to it.
+It is pervasive enough in a variety of martial arts communities to be [[https://youtu.be/3CGMWlXosp4?si=u89Bwgyx5KcWmPmZ&t=115][be the subject of parody]].
+
 Krav Maga is marketed as being used extensively by militaries and police forces.
 American police are often sent to train alongside israeli police.
 Several organizations have noted a similar, and similarly agressive, approach to policing in both countries.
@@ -75,7 +78,8 @@ acts with the spirit of mutual cooperation, each person’s work benefits
 not only himself, but also others, and attaining this together will bring
 mutual happiness. [...] This great principle of harmony and
 cooperation is, in other words, the concept of Jita-Kyoei, or mutual
-prosperity for self and others." - Jigoro Kano, founder of Judo, in an essay published in 1925, this translation is from *The Gentle Way, Maximising Efficacy and Minimizing Violence in Judo* by Dario Mazzola
+prosperity for self and others."
+ - Jigoro Kano, founder of Judo, in an essay published in 1925, this translation is from *The Gentle Way, Maximising Efficacy and Minimizing Violence in Judo* by Dario Mazzola
 
 
 * The cowardice of cruelty
@@ -115,28 +119,23 @@ The findings of this research are flattering neither to combat sports nor Krav M
 
 * Evidence-based self defense
 
+TODO: place more emphasis on the fact that bad SD focuses incorrectly on assaults from strangers
+TODO: perhaps mention the symmetry that once again, that skill in non/minimally violent means removes the necessity of more violent means
+TODO: waffly - what exactly do I want the readers to get out of this. Focus on that, if they want the full picture they can follow the links.
+
 When I went looking for [[id:5d38c8d0-8c5e-4dee-8f04-5427a806c285][peer-reviewed articles on self defense]] I found that all the evidence based literature was focused on women's self defense.
 Although [[https://www.sciencedirect.com/science/article/pii/S1359178907000766?casa_token=3DvBAIeZ9IAAAAAA:tErJw-u3458JUwdfI7TstyKi1o3AmYhoBR5tDdwDyZvW7VWZViuVd56kVmz04SPYhC3S9zhQVw][some evidence]] exists for benefits from a variety of self defense courses, only one approach (as far as I could find) has solid, systematic, controlled data collection backing it up.
 This is [[https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/soc4.12597?casa_token=a_u-H1-xxVYAAAAA:ep0_5otMwbp3xzbalKCcxyKrLAipUO7e6GXbxdsSSW6q73XMV97u7Jc28FiTUHEY6NK4ds76lq4BUQ][Empowerment self defense]] (ESD), researched extensively by Jocelyn Hollander.
 
 A very interesting aspect of this research, at least reading as a martial artist, is that the physical techniques are the least important aspect of the training.
-Rather, much of the education in ESD focuses on the setting, communicating, and enforcing of boundaries, and of understanding one's right to autonomy.
-This may be a peculiarity important to women's self defense specifically.
-Although I would not be surprised if it was applicable to a wider variety of people and contexts.
-Still, women more than men are often discouraged from clear boundary setting, and righting this wrong is an important part of ESD.
-
-Physical self defense clearly does play a role however.
-Despite the physical disadvantages faced, women who fight back physically when assaulted are less likely to have an assault completed on them and likely to suffer fewer psychological consequences.
-The quality of physical techniques taught in women's self defense courses tends to be low.
-Additionally, any martial artist knows that you acquire and retain very little fighting skill from the small number of lessons in a self defense course.
-I propose that the importance of these physical skills is not in how they teach the women to fight back, but simply to teach them that they can.
-For women's self defense, *that* you are willing to fight is far more important than *how* you fight.
-I suspect that this is  something Krav Maga and similar arts do offer that combat sports don't - simulating a situation in which you should fight, and ensuring you do.
-Although it should be noted that this is most effectively done with a resisting partner rather than an inanimate one: as noted by @brecklin_evaluation_2004, and consistent with what we know about developing skill for combat sports.
+Rather, much of the education in ESD focuses on the setting, communicating, and enforcing of boundaries, and of understanding one's rights.
+This isn't to say that the physical side of self defense doesn't matter.
+Women who fight back physically when assaulted are more likely to get away safely, and have better psychological outcomes even if they fail to.
+Women who recieved a physical self defense course are more likely to fight back, and more likely to do so successfully.
 
 Jumping straightaway to the nuclear, groin-destroying, eye-blinding option is not a feature of these self defense systems.
 Rather, they offer a range of techniques for interrupting an assault before it comes to that.
-Well, why not? If a stranger ambushes you and attempts to rape you, don't you have every right, and every reason to jump straight to this?
+So, why not jump to the nuclear option? If a stranger ambushes you and attempts to rape you, don't you have every right, and every reason to jump straight to this?
 -- TODO: I need to track down the sources I found before for this
 The fact of the matter is that stranger rape is the exception, not the rule when it comes to violence against women.
 The vast majority of sexual assaults are perpetrated by acquaintances, family, friends, and especially intimate partners.
@@ -147,14 +146,17 @@ The research shows that when ESD is taught to populations of women they are not 
 We need to understand that sexual violence, indeed all violence, is socially situated and involves aspects of manipulation, coercion, rationalization and justification.
 Resistance to these non-physical means of enacting violence in personal relationships plays an important role.
 
-The ambitions of many martial arts, especially Judo extend beyond providing physical skills, safety, and physical education to its participants, but also to exert a transformative influence on society.
+The ambitions of many martial arts, for example Judo, extend beyond providing physical skills, safety, and physical education to its participants, but also to exert a transformative influence on society.
 This is an ambition that ESD shares, and Hollander emphasizes its potential in changing the culture that creates violence against women.
+How our fighting arts understand and respond to violence shapes the culture in which violence takes place: so we had best ensure that, like ESD, our conceptions of violence are based in reality.
 
 
 * Our flawed understanding of violence
 
 file:///home/hugs/Downloads/49-Artikeltext-279-3-10-20190123.pdf
 https://psycnet.apa.org/record/2010-13682-006
+
+I would argue that the naive, inaccurate understanding of violence that pervades martial arts communities is convenient, contaigious and pleasurable for us because it justifies our fantasies of violence.
 
 * community policing, prison abolition
 

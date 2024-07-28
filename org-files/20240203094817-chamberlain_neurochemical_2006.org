@@ -10,4 +10,4 @@ Those with inhibited serotonin reuptake (and therefore stronger serotoninergic a
 One (green/red) is correct, one (red/green) is wrong. When the participant selects a stimulus, they will be told whether or not they were correct, but this answer has a 20% chance to be misleading.
 One of the differences in the citalopram group is that they were more likely to change their estimate when told they were wrong - and so were more frequently misled by the feedback.
 
-https://pubmed.ncbi.nlm.nih.gov/16469930/
+* https://pubmed.ncbi.nlm.nih.gov/16469930/

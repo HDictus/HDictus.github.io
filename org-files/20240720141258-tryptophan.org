@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       27ae4fd8-4732-4029-8bcf-38f3ac23f019
+:END:
+#+title: tryptophan
+One of the nine essential amino acids.

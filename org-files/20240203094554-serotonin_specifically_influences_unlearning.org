@@ -8,9 +8,18 @@ This is a list of studies containing evidence that alterations in serotoninergic
  - [[id:b04fba1a-e7ee-4320-ab00-2099bf50ee97][denOuden-dissociable-2013]]
  - [[id:d275a9e8-eef1-493a-9b56-a11ed2515476][chamberlain-neurochemical-2006]]
  - [[id:5a3af560-e7e8-4fc0-8652-f784bc722379][cools-acute-2008]]
- - [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][boulougouris-enhancement-2010]] TODO: summarize
- - [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] TODO: summarize
+ - [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][boulougouris-enhancement-2010]] 
+ - [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] 
+ - [[id:656608d6-3e8a-4b8a-bf50-972fb7a221f7][clarke-prefrontal-2005]]
+ - [[id:ced31f16-068d-4d93-b270-81c555e91a3a][kanen-serotonin-2021]]
+ - [[id:9930b02a-28e8-44c5-9e65-f2501e8f09ec][Izquierdo-neural-2017]]
 
-https://www.nature.com/articles/npp2009233
-https://www.nature.com/articles/s41380-021-01240-9
 https://www.sciencedirect.com/science/article/pii/S030645221600244X?casa_token=HQQ7sNlVtREAAAAA:RhX4ALapUtgx54gmpsTxHwoLoZgwGb02neRpAlOnXW4E0kG_-R5tk_zyeYYtiAfjjo2Wd3uNNg
+https://www.sciencedirect.com/science/article/abs/pii/S0166432814003994
+https://www.sciencedirect.com/science/article/abs/pii/0091305779901667
+https://www.jneurosci.org/content/27/3/684.short
+https://link.springer.com/article/10.1007/s00213-017-4684-8
+https://www.nature.com/articles/s41380-021-01240-9
+https://elifesciences.org/articles/20552
+countervailing:
+https://www.nature.com/articles/npp2009233

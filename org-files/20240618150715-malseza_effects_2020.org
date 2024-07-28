@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       18e2706c-ca83-43d8-8efa-2497f25367d0
+:END:
+#+title: malseza-effects-2020
+
+
+Malseza et al found that some dark triad traits predict the tendency to defect in a prisoner's dilemma game.
+Both psychopathy and to a lesser extent machiavellianism, but not narcisissim correlated with higher chance of defection.
+
+

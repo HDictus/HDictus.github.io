@@ -108,11 +108,11 @@ And then I was patient.
 Just keep training and you will improve, obviously.
 
 One day I felt dizzy after training.
-I had been very passive in sparring, I think one of my training partners tried to helpfully shock me out of that passivity.
+I had been very passive in sparring, I think one of my training partners tried to "helpfully" shock me out of that passivity.
 It backfired though: even though I willed myself to go on the offensive my body wouldn't obey me.
-I steeled myself before each round and managed a few slow, hesitant attacks which were promptly countered.
+I steeled myself before each round and managed a few hesitant attacks which were promptly countered.
 Then I spent the rest of each round hiding behind my gloves.
-I realized then, reflecting, that this had been happening more and more over the last months.
+I realized then that this had been happening more and more over the last months.
 After almost two years of training I wasn't getting better - I was getting worse.
 Now on top of that I was dizzy from blows to the head - I was risking the health of my brain for this sport.
 
@@ -121,7 +121,7 @@ Yes and no: dyspraxia should surely make me learn slower, and eventually lead to
 I wouldn't expect it to be this big a difference though: after two years I was worse than most first-timers.
 There were definitely a few other factors: the gym was very full and the instructor had very little time for helping individuals.
 The sparring culture was fairly competitive, people always tried to maintain the upper hand and would up the intensity to keep it.
-I'll explain later why I believe that this approach to sparring is detrimental to the less talented members of the school, and what the alternatives are.
+# I'll explain later why I believe that this approach to sparring is detrimental to the less talented members of the school, and what the alternatives are.
 Thirdly, the instruction was concerned with the techniques - doing them well and chaining them together smoothly, but I don't recall learning much about distance and positioning.
 Most schools seem to expect people to pick up on these aspects intuitively during sparring; and that expectation is usually, but apparently not always, correct.
 Most important however was my own psychological approach to training and where it led: into a state of [[id:277b1451-9929-43bf-a225-9a2570b7aadf][learned helplessness]].
@@ -134,8 +134,43 @@ Dropping martial arts altogether never crossed my mind - I decided I just wasn't
 I've got a slow build, and slow reflexes besides.
 Now the groundfighting part of the MMA classes I'd been trying here and there seemed to play to my strengths better.
 being on the ground everything is a little slower anyway.
-It's all about technique and knowledge - so even I can get good at that.
+It's more about technique and knowledge than timing or reflexes - so even I can get good at that.
 Learning the basics of groundfighting was reinvigorating.
 Unlike with striking, there truly is a near insurmountable advantage to doing things the right way.
 I was convinced I could continue to improve until I was good at it.
+
+* part 3
+
+Starting out with groundfighting as a large and reasonably strong young man is mind-blowing.
+Small, experienced grapplers manhandle you in slow motion while you expend immense effort simply not getting toppled onto your back.
+There are all sorts of nuances in terms of balance, posture, and timing which come into play between two competent grapplers, but at first they really do simply have an answer for everything you can think to do.
+They just know something you don't.
+
+After six months or so a new wave of beginners came in.
+That was when I realized I actually knew what I was doing.
+In that short time I'd gone from a beginner, to someone who could reliably handle a beginner without much effort.
+I'd actually picked it up pretty fast, probably helped by all the experience I'd gained in copying others' movements, and I thought "Wow, I might actually be good at this".
+
+The first tournament I participated in after 9ish months (against other newbies training 6-9 months) didn't go well, which was disheartening at first.
+I upped the training volume, adding brazilian jiu-jitsu twice a week to the no-gi submission grappling.
+Brazilian Jiu Jistu is a ground-fighting focused art derived from judo, and like judo it is trained in a sturdy jacket with a belt.
+This changes a few things: there are a lot more effective grips to be had, and there is a lot more friction between you and your opponent.
+I've found it harder to get the hang of BJJ than submission grappling.
+There are a few possible reasons for this, but ultimately I think the big difference is that while the teachers I had for BJJ were fine, my MMA coach was an absolutely excellent instructor.
+
+Daan van Schaijk had the best structured and most engaging martial arts classes I've ever taken.
+The specifics of the structure changed a lot from lesson to lesson, but in general two things stand out to me:
+ 1. building up complexity within a particular theme
+ 2. emphasis on (for lack of a better word), "gameplay"
+The lesson would start simple, such as with a simple technique.
+We'd practice it only a very short time before something new was introduced: an advanced variation, a counter, or a follow up.
+The lesson would continue to build this way, and as the repertoire of techniques introduced in the lesson builds, the excercises become more interactive.
+Rather than a simple script of "you do this, I do that, then you do this" repeated past the point of boredom, the drills would progress to not-quite-competitive "games" where one participant provided cues for the other to pick up on.
+Eventually this would progress to sparring with a specific goal that the lesson's material helps you to accomplish, and finally full sparring where you can integrate the material into your game as a whole.
+Daan managed to foster a very helpful sparring culture where people generally matched their intensity to their partner's level and gave each other the opportunity to work on the relevant material from the lesson.
+
+I improved steadily for a year or two before hitting a plateau.
+Then, I declined.
+I added more training to my regeime : gongkwon yusul twice a week for a total of 10 hours a week of training.
+I declined further.
 

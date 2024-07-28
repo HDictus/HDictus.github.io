@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       9930b02a-28e8-44c5-9e65-f2501e8f09ec
+:END:
+#+title: Izquierdo-neural-2017
+
+
+This is a fairly comprehensive review of reversal learning.
+I'm going to skim it just for the bits relevant to serotonin.
+Maybe I'll come back to it later.
+
+When it comes to the role of serotonin, Izquierdo is more cautious than I expected.
+Serotonin depletion seems to affect multiple learning modalities (see lapiz-bluhm et al. 2009).
+They describe the role of serotonin in reversal learning as being specific to the OFC, and cite a huge litany of papers investigating the role of serotonin here, most of which I hadn't found yet.
+They do state a consistent theme: reduction in cortical serotonin impairs reversal learning, and increasing serotonin facilitates reversal learning.
+
+Izquierdo cautions against drawing a straightforward conclusion however.
+It seems to depend partly on the stimulated receptors.
+as shown by [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] 
+It also seems to be highly sensitive to details like the timing of the manipulation relative to the training and testing, and the location of the depletion in the brain.
+
+
+Different roles have been suggested for serotonin in reversal learning.
+ - affecting punishment and absence-of-reward processing subcortially (how?)
+ - regulating outcome-tracking cortically (how?)
+
+
+Personally, I found this paragraph to be a little messy.

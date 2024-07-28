@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ea0c7826-854c-4b60-85ac-56a46c18237e
+:END:
+#+title: development-aid-as-immigration-policy
+
+Though the results are not unambiguous, research suggests that providing development aid to developing countries (besides being the right thing), can also reduce migration from those countries by making staying there more attractive.
+
+
+https://academic.oup.com/isq/article-abstract/62/4/809/5103884
+  - it is interesting that they note that economic relief has no effect on migration though, since the most effective development aid measures (direct cash transfers) would fall under this.
+  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3238368  examines this specifically, but does not seem to find any strong conclusions
+  
+https://art.torvergata.it/handle/2108/54747
+https://www.econstor.eu/handle/10419/279785 - this one finds that asylum-seeking is reduced long-term, while regular (non-asylum-seeking) migration is increased long-term.
+https://link.springer.com/article/10.1007/s00148-019-00751-8

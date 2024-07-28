@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a940a525-7f62-4c5f-b759-d2da9b8fb4f6
+:END:
+#+title: serotonin-depletion
+
+It is possible to deplete an organism's supply of [[id:22bdad1e-c531-47f7-a7fe-41c2735fa34f][serotonin]] by reducing or dietary [[id:27ae4fd8-4732-4029-8bcf-38f3ac23f019][tryptophan]].
+This is sometimes used as an experimental intervention.

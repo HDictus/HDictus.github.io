@@ -3,6 +3,8 @@
 :END:
 #+title: Violence, proportionality, and self defense
 
+
+
 In a gym in Amsterdam, an instructor grimly tells us how to deal with someone who places their hand on your shoulder from behind.
 You pinch their fingers between your ear and shoulder and violently turn to face them, breaking their fingers.
 Then, of course, you batter their groin with knees.
@@ -12,22 +14,17 @@ Of course, we practiced it very slowly and without any kind of resistance or rea
 But there was a lot of tough talk, a very serious atmosphere.
 It felt raw, real, even though the violence was practically symbolic.
 
+I swear this essay isn't just me shitting on krav maga, there's a point.
 This way of approaching self defense is neither unique to Krav Maga nor universal to it.
-It is pervasive enough in a variety of martial arts communities to be [[https://youtu.be/3CGMWlXosp4?si=u89Bwgyx5KcWmPmZ&t=115][be the subject of parody]].
+It is both pervasive enough and controversial enough in a variety of martial arts communities to be [[https://youtu.be/3CGMWlXosp4?si=u89Bwgyx5KcWmPmZ&t=115][be the subject of parody]].
 
-Krav Maga is marketed as being used extensively by militaries and police forces.
-American police are often sent to train alongside israeli police.
-Several organizations have noted a similar, and similarly agressive, approach to policing in both countries.
-And perhaps there is no better indictment of the paranoia of Krav Maga's philosophy than the failure of this method of policing in the USA.
+I see this as being a symptom of a cynical attitude that views callous approaches to tackling problems as inherently more pragmatic than compassionate ones.
+Martial arts training is one of many cases in which the opposite is true.
 
-Among these failings of self defense and policing there is a lesson about conflict resolution, martial arts, human relationships, and analogous lessons in international relations.
 
 * The failings of brutality
 
-Krav Maga is not actually a specific martial art.
-It refers to any hand-to-hand fighting taugh to the israeli military.
-In terms of technique, that could be anything from aikido to boxing.
-What sets it apart is the emphasis on building aggression over technique, doing damage over maintaining control.
+What sets Krav Maga apart from most approaches to fighting is the emphasis on building aggression over technique, doing damage over maintaining control.
 No draftee heading off to war has time to master martial arts, you just need to make sure they fight hard.
 
 The branded krav maga taught to civilians does tend to have some technical cohesion, mediated by the organizations that sell it.
@@ -42,14 +39,14 @@ If you want to gouge someone's eyes, you need to get past their defenses to touc
 If you want to kick someone's groin, you need to manage the distance and set it up just like any other kick.
 So you need a certain parity of skill if you're going to use these techniques.
 And conversely, if you have a sufficient skill advantage, you don't need to use them.
-
+You cannot build skill by role-playing maiming.
 
 * The violent power of compassion
 
 What is the alternative?
 What does build that kind of skill?
 The exact opposite: focus on techniques that are safe to apply and apply them for real.
-When Judo (at the time, Kano-ryu Jujitsu) was emerging as a martial art this was the philosophy that set it apart from other Jujitsu styles.
+When Judo was emerging as a martial art this was the philosophy that set it apart from other Jujitsu styles.
 Nowadays in competitions like mixed martial arts, where it is permitted to violently wrench an opponet's joints, those who prevail are not those who spend time practicing this, like in pre-judo jujitsu.
 Those with the greatest success are those who focus on techniques with a lower risk for injury - especially wrestling and brazilian jiu jitsu, but also other combat sports like boxing, muay thai and indeed Judo.
 
@@ -59,9 +56,11 @@ In BJJ circles it is a saying that the more you help your training partners impr
 Martial arts training has an inherently cooperative element, which helps prepare people for the eventual competitive aspects.
 Which brings me to another point about how a less aggressive approach to preparing for violence is actually more effective.
 
-I do not want to overemphasize the importance of training intensity and realism - facing off against a partner who is fighting hard to best you is a crucial part of training, but the growing consensus is that this should not be most of your training.
+I do not want to overemphasize the importance of training intensity and realism - facing off against a partner who is fighting hard to best you is a crucial part of training, but the [[https://www.youtube.com/watch?v=Wd-IyHiu0ug][growing consensus]] is that this should not be most of your training.
+https://www.youtube.com/watch?v=ZjoRASZiPFc
+
 Any martial arts forum will furnish you with complaints of people going 'too hard' in sparring practice or focusing on "winning" over learning.
-Most of your sparring should be at substantially less than full speed and less than full force, as this lowers the risk of injury.
+Most of your sparring should be at substantially less than full force, as this lowers the risk of injury.
 Futhermore, it is important to adjust to the level of your partner and not resist them so hard that they are completely shut down.
 To keep both parties learning and challenged, both parties need to have opportunities to work, to attack, defend, and counter.
 I once recieved advice to seek out the tallest, most skilled person in the school to spar with for kickboxing - as they're the greatest challenge and therefore the best learning experience.
@@ -82,46 +81,8 @@ prosperity for self and others."
  - Jigoro Kano, founder of Judo, in an essay published in 1925, this translation is from *The Gentle Way, Maximising Efficacy and Minimizing Violence in Judo* by Dario Mazzola
 
 
-* The cowardice of cruelty
-
-I don't wish to imply that people don't have a right to seriously harm others when they defend themselves.
-All that is necessary to secure your safety is justified.
-Harming the other party only becomes an issue when it is unnecessary or counterproductive.
-Of course it will be hard to recognize in the moment where justified self defense ends and retribution begins.
-I have no doubt that the retributive impulse is in fact very important when it comes to avoiding victimization.
-Accordingly, the law is rightly lenient with those who overstep when responding to a threat.
-
-The reality and magnitude of that threat is important.
-If you are attacked by an unarmed person of a weak and diminuitive stature, say a child, you have no right to seriously injure them no matter how murderous their intent, and no matter how much you dislike them.
-The responsibility to avoid harm rests with the party with the upper hand.
-The party with control over the situation is the party with the luxury and obligation of deescalation.
-
-"Self defense" focused combatives like civilian Krav Maga often market themselves as protecting you from a dangerous world.
-Although rates of violent crime have been decreasing across the developed world, people nonetheless feel threatened by the possibility of violent crime.
-Using hypothetical assaults by bands of armed strangers, "self defense" systems promise you security from violence.
-Besides safety, they offer retribution: "we do bad things to bad people" says the marketing catchphrase of Deutsche Krav Maga Verband in 2022.
-
-Germany today - like most european countries - is a very safe place to be, safer than it has ever been and unfathomably safer than most times and places throughout human history.
-In the unlikely event that you are attacked it will not be by a group of strangers but almost certainly by an acquiantance.
-The retributive, aggressive attitude of KM and similar schools is an expression of an irrational fear.
-Capitulation to an irrational fear to the detriment of yourself and others is cowardice.
-
-
-A reasonable response to this may be: "Wouldn't you rather be prepared in the event that such an attitude is justified?"
-Isn't such an eventuality worth preparing for?
-In the case of combat in the ring aggression and a focus on maiming techniques may not get you far - but self defense situations are different from an arranged fight.
-Discounting for the moment the psycholgical and social costs of hyper-vigilance, I admit the concession that being psychologically prepared to hurt another person can help to protect you in a violent confrontation.
-In self defense, unlike in the ring, you don't need to out-fight your aggressor, only to make them believe it is more trouble to mess with you than it is worth.
-This brings us to a much broader point.
-Contrary to the way it is discussed by most practitioners of martial arts (thus far, myself included), hand-to-hand combat is the least important part of self defense.
-Women's self defense specifically has been a topic of a small but significant amount of empirical research.
-The findings of this research are flattering neither to combat sports nor Krav Maga.
-
 * Evidence-based self defense
 
-TODO: place more emphasis on the fact that bad SD focuses incorrectly on assaults from strangers
-TODO: perhaps mention the symmetry that once again, that skill in non/minimally violent means removes the necessity of more violent means
-TODO: waffly - what exactly do I want the readers to get out of this. Focus on that, if they want the full picture they can follow the links.
 
 When I went looking for [[id:5d38c8d0-8c5e-4dee-8f04-5427a806c285][peer-reviewed articles on self defense]] I found that all the evidence based literature was focused on women's self defense.
 Although [[https://www.sciencedirect.com/science/article/pii/S1359178907000766?casa_token=3DvBAIeZ9IAAAAAA:tErJw-u3458JUwdfI7TstyKi1o3AmYhoBR5tDdwDyZvW7VWZViuVd56kVmz04SPYhC3S9zhQVw][some evidence]] exists for benefits from a variety of self defense courses, only one approach (as far as I could find) has solid, systematic, controlled data collection backing it up.
@@ -129,6 +90,8 @@ This is [[https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/soc4.12597?cas
 
 A very interesting aspect of this research, at least reading as a martial artist, is that the physical techniques are the least important aspect of the training.
 Rather, much of the education in ESD focuses on the setting, communicating, and enforcing of boundaries, and of understanding one's rights.
+Once again, sufficient skill in less violent means reduces the necessity of more violent means.
+
 This isn't to say that the physical side of self defense doesn't matter.
 Women who fight back physically when assaulted are more likely to get away safely, and have better psychological outcomes even if they fail to.
 Women who recieved a physical self defense course are more likely to fight back, and more likely to do so successfully.
@@ -136,32 +99,108 @@ Women who recieved a physical self defense course are more likely to fight back,
 Jumping straightaway to the nuclear, groin-destroying, eye-blinding option is not a feature of these self defense systems.
 Rather, they offer a range of techniques for interrupting an assault before it comes to that.
 So, why not jump to the nuclear option? If a stranger ambushes you and attempts to rape you, don't you have every right, and every reason to jump straight to this?
--- TODO: I need to track down the sources I found before for this
 The fact of the matter is that stranger rape is the exception, not the rule when it comes to violence against women.
 The vast majority of sexual assaults are perpetrated by acquaintances, family, friends, and especially intimate partners.
-The use of extreme violence in these situations brings with it social and psychological consequences.
+The use of extreme violence in these situations faces social and psychological barriers.
 
 This is also why the non-physical strategies and traits imparted by ESD are so important.
 The research shows that when ESD is taught to populations of women they are not just better at protecting themselves - but less likely to be assaulted in the first place.
-We need to understand that sexual violence, indeed all violence, is socially situated and involves aspects of manipulation, coercion, rationalization and justification.
-Resistance to these non-physical means of enacting violence in personal relationships plays an important role.
+We need to understand that sexual violence, indeed all violence, is socially and culturally situated and involves aspects of manipulation, coercion, rationalization and justification.
+Resistance to these non-physical means of facilitating violence in personal relationships plays an important role.
 
 The ambitions of many martial arts, for example Judo, extend beyond providing physical skills, safety, and physical education to its participants, but also to exert a transformative influence on society.
 This is an ambition that ESD shares, and Hollander emphasizes its potential in changing the culture that creates violence against women.
-How our fighting arts understand and respond to violence shapes the culture in which violence takes place: so we had best ensure that, like ESD, our conceptions of violence are based in reality.
+How our fighting arts understand and respond to violence shapes the culture in which violence takes place: so we had best ensure that, like for ESD, our idea of violence and its prevention is based on reality rather than comforting simplistic fantasies.
 
 
 * Our flawed understanding of violence
 
-file:///home/hugs/Downloads/49-Artikeltext-279-3-10-20190123.pdf
-https://psycnet.apa.org/record/2010-13682-006
+# TODO: I don't want to argue that people are inherently cruel and will do bad things without a boot on our neck. The fact is most people don't engage in violence, boot or no (and I would argue, more often with the boot than without). the point is that the capacity for violence and kindness rest in anyone. the question is what brings each out
 
-I would argue that the naive, inaccurate understanding of violence that pervades martial arts communities is convenient, contaigious and pleasurable for us because it justifies our fantasies of violence.
+In an [[https://www.youtube.com/watch?v=lmsoVFCUN3Q][excellent video essay]], Natalie Wynn proposes that violence is not an aberrant behavior engaged in by some deranged individuals, but an intrinsically pleasurable part of human experience.
+Morality, empathy, and society impose emotional side-effects on violence that make it not worth our while.
+When we are provided with something that disrupts our ability to empathize with the target of violence and gives us a moral and social excuse, for instance if they have wronged us, then violence is fun.
 
-* community policing, prison abolition
+If you disagree that violence is intrinsically fun, I suspect that you are not a martial artist, and that your taste in media differs from the mainstream.
+More to the point, when I looked into the [[id:9c07c580-4722-4189-97ed-d26c9f6f0a34][peer-reviewed literature]] for this post, I found a lot of support for the view that the environment one grows up in powerfully shapes the tendency to violence.
+
+The important point here is that *anyone* is capable of enjoying violence in the right circumstances.
+Patriarchy furnishes ordinary men with convenient rationalizations and the emotional distance required for violence against women.
+Fascism feeds the fear and contempt of an ordinary populace and suppresses their empathy, a recipe for genocide.
+
+The naive view that violence is committed by exceptional 'bad people' informs how a lot of people view crime, punishment, and self defense.
+Self defense training in most martial arts adopts this view of the aggressor.
+This view is convenient and pleasurable, guiltlessly justifying the fantasy of violence.
+As Wynn points out, nothing is better at removing our inhibitions on enjoying violence than revenge.
+
+Beyond interpersonal violence the naive view shapes people's views on institutional and international violence as well.
+I'll refer you to another of Wynn's video essays for a more thorough version of this argument.
+The gist of it is that the idea that Justice is Retribution has been the predominant conception of justice throughout most human societies.
+Modern justice systems are nominally based on more modern ideas regarding deterrence of crime and reform of criminals.
+The law is nonetheless written, carried out, enforced, and indeed broken by ordinary people whose minds are still stuck in 4000 BC.
+
+# TODO: a good time to point to some examples in martial arts movies
+
+* Compassion and retribution in criminal justice
+
+Simplistic views of violence and crime permeate attitudes toward law enforcement and criminal justice.
+My home country of the Netherlands has an effective system of policing, [[https://www.taylorfrancis.com/chapters/mono/10.4324/9781003360452-4/netherlands-variations-theme-mawby?context=ubx&refId=5fa4cfda-742f-4364-9ebd-04d3ad35d10b][hisorically focusing on serving communities over punishing offenders]].
+Our approach to drug addiction similarly focuses on helping, rather than punishing addicts, [[id:bb3d5369-1049-4c3f-9dec-ebc2e910d056][restorative-justice]]and the justice system likewise is focused on rehabilitation over punishment.
+This works well - the Netherlands is a very safe country and gets steadily safer each year.
+Our prisons are so empty we rent them out to other countries.
+In the current political climate however there is a push towards more aggressive policing, punitive treatment for addiction, and harsher sentencing.
+
+These approaches are [[id:33a5d8a0-925e-4c6a-a3f7-f2c640ae7a52][financially expensive, socially costly, and ultimately ineffective]].
+My objection to this development is not moral, but pragmatic.
+Furthermore, I contend that the motivation for these policies is not pragmatic but emotional.
+It is rooted in the desire to see violence enacted on those for which we have contempt, and rationalized with naive views on who commits crime and why.
 
 
-* A missile is a machine that creates terrorists
+* a missile is a machine that creates terrorists
+
+[[https://www.tandfonline.com/doi/abs/10.1080/1057610X.2012.631456][Something that seems to be fairly new]] in approaches to counterterrorism is the idea that war crimes are necessary and inevitable in effective counterterrorism operations.
+This likely has a lot to do with how terrorism has changed to make this approach necessary, but I suspect that this also has much to do with rationalizing a violent impulse and using the satisfaction of that impulse for political support, much like the "tough on crime" rhetoric that drives ineffective policing and criminal justice.
+
+When a government harms members of a foreign population through killing civilians, illegaly detaining and torturing suspects, and so on it naturally incurs costs.
+I expected to find a lot of resarch into exactly what those costs are, but it turns out to be fairly limited.
+It does seem to reduce the willingness of a population to cooperate with counterinsurgency (and conversely, if insurgents kill civilians it increases civilian cooperation with counterinsurgents).
+But does it drive recruitment from those populations into the ranks of terrorist organizations?
+Does it undermine the overall stability and well-being of the region?
+How large is the effect on the economic prospects of people and their ability to provide for themselves without the help of a criminal organization?
+[[http://dx.doi.org/10.1016/S1572-8323(08)07018-5][We do not know]], leaving the efficacy of these aggressive methods dubious, and their use hard to truly justify.
+
+Given the gradual escalation of global terror in the middle east paralleling these developments in counterterrorism, I suspect that the long-term efficacy of these tactics is negative.
+Like a government militarizing its police to fight crime while it cuts the social programs that truly prevent crime, western governments poured immense resources into destabilizing parts of the middle east, supposedly to combat terrorism.
+Analysis of counterterrorism methods, from what I can find, tends to assume a steady supply of willing terrorists and focuses instead on imposing risk on terrorist action or witholding means to terrorist acts.
+Granted, if there was no supply of willing terrorists then there would be no terrorism, so assuming that supply exists is indeed reasonable.
+Assuming it is unaffected by the counterterrorism measures adopted however, is not.
+
+Perhaps it is more effective, if less viscerally satisfying and politically expedient, to stabilize a belligerent region with prosperity than to destabilize it with violence.
+[[id:3db9d87d-a40e-44f5-95c3-d5783626f03f][Development aid is counterterrorism spending]].
+
+We see again that a callous short-term solution has been uncritically accepted as the pragmatic option, while evidence-based compassionate approaches exist.
+Killing the "bad people" is seen as the obvious solution, even when doing so fuels the mechanisms that turn ordinary people into terrorists.
+Geopolitical decision making is driven by dominant attitudes among voters and policy-makers.
+Popular, simplistic views on the genesis of violence are once again partly responsible for how governments have chosen to respond to international threats.
 
 
-* 
+* What do martial arts offer society?
+
+Martial arts have immediate effects in the lives of the people that practice them, and broader effects that diffuse into popular culture through engagement with martial sporting events or movies.
+I run the risk of overstating the cultural impact of martial arts training by talking about this immediately after discussing large social an geopolitical issue.
+The role of martial arts in the broader culture is ultimately minor, but it is nonetheless extant.
+It has the potential to positively shape how we think about violence and crime.
+
+Ultimately, civilian martial arts should be focused on enriching the lives of the people who practice them rather than simply on imparting hand-to-hand skill.
+Community, health, fitness, and fun are all more valuable to your well being than hand-to-hand fighting ability.
+Ultimately however, I think it is a mistake to place these goals in opposition to one another.
+It isn't a balancing act: the methods that promote optimal development of skill do so by emphasizing community, safety, and fun.
+Good martial arts training enriches your life.
+
+Martial arts are also physical culture, reflecting and shaping how we think about its subject matter: namely violence.
+When a martial art is employed professionally, for instance in police or military training, it then embeds its philosophy of violence in the professional institution.
+The way we approach violence should be shaped by a realistic understanding of it, not a simplistic 'good guys vs bad guys' fairy tale.
+That starts with remembering the humanity of those who perpetrate violence, and the capacity of all humans to perpetrate it themselves.
+
+
+

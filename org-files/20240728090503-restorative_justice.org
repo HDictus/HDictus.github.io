@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       bb3d5369-1049-4c3f-9dec-ebc2e910d056
+:END:
+#+title: restorative-justice
+
+Restorative justice is a method of criminal justice in which emphasis is placed on having the perpetrator of a crime make amends rather than on punishing them or making and example of them.

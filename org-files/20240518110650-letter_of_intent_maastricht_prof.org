@@ -1,0 +1,71 @@
+:PROPERTIES:
+:ID:       f81dea6c-6f05-46b3-bdb8-7c4079e2f524
+:END:
+#+title: letter-of-intent-maastricht-prof
+
+
+Problem statement
+=================
+
+Neuroscience straddles the border between biology and psychology.
+On the one hand we have biochemistry, biophysics, pharmacology operating at the nanoscale.
+On the other we have cognitions and behaviors of the whole system within its environment that develop over the course of years.
+The application of computational methods in neuroscience therefore faces a challenge.
+Simulations in the biology domain cannot realistically scale up to the psychological domain, and simulations at the psychological level must remain largely silent about the biological domain.
+When we look at applying computational methods to medicine this problem is clearer still, as most of the interventions we have available are pharmacological, while most of the symptoms we wish to alleviate are cognitive and behavioral.
+
+A global understanding of nervous function is needed, but it is not forthcoming from straightforward reductionist simulation.
+Moreover, software development is a diseconomy of scale and any computational model that has a large enough scope must be modular.
+That is, it must consist of independent sub-models with more constrained scopes.
+Models with small scopes are abundant in the scientific literature.
+In @churchland_conceptual_2016, the authors argue that if a global understanding of the brain does emerge, it will be as a "patchwork quilt", "loosely stitched together".
+As I see it we are drowning in patches. I intend  to start stitching.
+
+
+Research approach
+=================
+
+The intent of this research will be to construct an infrastructure for easy comparison and integration of differing models, and to leverage that infrastructure for cross-disciplinary insights.
+
+A key challenge in getting models in different subdisciplines to make sense to one another is that they often use very different abstractions to explain the same system.
+An important insight on how these models relate to the system they intend to explain comes from @nguyen_how_2016.
+The features of models, however abstracted, correspond in some way to properties of the target system.
+This also means that any time two models correspond in any way to one or more of the same properties of the target system they will have *something* to say to one another.
+
+
+My upcoming paper *A generalizable validation methodology for computational models* will describe a framework based on the above insight that allows models with fundamentally differing approaches to be easily validated against the same experimental data and consequently compared to one another.
+During my career I hope to be able to build on this further.
+This involves adding new tools for the transformation and analysis of data based on the needs of participating scientists, integrating new validations as needed for the modeling efforts of collaborators, and eventually going beyond validation.
+As the scopes of models become increasingly well defined and mutually communicable it becomes easier to use models with overlapping scopes together.
+There are three main ways I see to leverage this.
+
+ - We can check where models agree and differ in their predictions of as-yet unmeasured properties
+ - The predictions of some models can be used as inputs of others to efficiently predict large-scale properties from small-scale properties
+ - Models can be inverted to predict small-scale properties from large-scale properties
+
+In constructing and using this infrastructure I hope to foster improved collaboration across disciplines in neuroscience, and contribute to the advancement of computational methods in general.
+If this works well then the Faculty of Psychology and Neuroscience could set a strong example for scientific communities as a whole.
+However, the most crucial things to get right are not a matter of science, but of design and engineering.
+
+This infrastructure must above all be easy to use and accessible.
+For scientists to participate in, and benefit from, this infrastructure the effort invested into using it must be much less than the benefits gained.
+Furthermore, the infrastructure must scale well as its size increases.
+The design and engineering decisions made to accomodate these requirements have, in a project such as this, epistemological implications as well.
+
+There are very few people with the intersection of expertise and interest needed to coordinate an effort of this kind.
+Alongside neuroscience I am also passionate about software design and engineering.
+I am an accomplished open-source developer and maintain several software libraries focused on ease of use.
+Epistemology is one of the many topics I read about for pleasure, and hence I have a better grasp of it than most.
+
+Given my specialization thus far into visual neuroscience, it would make sense for me to begin by working closely with Prof. Rainer Goebel's lab, focusing initially on helping with the analysis of model and experimental data for reusable validations.
+From there I'll expand to working with more labs in the Cognitive Neuroscience department, as well as incorporating data from the neuropsychology/psychopharamacology and clinical neuroscience departments where relevant.
+This will allow modelers in each department to re-use the experimental validations of other labs where appropriate, and easily compare newer models to those they previously constructed and identify any regressions.
+In the process, I will identify and catalogue model overlaps and opportunities for further inter-lab collaboration, which will form the basis for later research.
+
+I would look forward to any opportunity to discuss this further.
+
+\newpage
+
+
+References
+----------

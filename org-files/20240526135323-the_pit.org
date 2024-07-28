@@ -1,0 +1,257 @@
+:PROPERTIES:
+:ID:       101df1fe-089f-4183-896c-a6fda34bd232
+:END:
+#+title: the-pit
+
+
+*** Nothing but ramblings beyond this point
+
+Something something martial arts movies and killing people.
+
+If you disagree with the premise that violence is intrinsically fun, then you clearly aren't a martial artist, and I suspect your taste in films and video games to differ from the mainstream.
+The consequences of this are that those who commit violence may be ordinary people, and that we ourselves will commit or cheer on violence if we can justify it.
+
+For the purposes of self defense, maybe it is good to distinguish between retaliation and revenge.
+
+"They say revenge is a dish best served cold, but in fact, it is only served cold.
+If you serve it hot - if someone slaps you and you slap them back - that's retaliation, not revenge."
+- Natalie Wynn, Envy (I think)
+
+In the context of self defense, retaliation, in my view, is a response to a threat that acts to deter that threat.
+If you gain the upper hand in a conflict (as a martial artist trains to do)
+the roles of predator and prey become reversed, the enemy is prepared to flee but is prevented.
+self defense is no longer the effect of the violence but a pretext for it.
+so long as self defense rather than revenge remains the justification, extreme violence is an expression of impotence and fear.
+When the roles reverse and that fear becomes unfounded, extreme violence is an example of cowardice.
+
+If you disagree with the premise that violence is inherently fun, then you clearly aren't a martial artist.
+You're barely a mammal I susepct, since mock violence is an integral part of play in as far as I know every mammalian species.
+
+
+People have a simplistic view of violence, and correspondingly a simplistic view of responses to violence.
+The focus in popular views on violent crime tends to be on uniquely violent individuals, "psychopaths", and the ways their minds work.
+Martial artists, in my experience have a correspondingly narrow view of self defense: in which
+
+Meekness is the privelige of the powerful
+No it isn't
+I think it's become clear that my thoughts on these matters are not actually clear.
+
+
+
+
+
+* The cowardice of cruelty
+
+-- TODO: I feel that maybe my point in this section does not come across well, and maybe just isn't that relevant?
+--   I want to recast cruel and simplistic view of fighting as an expression of cowardice and weakness, and compassionate violence as an expression of strength
+
+I don't wish to imply that people don't have a right to seriously harm others when they defend themselves.
+All that is necessary to secure your safety is justified.
+Harming the other party only becomes an issue when it is unnecessary or counterproductive.
+Of course it will be hard to recognize in the moment where justified self defense ends and retribution begins.
+I have no doubt that the retributive impulse is in fact very important when it comes to avoiding victimization.
+Accordingly, the law is rightly lenient with those who overstep when responding to a threat.
+
+The reality and magnitude of that threat is important.
+If you are attacked by an unarmed person of a weak and diminuitive stature, say a child, you have no right to seriously injure them no matter how murderous their intent, and no matter how much you dislike them.
+The responsibility to avoid harm rests with the party with the upper hand.
+The party with control over the situation is the party with the luxury and obligation of deescalation.
+
+"Self defense" focused combatives like civilian Krav Maga often market themselves as protecting you from a dangerous world.
+Although rates of violent crime have been decreasing across the developed world, people nonetheless feel threatened by the possibility of violent crime.
+Using hypothetical assaults by bands of armed strangers, "self defense" systems promise you security from violence.
+Besides safety, they offer retribution: "we do bad things to bad people" says the marketing catchphrase of Deutsche Krav Maga Verband in 2022.
+
+Germany today - like most european countries - is a very safe place to be, safer than it has ever been and unfathomably safer than most times and places throughout human history.
+In the unlikely event that you are attacked it will not be by a group of strangers but almost certainly by an acquiantance.
+The retributive, aggressive attitude of KM and similar schools is an expression of an irrational fear.
+Capitulation to an irrational fear to the detriment of yourself and others is cowardice.
+
+
+-- TODO: this part is disconnected from the rest
+
+A reasonable response to this may be: "Wouldn't you rather be prepared in the event that such an attitude is justified?"
+Isn't such an eventuality worth preparing for?
+In the case of combat in the ring aggression and a focus on maiming techniques may not get you far - but self defense situations are different from an arranged fight.
+Discounting for the moment the psycholgical and social costs of hyper-vigilance, I admit the concession that being psychologically prepared to hurt another person can help to protect you in a violent confrontation.
+
+
+In self defense, unlike in the ring, you don't need to out-fight your aggressor, only to make them believe it is more trouble to mess with you than it is worth.
+This brings us to a much broader point.
+Contrary to the way it is discussed by most practitioners of martial arts (thus far, myself included), hand-to-hand combat is the least important part of self defense.
+Women's self defense specifically has been a topic of a small but significant amount of empirical research.
+The findings of this research are flattering neither to combat sports nor Krav Maga.
+
+* A missile is a machine that creates terrorists
+
+TODO: hellfire missile into wedding anecdote
+
+Something that seems to be fairly new (https://www.tandfonline.com/doi/abs/10.1080/1057610X.2012.631456) in approaches to counterterrorism is the idea that war crimes are necessary and inevitable in effective counterterrorism operations.
+This likely has a lot to do with how terrorism has changed to make this approach necessary, but I suspect that this also has much to do with rationalizing a violent impulse and using the satisfaction of that impulse for political support, much like the "tough on crime" rhetoric of ineffectual politicians.
+
+When a government harms members of a foreign population through killing civilians, illegaly detaining and torturing suspects, and so on it naturally incurs costs.
+I expected to find a lot of resarch into exactly what those costs are, but it turns out to be fairly limited.
+It does seem to reduce the willingness of a population to cooperate with counterinsurgency (and conversely, if insurgents kill civilians it increases civilian cooperation with counterinsurgents).
+But does it drive recruitment from those populations into the ranks of terrorist organizations?
+Does it undermine the overall stability and well-being of the region?
+How large is the effect on the economic prospects of people and their ability to provide for themselves without the help of a criminal organization?
+[[http://dx.doi.org/10.1016/S1572-8323(08)07018-5][We do not know]], leaving the efficacy of these aggressive methods dubious.
+
+If we don't know just how badly high-collateral tactics backfire, how can we possibly justify using them over more humane alternatives?
+Analysis of counterterrorism methods, from what I can find, tends to assume a steady supply of willing terrorists and focuses instead on imposing risk on terrorist action or witholding means to terrorist acts.
+Granted, if there was no supply of willing terrorists then there would be no terrorism, so assuming that supply exists is indeed reasonable.
+Assuming it is unaffected by the counterterrorism measures adopted however, is not.
+Everyone is capable of violence, but most people do not commit violent acts.
+Once again we see how a naive view of violence as the inevitable outcome of immutibly violent people is used to justify a violent response.
+
+Countering terrorism in the long term may have more to do with addressing the needs of the populations that are the sources of recruits than with killing terrorists.
+I believe that it is more effective, if less viscerally satisfying and politically expedient, to stabilize a belligerent region with prosperity than to destabilize it with violence.
+
+
+to read:
+https://cdn.givingcompass.org/wp-content/uploads/2019/09/23144007/Darden_Development-Assistance-and-Counterterrorism1.pdf
+https://academic.oup.com/oep/article-abstract/63/3/423/2362077
+https://www.cambridge.org/core/journals/african-studies-review/article/abs/deploying-development-to-counter-terrorism-post911-transformation-of-us-foreign-aid-to-africa/60E5FE3A3E6C24ED54AFE3CF8800C2CC
+https://journals.sagepub.com/doi/abs/10.1177/0022002717704952
+
+* Compassionate strategies in criminal justice.
+TODO: I feel I'm not really that well informed on this topic atm. I should either do some more reading or move it to the pit for later evaluation.
+
+Violent crime isn't something that spontaneously generates at a fixed rate and has to be continuously dealt with.
+It can be prevented - NOT by aggressive monitoring and policing, but by addressing the underlying reasons for it.
+
+https://digitalcommons.usf.edu/etd/4066/
+https://books.google.nl/books?hl=nl&lr=&id=6plZwWc35o4C&oi=fnd&pg=PA7&dq=tough+on+crime+counterproductive&ots=o12DDTxf78&sig=YkfCOV-TJpJ37Gt7xJE_95Iu2OA&redir_esc=y#v=onepage&q=tough%20on%20crime%20counterproductive&f=false
+
+https://link.springer.com/chapter/10.1007/978-3-030-01030-0_15
+https://journals.sagepub.com/doi/full/10.1177/0963721414535211?casa_token=wJqAbxWeDxgAAAAA%3AF6L-BjpQLYOaqVTnfAjisSet95DfBc_HsxJ5nzL9-4xEQ6w7CH8JN7uLCu00nl9AZDq14aTmQ6ZDdg
+
+Aggressive, "tough on crime" policing methods are arguably another manifestation of our drive to retribution.
+When it comes to the overtly stated goal of protecting people from violent crime they are not only ineffective, but counterproductive.
+These methods aim to reduce crime through creating disincentive to performing crime - in other words, by instilling fear.
+Fearful people do stupid - and violent - things.
+
+An alternative method for policing focuses on instilling trust rather than fear.
+Community policing focuses on socially integrating police into the communities they are meant to protect.
+These methods focus on addressing people's real needs for safety over their imagined need for retribution.
+Indeed, the lack of trust in local authorities can be a potent catalyst for violence.
+
+It is report
+
+https://www.taylorfrancis.com/chapters/mono/10.4324/9781003360452-4/netherlands-variations-theme-mawby?context=ubx&refId=5fa4cfda-742f-4364-9ebd-04d3ad35d10b
+
+
+
+There is good evidence that when it comes to incarceration, more humane methods are better at preventing recidivism.
+https://extranet.sioe.org/uploads/sioe2016/terlizzese_mastrobuoni.pdf
+More radically, there is a strong argument to be made that pulling people out of their communities and keeping them from the opportunity to build a career is not the best way to prevent their future criminality.
+Alternatives to incarceration, such as house arrest or monitoring, allow people to maintain relatiely normal lives while undergoing rehabilitation.
+Restorative justice is an approach in which offenders are (in conference with victims) allowed to take steps to right their wrongs and thereby reduce or evade incarcercation.
+The evidence that it is more effective than punitive justice at preventing recidivism is strong.
+https://www.ojp.gov/pdffiles1/ojjdp/grants/250872.pdf
+https://research.tees.ac.uk/en/publications/restorative-justice-the-evidence
+https://journals.sagepub.com/doi/abs/10.1177/0032885505276969
+http://johnbraithwaite.com/wp-content/uploads/2016/03/EvidenceForRestorativeJustice.pdf
+
+
+All this is to give examples of ways in which an intuitive, viscerally satisfying, cynically psuedo-pragmatic strategy of cruelty towards wrongdoing is counterproductive.
+A compassionate and rational strategy, when exercised by an agent with the power to implement it successfully, is imennsely more effective.
+https://books.google.nl/books?hl=nl&lr=&id=Z7OQDwAAQBAJ&oi=fnd&pg=PA27&dq=community+policing&ots=tPntBIPBjp&sig=dWPk6uTCkPnCP5_xwrmQ6sqfvTs&redir_esc=y#v=onepage&q=community%20policing&f=false
+https://www.taylorfrancis.com/books/mono/10.4324/9781003360452/comparative-policing-issues-mawby
+Krav Maga and similar methods are often marketed to police.
+The naive 'do bad things to bad people' rationale of its methods are incompatible not just with developing hand-to-hand skill, but with effective policing and criminal justice.
+
+* Kindness as an exercise of power
+
+Violence, besides being satisfying, can give us a sense of control.
+When animals are exposed to uncontrollable, unpredictable pain this has debilitiating psychological effects far beyond that of predictable and controllable pain.
+Giving an animal a smaller animal to beat up partially alleviates this effect.
+
+This sense of control is an illusion - the animal has gained no greater influence over their unfortunate situation.
+The violence here is not an expression of power but of powerlessness.
+A desparate, short-sighted grasp for agency.
+
+If you are physically threatened and you do not have the advantage of fighting skill, aiming just to do damage wherever you can is likely your best strategy.
+You do not need to overcome your assailant - only convince them of the credible possibility that they may get injured, making the confrontation not worth their while.
+If you have years of experience applying safer techniques at full resistance, you are probably going to have more success using them than an eye gouge you have never done for real.
+The inflicting of injury on the other party is an effective short-term solution to your present powerlessness.
+And conversely the overcoming of your assailant without injury is a consequence and expression of your mastery and power.
+Given that most civilian acts of violence are between people who know each other and share a community, this outcome is often also socially and legally preferable.
+
+We have a tendency, at least in the cultures I am familair with, to associate kindness with weakness and sentimentality and callousness with pragmatism and strength.
+This tendency forms how we tend to think personally, socially, and poliically.
+Poor martial arts training that fails to consistently impart fighting skill reinforces this.
+Good martial arts training inverts it.
+
+The truth is that in many cases compassion is not a surrender of power but an expression of it, and a means to it.
+Martial arts training is only one of the cases in which this truth is revealed.
+Using martial arts as a medium to reveal this truth, and instill a visceral understanding of it is a much more valuable thing than simply teaching people to fight well.
+Although these ideas align well with those expressed by various martial artists throughout history, there remains a lot of work to do in transforming the culture of martial arts to be up-to-date with our present understanding of violent behavior.
+
+
+
+* something else
+There was something else I wanted to say as well, about the men-focused culture of martial arts, the emphasis on "street fighting" and how that colors our approach to violence.
+In most cases of "street fights", they don't really happen unless you've given someone a rationalization for violence against you.
+Many forms of violence taught for 'street fighting' just aren't appropriate for this kind of situation.
+Combat sports, practiced responsibly and with mutual wellbeing in mind are appropriate for this.
+
+And I think it should be distinguished from a truly asymmetric self defense situation in which extremes of violence are justifed.
+These are exceedingly rare for most men, but more common for members of vulnerable groups.
+Is this where the killer instinct becomes relevant? Where it becomes necessary to dehumanize your attackers to allow yourself to respond with the force necessary?
+
+I suppose one way to sum up the fracturing of my thoughts on this is that while a street fight has the goal of controlling the situation with minimal injury to either party, a true self-defense situation has the goal of using the threat of injury as a deterrent.
+I think I need to be careful here not to overstate my case. I should not make claims that I cannot back up on the basis of the literature I have encountered.
+
+Terrorists aren't born, they're made by circumstances in which their needs are not met and peaceful means of meeting them do not exist.
+If you do not have safety or economic opportunity and attribute this to the influence of a foreign power, you have a ready-made rationalization for violence.
+And any other belief, no matter how absurd, that justifies the violence you consider necessary becomes very attractive indeed.
+
+
+* limiations
+
+like with a soldier going to war, a self-defense student doens't have time to develop mastery
+In the case of an assault, going for causing injury over achieving victory is a viable strategy because it acts to deter the aggressor
+Rape completion and victim injury as a function of female resistance strategy found that striking was a more effective resistance strategy than wrestling.
+
+
+Maybe my point here is that martial arts training should not be directed at self defense, but at the safe healthy satistfaction of the violent urge, dismantling dehumanizing rationalizations for violence, and developing the skill to make extreme measures unnecessary.
+I do regret how focused on self-defense martial arts training is.
+Yes! the socia dimension of violence and the distinction between assault and fighting makes it clear that hand-to-hand fighting skill is not that important for self-protection.
+
+
+Is repression of palestinians and the witholding of resources really an effective means of preventing terrorism in the long term? Or is it a driving force of terror?
+https://sci-hub.st/https://doi.org/10.1016/S1572-8323(08)07018-5
+Are the extrajudicial killings, such as through drone strikes, common in modern counterterrorism actually productive in dismantling terrorist organizations and ideologies, or does the collateral damage of such strategies radicalize civilians and provide recruits?
+
+
+provocation
+https://journals.sagepub.com/doi/full/10.1177/0022002720937748
+
+counters my point, suggests that increases in insurgent activity are a consequence of reputation not civilian casualties
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2422170
+
+
+https://www.tandfonline.com/doi/abs/10.1080/1057610X.2012.631456
+
+https://journals.sagepub.com/doi/full/10.1177/0022002721991627
+
+
+
+
+
+
+
+Part of Krav Maga's marketing is its extensive use by police around the world, especially in Israel and the USA.
+Several organizations have noted a similar, and similarly agressive, approach to policing in both countries.
+The philosophy of violence embedded in Krav Maga's approach fits very nicely within the aggressive "tough on crime" policing methods popular in both countries.
+And perhaps there is no better indictment of this philosophy than the failure of this method of policing in the USA.
+The way we practice and portray martial arts reflects, and perhaps reinforces how we approach violence.
+I hope to impress on the reader that compassion, not cruelty, is instrumental in effectively coping with violence.
+I hope this helps them to transform their approach to martial arts and combat sports.
+
+
+
+
+If you mistrust the voting public and therefore refuse to frankly and accurately inform them, you cannot act surprised when they turn around and vote stupid.
+It's a self-fulfilling prophecy.

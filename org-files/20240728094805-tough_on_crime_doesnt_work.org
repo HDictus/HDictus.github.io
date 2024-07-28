@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       33a5d8a0-925e-4c6a-a3f7-f2c640ae7a52
+:END:
+#+title: tough-on-crime-doesnt-work
+
+
+This is a collecton of scholarly articles on policing and criminal justice.
+To be completely honest and transparent, most of these I've only read the abstract or just skimmed them.
+The consensus that comes from this is so overwhelming however, that I find it hard to imagine the details will change the overall conclusion.
+
+
+https://heinonline.org/HOL/LandingPage?handle=hein.journals/stanlp11&div=9&id=&page=
+https://psycnet.apa.org/record/2011-20232-001
+https://shsu-ir.tdl.org/items/417976b2-9daa-44ea-8a13-b3ca8ce6c539

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       622a4cea-3d99-48aa-a50a-9df682f4a0fa
+:END:
+#+title: pavlovian-conditioning
+
+Pavlovian conditioning refers to the association of a particular outcome with a particular stimulus.
+stimulus-outcome.

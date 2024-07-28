@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID:       952d0c34-cc85-4fa5-a528-b729137b7307
+:END:
+#+title: devlog-20240727
+
+I'm starting a devlog.
+I imagine only I'll read it, but it will be a handy way to record my thoughts and processes and look back on how I did things.
+
+I'm in the middle of watching Mark Brown's "Developing" series, and there are two things that stuck out to me:
+
+- I dont have my minimum viable product yet
+- The game I'm making is not a good fit for an emphasis on puzzle
+
+Mark pointed out that for a puzzle game you cannot have too many verbs.
+My game has many verbs and I want to add more.
+It is more about getting the hang of the mechanics and figuring out new ways to use them.
+
+When it comes to creating a minimum viable product, I still have a fair few things to do.
+
+I need to make many changes to the mechanics, which have become more obtuse and less clear.
+I need a second boss character to learn from, and a final challenge for the player to apply all they learn.
+I need to properly introduce the game's main mechanics.
+
+Accordingly I've made a checklist of tasks to get to my minimum viable product:
+
+ 1. make attack mechanics occur on stable beat-based cycles
+ 0. create an arcade-like gauntlet for playtesting and as final challenge
+ 1. reinstate old movement animation
+ 2. make the knockback distance clear in the shoving arrow.
+ 3. speed up movement
+ 4. add punch stun mechanic
+ 5. simplify balance-breaking to categorical.
+ 6. create second boss
+ 7. introduce countergrab with early grappler
+ 8. add sweep mechanic
+ 9. create path 2
+ 10. tutorialize
+
+There are a few things where I'm not sure if they belong in the MVP, that I will consider after.
+
+ 1. improve aziorgh bossfight
+ 2. improve and extend path1 level design.
+
+
+The very first point I ended up delaying, because I'm still not certain that or how I want to do it, and I managed to get the arcade mode working without it.
+The arcade mode in question is really minimalistic.
+I had wanted initially to select maps at random and place characters on them, but I couldn't find an elegant way to remove the characters that were already there.
+for now, it's still a blank dark map with maybe some logs.
+
+I skipped 1 and went on to 2, because I was tired and it was much easier.
+again, it's simple though: just a line indicating where they will end up.
+Eventually, I should add an actual arrow that can get stretched out.
+Furthermore, it should be rendered at about waist height.
+
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d25b440e-0e19-463c-a0f4-e1c7d66f744b
+:END:
+#+title: operant-condiditioning
+
+operant conditioning refers to a task where the outcome is affected by the participant's action. also called instrumental learning.
+stimulus-response-outcome.

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1d84614d-ba14-48c8-99f4-1b1208c0dcfe
+:END:
+#+title: young-inhibition-2017
+
+
+MDMA is known to speed up getting over fears with PTSD.
+In this study the authors show that blocking serotonin transporters or 5HT2A receptors prevents this effect, while dopamine and noradrenaline do not.
+

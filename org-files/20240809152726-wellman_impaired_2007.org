@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       61c90aef-4dcb-4aeb-8721-aae8d3d656e3
+:END:
+#+title: wellman-impaired-2007
+
+Wellman et al. found that knokcing out the serotonin transporter gene 5HTT.
+They found increases in depression-like freezing behavior.
+They also found that although fear extinction learning was not impaired, the effects of fear exctinction were shorter-lived.
+

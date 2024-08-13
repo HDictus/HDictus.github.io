@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9801d89b-3de0-4d60-b2f8-b0d9b26957d0
+:END:
+#+title: Matias-activity-2017
+
+Matias et al. find that the activity of a population of neurons in [[id:1d8dc1d9-05f9-4c92-86b4-aa6770ec29fc][dorsal-raphe-nucleus]] during reversal learning are activated by both postive and negative prediction errors, consistent with signals that promote learning under uncertainty.
+
+
+TODO: send to that person at gerstner lab

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       52b3bda8-9a64-4cb3-b037-5fef04155aa7
+:END:
+#+title: devlog-20240809
+
+I've fiddled with the movement a bit, it is ok now.
+Next I think I'll add the stun mechanic.
+I'm not sure how this should interact with striking knockbacke xactly.
+Currently, luring an enemy to a log and striking them is a very strong strategy.
+I should make tripping dependent on both knock back and offbalance.
+
+
+
+A thought I had that I don't want to lose:
+I should make it that when the spearman's spear is at the player's heart, that is the dash distance.
+This way, the player cannot simply stand outside the spearman's range and dash in, but can dash-lift if they bait the spearman into moving forwards.
+It is also important then, that the spearman moves to the right distance.
+However, this interferes with the tripping mechanic I had in mind for them.
+It can be that they sprint through when at a long distance, and walk upto when at a mid distance.

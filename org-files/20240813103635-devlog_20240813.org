@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       d18055f9-6af1-4f2e-8836-4b7812b36155
+:END:
+#+title: devlog-20240813
+
+I'm adding the stun mechanic now.
+I got it partly working last night, but forgot to log it.
+Still, there is a lot to do.
+I've made the animation, but I have at present forgotten how to export it with gimp.
+Looking online, it seems I may be helped by the tilemancer extension.
+
+https://github.com/malteehrlen/tilemancer/releases
+
+Ok, I managed.
+
+I now have a working stun system.
+Before it can really be put to use however, I'm realizing I need to rework posture.
+That will be what I do next.
+
+Additionally, this stun system really needs some juice, and it's not the only thing that needs it.
+I need some animations or something for the health bars that also make it clearer what's going on.
+Playing around with the sprinting as it stands as well, I think I need to tweak that too.

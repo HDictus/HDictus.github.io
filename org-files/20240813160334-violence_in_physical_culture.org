@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       9e3cd636-d5b3-4fb4-adf4-59eade34a850
 :END:
-#+title: violence-in-physical-culture
+#+title: Violence and retribution in martial arts
 
 
 
@@ -25,7 +25,7 @@ Martial arts training is one of many cases in which the opposite is true.
 * The failings of brutality
 
 What sets Krav Maga apart from most approaches to fighting is the emphasis on building aggression over technique, doing damage over maintaining control.
-No draftee heading off to war has time to master martial arts, you just need to make sure they fight hard.
+Krav Maga's claim to fame is as the hand-to-hand combat training of the israeli defense force. No draftee heading off to war has time to master martial arts, you just need to make sure they fight hard.
 
 The branded krav maga taught to civilians does tend to have some technical cohesion, mediated by the organizations that sell it.
 There are specific techniques and principles, but the most consistent one seems to be this: do stuff you aren't allowed to do in combat sports.
@@ -125,15 +125,15 @@ When we are provided with something that disrupts our ability to empathize with 
 
 If you disagree that violence is intrinsically fun, I suspect that you are not a martial artist, and that your taste in media differs from the mainstream.
 More to the point, whatever the underlying psychology the point is that in the right circumstances anyone will gladly engage in acts of violence.
-When I looked into the [[id:9c07c580-4722-4189-97ed-d26c9f6f0a34][peer-reviewed literature]] that I could find I found support for this view.
+When I looked into the [[id:9c07c580-4722-4189-97ed-d26c9f6f0a34][peer-reviewed literature]] on violence I largely found support for this view.
 
 The important point here is that *anyone* is capable of enjoying violence in the right circumstances.
 Patriarchy furnishes ordinary men with convenient rationalizations and the emotional distance required for violence against women.
-Fascism feeds the fear and contempt of an ordinary populace and suppresses their empathy, a recipe for genocide.
+Fascism feeds the fear and contempt of an ordinary populace to suppress their empathy, a recipe for genocide.
 
 The naive view that violence is committed by exceptional 'bad people' informs how a lot of people view crime, punishment, and self defense.
 Self defense training in most martial arts adopts this view of the aggressor.
-"[[https://orca.cardiff.ac.uk/id/eprint/163874/1/6516ee7b496da.pdf][We do bad things to bad people]]" was the official motto of the german Deutsche Krav Maga Bund in 2022.
+"[[https://orca.cardiff.ac.uk/id/eprint/163874/1/6516ee7b496da.pdf][We do bad things to bad people]]" was the official motto of the Deutsche Krav Maga Verband in 2022.
 This view is convenient and pleasurable, guiltlessly justifying the fantasy of violence.
 
 Beyond interpersonal violence the naive view shapes people's views on institutional and international violence as well.
@@ -142,7 +142,6 @@ The gist of it is that the idea that Justice is Retribution has been the predomi
 Modern justice systems are nominally based on more modern ideas regarding deterrence of crime and reform of criminals.
 The law is nonetheless written, carried out, enforced, and indeed broken by ordinary people whose minds are still stuck in 4000 BC.
 
-# TODO: a good time to point to some examples in martial arts movies
 
 * Compassion and retribution in criminal justice
 
@@ -162,44 +161,12 @@ Furthermore, I contend that the motivation for these policies is not a desire to
 It is rooted in the desire to see violence enacted on "the bad people", and rationalized with naive views on who commits crime and why.
 
 
-* A missile is a machine that creates terrorists
-
-[[https://www.tandfonline.com/doi/abs/10.1080/1057610X.2012.631456][Something that seems to be fairly new]] in approaches to counterterrorism is the idea that war crimes are necessary and inevitable in effective counterterrorism operations.
-This likely has a lot to do with how terrorism has changed to make this approach necessary, but I suspect that this also has much to do with rationalizing a violent impulse and using the satisfaction of that impulse for political support, much like the "tough on crime" rhetoric that drives ineffective policing and criminal justice.
-
-When a government harms members of a foreign population through killing civilians, illegaly detaining and torturing suspects, and so on it naturally incurs costs in terms of local support.
-I expected to find a lot of resarch into exactly what those costs are, but it turns out to be fairly limited.
-It does seem to reduce the willingness of a population to cooperate with counterinsurgency (and conversely, if insurgents kill civilians it increases civilian cooperation with counterinsurgents).
-But does it drive recruitment from those populations into the ranks of terrorist organizations?
-Does it undermine the overall stability and well-being of the region?
-How large is the effect on the economic prospects of people and their ability to provide for themselves without the help of a criminal organization?
-[[http://dx.doi.org/10.1016/S1572-8323(08)07018-5][We do not know]], leaving the efficacy of these aggressive methods dubious, and their use hard to truly justify.
-
-Given the gradual escalation of global terror in the middle east paralleling these developments in counterterrorism, I suspect that the long-term efficacy of these tactics is negative.
-Like a government militarizing its police to fight crime while it cuts the social programs that truly prevent crime, western governments poured immense resources into destabilizing parts of the middle east, supposedly to combat terrorism.
-Analysis of counterterrorism methods, from what I can find, tends to assume a steady supply of willing terrorists and focuses instead on imposing risk on terrorist action or witholding means to terrorist acts.
-Granted, if there was no supply of willing terrorists then there would be no terrorism, so assuming that supply exists is indeed reasonable.
-Assuming it is unaffected by the counterterrorism measures adopted however, is not.
-
-Perhaps it is more effective, if less viscerally satisfying and politically expedient, to stabilize a belligerent region with prosperity than to destabilize it with violence.
-[[id:3db9d87d-a40e-44f5-95c3-d5783626f03f][Development aid is counterterrorism spending]].
-
-We see again that a callous short-term solution has been uncritically accepted as the pragmatic option, while evidence-based compassionate approaches exist.
-Killing the "bad people" is seen as the obvious solution, even when doing so fuels the mechanisms that turn ordinary people into terrorists.
-Geopolitical decision making is driven by dominant attitudes among voters and policy-makers.
-Popular, simplistic views on the genesis of violence are once again partly responsible for how governments have chosen to respond to international threats.
-
-
 * What do martial arts offer society?
 
-Martial arts have immediate effects in the lives of the people that practice them, and broader effects that diffuse into popular culture through engagement with martial sporting events or movies.
-I run the risk of overstating the cultural impact of martial arts training by talking about this immediately after discussing global terrorism.
-The role of martial arts in cultural perceptions of violence is probably minor, but it is nonetheless extant.
-It has the potential to positively shape how we think about violence and crime.
 
 Ultimately, civilian martial arts should be focused on enriching the lives of the people who practice them rather than simply on imparting hand-to-hand skill.
 Community, health, fitness, and fun are all more valuable to your well being than hand-to-hand fighting ability.
-Ultimately however, I think it is a mistake to place these goals in opposition to one another.
+However, I think it is a mistake to place these goals in opposition to one another.
 It isn't a balancing act: the methods that promote optimal development of skill do so by emphasizing community, safety, and fun.
 Good martial arts training enriches your life first and foremost.
 

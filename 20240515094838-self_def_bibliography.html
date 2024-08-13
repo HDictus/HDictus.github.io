@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-15 Mi 16:26 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>self-def-bibliography</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="stylesheet.css"
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '919123');
+</script>
+<!-- End MailerLite Universal -->
+</div>
+<div id="content" class="content">
+<h1 class="title">self-def-bibliography</h1>
+<ul class="org-ul">
+<li><a href="https://journals.sagepub.com/doi/abs/10.1177/1077801214526051">https://journals.sagepub.com/doi/abs/10.1177/1077801214526051</a>
+This one discussed a feminist approach to women's self defense. Although there are some commonalities with Hollander's work, there is little attempt to appeal to the empirical evidence and it focuses almost exclusively on stranger rape.</li>
+
+<li><a href="https://journals.sagepub.com/doi/abs/10.1177/0361684319897937">https://journals.sagepub.com/doi/abs/10.1177/0361684319897937</a>
+this one is just more evidence from Hollander</li>
+
+<li><a href="https://link.springer.com/article/10.1007/s11199-023-01425-2">https://link.springer.com/article/10.1007/s11199-023-01425-2</a>
+Here Hollander outlines empowerment self defense. She references Thompson's article (the first one), so perhaps despite its shortcomings it was still influential for her work.
+The emphasis of this article is on the primacy of the non-physical skills learned in the self defense courses, and how these address specific vulnerabilities of women</li>
+
+<li><a href="https://journals.sagepub.com/doi/abs/10.1177/1077801214526046">https://journals.sagepub.com/doi/abs/10.1177/1077801214526046</a>
+This is one of Hollander's early empirical studies, using a sample of college students. She found a dramatically reduced risk of sexual assault in students who took the course compared to those who didnt'</li>
+
+<li><a href="https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/soc4.12597?casa_token=a_u-H1-xxVYAAAAA:ep0_5otMwbp3xzbalKCcxyKrLAipUO7e6GXbxdsSSW6q73XMV97u7Jc28FiTUHEY6NK4ds76lq4BUQ">https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/soc4.12597?casa_token=a_u-H1-xxVYAAAAA:ep0_5otMwbp3xzbalKCcxyKrLAipUO7e6GXbxdsSSW6q73XMV97u7Jc28FiTUHEY6NK4ds76lq4BUQ</a>
+This is probably the most comprehensive source for the evidence behind ESD. One important conclusion is that not enough empirical research has been done on how race influences the efficacy of self defense training in the united states: as the work thus far has focused either on predominantly white populations in the united states, or majority groups in african countries.
+Hollander emphasizes that the non-phsyical side of an ESD curriculum helps to break down the systemic cultural factors that are causative of violence against women - something for which she has some evidence.
+Specifically, the participants end up better educated on violence and their right to say no and defend themselves.
+This influences their lives positively and reduces their oppression experiences even outside of violence.
+However, the idea that this ripples outward from the women taking the course to the broader society in which the violence is situated remains, to my knowledge, speculative.</li>
+
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0065260106380045">https://www.sciencedirect.com/science/article/abs/pii/S0065260106380045</a>
+This is ultimately not that relevant - it relates to the defense of ones self image, and how this is defended against various setbacks in life.
+Not that there isn't likely some relevance here to defending oneself against violence, but there is no established link in the literature.</li>
+
+<li><a href="https://www.sciencedirect.com/science/article/pii/S1359178907000766?casa_token=3DvBAIeZ9IAAAAAA:tErJw-u3458JUwdfI7TstyKi1o3AmYhoBR5tDdwDyZvW7VWZViuVd56kVmz04SPYhC3S9zhQVw">https://www.sciencedirect.com/science/article/pii/S1359178907000766?casa_token=3DvBAIeZ9IAAAAAA:tErJw-u3458JUwdfI7TstyKi1o3AmYhoBR5tDdwDyZvW7VWZViuVd56kVmz04SPYhC3S9zhQVw</a>
+This early review seems to have been written before much of the work on ESD was.
+It shows that a variety of self defense approaches seem to have some evidence of their efficacy.
+One of the limitations it notes is that relatively little research has been done comparing the efficacy of different approaches.
+The only finding it does note in this sense is that there were better outcomes in physical altercations for women who trained with a "live" padded assailant than with an inanimate object (e.g. a heavy bag).
+Additionally, the evidence was (with a few exceptions) short term and focused on abstract personality constructs, subject to a variety of distorting effects.
+Many of the reccomendations in this article seem to have been taken to heart by Hollander in her own, later work.</li>
+
+<li><a href="https://journals.sagepub.com/doi/abs/10.1177/15248380231179727">https://journals.sagepub.com/doi/abs/10.1177/15248380231179727</a>
+This article is a review of empirical studies on women's ESD, focusing on outcomes other than sexual assault prevenion. I was unable to access the article, so I actually don't know their results.</li>
+
+<li><a href="https://orca.cardiff.ac.uk/id/eprint/163874/1/6516ee7b496da.pdf">https://orca.cardiff.ac.uk/id/eprint/163874/1/6516ee7b496da.pdf</a>
+This article discusses the rise in popularity of Krav Maga in Germany.
+Of note is its assertion that the popularity of Krav Maga is attributable to a decrease in  percieved safety in german society (one that is inconsistent with the actual safety, with crime rates going down throughout this period).
+They note three problems with Krav Maga's approach to self defense:
+<ol class="org-ol">
+<li>The slogan "we do bad things to bad people" presupposes that one is a good person, and one's opponent is not. Real world conflicts tend to be more complex. Krav maga training violates the social complexity of conflict.</li>
+<li>The focus on "bad things" as a means of self defense ignores the important role of other skills in conflict resolution.</li>
+<li>The narrative of a dangerous world that Krav Maga teaches is inconsistent with the data on our increasingly safe societies.</li>
+<li>Krav maga promotes radicalization by creating an us-vs-them dynamic, they cite the reccomendation by ISIS to their terrorist fighters that they study Krav Maga as evidence of this.</li>
+</ol></li>
+
+<li><a href="https://www.tandfonline.com/doi/abs/10.1080/02701367.2003.10609077?casa_token=A8w1mNN0TeUAAAAA:jHHzts4LNggGWihIre678oO9r-HKpugTO6tcMYXrl4ch2Nb0dNST4RL5zgXmCXq3zaG9fZnc8puy">https://www.tandfonline.com/doi/abs/10.1080/02701367.2003.10609077?casa_token=A8w1mNN0TeUAAAAA:jHHzts4LNggGWihIre678oO9r-HKpugTO6tcMYXrl4ch2Nb0dNST4RL5zgXmCXq3zaG9fZnc8puy</a>
+This one I find is not very clearly written. As I understad it, the researchers outline an analytic method for measuring the effects of training on the fear for personal safety.
+They do not seem to have read the aforementioned research on self defense, as they say there is no empirical research on the topic and do not cite the authors in question.
+To be fair, this was in 2013, when much of the research above wasn't out yet.</li>
+
+<li><a href="https://www.proquest.com/openview/19519a2456a972449e8ac357ff506e06/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y">https://www.proquest.com/openview/19519a2456a972449e8ac357ff506e06/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y</a>
+This is a thesis, I was only able to read the introduction as I cannot access the whole.
+It emphasizes the role of women's attitudes towards violence in self defense, it seems largely consistent with Hollander's findings.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li><a href="https://www.tandfonline.com/doi/full/10.1080/17430437.2014.882906?scroll=top&amp;needAccess=true">https://www.tandfonline.com/doi/full/10.1080/17430437.2014.882906?scroll=top&amp;needAccess=true</a>
+I'll be honest, this one mostly reads like gibberish to me. I get the broad impression they are assessing the cultural, pedagogical, and bodily impacts of martial arts and combat sports training.
+I can't get anything more specific out of it about what kinds of impacts they did actually find.
+So&#x2026; ???</li>
+</ul>
+
+
+<ul class="org-ul">
+<li><a href="https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-0127ce14-bac2-4718-8a92-12b05bca87dd">https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-0127ce14-bac2-4718-8a92-12b05bca87dd</a>
+This study assessed the self-esteem and resilience of krav-maga students. Students who had practiced more had higher self esteem and resilience, leading them to conclude that krav maga practice is associated with better self esteem and resilience.
+I don't find this hard to believe, but their analysis is not thorough.
+They do not appear to have analyzed the role of nuisance variables (age, gender, stature) in the correlation, or the possibility that students with lower self-esteem or resilience are more likely to drop out.
+From my casual assessment of the correlations they observed it looks like the effects on self-esteem and resilience are explainable entirely by the age variable.</li>
+
+<li><a href="https://link.springer.com/chapter/10.1007/978-3-031-41100-7_7">https://link.springer.com/chapter/10.1007/978-3-031-41100-7_7</a>
+This one seems really interesting, but I haven't been able to find a version of the full document.
+It seems to discuss ideas about what makes combatives training realistic.
+It places these in historical context and regards them as similar in nature to the myths that were historically used to lend legitimacy to ancient martial arts.</li>
+
+<li><a href="https://www.ceeol.com/search/article-detail?id=911778">https://www.ceeol.com/search/article-detail?id=911778</a>
+Mazzola takes a historical perspective on the two main principles of judo: maximizing efficiency and mutual prosperity.
+The gist of it seems to be that minimizing violence both inside and outisde the dojo were important to Kano's conception of Judo.
+Behaviors that occur with some scandals - such as hazing or physical discipline - are seen as in conflict with this.
+Mazzola states that there is a tension between maximizing efficiency and minimizing violence - which I interperet as him saying that a more violent atmosphere is better for developing efficient fighters, though he is never so explicit.
+He resolves this tension by appealing to the idea that the goal of judo is nonviolence, and therefore minimizing violence is maximizing efficiency.
+I would agree that that resolves it just fine, but I am skeptical of the premise that the two were ever in conflict, even if the goal were to develop capable fighters.</li>
+</ul>
+
+
+<p>
+<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(13)61030-2/fulltext?source=post_page">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(13)61030-2/fulltext?source=post_page</a>----------------------&#x2013;&#x2014;
+</p>
+</div>
+<div id="postamble" class="status">
+<div class="ml-embedded" data-form="UcmPfz"></div>
+       <script src="https://utteranc.es/client.js"
+        repo="HDictus/HDictus.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
+
+      <a href="index.html"> home </a>
+</div>
+</body>
+</html>

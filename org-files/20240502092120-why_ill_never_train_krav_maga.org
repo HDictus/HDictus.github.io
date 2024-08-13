@@ -18,7 +18,7 @@ I swear this essay isn't just me shitting on krav maga, there's a point.
 This way of approaching self defense is neither unique to Krav Maga nor universal to it.
 It is both pervasive enough and controversial enough in a variety of martial arts communities to be [[https://youtu.be/3CGMWlXosp4?si=u89Bwgyx5KcWmPmZ&t=115][be the subject of parody]].
 
-I see this as being a symptom of a cynical attitude that views callous approaches to tackling problems as inherently more pragmatic than compassionate ones.
+I see this as being a symptom of a widespread attitude that views callous approaches to tackling problems as inherently more pragmatic than compassionate ones.
 Martial arts training is one of many cases in which the opposite is true.
 
 
@@ -90,6 +90,7 @@ This is [[https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/soc4.12597?cas
 
 A very interesting aspect of this research, at least reading as a martial artist, is that the physical techniques are the least important aspect of the training.
 Rather, much of the education in ESD focuses on the setting, communicating, and enforcing of boundaries, and of understanding one's rights.
+Participants in ESD training often report they successfully protect themselves without resorting to violence at all.
 Once again, sufficient skill in less violent means reduces the necessity of more violent means.
 
 This isn't to say that the physical side of self defense doesn't matter.
@@ -100,13 +101,13 @@ Jumping straightaway to the nuclear, groin-destroying, eye-blinding option is no
 Rather, they offer a range of techniques for interrupting an assault before it comes to that.
 So, why not jump to the nuclear option? If a stranger ambushes you and attempts to rape you, don't you have every right, and every reason to jump straight to this?
 The fact of the matter is that stranger rape is the exception, not the rule when it comes to violence against women.
-The vast majority of sexual assaults are perpetrated by acquaintances, family, friends, and especially intimate partners.
+The vast majority of assaults on women are perpetrated by acquaintances, family, friends, and especially intimate partners.
 The use of extreme violence in these situations faces social and psychological barriers.
 
 This is also why the non-physical strategies and traits imparted by ESD are so important.
 The research shows that when ESD is taught to populations of women they are not just better at protecting themselves - but less likely to be assaulted in the first place.
 We need to understand that sexual violence, indeed all violence, is socially and culturally situated and involves aspects of manipulation, coercion, rationalization and justification.
-Resistance to these non-physical means of facilitating violence in personal relationships plays an important role.
+Resistance to these non-physical means of facilitating violence in personal relationships plays an important role in self defense.
 
 The ambitions of many martial arts, for example Judo, extend beyond providing physical skills, safety, and physical education to its participants, but also to exert a transformative influence on society.
 This is an ambition that ESD shares, and Hollander emphasizes its potential in changing the culture that creates violence against women.
@@ -122,7 +123,8 @@ Morality, empathy, and society impose emotional side-effects on violence that ma
 When we are provided with something that disrupts our ability to empathize with the target of violence and gives us a moral and social excuse, for instance if they have wronged us, then violence is fun.
 
 If you disagree that violence is intrinsically fun, I suspect that you are not a martial artist, and that your taste in media differs from the mainstream.
-More to the point, when I looked into the [[id:9c07c580-4722-4189-97ed-d26c9f6f0a34][peer-reviewed literature]] for this post, I found a lot of support for the view that the environment one grows up in powerfully shapes the tendency to violence.
+More to the point, whatever the underlying psychology the point is that in the right circumstances anyone will gladly engage in acts of violence.
+When I looked into the [[id:9c07c580-4722-4189-97ed-d26c9f6f0a34][peer-reviewed literature]] that I could find I found support for this view.
 
 The important point here is that *anyone* is capable of enjoying violence in the right circumstances.
 Patriarchy furnishes ordinary men with convenient rationalizations and the emotional distance required for violence against women.
@@ -130,12 +132,12 @@ Fascism feeds the fear and contempt of an ordinary populace and suppresses their
 
 The naive view that violence is committed by exceptional 'bad people' informs how a lot of people view crime, punishment, and self defense.
 Self defense training in most martial arts adopts this view of the aggressor.
+"[[https://orca.cardiff.ac.uk/id/eprint/163874/1/6516ee7b496da.pdf][We do bad things to bad people]]" was the official motto of the german Deutsche Krav Maga Bund in 2022.
 This view is convenient and pleasurable, guiltlessly justifying the fantasy of violence.
-As Wynn points out, nothing is better at removing our inhibitions on enjoying violence than revenge.
 
 Beyond interpersonal violence the naive view shapes people's views on institutional and international violence as well.
-I'll refer you to another of Wynn's video essays for a more thorough version of this argument.
-The gist of it is that the idea that Justice is Retribution has been the predominant conception of justice throughout most human societies.
+I'll refer you to [[https://www.youtube.com/watch?v=smQsfNw_7V4][another of Wynn's video essays]] for a more thorough version of this argument.
+The gist of it is that the idea that Justice is Retribution has been the predominant conception of justice throughout most of human history.
 Modern justice systems are nominally based on more modern ideas regarding deterrence of crime and reform of criminals.
 The law is nonetheless written, carried out, enforced, and indeed broken by ordinary people whose minds are still stuck in 4000 BC.
 
@@ -144,24 +146,27 @@ The law is nonetheless written, carried out, enforced, and indeed broken by ordi
 * Compassion and retribution in criminal justice
 
 Simplistic views of violence and crime permeate attitudes toward law enforcement and criminal justice.
+This easily demonstrated in the united states by examining the discussions surrounding police brutality.
+I definitely see signs of it in europe as well, though it seems less widespread and its influence on policy and institutions is mercifully weaker.
+
 My home country of the Netherlands has an effective system of policing, [[https://www.taylorfrancis.com/chapters/mono/10.4324/9781003360452-4/netherlands-variations-theme-mawby?context=ubx&refId=5fa4cfda-742f-4364-9ebd-04d3ad35d10b][hisorically focusing on serving communities over punishing offenders]].
-Our approach to drug addiction similarly focuses on helping, rather than punishing addicts, [[id:bb3d5369-1049-4c3f-9dec-ebc2e910d056][restorative-justice]]and the justice system likewise is focused on rehabilitation over punishment.
+Our approach to drug addiction similarly focuses on helping, rather than punishing addicts, and the justice system likewise is focused on rehabilitation over punishment.
 This works well - the Netherlands is a very safe country and gets steadily safer each year.
 Our prisons are so empty we rent them out to other countries.
 In the current political climate however there is a push towards more aggressive policing, punitive treatment for addiction, and harsher sentencing.
 
 These approaches are [[id:33a5d8a0-925e-4c6a-a3f7-f2c640ae7a52][financially expensive, socially costly, and ultimately ineffective]].
 My objection to this development is not moral, but pragmatic.
-Furthermore, I contend that the motivation for these policies is not pragmatic but emotional.
-It is rooted in the desire to see violence enacted on those for which we have contempt, and rationalized with naive views on who commits crime and why.
+Furthermore, I contend that the motivation for these policies is not a desire to reduce crime, but an emotional urge.
+It is rooted in the desire to see violence enacted on "the bad people", and rationalized with naive views on who commits crime and why.
 
 
-* a missile is a machine that creates terrorists
+* A missile is a machine that creates terrorists
 
 [[https://www.tandfonline.com/doi/abs/10.1080/1057610X.2012.631456][Something that seems to be fairly new]] in approaches to counterterrorism is the idea that war crimes are necessary and inevitable in effective counterterrorism operations.
 This likely has a lot to do with how terrorism has changed to make this approach necessary, but I suspect that this also has much to do with rationalizing a violent impulse and using the satisfaction of that impulse for political support, much like the "tough on crime" rhetoric that drives ineffective policing and criminal justice.
 
-When a government harms members of a foreign population through killing civilians, illegaly detaining and torturing suspects, and so on it naturally incurs costs.
+When a government harms members of a foreign population through killing civilians, illegaly detaining and torturing suspects, and so on it naturally incurs costs in terms of local support.
 I expected to find a lot of resarch into exactly what those costs are, but it turns out to be fairly limited.
 It does seem to reduce the willingness of a population to cooperate with counterinsurgency (and conversely, if insurgents kill civilians it increases civilian cooperation with counterinsurgents).
 But does it drive recruitment from those populations into the ranks of terrorist organizations?
@@ -187,19 +192,19 @@ Popular, simplistic views on the genesis of violence are once again partly respo
 * What do martial arts offer society?
 
 Martial arts have immediate effects in the lives of the people that practice them, and broader effects that diffuse into popular culture through engagement with martial sporting events or movies.
-I run the risk of overstating the cultural impact of martial arts training by talking about this immediately after discussing large social an geopolitical issue.
-The role of martial arts in the broader culture is ultimately minor, but it is nonetheless extant.
+I run the risk of overstating the cultural impact of martial arts training by talking about this immediately after discussing global terrorism.
+The role of martial arts in cultural perceptions of violence is probably minor, but it is nonetheless extant.
 It has the potential to positively shape how we think about violence and crime.
 
 Ultimately, civilian martial arts should be focused on enriching the lives of the people who practice them rather than simply on imparting hand-to-hand skill.
 Community, health, fitness, and fun are all more valuable to your well being than hand-to-hand fighting ability.
 Ultimately however, I think it is a mistake to place these goals in opposition to one another.
 It isn't a balancing act: the methods that promote optimal development of skill do so by emphasizing community, safety, and fun.
-Good martial arts training enriches your life.
+Good martial arts training enriches your life first and foremost.
 
 Martial arts are also physical culture, reflecting and shaping how we think about its subject matter: namely violence.
 When a martial art is employed professionally, for instance in police or military training, it then embeds its philosophy of violence in the professional institution.
-The way we approach violence should be shaped by a realistic understanding of it, not a simplistic 'good guys vs bad guys' fairy tale.
+The way we approach violence should be shaped by a realistic understanding of it, not a pseudo-cynical 'good guys vs bad guys' fairy tale.
 That starts with remembering the humanity of those who perpetrate violence, and the capacity of all humans to perpetrate it themselves.
 
 

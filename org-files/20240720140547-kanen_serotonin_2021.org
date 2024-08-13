@@ -15,3 +15,4 @@ The first was an [[id:d25b440e-0e19-463c-a0f4-e1c7d66f744b][operant-condiditioni
 * Results
 
 The authors found that depleted groups performed substantially worse on the reversal phase.
+Additionally, they found that depleted groups performed better on operant conditioning.

@@ -80,13 +80,6 @@ Reducing the activity of SERT will make it so that serotonin released from your 
 
 ** rewards v.s. punishments
 
-** wrinkles in the story
-
-This all sounds far too clean and straightforward for a biological phenomenon.
-I've presented the clearest story I can derive from the available evidence, but there are signs that as always, it isn't so simple.
-
-  - kanen et al found that besides impairing reversal learning, serotonin depletion initially enhanced aversive pavlovian conditioning
-    
 
 * Learning and unlearning depression
 
@@ -107,6 +100,14 @@ Perhaps SSRIs help with this.
 Something about this doesn't add up however.
 If the action of serotonin both generates and alleviates depression, it would be expected that taking SSRIs would leave a healthy or largely recovered individual more vulnerable to developing depression.
 This isn't the case, as SSRIs are known to improve resilience to stress and it is generally reccommended to continue taking them well into recovery, especially throughout stressful periods that could cause a new episode.
+
+I've presented the case for serotonin's involvement in un-learning, but in finding the evidence for this many signs showed up that it is substantially more complicated than that sounds.
+
+ - [[id:ced31f16-068d-4d93-b270-81c555e91a3a][Depleting serotonin increases fear-based pavlovian learning]]
+ - although the 5HT2C receptor seems a natural candidate for reversal learning, based on the results from pair-recording
+   [[id:e545e2db-f6de-4375-931b-3dc909793c03][two]] [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][experiments]] found that reducing its activity actually increased reversal learning, which is the opposite of what you would expect.
+ - The results regarding the effects of specific receptors are highly inconsistent, for instance compare the effects of a 5HT2A antagonist in [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] and [[id:27d09b0a-307d-441d-898b-ccae3903f2d6][frick-dual-2015]]
+   
 
 Perhaps the next chapter in serotonin's story can make sense of this.
 Besides being implicated in helplessness, serotonin is also implicated in psychological resilience.

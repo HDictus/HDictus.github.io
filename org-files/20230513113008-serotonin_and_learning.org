@@ -38,83 +38,67 @@ It can also enable the efficient storage and retrieval of memories, and build ps
 ** Third factors
 
 We know from efforts to apply hebbian plasticity to AI that it only gets you so far.
-Not all stimuli are equally important to encode, not all associations are important, and not everything should be a memory.
-Those hebbian plasticity rules based on the activity of the two cells can be affected by other factors.
-One way the brain does this is through the release of different neurotransmitters, such as dopamine, ephinephrine, and our good friend serotonin.
+Not all stimuli are equally important to encode, not all associations are important, and not everything that happens should be a memory.
+Those hebbian plasticity rules based on the activity of the two cells can be affected by other factors, such as pleasure, fear, or pain.
+One way the brain broadcasts feelings like pain and fear is through the release of different neurotransmitters, such as dopamine, ephinephrine, and our good friend serotonin.
 
-We are only just beginning to explore the immense complexity of these effect.
-At the cellular level, for serotonin, I was only able to find one study, on one type of cell expressing a specific serotonin receptor regarding how it changes plasticity at this level.
+We are only just beginning to explore the immense complexity of these effects, but we are beginning to get an idea of how some parts of it fit together.
+While I'll get into various caveats towards the end of the post, most work finds that serotonin is especially important for changing your mind after it has been made up.
 
-Ordinarily, when you make one cell spike (release neurotransmitter), and then make a cell it is connected to spike, the connection between them strengthens.
-[[https://www.cell.com/neuron/fulltext/S0896-6273(15)00826-0][Kaiwen He and colleagues]] showed that when the cells they studied were sprayed with serotonin afterwards, this effect was reversed.
-It is important to remember that there are many different serotonin receptors with differing effects, and different types of cells have different receptors.
-In this case we are talking about pyramidal cells in the visual cortex, acting througj the 5HT2C receptor.
-For other cells the effect may be very different.
-Nonetheless, this result makes sense with the behavioral experiments I've found.
-Serotonin seems to facilitate un-learning and enhance cognitive flexibility: the ability to change your mind.
+* Serotonin as an error signal for learning.
 
+[[id:9801d89b-3de0-4d60-b2f8-b0d9b26957d0][One paper]] shows that some of the neurons in the Dorsal Raphe Nucleus respond strongly both when things turn out worse than expected, and when things turn out better than expected. TODO: once I have internet again, double-check this is an accurate summary.
+Theoretical work suggests that this kind of signal could be useful for updating one's understanding of the world when something new and unexpected happens.
+This could be implemented by inverting hebbian plasticity - such that synapses which were involved in arriving at the present prediction are weakened.
+Precisely this has been documented as occurring with serotonin in the visual cortex of mice.
 
-* Serotonin enhances un-learning
+[[id:d1b21711-da73-457c-a686-902f86fb3f36][He and colleagues]] recorded from pairs of connected neurons.
+First, they made the neuron with an outgoing connection fire, and then recorded changes in the receiving neuron.
+Then they stimulated both neurons, first firing the sending neuron and then the recieving neuron soon after.
+Then they repeated the first step again, stimulating the sending neuron and measuring from the recieving neuron.
+Consistent with many, many other experiments they found that the second time they measured the effect was greater.
+They made the neurons fire together, and so of course they wired together - unless you sprayed serotonin on them.
+They found that when serotonin was applied, the opposite happened: the connection got weaker.
+Furthermore they were able to narrow the effect down to a specific serotonin receptor: 5HT2C.
 
-** ocular dominance
+Interepereting this experiment is tricky, since it is performed in a petri dish where chemical concentrations are different from in the brain.
+Especially for experiments involving synaptic plasticity, where Calcium is important, it is difficult to say whether a given result will hold in a living brain.
+Nonetheless it is consistent with the idea introduced in the previous paper we mentioned.
 
-A common method for assessing the plasticity of a mammal's cortex is to cover one eye and assess how the responses in its visual cortex change in response to this.
-The visual cortex is a region of the brain which processes what is seen by the eyes - so if you cover one eye you change the kind of input this region is recieving.
-The covered eye is signaling nothing - so in time the visual cortex should learn to take its cues only from the uncovered eye and ignore the covered one.
-In young animals this happens quite readily, but in adults it takes much longer.
-
-Depriving young animals of serotonin prevents this change from taking place ([[https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1460-9568.1995.tb01104.x][see here]] and here), while increasing the action of serotonin in adults makes this change happen as though they are young.
-Losing the ability to respond to the useless eye seems to require some action from serotonin.
-
-** reversal learning
-
-Since plasticity is learning, another important way of studying it is of course by observing the capacity of a test subject to learn a task.
-Hence, a second kind of experiment on plasticity is called [[id:a13dcc9a-91d5-46a1-aa2b-4c960626f1f7][reversal learning.]]
-In a reversal learning experiment subjects are first taught to do things one way, and once they get the hang of it they have to learn to do the exact opposite.
-It is seen as a way to measure cognitive flexibility.
-One way to try and relate these learning tasks to the underlying biology is to genetically or pharmacologically alter animals and see how it affects their performance.
-
-Recall from  [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]] that the serotonin transporter SERT is responsible for moving serotinin back into the cell that emitted it.
-Reducing the activity of SERT will make it so that serotonin released from your neurons lingers for longer and will be more likely to affect nearby neurons.
-[[https://academic.oup.com/cercor/article/20/8/1955/405909][Brigman et al. 2010]] Found that when you either genetically or chemically reduced the activity of SERT in mice, they more quickly learn to reverse their task.
-
-** rewards v.s. punishments
+** Learning and unlearning depression
 
 
-* Learning and unlearning depression
+Recall from [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]] that SSRIs, the most common antidepressants, increase the action of serotonin in the brain by ensuring it floats around for longer without being reabsorbed.
+[[id:aab01968-25fd-4714-8016-682095ad0f43][Various experiments]] demonstrate that increasing the effects of serotonin through SSRIs makes animals better at changing established patterns of behavior, while decreasing it has the opposite effect.
+Additionally,  SSRIs on depression sometimes take several weeks to reach their full effect in a depressed patient.
+An important part of cognitive behavioral therapy is breaking self-destructive patterns of thought and behavior.
+It may be that SSRIs work at least in part by making breaking these bad mind-habits easier.
 
-So it seems that one role of serotonin is to enhances plasticity by allowing the subject to change existing patterns of thought and behavior.
-It has been [[https://www.sciencedirect.com/science/article/pii/S0306453010002301?casa_token=zMNJ58V1W_AAAAAA:JW9cxCqnS68UxW_iE5ArLB8xd3DwfBQO5rCX6JokorIt7cfIkDYxzdU414Qbf0_k9lJSipTuXg][suggested before]] that this effect of serotonin is responsible for the antidepressant effects of SSRIs, but also that it may be important for the development of depression in the first place.
+However, recall from [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]] that the release of serotonin by the neurons in the dorsal raphe nucleus is related to the creation of depression-like states.
+In a state of learned helplessness, in which an animal will be unable to evade an easily escapable threat due to prior experiences of helplessness, is prominently mediated by serotonin.
+A signal that reverses plasticity in active neurons could also play a role un-learning the ability to act in response to a threat.
+[[https://www.sciencedirect.com/science/article/pii/S0306453010002301?casa_token=zMNJ58V1W_AAAAAA:JW9cxCqnS68UxW_iE5ArLB8xd3DwfBQO5rCX6JokorIt7cfIkDYxzdU414Qbf0_k9lJSipTuXg][It has been suggested]] that by enhancing plasticity serotonin therefore plays a dual role in depression - both in its pathenogenesis and its recovery.
 
-TODO: briefly reintroduce helplessness.
-
-Contrary to its popular image as a feel-good chemical serotonin seems to be less of a "do that that's good" chemical, and more of a "stop that, that's bad" chemical.
-Considering what we know about the role of learned helplessness in depression and the role of  [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin in helplessness]], this "stop doing that" role of serotonin may be responsible for the learning of helplessness.
-If you take some action, but it turns out to be no use, then serotonin is released and weakens the connections that led to that action.
-I personally consider this a more compelling explanation for learned helplessness than the sensitization of the DRN [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4920136/][suggested]] by Maier and Seligman.
-
-Likewise, un-learning a depressed way of thinking, and un-learning the self-inhibition of learned helplessness could also be helped by increasing the action of serotonin.
-An important part of cognitive behavioral therapy is breaking self-destructive thought patterns and developing healthier patterns of thinking.
-Perhaps SSRIs help with this.
+* holes in the story
 
 Something about this doesn't add up however.
 If the action of serotonin both generates and alleviates depression, it would be expected that taking SSRIs would leave a healthy or largely recovered individual more vulnerable to developing depression.
 This isn't the case, as SSRIs are known to improve resilience to stress and it is generally reccommended to continue taking them well into recovery, especially throughout stressful periods that could cause a new episode.
 
-I've presented the case for serotonin's involvement in un-learning, but in finding the evidence for this many signs showed up that it is substantially more complicated than that sounds.
+As I've hinted already, there are some conflicting results that show the idea of serotonin as an 'un-learning' chemical is greatly simplistic.
 
- - [[id:ced31f16-068d-4d93-b270-81c555e91a3a][Depleting serotonin increases fear-based pavlovian learning]]
- - although the 5HT2C receptor seems a natural candidate for reversal learning, based on the results from pair-recording
-   [[id:e545e2db-f6de-4375-931b-3dc909793c03][two]] [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][experiments]] found that reducing its activity actually increased reversal learning, which is the opposite of what you would expect.
+ - [[id:ced31f16-068d-4d93-b270-81c555e91a3a][Depleting serotonin increases fear-based pavlovian learning]] , which is not a process of un-learning but of learning something new
+ - The results around the 5HT2C receptor are confusing.
+   Above we discussed how the experiment by He and colleagued showed that it is a natural candidate for explaining the un-learning effects of serotonin.
+   However, [[id:e545e2db-f6de-4375-931b-3dc909793c03][two]] [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][experiments]] found that reducing its activity actually increased reversal learning, which is the opposite of what you would expect given this!
  - The results regarding the effects of specific receptors are highly inconsistent, for instance compare the effects of a 5HT2A antagonist in [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] and [[id:27d09b0a-307d-441d-898b-ccae3903f2d6][frick-dual-2015]]
-   
+ - Serotonin seems to also somehow mediate other forms of learning signals, such as reward anticipation. TODO: find that paper again.
 
-Perhaps the next chapter in serotonin's story can make sense of this.
+Perhaps the next chapter in serotonin's story can help make sense of this.
 Besides being implicated in helplessness, serotonin is also implicated in psychological resilience.
 While the former seems to be related to the activity of the dorsal raphe nucleus, the latter has more to do with its neighbor, the medial raphe nucleus.
 I'm looking forward to looking into that.
 Stay tuned.
-
 
 * key takeaways
 
@@ -162,14 +146,17 @@ Stay tuned.
 
 # * What does serotonin signal in learning?
 
-https://www.researchgate.net/profile/Povilas-Karvelis/publication/359631505_A_Computational_Model_of_Hopelessness_and_Active-Escape_Bias_in_Suicidality/links/6247046d7931cc7ccf0bb4fa/A-Computational-Model-of-Hopelessness-and-Active-Escape-Bias-in-Suicidality.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail&_rtd=e30%3D
+# https://www.researchgate.net/profile/Povilas-Karvelis/publication/359631505_A_Computational_Model_of_Hopelessness_and_Active-Escape_Bias_in_Suicidality/links/6247046d7931cc7ccf0bb4fa/A-Computational-Model-of-Hopelessness-and-Active-Escape-Bias-in-Suicidality.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail&_rtd=e30%3D
 
 
-https://www.sciencedirect.com/science/article/pii/S0166432814003994
-https://www.sciencedirect.com/science/article/pii/0091305779901667
-https://www.jneurosci.org/content/27/3/684.short
-https://link.springer.com/article/10.1007/s00213-017-4684-8
+# https://www.sciencedirect.com/science/article/pii/S0166432814003994
+# https://www.sciencedirect.com/science/article/pii/0091305779901667
+# https://www.jneurosci.org/content/27/3/684.short
+# https://link.springer.com/article/10.1007/s00213-017-4684-8
 
-https://www.biorxiv.org/content/10.1101/2024.05.06.592810v1.abstract
-https://www.sciencedirect.com/science/article/pii/S0969996118300871
-https://www.sciencedirect.com/science/article/pii/S1053811921009745
+# https://www.biorxiv.org/content/10.1101/2024.05.06.592810v1.abstract
+# https://www.sciencedirect.com/science/article/pii/S0969996118300871
+# https://www.sciencedirect.com/science/article/pii/S1053811921009745
+
+
+# I need to re-write most of this, start with a new structure and copy paste bits again.

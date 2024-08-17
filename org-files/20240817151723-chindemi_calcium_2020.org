@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b8eca6cb-4f4d-4d21-9fa5-0265aa56b9a3
+:END:
+#+title: chindemi-calcium-2020
+
+Giuseppe's paper on calcium-dependent plasticity.
+He implements a computational model, fits it to in-vitro experiments, changes the conditions to in-vivo, and then shows how the results differ.
+

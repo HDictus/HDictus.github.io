@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       adb20d61-e387-49f5-90e3-665e6e7a3a84
+:END:
+#+title: devlog-20240814
+
+
+So I've got the posture system refactored and the stun system working... I thought.
+
+I'm tweaking some things and playing around with it and I seem to be discovering a lot of bugs.
+I'm going to revert my current changes and work on them one by one.
+
+
+The first bug is that stunned enemies will drift without any damping.
+ - resolved
+
+Second, the player's striking feels oddly unresponsive.
+The number of strikes doesn't seem to match the number of clicks, and they seem to go through awfully late a lot of the time.
+This had a number of causes in the overcomplicated controller code.
+
+It is greatly improved by reducing the wind-down of the attacks and making the combo only count up while the player isn't winding down.
+I'm still not super comfortable with where it is, but it does feel a lot smoother.

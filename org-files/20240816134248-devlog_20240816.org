@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       f1cf59e9-ea9d-4196-bc05-85e3d765744b
+:END:
+#+title: devlog-20240816
+
+First things first, I made the striking a bit smoother.
+
+Playing around with the dash and stuff, I find it is going to be difficult to use it the way I would like while also keeping it useful as a dodging/movement tool.
+Specifically, its range must be either so short that it is better to just walk, or so long that the player can shoot from complete safety.
+This could be corrected by slowing other movement down - but I've already heard complaints that it is too slow.
+Now if we made the levels smaller, throw distances smaller, enemy dash ranges smaller, then the reduced movespeed might still work.
+
+
+I just had a thought - if I allowed the player to lift, carry, and throw the barrel?
+It would open up a variety of new options for them.
+
+I'm thinking: what if we add a small delay to the shove after the grab?
+
+I've tried this, it feels pretty good.
+
+Now, I'm wondering what to prioritize next.
+
+The things I could do can be broken into a few categories:
+
+ 1. Add new content.
+    This includes a new boss, a tackler enemy type, a final path
+ 2. Juice and polish.
+    This includes adding additional particle effects and ui elements to get a feel for how the game plays right now when it is done well.
+    It also includes adjusting Aziorgh's boss fight.
+ 3. Deeper changes.
+    By this I mean things like adjusting the level design and character movement to be more intimate.
+    Another example is changing the AI behavior to be more conventional, rather than having them all reposition in sync.
+
+ 
+
+

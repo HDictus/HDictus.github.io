@@ -70,7 +70,8 @@ Nonetheless it is consistent with the idea introduced in the previous paper we m
 
 Recall from [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]] that SSRIs, the most common antidepressants, increase the action of serotonin in the brain by ensuring it floats around for longer without being reabsorbed.
 [[id:aab01968-25fd-4714-8016-682095ad0f43][Various experiments]] demonstrate that increasing the effects of serotonin through SSRIs makes animals better at changing established patterns of behavior, while decreasing it has the opposite effect.
-Additionally,  SSRIs on depression sometimes take several weeks to reach their full effect in a depressed patient.
+Additionally,  SSRIs sometimes take several weeks to reach their full effect in a depressed patient.
+TODO: the connection here isn't very clear, find a better way to do it.
 An important part of cognitive behavioral therapy is breaking self-destructive patterns of thought and behavior.
 It may be that SSRIs work at least in part by making breaking these bad mind-habits easier.
 

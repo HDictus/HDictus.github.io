@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-05-10 Fr 13:14 -->
+<!-- 2024-08-18 So 10:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>hebbian-plasticity</title>
@@ -250,7 +250,7 @@ Imagine that you have a catalogue of images, each of which is a white background
 Say you had a neural network look at these images with a hebbian learning rule, such that the inputs to the neurons are the intensity (or whiteness) of the pixels of the image.
 Inputs from pixels in triangle formations would very often occur, and so the connectivity to neurons from groups of pixels in triangle formation would gradually become stronger.
 Eventually, the neurons would in a way become 'triangle-selective', where they respond most strongly to triangle patterns.
-Their activity therefore comes to represent the locations of triangles in the image, which is much more efficient than representing every single pixel alone.
+Their activity therefore comes to represent the locations of triangles in the image, which is much more efficient than representing every single pixel directly.
 Of course, this is a really simplistic example: real sensory data are way more diverse, and way more complex.
 </p>
 </div>
@@ -274,7 +274,7 @@ Besides rewards, a process like this could underlie associations we have between
 <p>
 We experience a memory as a set of associated experiences triggered by something that reminds us of them.
 Maybe you can see how hebbian plasticity could contribute to this.
-The neurons that were active at the same time during the event you remember will wire together more strongly, and any one part of that memory can activate the others and remind you of the whole.
+The neurons that were active at the same time during the event you remember will wire together more strongly, and any one part of that memory can activate the others and so recreate the whole.
 </p>
 </div>
 </div>

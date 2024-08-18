@@ -29,6 +29,7 @@ When you have a theory
 
 * parsimony in epistemology and programming
 
+* The issue with universal theories
 
 * practically speaking...
 ** behavior-driven development as an aspect of scientific development

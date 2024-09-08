@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e6ab83c9-1f01-41f9-a4fd-e01b15a4f25b
+:END:
+#+title: devlog-20240901
+
+
+I fixed some bugs relating to the recent AI changes.
+Aziorgh was striking with basic attacks on his reposition rythm.
+This is not correct.
+
+Next, I will make it so each enemy on a map has N beats delay in their reposition.

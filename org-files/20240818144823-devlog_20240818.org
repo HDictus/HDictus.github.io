@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       3bbbf0be-d112-42ad-9c89-c634dcddb356
+:END:
+#+title: devlog-20240818
+
+I've decided to focus on a more fundamental rework of the AI.
+
+Instead of everyone repositioning together, each character type has a certain time (number of beats) between decision points.
+At each decision point, if they are in the right position they attack.
+If they are in the wrong position they will seek the right one.
+If they are in the right position they will attack.
+Enemies in a map will have an initial delay assigned, in beats.
+
+I should simplifly the spearman's behavior for the time being as well.
+Since I do not have a specific counter-mechanic in mind for them yet, for now they will just slowly walk up to you.
+
+What makes this complicated is that bosses should still move as the music demands.
+We need to leave the existing systems, perhaps clean them up, and put a new one in place.
+
+
+I'm going to first change some stuff for most characters, then for the thrower who has different behavior.

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       57c4381e-0100-41a6-9d54-1a3fdff6c22f
+:END:
+#+title: devlog-20240728
+Haven't worked on it for a while.
+Luckily I have failing tests to guide me.
+
+The test for diagonal movement has broken - how unexpected!
+
+A test related to shoving is crashing, where target is not specified, "throw_behind" isn't working.
+
+The first should be easy to resolve, let's start there.
+It seems it was just that the movement has been made a little more floaty, so more time was needed to adjust velocity for the test.
+
+This was a case of test brittleness: I had very specifically tested the shovingsystem with particular inputs.
+Now, it needs to access the '.target' component of the character, but the input data did not have that.
+Turning this test into more of an integration-test like thing worked better.
+

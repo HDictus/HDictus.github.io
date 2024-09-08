@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2e76d085-bbfe-404b-9a91-495f232cf1c5
+:END:
+#+title: devlog-20240903
+
+
+time to add a delay to enemies in the maps.

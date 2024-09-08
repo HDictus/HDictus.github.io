@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       bea501da-b3eb-431b-85bd-8f63a205f63d
+:END:
+#+title: devlog-20240822
+
+I'm flying today. Decided to program a bit at the airport.
+Always puts me in a gamedev mood.
+
+Let's see, we were in the process of reworking the ai.
+
+some tests are still failing.
+I wonder if it's brittleness, or if things genuinely aren't working?
+
+It was a mix of both. I believe I've addressed the brittleness.
+
+The last test seems to be more something that has broken in the striking (and also rendering?) logic for some reason. time to get to the bottom of it.

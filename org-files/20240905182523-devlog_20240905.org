@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       6adab203-3509-462b-b0ba-5ed01ce39060
+:END:
+#+title: devlog-20240905
+
+
+I played around with some hitboxes, attack distances and attack patterns.
+It feels a bit better now, but It's still now where I would like.
+
+I think I should slow some things down, and maybe have aziorgh's hitbox lag behind the animation a little more so the player can dodge through it more easily.
+
+What should I do next?
+To get to my MVP I need to:
+ - create the path 2 boss
+ - create another path 2 enemy type
+ - build a few levels for path 2
+ - add a new early character, tutorialize the early levels
+ - get a gauntlet of increasing difficulty running
+
+I don't feel like any of that.
+Am I burning out on my game?
+Maybe I should focus on some other things.

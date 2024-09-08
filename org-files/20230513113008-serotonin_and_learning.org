@@ -47,7 +47,7 @@ While I'll get into various caveats towards the end of the post, most work finds
 
 * Serotonin as an error signal for learning.
 
-[[id:9801d89b-3de0-4d60-b2f8-b0d9b26957d0][One paper]] shows that some of the neurons in the Dorsal Raphe Nucleus respond strongly both when things turn out worse than expected, and when things turn out better than expected. TODO: once I have internet again, double-check this is an accurate summary.
+[[id:9801d89b-3de0-4d60-b2f8-b0d9b26957d0][One paper by Matias et al.]] shows that some of the neurons in the Dorsal Raphe Nucleus respond strongly both when things turn out worse than expected, and when things turn out better than expected. TODO: once I have internet again, double-check this is an accurate summary.
 Theoretical work suggests that this kind of signal could be useful for updating one's understanding of the world when something new and unexpected happens.
 This could be implemented by inverting hebbian plasticity - such that synapses which were involved in arriving at the present prediction are weakened.
 Precisely this has been documented as occurring with serotonin in the visual cortex of mice.
@@ -63,22 +63,23 @@ Furthermore they were able to narrow the effect down to a specific serotonin rec
 
 Interepereting this experiment is tricky, since it is performed in a petri dish where chemical concentrations are different from in the brain.
 Especially for experiments involving synaptic plasticity, where Calcium is important, it is difficult to say whether a given result will hold in a living brain.
-Nonetheless it is consistent with the idea introduced in the previous paper we mentioned.
+Nonetheless it is consistent with a variety of other experiments.
 
 ** Learning and unlearning depression
 
 
 Recall from [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]] that SSRIs, the most common antidepressants, increase the action of serotonin in the brain by ensuring it floats around for longer without being reabsorbed.
+This originally motivated the idea that depression is a straightforward chemical imbalance, but further evidence for this theory is severly limited.
+Additionally,  SSRIs sometimes take several weeks to reach their full effect in a depressed patient, which is not what would be expected in the event of a chemical imbalance.
 [[id:aab01968-25fd-4714-8016-682095ad0f43][Various experiments]] demonstrate that increasing the effects of serotonin through SSRIs makes animals better at changing established patterns of behavior, while decreasing it has the opposite effect.
-Additionally,  SSRIs sometimes take several weeks to reach their full effect in a depressed patient.
-TODO: the connection here isn't very clear, find a better way to do it.
+Learning is a gradual process, so it is possible that the gradual effects of SSRIs have to do with learning, rather than with some immediate chemical effect.
 An important part of cognitive behavioral therapy is breaking self-destructive patterns of thought and behavior.
-It may be that SSRIs work at least in part by making breaking these bad mind-habits easier.
+It may be that SSRIs work at least in part by making it easier to break these bad mind-habits.
 
 However, recall from [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]] that the release of serotonin by the neurons in the dorsal raphe nucleus is related to the creation of depression-like states.
 In a state of learned helplessness, in which an animal will be unable to evade an easily escapable threat due to prior experiences of helplessness, is prominently mediated by serotonin.
 A signal that reverses plasticity in active neurons could also play a role un-learning the ability to act in response to a threat.
-[[https://www.sciencedirect.com/science/article/pii/S0306453010002301?casa_token=zMNJ58V1W_AAAAAA:JW9cxCqnS68UxW_iE5ArLB8xd3DwfBQO5rCX6JokorIt7cfIkDYxzdU414Qbf0_k9lJSipTuXg][It has been suggested]] that by enhancing plasticity serotonin therefore plays a dual role in depression - both in its pathenogenesis and its recovery.
+[[https://www.sciencedirect.com/science/article/pii/S0306453010002301?casa_token=zMNJ58V1W_AAAAAA:JW9cxCqnS68UxW_iE5ArLB8xd3DwfBQO5rCX6JokorIt7cfIkDYxzdU414Qbf0_k9lJSipTuXg][It has been suggested]] that the plasticity-ehancement by serotonin therefore plays a dual role in depression - both in its pathenogenesis and its recovery.
 
 * holes in the story
 
@@ -90,10 +91,10 @@ As I've hinted already, there are some conflicting results that show the idea of
 
  - [[id:ced31f16-068d-4d93-b270-81c555e91a3a][Depleting serotonin increases fear-based pavlovian learning]] , which is not a process of un-learning but of learning something new
  - The results around the 5HT2C receptor are confusing.
-   Above we discussed how the experiment by He and colleagued showed that it is a natural candidate for explaining the un-learning effects of serotonin.
+   Above we discussed how the experiment by He and colleagues showed that it is a natural candidate for explaining the un-learning effects of serotonin.
    However, [[id:e545e2db-f6de-4375-931b-3dc909793c03][two]] [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][experiments]] found that reducing its activity actually increased reversal learning, which is the opposite of what you would expect given this!
  - The results regarding the effects of specific receptors are highly inconsistent, for instance compare the effects of a 5HT2A antagonist in [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] and [[id:27d09b0a-307d-441d-898b-ccae3903f2d6][frick-dual-2015]]
- - Serotonin seems to also somehow mediate other forms of learning signals, such as reward anticipation. TODO: find that paper again.
+ - Serotonin seems to also somehow mediate other forms of learning signals, such as reward anticipation. 
 
 Perhaps the next chapter in serotonin's story can help make sense of this.
 Besides being implicated in helplessness, serotonin is also implicated in psychological resilience.
@@ -106,7 +107,7 @@ Stay tuned.
  - When you learn, the the connections between neurons change - those that activate at the same time get stronger connections, the rest weaker
  - Serotonin appears to affect this specifically by reversing it - allowing you to un-learn and hereby re-learn more easily
  - This could explain the role it plays in both the development and recovery from depression
- - However, there remain some pieces of evidence that do not line up with this, suggesting a more complex picture
+ - However, there are several pieces of evidence that do not line up with this, suggesting a more complex picture
 
 # When an animal is put in a helpless position and their DRN starts releasing serotonin into their cortex it would make the cells that are firing in concert weaken their connections, and thereby suppress whatever thoughts or behaviors the animal is having going forward.
 # Un-learning the ability to think of a way out of the situation may be a direct effect of serotonin stimulation.

@@ -18,4 +18,32 @@ A number of interesting points stood out to me:
    This may well be worth looking into Re: learned helplessness
  - 5HT is strongly involved in punishement processing (consistent with the un-learning idea)
  - There is also evidence hat 5HT mediates reward processing
- - 
+ - 5HT receptor expression displays a [[id:eba46644-a0ea-451e-807e-9ad1776ebfde][rostral]]-[[id:9fdca2cb-4045-44da-884e-61b91fdf3a41][caudal]] gradient, indicating particular importance for 5HT in higher functions
+ - many 5HT neurons also release glutamate
+ - Inputs to DRN 5HT and VTA DA neurons (but not MRN 5HT neurons) follows a similar pattern
+ - PFC and LHb both provide input to both
+ - stimulating PFC-DRN projecting neurons increases motivation in rats
+ - LHb has been proposed to mediate aversive signaling to VTA and DRN
+
+ These three seem to form a puzzling little trio, though the article doesn't frame them as such?
+ - LHb seems to mostly inhibit DRN 5HT release
+ - optogenetic silencing of DRN GABA neurons prevented the development of behavioral avoidance (could this be explained as passivity or helplessless?)
+ - pharmacologically inactivating LHb seems to reduce stress-related behaviors
+
+ - rodent studies have found that alterations in 5HT processing can affect either reward or punishment sensitivity depending on the type, strength, or duration of manipulation.
+ - DRN innervates VTA DA neurons with both glutamate and serotonin
+ - VTA GABAergically innervated DRN
+ - DRN does encode reward likelihood and magnitude
+ - SERT expressing DRN neurons respond to reward but not punishment
+ - optogenetic stimulation of Pet-1 neurons in DRN is reinforcing
+   this was much less in mice lacking the vglut-3 gene, indicating an important role for glutamate co-release.
+   (this might be due to the glutamate multiplicatively up-regulating the targeted neurons, thereby amplifying their effect on the network?)
+ - this was not replicated in a subsequent experiment. lol
+ - targeting SERT+ neurons did not have the same effect (could be due to effects of SERT+ targeting on serotoninergic functioning more generally)
+
+ - DRN innervates [[id:75649428-ad40-42e9-84a6-ddf74bff6748][mesostriatal]] VTA neurons with mostly glutamate but also serotonin
+ - VTA innervates DRN with GABA
+   
+5HT has been strongly implicated in both reward and punishment processing.
+
+

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       75649428-ad40-42e9-84a6-ddf74bff6748
+:END:
+#+title: mesostriatal
+
+refers to the pathways from the dopaminergic nuclei like VTA  to the striatum

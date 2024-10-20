@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       9f3f755b-5764-41ea-a709-44e2f51e1ad4
+:END:
+#+title: fischer-update-2017
+
+https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2017.00484/full
+
+Fischer and Ullsperger review a variety of experiments showing that serotonin and dopamine interact in the reward system, such that combined they are more than the sum of their parts.
+
+A number of interesting points stood out to me:
+
+ - serotoninergic neurons in the DRN often co-release glutamate
+ - most serotoninergic input in the forebrain comes from the DRN
+ - SSRIs may reduce the co-release of glutamate from serotoninergic neurons (iiiinteresting...)
+ - the regions that project to DRN 5HT neurons (but not MRN) are similar to those that project to VTA DA neurons.
+ - lateral habenula has been suggested to mediate aversive signals to both.
+ - "An influential hypothesis holds that 5-HT controls behavioral inhibition in an aversive context (Soubrié, 1986)"
+   This may well be worth looking into Re: learned helplessness
+ - 5HT is strongly involved in punishement processing (consistent with the un-learning idea)
+ - There is also evidence hat 5HT mediates reward processing
+ - 

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       aaee9f01-9a35-4fb7-9379-8e5654ec7711
+:END:
+#+title: devlog-20240921
+
+The early enemies have been tweaked and are working ok now.
+I'm not sure what to do next.
+
+I think the best thing would be to try and figure out the postgame gauntlet.
+The tricky thing is handling obstacles, like cliffs and low logs.
+
+I could shuffle preexisting maps, and just ignore the characters already on them.
+The thing is I don't have any convenient way of ignoring characters added.
+
+I think I need to rework the map loading a bit for this to work.

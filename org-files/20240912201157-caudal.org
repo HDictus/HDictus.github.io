@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9fdca2cb-4045-44da-884e-61b91fdf3a41
+:END:
+#+title: caudal
+
+caudal means "towards the tail"

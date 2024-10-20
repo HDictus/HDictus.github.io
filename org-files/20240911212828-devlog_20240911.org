@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       8fb0689e-dcca-44ad-bd24-3251419b223d
+:END:
+#+title: devlog-20240911
+
+I created a grab animation for a new enemy type.
+They also need a shove animation.
+
+I think I will make them palette-swapped.
+On the other hand, introducing a palette swap so early is not ideal...
+
+There is still a bug wih the attack, and for some reason both early enemy types are very awkward in when they attack...

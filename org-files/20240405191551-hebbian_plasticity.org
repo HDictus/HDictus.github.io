@@ -43,4 +43,4 @@ Besides rewards, a process like this could underlie associations we have between
 We experience a memory as a set of associated experiences triggered by something that reminds us of them.
 Maybe you can see how hebbian plasticity could contribute to this.
 The neurons that were active at the same time during the event you remember will wire together more strongly, and any one part of that memory can activate the others and so recreate the whole.
-
+A colleague of mine has a very nice [[https://www.biorxiv.org/content/10.1101/2024.07.23.604787v1.abstract][preprint]] on the topic.

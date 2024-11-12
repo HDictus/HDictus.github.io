@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-10-20 So 17:58 -->
+<!-- 2024-11-12 Di 20:51 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>serotonin-and-learning</title>
@@ -231,7 +231,6 @@
 </div>
 <p>
 Serotonin plays a role in the process of learning.
-Exactly what role is not clear, but it seems to be especially involved with un-learning and re-learning.
 Learning happens in the brain by changing the strength of connections between neurons (and other stuff too, but connections are a major one).
 This is called synaptic plasticity.
 </p>
@@ -272,19 +271,22 @@ So the strength of the connection is affected by the presynaptic activity and th
 </p>
 
 <p>
-Hebbian plasticity can explain a great deal about how stimuli (sights, sounds, etc.) are efficiently encoded by the brain.
-It can also enable the efficient storage and retrieval of memories, and build psychological associations between related things.
+Hebbian plasticity can explain a great deal, from efficient encoding of visual scenes to memory.
+For example, think of the way a smell can transport you to a familiar memory.
+Those neurons that were coding for that smell and the neurons coding for other sensory inputs were all active together.
+So they connected together, and when a few of them are active they now activate the rest and transport you back to that moment.
 </p>
 </div>
 </div>
+
 
 <div id="outline-container-org56acccc" class="outline-3">
 <h3 id="org56acccc">Third factors</h3>
 <div class="outline-text-3" id="text-org56acccc">
 <p>
 We know from efforts to apply hebbian plasticity to AI that it only gets you so far.
-Not all stimuli are equally important to encode, not all associations are important, and not everything that happens should be a memory.
-Those hebbian plasticity rules based on the activity of the two cells can be affected by other factors, such as pleasure, fear, or pain.
+Not all stimuli are equally important to encode, not all associations matter, and not everything that happens should be a memory.
+So synaptic plasticity based on the activity of the two cells can be affected by other factors, such as pleasure, fear, curiosity, or pain.
 One way the brain broadcasts feelings like pain and fear is through the release of different neurotransmitters, such as dopamine, norepinephrine, and our good friend serotonin.
 </p>
 
@@ -300,28 +302,32 @@ While I'll get into various caveats towards the end of the post, most work finds
 <h2 id="orgb5ef505">Serotonin as an error signal for learning.</h2>
 <div class="outline-text-2" id="text-orgb5ef505">
 <p>
-<a href="20240720143808-he_distinct_2015.html#ID-d1b21711-da73-457c-a686-902f86fb3f36">He and colleagues</a> recorded from pairs of connected neurons in a mouse.
-First, they made the neuron with an outgoing connection fire, and then recorded changes in the receiving neuron.
-They made the neurons fire together, and so of course they wired together - unless you sprayed serotonin on them.
-They found that when serotonin was applied, the opposite happened: the connection got weaker.
-Furthermore they were able to narrow the effect down to a specific serotonin receptor: 5HT2C.
+The most prominent hypothesis for how serotonin influences learning is that it works in <a href="https://www.nature.com/articles/npp2010151">opposition to dopamine</a>.
+While dopamine has been viewed as encoding appetite, motivation and action, serotonin has been associated with satiety, passivity, and inaction.
 </p>
 
 <p>
-Interepereting this experiment is tricky, since it is performed in a petri dish where chemical concentrations are different from in the brain.
-Especially for experiments involving synaptic plasticity, where Calcium is important, it is difficult to say whether a given result will hold in a living brain.
-Nonetheless this is exactly what you would expect from a chemical signal to promote un-learning.
+This opponency theory can partly explain how <a href="20240203094554-serotonin_specifically_influences_unlearning.html#ID-aab01968-25fd-4714-8016-682095ad0f43">increasing serotoninergic signaling improves the ability of an animal to un-learn something it learned previously</a>.
 </p>
 
 <p>
-The most prominent hypothesis I could find for the learning effect of serotonin is that it works in opposition to dopamine (<a href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/reconciling-the-role-of-central-serotonin-neurons-in-human-and-animal-behavior/549D7B4B026D0DF81917157A14E00578">theory</a>, <a href="https://www.nature.com/articles/npp2010151">review</a>, <a href="https://www.cell.com/cell-reports/fulltext/S2211-1247(22)00397-7">computational model</a>).
-While dopamine mediates learning from reward, serotonin mediates learning from punishments.
-This perspective has been changing in the last few years, as more work comes out showing that serotonin sometimes works together with dopamine to strengthen reward learning.
+Remember how, due to hebbian plasticity, when two neurons fire together the connection between them is strengthened.
+If this activity pattern leads to a good outcome you would want this effect to be especially strong - which dopamine, among others, is proposed to do (todo paper).
+If this activity pattern leads to a bad outcome however, perhaps you do not want to strengthen it: perhaps you want to do the opposite.
 </p>
 
 <p>
-Rather than simply signaling punishment, serotoninergic neurons in the Dorsal Raphe Nucleus (DRN) respond <a href="20240809163915-matias_activity_2017.html#ID-9801d89b-3de0-4d60-b2f8-b0d9b26957d0">both when things go worse than expected, and when things go better than expected</a>.
-Decoupling neurons in uncertain evironments could promote cognitive flexibility: the ability to adapt to a changing evironment.
+This is precisely what <a href="20240720143808-he_distinct_2015.html#ID-d1b21711-da73-457c-a686-902f86fb3f36">He and colleagues</a> observed serotonin does in the visual cortex.
+If you apply the same rule in simulations it <a href="https://www.cell.com/cell-reports/fulltext/S2211-1247(22)00397-7">reproduces the effects of SSRIs on the ability to reverse learning</a>.
+</p>
+
+
+<p>
+Although the idea of serotonin as a passivity signal dovetails nicely with what we have learned so far about <a href="20240510115704-learned_helplessness.html#ID-94ac0879-77e6-4b0a-be68-7b0c9de848a6">learned-helplessness</a>, recent work suggests a more nuanced role for serotonin in learning.
+<a href="20240908130023-fischer_update_2017.html#ID-9f3f755b-5764-41ea-a709-44e2f51e1ad4">Serotonin sometimes reinforces the effects of dopamine rather than opposing them</a>
+Rather than simply signaling bad outcomes, serotoninergic neurons in the Dorsal Raphe Nucleus (DRN) respond <a href="20240809163915-matias_activity_2017.html#ID-9801d89b-3de0-4d60-b2f8-b0d9b26957d0">both when things go worse than expected, and when things go better than expected</a>.
+This emerging perspective places serotonin as a key molecule for signaling surprise and uncertainty.
+Besides explaining how serotonin influences the ability to un-learn (if things aren't as you expect, forget what you think you know), as well as anxiety and hesitancy (in which uncertainty is an important factor).
 </p>
 </div>
 
@@ -359,8 +365,8 @@ A signal that reverses plasticity in active neurons could also play a role un-le
 <p>
 Something about this doesn't add up however.
 If the action of serotonin both generates and alleviates depression, it would be expected that taking SSRIs would leave a healthy or largely recovered individual more vulnerable to developing depression.
-I was always reccomended to maintain my dosage, <i>especially</i> during stressful periods.
-Indeed, I've found empirical research suggesting SSRIs promote resilience, and none suggesting they undermine it.
+I was always reccomended to maintain my dosage, <i>especially</i> during high-risk periods.
+Indeed, I've found research suggesting SSRIs promote resilience, and been unable to find any suggesting they undermine it.
 </p>
 
 <p>
@@ -368,17 +374,16 @@ As I've hinted already, not all studies are consistent with the idea of serotoni
 </p>
 
 <ul class="org-ul">
-<li>Above we discussed how the experiment by He and colleagues showed that it is a natural candidate for explaining the un-learning effects of serotonin.
+<li>Above we discussed how the experiment by He and colleagues showed that the 5HT2C receptor is a natural candidate for explaining the un-learning effects of serotonin.
 However, <a href="20240203102223-boulougouris_dissociable_2008.html#ID-e545e2db-f6de-4375-931b-3dc909793c03">two</a> <a href="20240203102126-boulougouris_enhancement_2010.html#ID-9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607">experiments</a> found that reducing its activity actually increased reversal learning, which is the opposite of what you would expect given this!</li>
 <li>The results regarding the effects of specific receptors are highly inconsistent, for instance compare the effects of a 5HT2A antagonist in <a href="20240203102223-boulougouris_dissociable_2008.html#ID-e545e2db-f6de-4375-931b-3dc909793c03">boulougouris-dissociable-2008</a> and <a href="20240809144855-frick_dual_2015.html#ID-27d09b0a-307d-441d-898b-ccae3903f2d6">frick-dual-2015</a></li>
-<li>Serotonin seems to <a href="20240908130023-fischer_update_2017.html#ID-9f3f755b-5764-41ea-a709-44e2f51e1ad4">interact with dopamine</a> to somehow <a href="20240908131900-bari_serotonin_2010.html#ID-2649815e-47d3-4ced-af72-918fc5336159">mediate other forms of learning signals</a>, such as the anticipation of reward.</li>
 </ul>
 
 
 <p>
 Perhaps the next chapter in serotonin's story can help make sense of this.
 Besides being implicated in helplessness, depression, and learning, serotonin is also implicated in psychological resilience.
-Rather than the Dorsal Raphe Nucleus, his seems to involve more of its neighbor, the Medial Raphe Nucleus.
+Rather than the Dorsal Raphe Nucleus, this seems to involve more of its neighbor, the Medial Raphe Nucleus.
 I'm looking forward to looking into that.
 Stay tuned.
 </p>

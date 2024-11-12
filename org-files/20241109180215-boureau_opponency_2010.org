@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       2dc2ed67-d686-4505-9063-7f2242337483
+:END:
+#+title: boureau-opponency-2010
+
+Boureau and Dayan review the theory of opponency between serotonin and dopamine.
+
+

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       89a84071-ebc1-428c-b150-239a7b7c3d56
+:END:
+#+title: embarassment-of-empirical-riches
+
+A phrase I absolutely love from Jaak Panksepp's Affective Neuroscience:
+
+"There has been a great deal of of promising research in the fields of neurochemistry and neuropharmacology, to the point that there is now an /embarassment of empirical riches/ in these areas."
+Affective neuroscience: the foundations of human and animal emotions, P. 361
+

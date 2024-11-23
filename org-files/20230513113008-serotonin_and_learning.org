@@ -82,7 +82,7 @@ An important part of cognitive behavioral therapy is breaking self-destructive p
 It may be that SSRIs work at least in part by making it easier to break these bad mind-habits.
 
 However, recall from [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]] that the release of serotonin by the neurons in the dorsal raphe nucleus is related to the creation of depression-like states.
-In a state of learned helplessness, in which an animal will be unable to evade an easily escapable threat due to prior experiences of helplessness, is prominently mediated by serotonin.
+The state of learned helplessness, in which an animal will be unable to evade an easily escapable threat due to prior experiences of helplessness, is prominently mediated by serotonin.
 A signal that reverses plasticity in active neurons could also play a role un-learning the ability to act in response to a threat.
 [[https://www.sciencedirect.com/science/article/pii/S0306453010002301?casa_token=zMNJ58V1W_AAAAAA:JW9cxCqnS68UxW_iE5ArLB8xd3DwfBQO5rCX6JokorIt7cfIkDYxzdU414Qbf0_k9lJSipTuXg][It has been suggested]] that the plasticity-ehancement by serotonin therefore plays a dual role in depression - both in its pathenogenesis and its recovery.
 
@@ -100,7 +100,7 @@ As I've hinted already, not all studies are consistent with the idea of serotoni
 
  - Above we discussed how the experiment by Dr. He and colleagues showed that a specific receptor (5HT2C) is a natural candidate for explaining the un-learning effects of serotonin.
    However, [[id:e545e2db-f6de-4375-931b-3dc909793c03][two]] [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][experiments]] found that reducing its activity actually increased reversal learning, which is the opposite of what you would expect given this!
-   Additionally, some SSRIs cause a [[https://karger.com/nps/article-abstract/63/3/160/233469/Antidepressant-Treatments-Change-5-HT2C-Receptor?redirectedFrom=fulltext][decrease in the density]] of these receptors in the long term, suggesting they are not important for un-learning depression.
+   Additionally, some SSRIs cause a [[https://karger.com/nps/article-abstract/63/3/160/233469/Antidepressant-Treatments-Change-5-HT2C-Receptor?redirectedFrom=fulltext][decrease in the density]] of these receptors in the long term, inconsistent with the idea that their activation is important for un-learning depression.
  - The results regarding the effects of specific receptors are highly inconsistent, and probably depend on a number of factors (compare [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] and [[id:27d09b0a-307d-441d-898b-ccae3903f2d6][frick-dual-2015]], for example)
 
 

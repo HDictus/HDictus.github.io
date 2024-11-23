@@ -40,9 +40,8 @@ Since feedback is important to improve please leave me short reviews of the entr
 - [[id:94ba5a79-0e68-48b4-b05b-826aa98ca855][lovecraft-and-eldritch-knowledge]]
 
 
-* creativei writing (prompts)
+* creative writing (prompts)
 To help me get started with writing consistently, my sister gave me a set of creative writing prompts.
 
 - [[id:245d134a-80ac-4d13-a899-b52465bb36aa][tremble-and-zemble]]
 - [[id:b34052c5-b67a-43a7-bed1-2eaa706aaf45][on-the-sonic-habits-of-terra]]
-- [[id:dd9bf4ca-f058-4d8d-9377-e1d7586c3cb1][letter-from-ponder]]

@@ -63,7 +63,7 @@ If you apply the same rule in simulations it [[https://www.cell.com/cell-reports
 
 
 Although the idea of serotonin as a passivity signal dovetails nicely with what we have learned so far about [[id:94ac0879-77e6-4b0a-be68-7b0c9de848a6][learned-helplessness]], recent work suggests a more nuanced role for serotonin in learning.
-[[id:9f3f755b-5764-41ea-a709-44e2f51e1ad4][Serotonin sometimes reinforces the effects of dopamine rather than opposing them]]
+[[id:9f3f755b-5764-41ea-a709-44e2f51e1ad4][Serotonin sometimes reinforces the effects of dopamine rather than opposing them.]]
 Rather than simply signaling bad outcomes, serotonin-emitting neurons in a region called DRN respond [[id:9801d89b-3de0-4d60-b2f8-b0d9b26957d0][both when things go worse than expected, and when things go better than expected]].
 This emerging perspective places serotonin as a key molecule for signaling surprise and uncertainty.
 Besides explaining how serotonin influences the ability to un-learn (if things aren't as you expect, forget what you think you know), as well as anxiety and hesitancy (in which uncertainty is an important factor).
@@ -87,7 +87,7 @@ A signal that reverses plasticity in active neurons could also play a role un-le
 [[https://www.sciencedirect.com/science/article/pii/S0306453010002301?casa_token=zMNJ58V1W_AAAAAA:JW9cxCqnS68UxW_iE5ArLB8xd3DwfBQO5rCX6JokorIt7cfIkDYxzdU414Qbf0_k9lJSipTuXg][It has been suggested]] that the plasticity-ehancement by serotonin therefore plays a dual role in depression - both in its pathenogenesis and its recovery.
 
 
-* holes in the story
+* Holes in the story
 
 Something about this doesn't add up however.
 If the action of serotonin both generates and alleviates depression, it would be expected that taking SSRIs would leave a healthy or largely recovered individual more vulnerable to developing depression.

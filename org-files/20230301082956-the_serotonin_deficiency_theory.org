@@ -46,4 +46,5 @@ However, there are loads of other things SSRIs do and therefore many, many theor
  - however, there is next to no evidence of the theory that depression is the result of a serotonin deficiency
  - there are many possible explanations for why SSRIs work, with no clear leader
 
-
+Next:
+[[id:00813f54-3bba-432c-8032-acc000dc5311][serotonin-and-learning]]

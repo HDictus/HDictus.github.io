@@ -93,12 +93,16 @@ Something about this doesn't add up however.
 If the action of serotonin both generates and alleviates depression, it would be expected that taking SSRIs would leave a healthy or largely recovered individual more vulnerable to developing depression.
 I was always reccomended to maintain my dosage, /especially/ during high-risk periods.
 Indeed, I've found research suggesting SSRIs promote resilience, and been unable to find any suggesting they undermine it.
+Again, I would like to emphasize that SSRIs do work, we just don't understand why.
+When it comes to matters of medicine, listen to your doctor rather than the still-germinating speculations of theoretical neuroscientists.
 
 As I've hinted already, not all studies are consistent with the idea of serotonin as an un-learning chemical.
 
  - Above we discussed how the experiment by Dr. He and colleagues showed that a specific receptor (5HT2C) is a natural candidate for explaining the un-learning effects of serotonin.
    However, [[id:e545e2db-f6de-4375-931b-3dc909793c03][two]] [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][experiments]] found that reducing its activity actually increased reversal learning, which is the opposite of what you would expect given this!
+   Additionally, some SSRIs cause a [[https://karger.com/nps/article-abstract/63/3/160/233469/Antidepressant-Treatments-Change-5-HT2C-Receptor?redirectedFrom=fulltext][decrease in the density]] of these receptors in the long term, suggesting they are not important for un-learning depression.
  - The results regarding the effects of specific receptors are highly inconsistent, and probably depend on a number of factors (compare [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] and [[id:27d09b0a-307d-441d-898b-ccae3903f2d6][frick-dual-2015]], for example)
+
 
 
 Perhaps the next chapter in serotonin's story can help make sense of this.

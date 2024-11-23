@@ -29,7 +29,7 @@ You can see it as one neuron telling another to speak up.
 When this works - one neuron releases glutamate to another, and then that neuron releases its neurotransmitter, the connection between them tends to strengthen.
 Otherwise, it tends to weaken.
 This is often remembered as 'cells that fire together wire together', and conversely: 'fire out of sync, lose your link'.
-So the strength of the connection is affected by the presynaptic activity and the postsynaptic activity.
+So the strength of the connection is affected by the pre(before)-synaptic  activity and the post(after)-synaptic activity.
 
 Hebbian plasticity can explain a great deal, from efficient encoding of visual scenes to memory.
 For example, think of the way a smell can transport you to a familiar memory.
@@ -55,16 +55,16 @@ While dopamine has been viewed as encoding appetite, motivation and action, sero
 This opponency theory can partly explain how [[id:aab01968-25fd-4714-8016-682095ad0f43][increasing serotoninergic signaling improves the ability of an animal to un-learn something it learned previously]].
 
 Remember how, due to hebbian plasticity, when two neurons fire together the connection between them is strengthened.
-If this activity pattern leads to a good outcome you would want this effect to be especially strong - which dopamine, among others, is proposed to do (todo paper).
+If this activity pattern leads to a good outcome you would want this effect to be especially strong - which dopamine, among others, is proposed to do.
 If this activity pattern leads to a bad outcome however, perhaps you do not want to strengthen it: perhaps you want to do the opposite.
 
-This is precisely what [[id:d1b21711-da73-457c-a686-902f86fb3f36][He and colleagues]] observed serotonin does in the visual cortex.
+This is precisely what Dr. [[id:d1b21711-da73-457c-a686-902f86fb3f36][He and colleagues]] observed serotonin does in the visual cortex.
 If you apply the same rule in simulations it [[https://www.cell.com/cell-reports/fulltext/S2211-1247(22)00397-7][reproduces the effects of SSRIs on the ability to reverse learning]].
 
 
 Although the idea of serotonin as a passivity signal dovetails nicely with what we have learned so far about [[id:94ac0879-77e6-4b0a-be68-7b0c9de848a6][learned-helplessness]], recent work suggests a more nuanced role for serotonin in learning.
 [[id:9f3f755b-5764-41ea-a709-44e2f51e1ad4][Serotonin sometimes reinforces the effects of dopamine rather than opposing them]]
-Rather than simply signaling bad outcomes, serotoninergic neurons in the Dorsal Raphe Nucleus (DRN) respond [[id:9801d89b-3de0-4d60-b2f8-b0d9b26957d0][both when things go worse than expected, and when things go better than expected]].
+Rather than simply signaling bad outcomes, serotonin-emitting neurons in a region called DRN respond [[id:9801d89b-3de0-4d60-b2f8-b0d9b26957d0][both when things go worse than expected, and when things go better than expected]].
 This emerging perspective places serotonin as a key molecule for signaling surprise and uncertainty.
 Besides explaining how serotonin influences the ability to un-learn (if things aren't as you expect, forget what you think you know), as well as anxiety and hesitancy (in which uncertainty is an important factor).
 
@@ -96,14 +96,14 @@ Indeed, I've found research suggesting SSRIs promote resilience, and been unable
 
 As I've hinted already, not all studies are consistent with the idea of serotonin as an un-learning chemical.
 
- - Above we discussed how the experiment by He and colleagues showed that the 5HT2C receptor is a natural candidate for explaining the un-learning effects of serotonin.
+ - Above we discussed how the experiment by Dr. He and colleagues showed that a specific receptor (5HT2C) is a natural candidate for explaining the un-learning effects of serotonin.
    However, [[id:e545e2db-f6de-4375-931b-3dc909793c03][two]] [[id:9ee2e52d-ff0e-4a67-b8b8-bdfb7da96607][experiments]] found that reducing its activity actually increased reversal learning, which is the opposite of what you would expect given this!
- - The results regarding the effects of specific receptors are highly inconsistent, for instance compare the effects of a 5HT2A antagonist in [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] and [[id:27d09b0a-307d-441d-898b-ccae3903f2d6][frick-dual-2015]]
+ - The results regarding the effects of specific receptors are highly inconsistent, and probably depend on a number of factors (compare [[id:e545e2db-f6de-4375-931b-3dc909793c03][boulougouris-dissociable-2008]] and [[id:27d09b0a-307d-441d-898b-ccae3903f2d6][frick-dual-2015]], for example)
 
 
 Perhaps the next chapter in serotonin's story can help make sense of this.
 Besides being implicated in helplessness, depression, and learning, serotonin is also implicated in psychological resilience.
-Rather than the Dorsal Raphe Nucleus, this seems to involve more of its neighbor, the Medial Raphe Nucleus.
+Rather than the Dorsal Raphe Nucleus, which we have mostly discussed so far, this seems to involve more of its neighbor, the Medial Raphe Nucleus.
 I'm looking forward to looking into that.
 Stay tuned.
 

@@ -66,7 +66,7 @@ Although the idea of serotonin as a passivity signal dovetails nicely with what 
 [[id:9f3f755b-5764-41ea-a709-44e2f51e1ad4][Serotonin sometimes reinforces the effects of dopamine rather than opposing them.]]
 Rather than simply signaling bad outcomes, serotonin-emitting neurons in a region called DRN respond [[id:9801d89b-3de0-4d60-b2f8-b0d9b26957d0][both when things go worse than expected, and when things go better than expected]].
 This emerging perspective places serotonin as a key molecule for signaling surprise and uncertainty.
-Besides explaining how serotonin influences the ability to un-learn (if things aren't as you expect, forget what you think you know), as well as anxiety and hesitancy (in which uncertainty is an important factor).
+This explains how serotonin influences the ability to un-learn (if things aren't as you expect, forget what you think you know), as well as anxiety and hesitancy (in which uncertainty is an important factor).
 
 
 ** Learning and unlearning depression

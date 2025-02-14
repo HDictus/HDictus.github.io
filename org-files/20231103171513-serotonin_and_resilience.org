@@ -9,5 +9,16 @@ see: [[id:1d3f59ef-0400-46c0-bafb-b67c0fa0e463][paul-deakin-2014]]
 
 
 https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub
+https://journals.sagepub.com/doi/abs/10.1177/0269881113490328
+https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_4
+https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q
+https://www.sciencedirect.com/science/article/pii/S0006899309006064?casa_token=blYozbOvy5MAAAAA:WQ13whmBCh9TKQP6rS0xVk4YEOA8OYx1znGFJtNML4gwK7-h5LvAnTViyLiSlZyvA5N-TOfOgQ
+https://www.jneurosci.org/content/40/3/569.abstract
+https://link.springer.com/chapter/10.1007/7854_2010_109
+https://journals.sagepub.com/doi/abs/10.1177/026988119100500414
+https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q
+
+counterpoint:
+https://www.nature.com/articles/s41467-022-35346-7
 
 

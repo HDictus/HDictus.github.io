@@ -1,0 +1,99 @@
+:PROPERTIES:
+:ID:       83472889-eda0-4354-a1d4-9615916efd1d
+:END:
+#+title: why-is-the-lunge-punch
+
+If you've done karate, taekwondo, or most styles of kung fu for any length of time, you have seen something like this:
+
+(TODO: find a gif of Oi-tsuki)
+
+The practitioner steps forward into a lunge and punches with the same hand as the stepping leg.
+This is a basic technique, part of the bread and butter of styles like shotokan.
+It features less centrally in many other styles, and many traditional grappling-focused arts feature defenses against it in their curricula as well.
+However, you will not see this movement very much in combat sports, because it is almost always a bad idea in a full-contact fight.
+Isn't it odd that such a bad technique is so widespread?
+How did that happen? There are many possibilities.
+Maybe the technique has been misinterpereted?
+Or maybe it makes more sense in the contexts in which these arts were originally developed?
+
+Let's start with why it's a bad idea.
+In full-contact striking sports you generally move towards your partner by taking small steps forward with your lead foot.
+These small steps are quicker and harder to exploit than a fully committed walking step.
+You do see walking steps in boxing and kickboxing, but they generally are taken diagonally, moving off your partner's line of attack and moving around them when they are already in range: a repositioning, not a gap-closer.
+If you step straight towards an opponent with a big comitted step not only do they have plenty of time to see your attack coming, but you may well run straight into their fist and knock /yourself/ out.
+If you're at a range where you can't reach with a small step, you don't try to charge in from a distance, you first get a little closer, and then engage properly.
+
+Maybe they make sense when you don't consider the force of the punch?
+Punches classified as lunge punches (oi-tsuki in Japanese) do show up in point competitions, as shown by [[https://aassjournal.com/article-1-760-en.html][this paper]].
+However, reviewing footage from the competition used for the study, I have failed to find a single instance of the widespread technique we are discussing.
+The paper doesn't mention how it classified techniques: it seems likely that it classifies a different movement as oi-tsuki.
+
+As this [[https://www.wayofleastresistance.net/2013/02/lunge-punches-why-bother.html][post]] by Dan Djurdevic concurs that step-through lunge punches are never seen in karate competition, because they leave you too vulnerable.
+If you step through to chase an opponent, you do not punch with the lead hand but with the rear, and use the pushing motion to propel your step forward (like this https://youtu.be/6zOR34e8LDU?si=EQ0qerktSQR6xfvi&t=273).
+You could, as Dan does, classify punches executed with the lead hand and a front-heavy stance as lunge punches if you wanted to.
+I suspect that the paper above classifies cross-stepping on a reverse punch as a lunge punch for its analysis, and perhaps punching in a fencer's lunge too.
+Both these patterns of movement do not (to my knowledge) show up in traditional karate forms, certainly not as frequently as a step-through lunge punch.
+The presence of these other techniques that you could classify as lunge punches does not answer our question.
+If even in karate competitions this technique doesn't work, why is it so widespread?
+
+One interesting perspective on this comes from the channel Hein's approach to aikido.
+In aikido, defenses against lunge punches show up in a lot of practice.
+Hein provides a possible explanation for this. TODO: find the video where he does
+For arts predating aikido, a samurai engaged in hand-to-hand fighting wants to create distance to draw their sword.
+For aikido itself, someone defending themselves from attack wants to create distance to get away.
+The attacker in this context has to close the distance by any means necessary: explaining the presence of so many lunging, charging, and grabbing attacks that you learn to defend against in jujutsu-derived arts.
+Cross-stepping as you see in competitive karate does not cover as much distance in one step as a complete lunge punch (because the strike lands when the feet are parallel, not when the step is completed).
+
+This may explain defenses against lunge punches, but could it also explain the lunge punches themselves?
+For karate, maybe.
+Karate forms, at least those in shotokan, are full of big gap-closers.
+And I think there is very good evidence that traditional karate was, unlike modern competitive karate, a heavily clinch-focused style built around grabbing someone before you hit them.
+
+The kicks present in the shotokan kata I learned are only ever gap closers followed by some sort of pulling+hitting combination.
+The lunge punch, also called the 'chasing punch' may be a way of 'sticking' to a retreating attacker once you have make contact with something else.
+In shotokan, I was taught to extend my non-punching hand at the start of the movement, and pull it back on executing the punch.
+
+What about other styles in which they are present?
+Many kung fu styles show a lot of the things that I attribute to clinching in karate, but frankly I am not that well qualified to comment.
+In taekwondo and korean karate it is explainable by the influence from japanese karate.
+I shall have to let others take the lead there.
+
+What if, instead, it is a hold-over, a transfer from armed fighting?
+In longsword fencing from HEMA it is common for beginners to learn and to practice against attacks that in many respects resemble a lunge punch.
+The timing of initiation of the strike is different though - the strike begins at the start of the movement, going in front of the swordsman and protecting them as they close the distance.
+A similar movement seems to be present in kenjutsu as well.
+However, when we look at competitive venues for weapons fighting - kali, kendo, HEMA competitions, we once again see footwork more closely resembling unarmed fighting.
+The fact that the mystery of the lunge punch is echoed in armed fighting presents a problem for the explanation that the lunge punch is a holdover from armed fighting.
+Additionally, since this is true also for symmetric arts focused on dueling, like italian longsword, challenges the idea above, that it comes from an asymmetric need to close the distance.
+
+
+An alternative explanation for why these techniques are studied is offered by Dan Djurevic, who I referred to above.
+He describes a concept he calls "stem-cell" techniques.
+By this he means techniques that you do not actually use, but that teach good habits and patterns of movement that come in handy when learning the practical techniques.
+I do not find this explanation compelling.
+I can find nothing else it explains besides the presence of lunge punches in karate.
+It also does not match my experience: by lunge punching I developed the habit of moving like a lunge punch, not of moving in an actually useful way.
+It strikes me as a wild claim that by doing something wrong over and over it improves your ability to do it right.
+To me, this is a clear attempt to rationalize a way of training rather than a reasoned explanation.
+
+
+There is a final possibility: maybe it just doesn't matter that it sucks.
+Technique is subordinate to skill - timing, balance, intuition
+A movement that works your muscles well, feels good to do, and looks powerful may well be transmitted from capable fighter to capable fighter and become widespread despite teaching bad technique.
+I feel this may explain a lot of differences between what we see in older martial arts and what works best in full-contact fighting.
+
+This ties into a recent debate in Judo.
+The way you are first taught techniques, and indeed the way you mostly practice technqiues as a novice hobbyist, differs markedly from the way they are executed in competitions.
+Novice and intermediate judoka have been complaining about this for decades, and mostly been dismissed.
+Since the release of [[https://www.youtube.com/watch?v=_M9GTgz41lQ][this video]] by Cho Junho and Cho Junhyun, it is finally being taken seriously by more experienced practitioners.
+Talented, experienced athletes have been able to rationalize training like this easily - they practice that way and they're very good at what they do.
+But as the Cho brothers pointed out, experienced competitiors only do a little bit of training this way as a warm-up, and spend the bulk of their training working competitive variations.
+Novices and hobbyists in contrast are severly handicapped by this approach because they remain stuck training "basics" while not getting any better at actually throwing people.
+As someone who trained BJJ, submission grappling, and MMA before Judo the contrast is incredibly clear.
+In the former three you practice techniques the way you use them, and you also get to a basic level of competence fairly quickly.
+Judo's reputation as taking a long time to be OK at is well-earned, but it may well be largely artificial.
+
+The explanations I've always heard for putting time into learning the techniques the wrong way first always reminded me of the rationalizations I heard for karate techniques.
+Many of them resemble the explanation Dan provided for the lunge punch.
+Judo provides, in my opinion, an example of bad training persisting in a community of otherwise competent martial artists.
+Perhaps the lunge punch is nothing more than this also.

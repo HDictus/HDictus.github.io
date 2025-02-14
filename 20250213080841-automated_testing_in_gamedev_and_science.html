@@ -6,7 +6,7 @@
 <!-- 2025-02-14 Fr 15:41 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>serotonin-and-resilience</title>
+<title>automated-testing-in-gamedev-and-science</title>
 <meta name="author" content="Hugs" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -208,33 +208,89 @@
 <!-- End MailerLite Universal -->
 </div>
 <div id="content" class="content">
-<h1 class="title">serotonin-and-resilience</h1>
+<h1 class="title">automated-testing-in-gamedev-and-science</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orge86a845">The biggest challenge: change</a></li>
+<li><a href="#orged01375">uniqueness</a></li>
+</ul>
+</div>
+</div>
 <p>
-This is a stub for a topic I plan to write about, starting from this article:
+I've noticed that the use of automated testing in computational science is sparse - many researchers don't use it at all, and those who do only do so when releasing a package.
+I also have the impression that it is uncommon in game development, I think for similar reasons.
 </p>
 
 <p>
-The Deakin/Graeff hypothesis proposes that while the dorsal raphe nucleus potentiates fear and anxiety, the medial raphe nucleus instead provides resilience.
-see: <a href="20240506211828-paul_deakin_2014.html#ID-1d3f59ef-0400-46c0-bafb-b67c0fa0e463">paul-deakin-2014</a>
+I try to consistently write comprehensive tests when coding, whether doing science for work or gamedev for fun.
+I have experience applying testing consistently in both domains.
+With embarassing frequency, my discipline slips because of impatience, and I write untested code.
+Occaisionally I deliberately eschew automated testing because I feel it is unnecessary. Rarely, I have even been right.
+In both cases the challenges with automating testing are remarkably similar.
+I would like to take you through the unique challenges of applying automated testing in these domains.
+</p>
+
+
+<div id="outline-container-orge86a845" class="outline-2">
+<h2 id="orge86a845">The biggest challenge: change</h2>
+<div class="outline-text-2" id="text-orge86a845">
+<p>
+In games and science you are constantly prototyping.
+What if I make this mechanic work like <i>this</i>?
+What if I model this with a polynomial instead of linear relationship?
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orged01375" class="outline-2">
+<h2 id="orged01375">uniqueness</h2>
+<div class="outline-text-2" id="text-orged01375">
+<p>
+Game development especially is usually a domain with lots of exceptions.
+Most games have scripted elements, cases in which something specific has to happen just once.
+Similarly in science, in my experience, a lot of your work is in throwaway scripts - programs that transform a specific dataset and spit out a specific output and are (in theory) never used again.
+</p>
+
+<p>
+This makes it very tempting to periodically run the program as you build it and manually check that it is working.
+If the script genuinely is one-use and independent of other tools you can get away with this.
+If you are indeed very careful in your manual testing, checking everything that could be wrong as you go, you can be confident that your program works.
+But if you missed something, and have to go back and change things again, how will that affect the other parts of your program?
+If the script is sufficiently complicated, it is hard to be sure you won't break as much as you fix.
+In that event, having broken down your script into tested functions will save you a great deal of time.
+A nice middle ground is to insert assertions in the script itself - checking at each step that assumptions are respected and the values make sense.
+Still, unit tests that explicitly check edge cases for the different functions give a better guarantee of correctness.
+</p>
+
+<p>
+In practice, I've found that things you think are throwaway scripts rarely are.
+You may decide later to rerun it on a different dataset, or rerun it slighly differently.
+Moreover, chunks of code you put in your throwaway script are always useful elsewhere, and you save considerable time by reusing them.
 </p>
 
 
 <p>
-<a href="https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub">https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub</a>
-<a href="https://journals.sagepub.com/doi/abs/10.1177/0269881113490328">https://journals.sagepub.com/doi/abs/10.1177/0269881113490328</a>
-<a href="https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_4">https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_4</a>
-<a href="https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q">https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q</a>
-<a href="https://www.sciencedirect.com/science/article/pii/S0006899309006064?casa_token=blYozbOvy5MAAAAA:WQ13whmBCh9TKQP6rS0xVk4YEOA8OYx1znGFJtNML4gwK7-h5LvAnTViyLiSlZyvA5N-TOfOgQ">https://www.sciencedirect.com/science/article/pii/S0006899309006064?casa_token=blYozbOvy5MAAAAA:WQ13whmBCh9TKQP6rS0xVk4YEOA8OYx1znGFJtNML4gwK7-h5LvAnTViyLiSlZyvA5N-TOfOgQ</a>
-<a href="https://www.jneurosci.org/content/40/3/569.abstract">https://www.jneurosci.org/content/40/3/569.abstract</a>
-<a href="https://link.springer.com/chapter/10.1007/7854_2010_109">https://link.springer.com/chapter/10.1007/7854_2010_109</a>
-<a href="https://journals.sagepub.com/doi/abs/10.1177/026988119100500414">https://journals.sagepub.com/doi/abs/10.1177/026988119100500414</a>
-<a href="https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q">https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q</a>
+Copy-pasting this code is risky.
+If you change your mind on what kinds of assumptions you want to make, or what formulae you are using for a given calculation you now have to remember whether and where you pasted this code to.
+If you don't, you run the risk of being logically inconsistent in your analysis and possibly harming the validity of your results.
+Best is to put it in a module somewhere, test it, and re-use it by importing the module.
+You don't have to do this right away - it would be a waste of time, and bloat your modules, to do this with chunks of code you never reuse.
+But the unit tests are best written right away, alongside the code itself.
+Not only do they help you write clearer code upfront, but it also ensures you write the function in a testable way.
+Adding unit tests later is always more work than adding them upfront.
 </p>
 
 <p>
-counterpoint:
-<a href="https://www.nature.com/articles/s41467-022-35346-7">https://www.nature.com/articles/s41467-022-35346-7</a>
+In my game, I have a few scripted sequences that I nonetheless tested.
+Each of these sequences relies on game mechanics that were already implemented, game mechanics that are subject to change.
+If I decide to modify how they work, and it breaks a scripted sequence, I would like to be notified.
+It might show up in
 </p>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <div class="ml-embedded" data-form="UcmPfz"></div>

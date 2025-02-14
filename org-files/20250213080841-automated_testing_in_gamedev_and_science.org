@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       75493881-e118-49a3-bf70-403cb76dcc19
+:END:
+#+title: automated-testing-in-gamedev-and-science
+
+I've noticed that the use of automated testing in computational science is sparse - many researchers don't use it at all, and those who do only do so when releasing a package.
+I also have the impression that it is uncommon in game development, I think for similar reasons.
+
+I try to consistently write comprehensive tests when coding, whether doing science for work or gamedev for fun.
+I have experience applying testing consistently in both domains.
+With embarassing frequency, my discipline slips because of impatience, and I write untested code.
+Occaisionally I deliberately eschew automated testing because I feel it is unnecessary. Rarely, I have even been right.
+In both cases the challenges with automating testing are remarkably similar.
+I would like to take you through the unique challenges of applying automated testing in these domains.
+
+
+* The biggest challenge: change
+
+In games and science you are constantly prototyping.
+What if I make this mechanic work like /this/?
+What if I model this with a polynomial instead of linear relationship?
+
+
+* uniqueness
+
+Game development especially is usually a domain with lots of exceptions.
+Most games have scripted elements, cases in which something specific has to happen just once.
+Similarly in science, in my experience, a lot of your work is in throwaway scripts - programs that transform a specific dataset and spit out a specific output and are (in theory) never used again.
+
+This makes it very tempting to periodically run the program as you build it and manually check that it is working.
+If the script genuinely is one-use and independent of other tools you can get away with this.
+If you are indeed very careful in your manual testing, checking everything that could be wrong as you go, you can be confident that your program works.
+But if you missed something, and have to go back and change things again, how will that affect the other parts of your program?
+If the script is sufficiently complicated, it is hard to be sure you won't break as much as you fix.
+In that event, having broken down your script into tested functions will save you a great deal of time.
+A nice middle ground is to insert assertions in the script itself - checking at each step that assumptions are respected and the values make sense.
+Still, unit tests that explicitly check edge cases for the different functions give a better guarantee of correctness.
+
+In practice, I've found that things you think are throwaway scripts rarely are.
+You may decide later to rerun it on a different dataset, or rerun it slighly differently.
+Moreover, chunks of code you put in your throwaway script are always useful elsewhere, and you save considerable time by reusing them.
+
+
+Copy-pasting this code is risky.
+If you change your mind on what kinds of assumptions you want to make, or what formulae you are using for a given calculation you now have to remember whether and where you pasted this code to.
+If you don't, you run the risk of being logically inconsistent in your analysis and possibly harming the validity of your results.
+Best is to put it in a module somewhere, test it, and re-use it by importing the module.
+You don't have to do this right away - it would be a waste of time, and bloat your modules, to do this with chunks of code you never reuse.
+But the unit tests are best written right away, alongside the code itself.
+Not only do they help you write clearer code upfront, but it also ensures you write the function in a testable way.
+Adding unit tests later is always more work than adding them upfront.
+
+In my game, I have a few scripted sequences that I nonetheless tested.
+Each of these sequences relies on game mechanics that were already implemented, game mechanics that are subject to change.
+If I decide to modify how they work, and it breaks a scripted sequence, I would like to be notified.
+It might show up in
+

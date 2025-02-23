@@ -10,25 +10,100 @@ It's a bit white knighty, and oh god do I hate how much I loved that.
 
 
 As the name suggests, Hitman: Absolution is a stealth assassination game.
-You're a tough, scary-looking dude with a garotte and a bunch of guns, and your objective is to assassinate a target with as little collateral as possible.
+You're a tough, scary-looking dude with a garotte and a bunch of guns, and your objective is to assassinate a target with as few other casualties as possible.
 The plot centers on a young girl who has been genetically engineered to be the perfect assassin.
-Following your coworker's last wish you seek to help her escape the organization - your employer - who created her and spare her the life you lived.
+Following your coworker's last wish you seek to help her escape the organization who created her - your employer - and spare her the life you lived.
 It doesn't take long for her to be kidnapped from your care, and the bulk of the game is a string of missions in pursuit of her, leaving a minimum of one corpse per mission in your trail.
 (If you're bad at the game, or just impatient, you leave several hundred corpses.)
 
 The game positions you as (among other things), a gentleman protecting women from a slew of misogynistic villains.
 It provides a power fantasy blatantly pandering to young men, and meanwhile provides very little agency to the women in its story.
-But progressive politics permeate it and the game clearly doesn't want to be misogynistic in doing this.
+But progressive politics permeate it and the game clearly doesn't intend to be misogynistic with what it is doing.
 
 Fortunately, it doesn't sexualize the girl being protected.
-No, this is much more a paternal protectiveness, very popular in many games at the time (the last of us, bioshock infinite).
+No, this is much more a paternal protectiveness, very popular in other games at the time (the last of us, bioshock infinite).
 If you thought that the genetically engineered super-assassin would be some sort of badass in the story, you would be surprised.
 She is entirely helpless without a certain necklace - which her captors wisely keep far from her person.
 She therefore spends almost all the game as a limp, half-sleeping mcguffin.
 
 Oh she does cut loose once, in a hilariously pointless scene towards the very end of the game.
-For no disclosed reason she is suddenly wearing her necklace, and when grabbed from behind goes full john wick and kills a buncha guys.
+For no disclosed reason she is suddenly wearing her necklace, and when grabbed from behind goes full John Wick and kills a buncha guys.
 Then she is grabbed from behind exactly the same way, and captured again like nothing happened.
 Oops, we left Chekov's gun lying around! Quick, shoot it before the story ends!
 
-Other female characters show up, on the arm of a bad guy 
+Other female characters show up, on the arm of a bad guy, or employed by him in an abusive strip club.
+Their agency is limited not just by the men around them, but also by the design of the game: it is about the player's experience.
+Their inner lives and struggles are sometimes portrayed, but their actions seldom affect the plot.
+This kind of blind misogyny is common for the era of gaming: the player is assumed male, assumed straight, and their experience is naturally the important thing to focus on.
+Men besides the player are given power: they are the antagonists after all, and the power they wield to get in the player's way is how the gameplay happens.
+Women however are either eye candy, inanimates to be saved, or both.
+(There is a brief appearance of killer nuns, which do buck this trend, but since they are sexy nuns and not actually plot-relevant, I feel the point stands.)
+
+Playing the game, I saw progressive ideas embedded in its plot and worldbuilding, though it is more accurate to say anti-progressive ideas are embedded in its villains.
+The enemies embody the corruption of big businessess and the police, the exploitation of sex workers, sexism and racism.
+They capture and torture a journalist, calling him a "bleeding heart".
+Before Gamergate happened, I felt that this was the case for gaming culture in general: progress good, sexism and racism bad.
+So what happened, in my view, when the inadvertent sexism in the medium was pointed out, is that a lot of young men were blindsided.
+"What, I'm not sexist, I'm the Good Guy. It's the Bad Guys that are sexist. All this effort saving the princess and this is the thanks I get?"
+Of course, not in those words.
+
+I've had discussions with young men online who state that they feel unwelcome in the left because it has no role for them to fill except aggressor or silent listener.
+And to be fair there are good reasons for that, but it's not much of a sales pitch is it?
+Come to the light side, we have guilt and lectures.
+What is this, a church? I thought lefties didn't like religion?
+
+A white knight story provides a satisfying role for a man to play in the fight against sexism.
+And the problem with male-centered power fantasies was never their existence, but their ubiquity.
+For a long time if a game was anything else it was lucky to get made at all, let alone have a good budget and marketing.
+It may reflect a change in my taste rather than the games themselves, but I feel like this style of power fantasy has vanished entirely.
+That wasn't necessary.
+
+
+Of course, there are two other issues with this: /that/ it is cringe, and /why/ it is cringe.
+The white knight, or "nice guy" stereotype refers to a disingenous man who pretends to respect women.
+If he isn't sufficiently appreciated for it, he gets upset and in the process reveals he didn't respect women in the first place.
+It's pretty much the caricature I created above to explain gamergaters, really.
+
+
+
+
+ - progressive game
+ - player made to feel good about being more progressive
+ - misogyny is blind, blundering
+ - players blindsided by criticism
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yes, that strip club, for veterans of the gamergate era.
+The stripclub level in Hittman: Absoution was infamously misrepresented by the feminist critic Anita Sarkeesian.
+(TODO: go watch her video to make sure I'm not misremembering how she misrepresented it.)
+She characterized it as encouraging a fantasy of creeping around killing strippers: that the stripper characters are there to be objects of violence.
+In fact, killing any of the strippers is penalized, and unlikely to ever be necessary to accomplish your goal.
+She was roundly criticized for this.
+In the avalanche of harassment thrown her way, this was one of the rare legitimate criticisms buried in it.
+
+The strippers are still objects in the game though, just not objects of violence.
+Their purpose is to draw the player's pity and hype them up to kill the abusive boss, who is the target in this level.
+
+
+
+
+
+
+

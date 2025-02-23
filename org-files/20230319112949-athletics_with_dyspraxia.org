@@ -5,12 +5,12 @@
 
 
 [[id:2a4d5c06-28a1-4492-ae3c-1164a1826c8a][Dyspraxia]] is a learning disorder in which (among other things) motor learning and spatial reasoning are impaired.
+We also have slacker muscle tone.
+Our balance, coordination, and posture require additional maintenance compared to the average person.
 Exercise is important for everyone, but for people with dyspraxia it is arguably more important.
 It is also more frustrating, because we are almost always bad at it.
-I'd like to tell my story of training in martial arts for fifteen years and the difficulties I've faced as a consequence.
-I'd like to warn you that this one is likely to be on the self-indulgent side.
-It's mostly to organize my thoughts and review the strategies I've used to keep training.
-Hopefully I can come up with some reccomendations on how to deal with that, but that'd be a bonus.
+I'd like to tell my story of training in martial arts for over fifteen years and the difficulties my dyspraxia posed.
+I'm hoping to provide insight that dyspraxics can use to continually have fun in sports they suck at, and trainers can use to better serve the clinically talentness.
 
 At all points in my life I have practiced some kind of sport.
 As a child I did this reluctantly, until I took and interest in martial arts at age 14.
@@ -128,7 +128,7 @@ Most important however was my own psychological approach to training and where i
 It would be years before I knew what that was or how it could explain my inaction during sparring.
 I simply concluded I was very slow to react and innately unsuited to kickboxing.
 
-non-combat sports never hold my interest for long.
+Non-combat sports never hold my interest for long.
 I need to stay in shape somehow, and martial arts are the only steady athletic interest I have.
 Dropping martial arts altogether never crossed my mind - I decided I just wasn't suited to striking.
 I've got a slow build, and slow reflexes besides.
@@ -175,6 +175,13 @@ Then, I declined.
 I added more training to my regeime : gongkwon yusul twice a week for a total of 10 hours a week of training.
 I declined further.
 
+* A critical juncture
+
+I try different ways to get better, and eventually give up on becoming good.
+I change my approach.
+It isn't easy to change my mindset.
+
+* Conclusions: what can you learn from my experience?
 
 relevant https://www.youtube.com/watch?v=2SY8VbiI1BU
 
@@ -186,7 +193,7 @@ My own experience suggests that this isn't enough: over and over I compared myse
 Instead, perhaps you should carry on trying to improve, knowing and accepting you will fail.
 No. I think that is a psychological contradiction.
 
-The neural circuits that drive us to move, to act, are encode reward expectations.
+The neural circuits that drive us to move, to act, encode reward expectations.
 Trying is doing something under the belief that doing so will get a particular outcome.
 
 

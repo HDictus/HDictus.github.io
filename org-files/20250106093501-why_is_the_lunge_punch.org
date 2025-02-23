@@ -5,7 +5,7 @@
 
 If you've done karate, taekwondo, or most styles of kung fu for any length of time, you have seen something like this:
 
-[[yt:CQdYtXsOYLs?si=grU4uLa4emIlfXpz&t=9]]
+[[yt:CQdYtXsOYLs?start=9]]
 
 The practitioner steps forward into a lunge and punches with the same hand as the stepping leg.
 This is a basic technique, part of the bread and butter of styles like shotokan.
@@ -29,14 +29,19 @@ However, reviewing footage from the competition used for the study, I have faile
 The paper doesn't mention how it classified techniques: it seems likely that it classifies a different movement as oi-tsuki.
 
 This blog [[https://www.wayofleastresistance.net/2013/02/lunge-punches-why-bother.html][post]] by Dan Djurdevic concurs that step-through lunge punches are never seen in karate competition, because they leave you too vulnerable.
-If you step through to chase an opponent, you do not punch with the lead hand but with the rear, and use the pushing motion to propel your step forward (like [[https://youtu.be/6zOR34e8LDU?si=EQ0qerktSQR6xfvi&t=273][this]]).
+If you step through to chase an opponent, you do not punch with the lead hand but with the rear, and use the pushing motion to propel your step forward.
+
+(like [[yt:6zOR34e8LDU?start=273&end=275]])
+
 You could, as Dan does, classify punches executed with the lead hand and a front-heavy stance as lunge punches if you wanted to.
 I suspect that the paper above classifies cross-stepping on a reverse punch as a lunge punch for its analysis, and perhaps punching in a fencer's lunge too.
 Both these patterns of movement do not (to my knowledge) show up in traditional karate forms, certainly not as frequently as a step-through lunge punch.
 The presence of these other techniques that you could classify as lunge punches does not answer our question.
 If even in karate competitions this technique doesn't work, why is it so widespread?
 
-One interesting perspective on this comes from the channel [[https://youtu.be/aA5KerxdwCQ?si=nqVWZtulf47Bz20a&t=212][Hein's approach to aikido]].
+One interesting perspective on this comes from the channel Hein's approach to aikido.
+[[yt:aA5KerxdwCQ?start=212&end=229]]
+
 In aikido, defenses against lunge punches show up in a lot of practice.
 Hein provides a possible explanation for this.
 For arts predating aikido, a samurai engaged in hand-to-hand fighting wants to create distance to draw their sword.
@@ -66,11 +71,18 @@ I shall have to let others take the lead there.
 
 What if, instead, it is a hold-over, a transfer from armed fighting?
 In longsword fencing from HEMA it is common for beginners to learn and to practice against attacks that in many respects resemble a lunge punch.
+
+[[yt:dvu-XUu2ytY]]
+
 The timing of initiation of the strike is different though - the strike begins at the start of the movement, going in front of the swordsman and protecting them as they close the distance.
 A similar movement seems to be present in kenjutsu as well.
-However, when we look at competitive venues for weapons fighting - kali, kendo, HEMA competitions, we once again see footwork more closely resembling unarmed fighting.
+However, when we look at competitive venues for weapons fighting - kali, kendo, HEMA competitions, this footowork is once again exceedingly rare.
+
+[[yt:U0IyAG-a1is]]
+[[yt:uWa8KSnfZNg]]
+
 The fact that the mystery of the lunge punch is echoed in armed fighting presents a problem for the explanation that the lunge punch is a holdover from armed fighting.
-Additionally, since this is true also for symmetric sword arts focused on dueling, like italian longsword, challenges the idea above, that it comes from an asymmetric need to close the distance.
+Additionally, since this is true also for symmetric sword arts focused on dueling, like italian longsword, this fact challenges the idea presented by Hein, that lunging comes from an asymmetric need to close the distance.
 
 
 A different explanation for why these techniques are studied is offered by Dan Djurevic, who I referred to above.
@@ -91,7 +103,9 @@ I feel this may explain a lot of differences between what we see in older martia
 This ties into a recent debate in Judo.
 The way you are first taught techniques, and indeed the way you mostly practice technqiues as a novice hobbyist, differs markedly from the way they are executed in competitions.
 Novice and intermediate judoka have been complaining about this for decades, and mostly been dismissed.
-Since the release of [[https://www.youtube.com/watch?v=_M9GTgz41lQ][this video]] by Cho Junho and Cho Junhyun, it is finally being taken seriously by more experienced practitioners.
+Since the release of a video by Cho Junho and Cho Junhyun, it is finally being taken seriously by more experienced practitioners.
+
+[[yt:_M9GTgz41lQ?start=14]]
 
 Talented, experienced athletes can easily rationalize training the traditional way - they practice that way and they're very good at what they do.
 But as the Cho brothers pointed out, experienced competitiors only do a little bit of traditional training as a warm-up, and spend the bulk of their training working competitive variations.

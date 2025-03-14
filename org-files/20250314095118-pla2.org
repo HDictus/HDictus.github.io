@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       08ef41b2-e9b3-41d0-b4cb-6ea12bd6c4a3
+:END:
+#+title: PLA2
+(stub)
+
+releases arachidonic acisd 

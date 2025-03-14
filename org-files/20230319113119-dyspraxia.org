@@ -3,3 +3,6 @@
 :END:
 #+title: dyspraxia
 
+(stub)
+
+A learning disorder which affects motor learning, planning, and spatial reasoning.

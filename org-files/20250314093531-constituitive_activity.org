@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c4b19e8b-40f8-45c0-a689-2ceae54f78fe
+:END:
+#+title: constituitive-activity
+
+(biochemistry) Refers to the baseline activity that receptor proteins exhibit without of the chemical that activates them.
+

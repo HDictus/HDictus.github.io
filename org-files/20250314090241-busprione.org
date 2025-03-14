@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2f3445c9-87ec-4286-b925-99719844b76e
+:END:
+#+title: busprione
+
+An antagonist for 5HT1A receptors

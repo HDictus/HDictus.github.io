@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6fe4d9f7-c939-4a1c-ab01-680c3e78ffcf
+:END:
+#+title: GSK
+(stub)

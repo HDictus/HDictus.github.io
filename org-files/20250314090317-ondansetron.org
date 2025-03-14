@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2828a126-21bb-4697-80e6-dfd412506f5f
+:END:
+#+title: ondansetron
+
+A 5HT3 antagonist

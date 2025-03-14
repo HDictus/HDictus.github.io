@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e0eba6b7-4303-4cea-bdff-840e2ac77bae
+:END:
+#+title: serotonin-results-compilation
+
+(incomplete list)
+
+ - prediction-error activity in DRN ([[id:9801d89b-3de0-4d60-b2f8-b0d9b26957d0][Matias-activity-2017]])
+ - LHb inhibits DRN 5HT release, LHb inactivation prevents stress-related behaviors ([[id:9f3f755b-5764-41ea-a709-44e2f51e1ad4][fischer-update-2017]])
+ - silencing DRN GABA neurons prevents development of behavioral avoidance ([[id:9f3f755b-5764-41ea-a709-44e2f51e1ad4][fischer-update-2017]])
+
+   

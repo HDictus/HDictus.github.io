@@ -13,3 +13,4 @@ I could shuffle preexisting maps, and just ignore the characters already on them
 The thing is I don't have any convenient way of ignoring characters added.
 
 I think I need to rework the map loading a bit for this to work.
+[[id:d38911c7-817b-4212-840c-ed4c62191eef][devlog-20250302]]

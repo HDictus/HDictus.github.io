@@ -6,9 +6,9 @@
 Frick et al. examine [[id:a13dcc9a-91d5-46a1-aa2b-4c960626f1f7][reversal-learning]] under the effects of various serotoninergic medications.
 
 They find that
- - 10 mg/kg fluoxetine (reuptake inhibitor) impairs acquisition and improves reversal.
- - 10 mg/kg tianepentine (reuptake enhancer) improved acquisition and impaired reversal
- - 10 mg/kg busprione (5HT1A agonist) impaired acquisiion, no effect on reversal
- - 1 mg/kg risperidone (5HT2A antagonist) impaired acquisition and improved reversal
- - 2 mg/kg ondansetron (5HT3 antagonist) impaired acquisition and improved reversal
+ - 10 mg/kg [[id:6d75d8e3-d2eb-48d8-8a7d-7a2f2fc94bac][fluoxetine]] (reuptake inhibitor) impairs acquisition and improves reversal.
+ - 10 mg/kg [[id:74c08d11-ded9-472c-a043-864c222595b1][tianepentine]] (reuptake enhancer) improved acquisition and impaired reversal
+ - 10 mg/kg [[id:2f3445c9-87ec-4286-b925-99719844b76e][busprione]] (5HT1A agonist) impaired acquisiion, no effect on reversal
+ - 1 mg/kg [[id:29c169e2-008c-41e7-98cb-7313121c59f5][risperidone]] (5HT2A antagonist) impaired acquisition and improved reversal
+ - 2 mg/kg [[id:2828a126-21bb-4697-80e6-dfd412506f5f][ondansetron]] (5HT3 antagonist) impaired acquisition and improved reversal
 

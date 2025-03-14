@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6d75d8e3-d2eb-48d8-8a7d-7a2f2fc94bac
+:END:
+#+title: fluoxetine
+
+Sold under the name Prozac, floxetine is an antidepressant.
+It acts as a [[id:7213a316-4d8b-4fa5-af73-abbd448920c3][selective serotonin reuptake inhibitor]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       29c169e2-008c-41e7-98cb-7313121c59f5
+:END:
+#+title: risperidone
+
+A 5HT2A receptor antagonist.
+

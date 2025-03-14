@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b8bb7c91-f869-441d-97f8-37f98ea60440
+:END:
+#+title: G-alpha-13
+A G protein

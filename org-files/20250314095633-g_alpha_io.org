@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       d0ea6810-6e82-4665-836d-ecfc778778b8
+:END:
+#+title: G-alpha-io
+A G-protein, I assume.

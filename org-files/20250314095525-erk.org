@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8095f53a-f4fc-4a58-a20b-5ebf9e5a5e92
+:END:
+#+title: ERK
+(stub) ??
+
+Affects gene transcription.

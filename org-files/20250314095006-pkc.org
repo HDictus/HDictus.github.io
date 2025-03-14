@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0d1d90f2-68f9-43e8-abd5-3ba44286ce3f
+:END:
+#+title: PKC
+(stub)
+a biochemical molecule important for synaptic plasticity.

@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       3cbc02ec-479a-4c4f-b1e3-44dbffd4069e
+:END:
+#+title: devlog-20250313
+
+Today, while my program for work runs I've been working on the game a little.
+
+I think how I'm applying the info from the two talks about testing is going to come in handy.
+
+Consider the tests introduced for Enno: while implementing the funcionality for the first one, I realized I needed a general functionality for allowing attacks to target different positions.
+This is a detail regarding how I want to satisfy Enno's behavior requirements, but I test it anyway.
+But I still test it in the most high-level way that is practical.
+High-level and unitary are in this case not opposed, but identical: by testing it in a high level way I am ensuring I test only the behavior of interest, and not associated behaviors.
+
+The way you can see this is by considering the 'user' of what you develop now to not just be the end user.
+You, or others, working on the project down the line will also be 'users' of the code.
+Requirements to make the code easy enough to work with down the line are software behaviors important enough to test.
+
+
+
+

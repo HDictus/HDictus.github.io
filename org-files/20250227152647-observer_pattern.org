@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       67af4334-012d-4cb0-b257-b7be7d911e78
+:END:
+#+title: observer-pattern
+The observer pattern is a software design pattern in which an arbitrary number of objects are subscribed to observe events emitted by another object.
+For instance, you may create an object Subscriber
+
+```
+class Subscriber:
+
+    def read_post(self, post):
+        print(self, "read", post)
+
+```
+
+Which observes
+
+```
+class Blogger:
+
+   def __init__(self):
+      self.subscribers = []
+
+   def emit_post(self, post):
+       for sub in self.subscribers:
+           sub.read_post(self, post)
+
+   def add_subscriber(self, subscriber):
+       self.subscribers.append(subscriber)
+
+```
+
+like this:
+
+```
+blogger = Blogger()
+subscriber1 = Subscriber()
+subscriber2 = Subscriber()
+blogger.add_subscriber(subscriber1)
+blogger.add_subscriber(subscriber2)
+```
+
+
+This way of doing things allows a loose coupling between different objects.

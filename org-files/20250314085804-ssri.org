@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       7213a316-4d8b-4fa5-af73-abbd448920c3
+:END:
+#+title: SSRI
+
+Selective Serotonin reuptake inhibitor.
+Drugs of this type reduce the rate at which serotonin is reabsorbed into neurons, thereby increasing the effect that the absorbed serotonin has.
+Many of them also directly activate some serotonin receptors.
+

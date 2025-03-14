@@ -1,0 +1,81 @@
+:PROPERTIES:
+:ID:       d38911c7-817b-4212-840c-ed4c62191eef
+:END:
+#+title: devlog-20250302
+
+
+I haven't been keeping up in the practice of devlogging.
+I've noticed that my capacity to reflect on how things are working out is fairly impaired on this project now.
+When it comes to writing about the testing strategy, why I do things one way and not another, I find my thinking is not the clearest.
+This would probably have been helped by more consistently writing about my thought process.
+
+Speaking of testing, that is most of what I've worked on today.
+I wanted to build tests for the new boss, Enno and add his attack pattern by so doing.
+However, it had been a long time since I ran tests and so many of them were broken.
+
+First there were some tests related to the victory and score systems.
+I'd changed how I represented score at the end of levels - brekaing it down into wellbeing, efficiency, etc.
+The tests still assumed a single number.
+
+This is an interesting case where the desired functionality presented to the player in these scenarios hadn't really changed.
+Rather, it was how I stored score under the hood.
+This was not a true acceptance test, and therefore was a litle brittle.
+But I'm not sure if it could have been avoided in this case.
+I have to test how the representation of score is altered at different points to ensure that it is consistent.
+I suppose I could have handled this at the model_language level instead, by having it modify the internal representation.
+However, in these test scenarios it is absolutely relevant which part of the score representation is affected (wellbeing specifically.)
+
+For some tests of experience gaining, it didn't know how to deal with characters for which there was no experience established.
+I just make i assume that if experience is nil it defaults to 0.
+
+
+I just remembered I don't have tests for deaths or efficiency in the score.
+
+
+The next set of issues were in stamina.
+These were simple issus of brittleness: these tests operated on the system in isolation.
+I don't remember exactly what it couldn't handle, but either way I adjusted the fialing tests to use the model language.
+
+Then there were failing tests in test_speak_to
+These may pose a challenge to how I conceptualize testing here.
+Let's see:
+
+Ah, that was simple. I made Aziorgh speak more slowly, so the time given in the test wasn't long enough.
+That's a known issue: one I do not yet know how to address.
+
+Next there are some savedata-related errors in testing.
+The format of the savedata changed - it now has a 'stats' attr
+
+There were some broken tests of the particle system.
+Ah, becuase I added a shockwave, I couldn't find the appropriate particle system with my approach.
+There are two on the same spot.
+I don't know what the correct way to handle this is - I've disabled the test.
+
+I don't understand the issue with test_map, it seems that some polygons changed and the test was hardcoded...
+This test just wasn't well constructed.
+
+Some problems in load_map, related to tile loading.
+looks like I didn't do testing when I changed how maps work.
+That's on me.
+
+Ahaha I wasn't loading unnavigable terrain!
+The test did catch that but I didn't run it!
+GFuck you hugo!
+it explains stuff.
+
+Likewise, I changed the duration of conversation, so conversationsystem tests broke.
+That's intended.
+Another breaking test in conversation system:
+I added the possibility of non-blocking conversations.
+By default, a conversation is marked as blocking.
+This means that conversation parsing tests needed, in their output, to specify blocking.
+Srictly this maybe isn't great? beacuse its not what those tests test.
+On the other hand, we do need the parser to correctly acknowledge which ones are unblocked.
+But no, that should really be its own test.
+
+I think I'll make my standard for running the game love src test && love src
+
+
+I don't see a useful theme in these failures. Shame.
+
+

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d4e8eb97-6b87-446b-9010-76f2a041e7c2
+:END:
+#+title: PLD
+
+(stub)
+
+phospholipase D
+

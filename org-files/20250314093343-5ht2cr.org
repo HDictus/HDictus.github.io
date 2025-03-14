@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       0b498723-ec70-4698-a593-4535b6f2c9e1
+:END:
+#+title: 5HT2CR
+
+Serotonin 2C receptor.
+
+It has a high level of [[id:c4b19e8b-40f8-45c0-a689-2ceae54f78fe][constituitive-activity]]  (
+    according to https://www.sciencedirect.com/science/article/pii/S0165614705002749
+   )
+
+from https://www.sciencedirect.com/science/article/pii/S0278584615300713?casa_token=VFmuALa6CAIAAAAA:R8ZpLA-uy_mCkuZb-BMqdEBqDuggQcl3A5uPNAlP31uLDN8GV1z6fO7CVa7_k008abHX87Ocfk8i:
+The 5HT2C receptor stimulates the release of calcium from stores inside the cell and can activate [[id:0d1d90f2-68f9-43e8-abd5-3ba44286ce3f][protein kinase c]]
+It may also activate [[id:08ef41b2-e9b3-41d0-b4cb-6ea12bd6c4a3][phospolipase A2]] releasing [[id:b2b6d526-f9f8-4447-9b15-fe0567966383][arachidonic-acid]].
+It may also release [[id:d4e8eb97-6b87-446b-9010-76f2a041e7c2][PLD]] by [[id:b8bb7c91-f869-441d-97f8-37f98ea60440][G\alpha13]],   "converging towards (?)" [[id:0d1d90f2-68f9-43e8-abd5-3ba44286ce3f][PKC]] leading to [[id:8095f53a-f4fc-4a58-a20b-5ebf9e5a5e92][ERK]]
+It may also activate [[id:8095f53a-f4fc-4a58-a20b-5ebf9e5a5e92][ERK]] by [[id:d0ea6810-6e82-4665-836d-ecfc778778b8][G\alpha i/o]] leading to [[id:a62b60e4-b00d-4d2d-9573-2b941eeedddc][P13K]] [[id:6fe4d9f7-c939-4a1c-ab01-680c3e78ffcf][GSK]]-3\beta cascade, affecting gene transcription.  
+
+

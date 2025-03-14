@@ -9,9 +9,137 @@ I also have the impression that it is uncommon in game development, I think for 
 I try to consistently write comprehensive tests when coding, whether doing science for work or gamedev for fun.
 I have experience applying testing consistently in both domains.
 With embarassing frequency, my discipline slips because of impatience, and I write untested code.
-Occaisionally I deliberately eschew automated testing because I feel it is unnecessary. Rarely, I have even been right.
-In both cases the challenges with automating testing are remarkably similar.
-I would like to take you through the unique challenges of applying automated testing in these domains.
+Occaisionally I deliberately eschew automated testing because I feel it is unnecessary.
+Rarely, I have even been right about this.
+
+Computational modeling and game development have something in common, in that both involve constructing and simulating an artificial world.
+In computational modeling you want this artificial world to accurately reflect some part of the real world.
+In game development this is often true as well, but the departures from reality are usually as important, if not more so, than the similarities.
+
+The reasons that automated testing is uncommon in both also comes down to similar reasons.
+This is doubly true as data-oriented design, essential to cache efficient performance in HPC, catches on in game development.
+I'd like to take you through the development of my upcoming game and the challenges I encountered with automated testing.
+I believe these lessons can be applied as well to computaional science.
+
+* Background: Concord ECS
+
+I used an entity-component-system (ECS) package called Concord for the game.[todo link]
+In an ECS the game logic is encoded in objects called systems.
+Systems should not, in principle, contain state: that is stored in the entities and components.
+
+Concord uses the [[id:67af4334-012d-4cb0-b257-b7be7d911e78][observer-pattern]] to manage these systems.
+Each system is an object with a few defined methods, for instance:
+
+```
+PhysicsSystem = Concord.system({collidable={'hitbox'}})
+
+function PhysicsSystem:update(dt)
+end
+
+function PhysicsSystem:collision(entity, other)
+end
+
+```
+
+The system is then subscribed to the game world
+
+```
+world = Concord.world()
+world.addSystem(PhysicsSystem)
+```
+
+And events are subsequently emitted by the world, such that
+
+```
+world:emit("update", 0.1)
+```
+will result in ```PhysicsSystem:update(0.1)``` being called.
+
+Components are where all the world's state is stored.
+You might have a position component, and a rotation component, or a `transform` component with `transform.position` and `transform.rotation`.
+Components are attached to entities, and this is how objects in the world are resolved: they are nothing more than a cluster of components.
+
+* Early on: brittle unit testing
+
+Since the game logic is contained in the systems, when I started automated testing I initially treated these as units and tested them.
+Each system has filters attached, which contain the entities that have particular components.
+The systems only operate on the contents of these filters, so by setting the filters, calling the system's methods, and then examining the contents of the filters I was able to unit test their behavior.
+However, I quickly ran into problems.
+
+Not only were these tests quite tedious to write: specifying all the components in the filters and mocking interactions between the world and system, but they failed to catch most of the important bugs and were incredibly brittle.
+In improving the structure of the code I was constantly moving functionality from one system to another, or splitting it off into new systems, and this always meant rewriting tests even though the behavior of the program as a whole didn't change.
+Since all interactions between systems were indirect the specifics of how each individual system worked were also not that essential to keeping the game bug-free.
+Over time I ended up changing all my brittle tests to scenario based tests instead.
+
+
+
+
+
+
+* Challenge and reward in prototyping
+
+One of the similarities between game development and science is the importance of prototyping.
+You frequently want to try stuff to see if it will work.
+By testing the general behavior of the game I actually go useful feedback on how a proposed change to the mechanics would interact with the esablished scenarios.
+
+1. the intervening world
+   I often found that I wanted my systems to prompt the world to emit events, and call the designated event.
+   I now needed to mock this behavior of the world.
+   
+2. shifting responsibilities
+
+3. addition of components
+
+Two of these are only relevant with this architecture, but 2 would be with any advanced object-oriented system as well.
+You should be revising the responsibilities of objects as you get a clearer picture of what needs doing.
+This was primarily an issue early on.
+Later in the development process, unit testing becomes stronger again.
+
+
+
+A challenge that is more strong for computational science is the lack of encapsulation.
+Preventing brittleness of testing requires hiding implementation details in testing.
+Hiding details about how data is stored and accessed incurs computational costs, which is often prohibitive for computational work.
+Computational models often keep representations of data very direct rather than hiding it behind abstractions for this reason.
+
+
+
+
+The first and main reason is changeability : you're constantly trying things out to see if they work: the intended behavior of the program changing constantly rather than the implementation.
+This makes testing harder to justify because you may not keep the feature you're implementing anyway.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 * The biggest challenge: change
@@ -35,8 +163,8 @@ If the script is sufficiently complicated, it is hard to be sure you won't break
 In that event, having broken down your script into tested functions will save you a great deal of time.
 A nice middle ground is to insert assertions in the script itself - checking at each step that assumptions are respected and the values make sense.
 Still, unit tests that explicitly check edge cases for the different functions give a better guarantee of correctness.
-
 In practice, I've found that things you think are throwaway scripts rarely are.
+
 You may decide later to rerun it on a different dataset, or rerun it slighly differently.
 Moreover, chunks of code you put in your throwaway script are always useful elsewhere, and you save considerable time by reusing them.
 
@@ -54,4 +182,30 @@ In my game, I have a few scripted sequences that I nonetheless tested.
 Each of these sequences relies on game mechanics that were already implemented, game mechanics that are subject to change.
 If I decide to modify how they work, and it breaks a scripted sequence, I would like to be notified.
 It might show up in
+
+This is messy, it seems I still can't quite put into words wha I'm thinking here.
+I guess my argument is that in game development integration/acceptance tests are more important.
+The lack of automated testing in game dev is down to the ways in which it is not well suited to unit testing.
+and I can make th argument that this is true for scientific computing as well.
+
+
+One thing to note is that I still have issues with brittleness: when I run the working game, things tests for working functionality are broken
+Ah, nevermind: in this case I had changed some functionality without adjusting tests.
+A major motivating factor in this kind of thing is wanting to see fast results.
+It's a marshmallow test.
+
+But I do think that the changeability of stuff, the constant tweaking is what makes unit testing prohibitive.
+
+
+https://www.youtube.com/watch?v=EZ05e7EMOLM
+and
+https://vimeo.com/80533536
+
+Architecture and design already somewhat constrained by engine choice, so you don't need to constrain the design as much?
+
+If I choose to change how a component represents some property, I need to wrap it in the tests beforehand.
+In an OOP approach this is already done by encapsulation, and where it isn't it ought to be.
+For an ECS, changing how data is laid out / represented is a bigger issue, as data layout is the interface used by systems.
+You could isolate this to a single system which is then the only one to directly interact with the data.
+But at that point, you're not longer doing DOD, and are less likely to reap its performance benefits.
 

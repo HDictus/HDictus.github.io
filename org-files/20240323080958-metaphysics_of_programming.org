@@ -4,22 +4,23 @@
 #+title: metaphysics-of-programming
 
 When we write programs there are different ways that we can organize our code.
-Different ways of programming, especially in computational science, represent different ways of representing the structure of reality.
-Questions regarding what is 'really' real and what reality consits of fall under the domain of metaphysics.
-Metaphysical assumptions are embedded in computer programs, and often have parallels in metaphysical theses in history.
+Different ways of programming, especially in computational science, represent different ways of representing the structure of the real world.
+Questions regarding the structure of reality fall under the domain of metaphysics.
+Metaphysical assumptions are embedded in computer programs, and often have parallels in historical metaphysical theories.
 
-Metaphysics is by its nature not demonstrable - we do not have access to reality as it really is, so we will never truly know.
-Despite this, no one is truly metaphysically agnostic - we all reason about a real world and make assumptions about it in order to navigate our surroundings.
+Metaphysics is by its nature not demonstrable - we do not have access to reality as it really is, so we will never truly know what it consists of.
+Despite this, we all reason about a real world and make assumptions about it in order to navigate our surroundings.
+We must assume a metaphysics, even if we cannot demonstrate that our metaphysics is true.
 The role of metaphysics then is more about organizing thought than establishing truth.
 It is about analyzing our mental representations of reality and how these constrain and empower us.
-In my evaluation then, the strengths and limitations of different programming tools are powerful ways to explore metaphysical questions, and metaphysics can be a useful guide for understanding the strengths and limiations of a programming practice.
+In my evaluation then, the strengths and limitations of different programming tools are powerful ways to explore metaphysical questions.
 
 * Object Oriented Plato
 
 TODO: there is a disconnect at the heart of this - what is real? stateless processes that determine the transitions of state (functions, classes), or only those things that represent state?
 
 The dominant programming methodology for the last forty years or so has been Object Oriented Programming (OOP).
-In classical OOP a program - including any real-world systems it represents- consists of objects which are instances of classes.
+In classical OOP a program - including the parts of it that represent a real-world system- consists of objects which are instances of classes.
 A class represents a category of object, like a Chair class represents the category of chairs, while your living room chair is a specific instance of that class.
 Any specific chair has additional, changeable properties like color, position, or velocity (during particularly heated arguments).
 The class of chairs itself though does not (strictly speaking) have these properties and is defined one way, and stays that way.
@@ -32,7 +33,7 @@ This approach to programming and metaphysics has limitations.
 For one thing, the world loves to defy classification.
 Things in the natural world tend to blend together and be clustered together only loosely.
 The desire to categorize and organize the world to understand it is common, understandable, but I think often misguided.
-Besides this, it is often difficult to say where one object ends and the other begins.
+Besides this, it is sometimes difficult to say where one object ends and the other begins.
 We often (and rightly) end up separating objects based on practical concerns rather than what clearly and concisely describes the model system.
 
 A lot of the more advanced object oriented practices and design patterns concern working around these limitations.

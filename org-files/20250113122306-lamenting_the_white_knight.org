@@ -3,82 +3,123 @@
 :END:
 #+title: lamenting-the-white-knight
 
+
 A few months ago, I played the game Hitman: Absolution.
 It's a stealth game from 2012.
-Something stood out to me, something very 2012 resonated with me and made me cringe.
-It's a bit white knighty, and oh god do I hate how much I loved that.
+Something very 2012 stood out to me, resonated with me, and made me cringe.
+The game's narrative centers around protecting women from a slew of misogynistic villians.
+In other words, it's a bit white knighty, and oh god do I hate how much I loved that.
+The "white knight" fantasy has, from what I can tell, just about vanished from western gaming.
+I think there are good reasons for that, but I miss it nonetheless.
+I wonder then, should the white knight make a comeback, better than before?
 
 
-As the name suggests, Hitman: Absolution is a stealth assassination game.
-You're a tough, scary-looking dude with a garotte and a bunch of guns, and your objective is to assassinate a target with as few other casualties as possible.
-The plot centers on a young girl who has been genetically engineered to be the perfect assassin.
-Following your coworker's last wish you seek to help her escape the organization who created her - your employer - and spare her the life you lived.
-It doesn't take long for her to be kidnapped from your care, and the bulk of the game is a string of missions in pursuit of her, leaving a minimum of one corpse per mission in your trail.
+* The game
+
+
+Hitman: Absolution is a stealth assassination game.
+You play agent 47, a tough, scary-looking dude with a garotte and a bunch of guns, and your objective is to assassinate a target while limiting other casualties.
+The plot centers on a young girl, Victoria, who has been genetically engineered to be the perfect assassin.
+47 seeks to help Victoria escape the organization who created her - his employer - and spare her the life you lived.
+It doesn't take long for her to be kidnapped from his care, and the bulk of the game is a string of missions in pursuit of her, leaving a minimum 20 corpses in your wake.
 (If you're bad at the game, or just impatient, you leave several hundred corpses.)
 
-The game positions you as (among other things), a gentleman protecting women from a slew of misogynistic villains.
-It provides a power fantasy blatantly pandering to young men, and meanwhile provides very little agency to the women in its story.
-But progressive politics permeate it and the game clearly doesn't intend to be misogynistic with what it is doing.
+* The villains
 
-Fortunately, it doesn't sexualize the girl being protected.
-No, this is much more a paternal protectiveness, very popular in other games at the time (the last of us, bioshock infinite).
-If you thought that the genetically engineered super-assassin would be some sort of badass in the story, you would be surprised.
-She is entirely helpless without a certain necklace - which her captors wisely keep far from her person.
-She therefore spends almost all the game as a limp, half-sleeping mcguffin.
+Dexter: "You're a nice piece of ass, what are you doing with limp-dick?"
 
-Oh she does cut loose once, in a hilariously pointless scene towards the very end of the game.
-For no disclosed reason she is suddenly wearing her necklace, and when grabbed from behind goes full John Wick and kills a buncha guys.
-Then she is grabbed from behind exactly the same way, and captured again like nothing happened.
+Jade: "Pig."
+
+Dexter: "You have no idea."
+
+
+The villians you are protecting Victoria from are portrayed as misogynists, consistently victimizing women, and you positioned as the protector of Victoria from them.
+One of your first targets is the abusive owner of a strip club, who exploits, assaults, and sometimes kills his employees.
+In an effort to be seen as manly by his companions, one of the villains threatens and accidentally kills a helpless nun.
+Later, a different villain executes a bound woman to make a point and have a laugh.
+It isn't only women that the villians harm, but it is mostly women.
+The only female characters on the villain's side are the bad guys' secretaries, largely belittled, ignored, and sexually harassed by their bosses.
+
+Feminist critic Anita Sarkeesian characterized the female characters in this game, in particular the strippers, as objects for the player to sexualize and abuse.
+This perspective was roundly criticized.
+In the avalanche of abuse she endured throughout her career, this was one of the few legitimate criticisms buried between them.
+She was only half right - the female characters are objects of abuse, but for the villains, not the player.
+
+I should mention one countervailing aspect of the game - Towards the end Dexter expresses a great deal of trust in his secretary (and spouse? unclear) Layla.
+I do not find this to be a strong challenge to my characterization, since Layla remains subordinate to the end, had no effect on the plot, and wasn't particularly hard to kill.
+
+"I'm going to take you apart atom by atom and breed you like a prize bull." - Dexter
+
+Fortunately the game doesn't sexualize Victoria.
+This is a paternal protectiveness, very popular in other games at the time (the last of us, bioshock infinite).
+Her entire existance and character is constructed to feed the player's desire to protect her: she is helpless, dependent, young.
+
+What, you thought the genetically engineered super-assassin would be some sort of badass?
+Nope, not without a necklace which is conveniently far from her he whole game - except in one [[https://youtu.be/LPKViQ7vTr4?si=J_XbmecYNtxUzAFZ][hilarioulsy inconsequential scene]] at the end.
 Oops, we left Chekov's gun lying around! Quick, shoot it before the story ends!
 
-Other female characters show up, on the arm of a bad guy, or employed by him in an abusive strip club.
-Their agency is limited not just by the men around them, but also by the design of the game: it is about the player's experience.
+The agency of women in the game is limited not just by the men around them, but also by the design of the game: it naturally centers on the player's experience.
 Their inner lives and struggles are sometimes portrayed, but their actions seldom affect the plot.
-This kind of blind misogyny is common for the era of gaming: the player is assumed male, assumed straight, and their experience is naturally the important thing to focus on.
+This kind of blind, unintentional misogyny is common for the era of gaming: the player is assumed male, assumed straight, and their experience is naturally the important thing to focus on.
 Men besides the player are given power: they are the antagonists after all, and the power they wield to get in the player's way is how the gameplay happens.
 Women however are either eye candy, inanimates to be saved, or both.
-(There is a brief appearance of killer nuns, which do buck this trend, but since they are sexy nuns and not actually plot-relevant, I feel the point stands.)
+(I would not consider the sexy nuns in mission 14 to have agency or effect on the plot, in case you were thinking of this as a counterexample.)
 
-Playing the game, I saw progressive ideas embedded in its plot and worldbuilding, though it is more accurate to say anti-progressive ideas are embedded in its villains.
-The enemies embody the corruption of big businessess and the police, the exploitation of sex workers, sexism and racism.
-They capture and torture a journalist, calling him a "bleeding heart".
-Before Gamergate happened, I felt that this was the case for gaming culture in general: progress good, sexism and racism bad.
-So what happened, in my view, when the inadvertent sexism in the medium was pointed out, is that a lot of young men were blindsided.
-"What, I'm not sexist, I'm the Good Guy. It's the Bad Guys that are sexist. All this effort saving the princess and this is the thanks I get?"
+There are other topics the game engages with through its villains: police brutality, corruption, greed, hostility to "bleeding heart" journalists.
+The way these are framed and portrayed, and the way the narrative opposes them left me with an impression of a generally progressive ethos.
+This is unsurprising, artists and young people generally skew progressive: game developers are artists, and gamers were generally young.
+
+"God I love this country, a man can become anything he wants to be long as he's got the brains and the cojones." - Dexter, mount rushmore in the background.
+
+
+* The death of the white knight
+
+
+Playing the game, I found progressive ideas embedded in its plot and worldbuilding, though it is more accurate to say anti-progressive ideas are embedded in its villains.
+Before Gamergate happened, I felt that this was the case for gaming culture in general.
+So what happened, in my view, when the inadvertent sexism in the medium was pointed out, is that a lot of young men were utterly blindsided.
+"What, I'm not sexist! These games are clearly anti-sexist! I'm the Good Guy. It's the Bad Guys that are sexist. All this effort saving the princess and this is the thanks I get?"
 Of course, not in those words.
 
-I've had discussions with young men online who state that they feel unwelcome in the left because it has no role for them to fill except aggressor or silent listener.
-And to be fair there are good reasons for that, but it's not much of a sales pitch is it?
+My characterization of this reaction, based on my own experience in this demographic, is intended to illustrate two facts about the white knight fantasy.
+
+1. It is cringe.
+2. The reason it is cringe is that it is disingenuous
+
+In internet lingo more broadly, the "white knight", or "nice guy" stereotype often refers to a man who pretends to respect or stand up for women to get attention.
+If he isn't sufficiently appreciated for it, he gets upset and in the process reveals he didn't really respect women in the first place.
+Likewise, the white knight fantasy portrayed in such games isn't really about women's auotnomy - it is about the virtue of the man defending it.
+
+You could argue that this is partly the case for anything moral.
+We do moral things not simply because they are moral, but also because it brings us satisfaction to /be/ moral.
+But there are different kinds of satisfaction to be had: a self centered kind and an other-centered kind.
+The satisfaction may come from percieving yourself as virtuous, or from expecting some future reward - which is self-centered.
+But the satisfaction can also come from empathy, from the pleasure of seeing the positive effect you have had.
+This is an other-centered kind of power trip.
+
+* Resurrecting the white knight
+
+I've had discussions with young men online who state that they feel unwelcome in progressive movements because there is no role for them to fill except that of the villain.
+Yes, for others to be heard traditionally powerful groups like men do need to shut up and listen, but it's not much of a sales pitch is it?
 Come to the light side, we have guilt and lectures.
-What is this, a church? I thought lefties didn't like religion!
 
 A white knight story provides a satisfying role for a man to play in the fight against sexism.
 And the problem with male-centered power fantasies was never their existence, but their ubiquity.
 For a long time if a game was anything else it was lucky to get made at all, let alone have a good budget and marketing.
-It may reflect a change in my taste rather than the games themselves, but I feel like this style of power fantasy has vanished entirely.
+It may reflect a change in my taste rather than the games themselves, but I feel like this particular style of power fantasy has vanished entirely from western gaming.
 That wasn't necessary.
 
+As power fantasies go, the fantasy of being a good man who selflessly helps the powerless is pretty damn benign.
+Pernicious elements can very easily make their way into it, but I think when it is thoughtfully employed, in a self aware, other-centered way, it is valuable and compelling.
+Instead of emphasizing the victimization the white knight protects people from, emphasize what the protected become and achieve once empowered.
+The white knight, after using his power to protect the vulnerable, should ultimately surrender some of it to them.
 
-There /are/ actually two other issues with this fantasy besides ubiquity: /that/ it is cringe, and /why/ it is cringe.
-The white knight, or "nice guy" stereotype refers to a disingenous man who pretends to respect women.
-If he isn't sufficiently appreciated for it, he gets upset and in the process reveals he didn't respect women in the first place.
-It's pretty much the caricature I created above to explain gamergaters, really.
-This fantasy isn't really about women's auonomy or any progressive goals - it is about the virtue of the man defending it.
+In the fantasy of being a protector of women, misogyny is a necessary component.
+With the resurgence of misogyny and hostility to feminism in online spaces there will be plenty to go around.
+We need an emotionally resonant role for men in fighting it, we need the white knight.
 
-But well, isn't that sort of the case for morality in general?
-We do moral things not because they are moral, but at least in part because it brings us satisfaction to be moral.
-But there are different kinds of satisfaction to be had: a self centered kind and an other-centered kind.
-Is the satisfcation derived from percieving ones own virtue or empathetically experiencing the effect on others?
-A good white-knight fantasy should use both, but certainly lean more heavily on the latter.
-
-In fantasy of being a protector of women, violence against women is a necessary component.
-something something increasingly there's plenty of misogyny to go around, plenty to fight against.
-
-Awaken, Sir Cringealot: a new quest beckons.
+Rise, Sir Cringealot: a new quest beckons.
 Reconquer the darkened land of nerddom.
-Protect the princess, but this time like you mean it.
-
-
-
-
+Protect the princess.
+But you have to mean it this time.
 

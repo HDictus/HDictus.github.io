@@ -47,7 +47,11 @@
         async>
       </script>
 
-      <a href=\"index.html\"> home </a>
+      <a href=\"index.html\"> home </a> <br>
+
+ | <a href=\"https://bsky.app/profile/themightyhug.bsky.social\"> Bluesky </a>  
+ | <a href=\"https://mastodon.social/@TheMightyHUG\"> Mastodon </a> 
+ | <a href=\"https://www.linkedin.com/in/hugo-dictus-473a10145/\"> Linkedin </a> |
 "
 )
 

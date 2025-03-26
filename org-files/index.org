@@ -36,9 +36,11 @@ Since feedback is important to improve please leave me short reviews of the entr
 - [[id:d2494e49-8840-4773-8783-6cd586ded217][best-practices-for-programming]]
 
 
-* Essays
+* popular culture
 - [[id:94ba5a79-0e68-48b4-b05b-826aa98ca855][lovecraft-and-eldritch-knowledge]]
 
+* martial arts
+- [[id:83472889-eda0-4354-a1d4-9615916efd1d][Why does the lunge punch exist?]]
 
 * creative writing (prompts)
 To help me get started with writing consistently, my sister gave me a set of creative writing prompts.

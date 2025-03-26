@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       e4955e42-5dfe-4c6f-a875-0b6afa551405
+:END:
+#+title: developers-are-users
+
+
+This is an insight I had recently, while reflecting on my testing strategy in both my research and the game I'm developing.
+It is a general piece of advice that you should test the functionality of your program, not how it implements that functionality.
+Failure to do this makes your tests brittle - code that works perfectly fine can end up failing tests, bringing additional work with it.
+
+It is also reccomended to rely heavily on unit tests in your testing strategy.
+Failure to do so leads to messy code, because the testing does not constrain the design.
+The cause of test failure becomes difficult to isolate, and comprehensive testing gets awfully expensive.
+
+If you are testing little bits of your code at a time, like unit testing is supposed to, then they depend on how you choose to subdivide your code.
+That is a matter of implementation, not functionality. Whether you do things as one class or two is not relevant to the end-user, only to developers working with the code.
+I've found that these two points, in tension, are nicely resolved by considering future developers and maintainers as users of your program.
+Their experience in adding to the program is determined by the interfaces between modules, and so their design is then relevant to functionality.
+
+* consider using example of Enno
+* consider using example of bluebrain-models
+* refer to the two talks
+https://www.reddit.com/r/SoftwareEngineering/comments/xnr83u/integrated_tests_are_a_scam/
+https://www.youtube.com/watch?v=EZ05e7EMOLM

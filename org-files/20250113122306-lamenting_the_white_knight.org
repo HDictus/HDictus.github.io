@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       99261cbb-2ad0-4962-9bbe-3337d92f094f
 :END:
-#+title: lamenting-the-white-knight
+#+title: Grieving the white knight
 
 
 A few months ago, I played the game Hitman: Absolution.
@@ -26,50 +26,38 @@ It doesn't take long for her to be kidnapped from his care, and the bulk of the 
 
 * The villains
 
-Dexter: "You're a nice piece of ass, what are you doing with limp-dick?"
-
-Jade: "Pig."
-
-Dexter: "You have no idea."
-
 
 The villians you are protecting Victoria from are portrayed as misogynists, consistently victimizing women, and you positioned as the protector of Victoria from them.
-One of your first targets is the abusive owner of a strip club, who exploits, assaults, and sometimes kills his employees.
-In an effort to be seen as manly by his companions, one of the villains threatens and accidentally kills a helpless nun.
-Later, a different villain executes a bound woman to make a point and have a laugh.
+As an one example, one of your first targets is the abusive owner of a strip club, who exploits, assaults, and sometimes kills his employees.
 It isn't only women that the villians harm, but it is mostly women.
 The only female characters on the villain's side are the bad guys' secretaries, largely belittled, ignored, and sexually harassed by their bosses.
 
-Feminist critic Anita Sarkeesian characterized the female characters in this game, in particular the strippers, as objects for the player to sexualize and abuse.
-This perspective was roundly criticized.
-In the avalanche of abuse she endured throughout her career, this was one of the few legitimate criticisms buried between them.
-She was only half right - the female characters are objects of abuse, but for the villains, not the player.
 
-I should mention one countervailing aspect of the game - Towards the end Dexter expresses a great deal of trust in his secretary (and spouse? unclear) Layla.
-I do not find this to be a strong challenge to my characterization, since Layla remains subordinate to the end, had no effect on the plot, and wasn't particularly hard to kill.
-
-"I'm going to take you apart atom by atom and breed you like a prize bull." - Dexter
+* The women
 
 Fortunately the game doesn't sexualize Victoria.
 This is a paternal protectiveness, very popular in other games at the time (the last of us, bioshock infinite).
 Her entire existance and character is constructed to feed the player's desire to protect her: she is helpless, dependent, young.
 
 What, you thought the genetically engineered super-assassin would be some sort of badass?
-Nope, not without a necklace which is conveniently far from her he whole game - except in one [[https://youtu.be/LPKViQ7vTr4?si=J_XbmecYNtxUzAFZ][hilarioulsy inconsequential scene]] at the end.
-Oops, we left Chekov's gun lying around! Quick, shoot it before the story ends!
+Nope, not without a necklace which is conveniently far from her he whole game - except in one hilarioulsy inconsequential scene at the end.
+As though the developers realized as they were finishing the game: oops, we left Chekov's gun lying around! Quick, shoot it in the air before the story ends!
 
 The agency of women in the game is limited not just by the men around them, but also by the design of the game: it naturally centers on the player's experience.
 Their inner lives and struggles are sometimes portrayed, but their actions seldom affect the plot.
 This kind of blind, unintentional misogyny is common for the era of gaming: the player is assumed male, assumed straight, and their experience is naturally the important thing to focus on.
 Men besides the player are given power: they are the antagonists after all, and the power they wield to get in the player's way is how the gameplay happens.
 Women however are either eye candy, inanimates to be saved, or both.
-(I would not consider the sexy nuns in mission 14 to have agency or effect on the plot, in case you were thinking of this as a counterexample.)
+
+This game was criticized by a prominent feminist game critic for portraying women as objects for the player to sexualize and abuse.
+While her criticisms were often spot-on, this one was only half right.
+The women in the game are objects of abus, but for the villains, not the player.
+During this period following the publication of this game, women who discussed games online were subjected to targeted harassment campaigns, a backlash in part to feminist criticisms of common gaming tropes.
+This coordinated backlash is remembered as "Gamergate".
 
 There are other topics the game engages with through its villains: police brutality, corruption, greed, hostility to "bleeding heart" journalists.
 The way these are framed and portrayed, and the way the narrative opposes them left me with an impression of a generally progressive ethos.
 This is unsurprising, artists and young people generally skew progressive: game developers are artists, and gamers were generally young.
-
-"God I love this country, a man can become anything he wants to be long as he's got the brains and the cojones." - Dexter, mount rushmore in the background.
 
 
 * The death of the white knight
@@ -113,6 +101,7 @@ As power fantasies go, the fantasy of being a good man who selflessly helps the 
 Pernicious elements can very easily make their way into it, but I think when it is thoughtfully employed, in a self aware, other-centered way, it is valuable and compelling.
 Instead of emphasizing the victimization the white knight protects people from, emphasize what the protected become and achieve once empowered.
 The white knight, after using his power to protect the vulnerable, should ultimately surrender some of it to them.
+This ensures tha the fun of the fantasy is focused on the effect on others, rather than the self.
 
 In the fantasy of being a protector of women, misogyny is a necessary component.
 With the resurgence of misogyny and hostility to feminism in online spaces there will be plenty to go around.
@@ -123,3 +112,4 @@ Reconquer the darkened land of nerddom.
 Protect the princess.
 But you have to mean it this time.
 
+# [[yt:LPKViQ7vTr4?start=4156&end=4212]]

@@ -215,13 +215,26 @@ Do the technique exactly this way.
 Why? It doesn't matter.
 
 Oh, but this isn't nearly as much fun as sparring.
-And I wasn't done struggling with insecurity in that domain.
+Every wednesday was a full lesson of sparring, mostly with very good competitors.
+While I was frequently frustrated, I usually managed to avoid feeling helpless.
 
+One frustration was having people stop sparring to explain to me things I already knew, but was simply failing to implement.
+It stopped me from getting into a flow.
+What was worse is when they stopped me to give advice that I knew is bad, but I knew that contradicting them would not be well recieved because of my low rank and low level of skill.
+And the worst was when they gave me bad advice that I did not yet know was bad.
+I never really figured out the best way to deal with these things.
+I think perhaps it is better to focus training on gameplay, rather than technical details or advice.
+But a student has limited power to implement that for themselves, that is in the instructor's control.
 
+In general in this period however, I developed a healthier attitude to sparring that allowed me to enjoy grappling with people who completely outclassed me.
+I would focus on and celebrate smaller goals, such as breaking my partner's balance or making them stumble rather than actually throwing them.
+Still, it was more fun and more educational to grapple with people I had a chance against, or upper belts who were good at tuning the level of challenge to their opponent.
 
-I try different ways to get better, and eventually give up on becoming good.
-I change my approach.
-It isn't easy to change my mindset.
+Being bad didn't bother me as much, as I no longer expected to become good.
+It still stung for people to express disbelief when I said I had trained brazilian jiu jitsu for years before judo, but not as much as before.
+It helped me as well that I was open with my coaches about my learning disabilities, which I had never been before.
+This way I knew that I would not need to face their disappointment when my enthusiasm didn't translate to skill.
+
 
 * Conclusions: what can you learn from my experience?
 
@@ -292,4 +305,23 @@ Create realistic drills that allow adapting the level of challenge to the studen
 # Your past experieces of doing the technique, or seeing others do it, shape your perception of 'well', and so when you're backsliding you will still experience frustration because you will not do the technique well.
 
 # Hm. I guess you can't win.
+
+
+
+* dyspraxia impacts athletic performance, but dyspraxics benefit greatly from exercise
+
+* I benefitted a lot from karate, but eventually hit a wall
+ - my own disappointment, and that I projected onto my sensei, affected the fun
+ - changed in large part because I realized I was bad at fighting
+* kickboxing, learned helplessness and sparring culture
+ - knowing and standing by your limits is strength, not weakness
+* Good training, good sparring, MMA
+* training harder, backsliding harder, personal crisis
+* grappling with my mind in judo
+* How to (help students) enjoy the journey
+** Focus on small successes
+** seek out fun and flow above all else
+** be open
+** be kind
+
 

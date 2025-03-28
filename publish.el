@@ -52,6 +52,12 @@
  | <a href=\"https://bsky.app/profile/themightyhug.bsky.social\"> Bluesky </a>  
  | <a href=\"https://mastodon.social/@TheMightyHUG\"> Mastodon </a> 
  | <a href=\"https://www.linkedin.com/in/hugo-dictus-473a10145/\"> Linkedin </a> |
+
+<br> <br>
+Analytics by
+<a title=\"Privacy-friendly Web Analytics\" href=\"https://clicky.com/101481402\"><img alt=\"Clicky\" src=\"//static.getclicky.com/media/links/badge.gif\" border=\"0\" /></a>
+<script async data-id=\"101481402\" src=\"//static.getclicky.com/js\"></script>
+
 "
 )
 

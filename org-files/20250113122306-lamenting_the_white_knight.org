@@ -20,7 +20,7 @@ I wonder then, should the white knight make a comeback, better than before?
 Hitman: Absolution is a stealth assassination game.
 You play agent 47, a tough, scary-looking dude with a garotte and a bunch of guns, and your objective is to assassinate a target while limiting other casualties.
 The plot centers on a young girl, Victoria, who has been genetically engineered to be the perfect assassin.
-47 seeks to help Victoria escape the organization who created her - his employer - and spare her the life you lived.
+47 seeks to help Victoria escape the organization who created her - his employer - and spare her the life he lived.
 It doesn't take long for her to be kidnapped from his care, and the bulk of the game is a string of missions in pursuit of her, leaving a minimum 20 corpses in your wake.
 (If you're bad at the game, or just impatient, you leave several hundred corpses.)
 
@@ -40,8 +40,8 @@ This is a paternal protectiveness, very popular in other games at the time (the 
 Her entire existance and character is constructed to feed the player's desire to protect her: she is helpless, dependent, young.
 
 What, you thought the genetically engineered super-assassin would be some sort of badass?
-Nope, not without a necklace which is conveniently far from her he whole game - except in one hilarioulsy inconsequential scene at the end.
-As though the developers realized as they were finishing the game: oops, we left Chekov's gun lying around! Quick, shoot it in the air before the story ends!
+Nope, not without a necklace which is conveniently far from her he whole game - except in one [[https://www.youtube.com/watch?v=LPKViQ7vTr4start=410][hilarioulsy inconsequential scene]] at the end.
+Oops, we left [[https://en.wikipedia.org/wiki/Chekhov%27s_gun][Chekhov's gun]] lying around! Quick, shoot it in the air before the story ends!
 
 The agency of women in the game is limited not just by the men around them, but also by the design of the game: it naturally centers on the player's experience.
 Their inner lives and struggles are sometimes portrayed, but their actions seldom affect the plot.
@@ -50,9 +50,9 @@ Men besides the player are given power: they are the antagonists after all, and 
 Women however are either eye candy, inanimates to be saved, or both.
 
 This game was criticized by a prominent feminist game critic for portraying women as objects for the player to sexualize and abuse.
-While her criticisms were often spot-on, this one was only half right.
-The women in the game are objects of abus, but for the villains, not the player.
-During this period following the publication of this game, women who discussed games online were subjected to targeted harassment campaigns, a backlash in part to feminist criticisms of common gaming tropes.
+This criticism was only half right.
+The women in the game are objects of abuse, but for the villains, not the player.
+During the period surrounding the publication of this game, women who discussed games online with a feminist lens were subjected to targeted harassment campaigns, a backlash in part to feminist criticisms of common gaming tropes.
 This coordinated backlash is remembered as "Gamergate".
 
 There are other topics the game engages with through its villains: police brutality, corruption, greed, hostility to "bleeding heart" journalists.
@@ -63,7 +63,7 @@ This is unsurprising, artists and young people generally skew progressive: game 
 * The death of the white knight
 
 
-Playing the game, I found progressive ideas embedded in its plot and worldbuilding, though it is more accurate to say anti-progressive ideas are embedded in its villains.
+Playing the game, I found progressive ideas embedded in its plot and worldbuilding, though it is more accurate to say regressive ideas are embedded in its villains.
 Before Gamergate happened, I felt that this was the case for gaming culture in general.
 So what happened, in my view, when the inadvertent sexism in the medium was pointed out, is that a lot of young men were utterly blindsided.
 "What, I'm not sexist! These games are clearly anti-sexist! I'm the Good Guy. It's the Bad Guys that are sexist. All this effort saving the princess and this is the thanks I get?"

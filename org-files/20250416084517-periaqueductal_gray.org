@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7052fdd9-a0e5-47b5-bcc3-b5df5403ec29
+:END:
+#+title: periaqueductal-gray
+
+A region of the brain which interacts closely with raphe nuclei.
+This region is important for analgesia in males, but perhaps not females? see https://onlinelibrary.wiley.com/doi/full/10.1155/2009/462879
+

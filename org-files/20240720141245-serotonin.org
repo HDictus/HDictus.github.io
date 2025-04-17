@@ -3,3 +3,4 @@
 :END:
 #+title: serotonin
 
+A neurotransmitter involved in just about every mental process.

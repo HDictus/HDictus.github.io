@@ -8,7 +8,6 @@ I've decided to focus on a more fundamental rework of the AI.
 Instead of everyone repositioning together, each character type has a certain time (number of beats) between decision points.
 At each decision point, if they are in the right position they attack.
 If they are in the wrong position they will seek the right one.
-If they are in the right position they will attack.
 Enemies in a map will have an initial delay assigned, in beats.
 
 I should simplifly the spearman's behavior for the time being as well.

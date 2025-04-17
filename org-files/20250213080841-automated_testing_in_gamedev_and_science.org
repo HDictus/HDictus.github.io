@@ -209,3 +209,5 @@ For an ECS, changing how data is laid out / represented is a bigger issue, as da
 You could isolate this to a single system which is then the only one to directly interact with the data.
 But at that point, you're not longer doing DOD, and are less likely to reap its performance benefits.
 
+
+https://www.youtube.com/watch?v=vXaWOJTCYNg

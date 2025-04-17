@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       948a33b0-0824-49a8-80a2-a65cb2b80870
+:END:
+#+title: devlog-20250401
+
+Woke up early, workin on the game.
+I've added the ability for Enno to throw his spear, and today I will make projectiles stick where they land.
+
+Now they do.
+
+This seems like a workable mechanic for the boss fight.
+It feels good, feels hectic.
+I'll make an alternating attack pattern.
+
+I also need to make sure the footsweep turns a dash into a stumble.
+Next I should create the soundtrack to go with the attack pattern.

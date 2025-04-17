@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4d0adfe8-8c76-4267-9d05-4b137e0536b0
+:END:
+#+title: devlog-20250404
+
+Example: bug, enno grabs you while he is prone
+solution was simple, add !prone to filter
+I didn't test.
+would be worth doing?
+prolly not... ?

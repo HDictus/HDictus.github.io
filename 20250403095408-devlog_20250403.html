@@ -6,7 +6,7 @@
 <!-- 2025-04-24 Do 09:18 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>serotonin</title>
+<title>devlog-20250403</title>
 <meta name="author" content="Hugs" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -208,9 +208,47 @@
 <!-- End MailerLite Universal -->
 </div>
 <div id="content" class="content">
-<h1 class="title">serotonin</h1>
+<h1 class="title">devlog-20250403</h1>
 <p>
-A neurotransmitter involved in just about every mental process.
+Today I'm playing around a little with the Enno fight.
+</p>
+
+<p>
+I noticed when you stick close to Enno, it gets a little awkward with his attacks.
+They're easy to dodge, and he flies away from you making chasing after him a bit of a chore.
+So I'm thinking of brining back an old mechanic: Enno will push you away.
+</p>
+
+<p>
+An interesting point here is that I'm going to try it out, and it may or may not remain.
+If I write tests, they may be wasted.
+</p>
+
+
+<p>
+But it is not a trivial mechanic.
+In this case, I had implemented it before.
+But if I needed to implement it from scratch, automated tests might be helpful anyway.
+And in this event, I wouldn't have to re-design and rewrite it after prototyping.
+</p>
+
+<p>
+If the change were trivial, I could implement it first, then write tests if I decide to keep it.
+</p>
+
+<p>
+In this case, I am not writing tests, we shall see if that was a good idea.
+</p>
+
+
+
+<p>
+I'm keeping it, it gives the fight a very hectic feel.
+</p>
+
+<p>
+I noticed a few other issues though: I changed the knockback from punching to offbalance the target, this makes it too easy to punch people into a barrel.
+Secondly, there was a bug on level 7, the enemies could not navigate to the player.
 </p>
 </div>
 <div id="postamble" class="status">

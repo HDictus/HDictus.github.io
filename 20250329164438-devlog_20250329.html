@@ -6,7 +6,7 @@
 <!-- 2025-04-24 Do 09:18 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>serotonin</title>
+<title>devlog-20250329</title>
 <meta name="author" content="Hugs" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -208,9 +208,59 @@
 <!-- End MailerLite Universal -->
 </div>
 <div id="content" class="content">
-<h1 class="title">serotonin</h1>
+<h1 class="title">devlog-20250329</h1>
 <p>
-A neurotransmitter involved in just about every mental process.
+I got enno's main mechanic working. I need to test it out to see whether I can really build the fight around it.
+That means I need him to use it often.
+</p>
+
+<p>
+I need there to be some way for the player to trip him up as well, and I need to do something like AziorghSystem so enno has three things.
+</p>
+
+<p>
+Tripping Enno, I think, maybe should only happen when he throws his weapon, so that's another thing to implement.
+So it would be like: dodge, dodge, grab &amp; throw.
+</p>
+
+
+<p>
+To be honest, It's not super clear to me how Enno's fight should go and look.
+I had some idea before, but I never wrote it down clearly, and it was always a bit iffy.
+</p>
+
+<p>
+Here are some notes:
+</p>
+<ol class="org-ol">
+<li>I need Enno to follow up after he knocks you down.</li>
+<li>I need Enno to throw his spear, and have its position be exploitable by the player</li>
+</ol>
+
+<p>
+How about this: when you get knocked down, Enno stabs his spear into the ground,
+when you do not, he throws his spear at range, sticking it in the ground.
+He has a second spear, and after he throws the second he retrieves the first
+</p>
+
+<p>
+His slash can be dodged, but when you close in the footsweep can prevent you from capitalizing, and cannot be dodged.
+(I need to signpost that - maybe some dialogue in weaker enemies?)
+Footsweeping his slash will lead to a knockback, that can be used to aim him over his spear.
+Grabbing him mid-slash can also work if you manage the lift.
+Better is to dash to his destination, lift and throw
+</p>
+
+<p>
+of course, you can also just batter him until he's stunned and then  throw him over his spear.
+The terrain should have a few safe spots to fall, so to maximize your score you direct him there.
+</p>
+
+<p>
+One thing I am certain of is that I want Enno to throw his weapon and for it to stick in the ground.
+I also need the footsweep to create a small stun and break posture in a direction.
+Clockwise or anticlockwise - that will depend on player movement.
+I need to add an animation for the throwing.
 </p>
 </div>
 <div id="postamble" class="status">

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       156f7978-a7e3-4870-a9a9-49a96b19abb1
+:END:
+#+title: FG-7142
+
+Inverse agonist of benzodiazepines.
+Seems to reduce GABAergic inhibition.

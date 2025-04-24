@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       15c10027-0874-4c1c-9b36-ef76deafbf20
+:END:
+#+title: deakin-5ht-1991
+
+This paper proposes the [[id:4624e030-0806-41ad-b5fb-17ffc0117692][Deakin/Graeff hypothesis]]
+https://journals.sagepub.com/doi/10.1177/026988119100500414?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+

@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       eebdcad5-46b5-4fa3-90c8-d3e9a99fdfeb
+:END:
+#+title: neuro-game-idea
+
+Concept: the player is presented with a series of mazes of increasing complexity to navigate.
+Each attempt at a maze ends when they hit a wall.
+The player can place neurons and connect them to each other to determine their agent's behavior.
+So for instance, they can create the circumstance: when there is a wall in front of you, turn right.
+
+At first they only have excitatory neurons, as they progress they have the option to place some inhibitory neurons.
+Then they can place sub-types - PV or SST neurons with facilitating or depressing synapses.
+They can place pacemaker cells, which they can use to stimulate other cells in particular.
+Maybe they can also connect cells to reward and punishment codes, and unlock modulatory neurons.
+
+Each maze can be attempted only a certain number of times, and after each attempt the player may alter only a certain number of connections.
+If you fail too many times, your run ends.
+
+The idea is that the player, over multiple runs, learns to build a flexible and multi-purpose network that can create a different behavior with only a few changes.
+
+
+Is a maze really the best puzzle for this?
+Maybe it should be a free movement task with a given objective: avoid x, touch x,
+Not sure.
+Prototyping may give a better idea of what kind of puzzle to make.
+
+It may be best to have more complex behavioral task that can be built up and layered over time.
+The player has a limited number of resources to use : neurons, synapses, myelin
+The creation of any one of these requires a certain amount of energy (length-dependent in the case of synapses).
+Neural spiking and synaptic activity also require upkeep of energy.
+
+The agent navigates an environment in which there is food, and hazards.
+The geometry, food, and hazards are randomly generated and the density of them all increases over time.
+The goal is to survive as long as possible, accumulating maximum possible biomass.
+
+

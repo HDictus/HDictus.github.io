@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ID:       be5432d2-eb14-40a7-9650-9eac3a900fd6
+:END:
+#+title: graeff-role-1996
+
+Summary of https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub
+
+In animal models of stress related to inhibition of responses serotonin is implicated as anxiogenic.
+In animal models in which the animal escapes or avoids aversive events, serotonin is implicated as anxiolytic.
+(In that it slows the learning of escape/avoidance - I am not sure this qualifies as anxiolytic.)
+
+Graeff brings up [[id:15c10027-0874-4c1c-9b36-ef76deafbf20][deakin-5ht-1991]] to reconcile these results.
+This hypothesis suggests that the DRN -> amygdala, frontal cortex pathway promotes escape behaviors.
+This pathway they implicate in general anxiety disorder.
+The DRN-periventricular/periaqueductal gray pathway inhibits inborn (instinctive) fight or flight reactions.
+This pathway they propose relates to panic disorder.
+(the nucleus raphe magnus may be a better candidate for this mechanism, but perhaps this info was discovered later.)
+The pathway connecting median raphe nucleus to the hippocampus promotes reisistance to chronic stress.
+It dissociates aversive events from appetative and social behaviors, allowing the organism to lead a normal life despite constant adversity.
+(This is interesting ,as it is consistent with the idea of ht2c receptors mediating unlearning. However, they suggest 5HT1a. I assume their reasoning is explained in the original paper.)
+They suggest that when this pathway is disrupted, depression occurs.
+
+They use an elevated T maze, which is an elevated T-shaped platform where in the lower arm the rat is enclosed and feels safe, while feeling exposed in the other arms.
+The rat is first placed in the safe space to measure their avoidance of the exposed areas.
+Then, their time to actively escape to safety from the exposed arms is measured.
+
+The idea is that hiding passively in the body of the T is a learned fear (because until the rat runs out and finds itself exposed, it doesn't know the rest of the t is danger),
+while sitting out on the open arms is innate fear, and seeking cover is instinctive fight or flight behavior.
+I'm not certain about this way of viewing the different arms.
+The clearest difference is active v.s. passive, learned vs instinctive is speculative, in my view.
+
+[[id:0b11d8c2-a926-4a47-a8e5-e727fe689e4e][Diazepam]] and 5HT1a ligand [[id:e49f80d7-8c28-47af-8a58-c6980ec02079][ipsapirone]] impaired inhibitory avoidance (hiding in the safe arm), while leaving escape behavior untouched.
+This is taken as validation of the experimental protocol.
+
+They the 5HT1A receptor agonist [[id:6caedc6f-c639-46df-bd2e-962bbae2adda][8-OH-DPAT]], into the DRN, which should decrease 5HT firing rate.
+This impaired the passive, learned fear (consistent with my alternative that 5ht promotes passivity as well as their hypothesis).
+However, it did not increase escape behavior, which is what they expected.
+
+To see whether increasing 5HT activity would increase hiding and decrease escape, they tried three methods.
+
+Firstly they injected [[id:156f7978-a7e3-4870-a9a9-49a96b19abb1][FG-7142]].
+
+
+
+Personally I think there is no contradiction here to resolve: there seems to be a general theme of 5ht promoting passivity in response to a threat.
+Perhaps in the original deakin/graeff paper they go into more detail about what remains to be resolved here.
+
+
+
+* Takeaways
+
+- Graeff raises an interesting point about serotonin in anxiety.
+  It has been suggested that the anxiolytic/antidepressant effects of serotonin are due a reduction in serotonin release due to 5HT1a receptor activation.
+  Graeff claims that electrophysiological and microdyalisis studies show this effect to be short-lived.
+  I haven't seen this point brought up in later literature. Was it overlooked, or overturned?
+
+- the claim that chronic SSRI administration downregulates prefrontal expression of 5HT2C showed up here again.
+  It linked again to https://www.sciencedirect.com/science/article/pii/0006322388900911?via%3Dihub.
+  I cannot find this claim in this article, and either way it is odd that graeff cites only the review and not the stud(ies) that found the downregulation.
+  I suspect this claim made its way, mis-citation and all, to wikipedia from this article.
+  I can revisit this topic with papers summarized here https://elicit.com/review/d23a00a0-b5d6-44a0-9363-7ee41d2422ec

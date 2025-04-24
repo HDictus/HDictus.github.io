@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e49f80d7-8c28-47af-8a58-c6980ec02079
+:END:
+#+title: ipsapirone
+
+5HT1a ligand

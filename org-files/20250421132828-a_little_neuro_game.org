@@ -3,15 +3,20 @@
 :END:
 #+title: Forging Foraging: a little neuroscience game
 
+Video games have potential to be powerful tools for communicating science.
+Learning is at the heart of play, and how well do you really understand something until you've taken it in your hands and manipulated it.
+Still, realizing this latent potential is... hard.
+
+I'm in a good position to engage with this challenge.
 I develop computational models of nervous systems as a profession, and I develop games as a hobby.
 I've often thought about bringing these two together, but I struggle to come up with neural concepts that make for engaging gameplay.
-Well, I've made a little prototype, and personally I felt engaged, though so far playtesters have struggled to figure out what to do.
+Well, I've made a little prototype, and it's kind of fun.
 
 In [[https://themightyhug.itch.io/forging-foraging][Forging Foraging]] there is a little organism who needs to collect food.
 It can see, and it can move, but it needs your help.
 Your role is to construct its nervous system: connecting and creating neurons to let it collect food efficiently enough to not starve.
 As it grows, so will its food needs and consequently you need to improve its search strategy to keep up.
-Click the link above to download and play it, and let me know your experience with it!
+Click the link above to play it in your browser, and let me know your experience with it!
 
 
 In a way computational modeling is a natural fit for certain styles of video games.

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       72d2a1a8-da5d-49cf-856a-c6b3abe6ed71
 :END:
-#+title: a-little-neuro-game
+#+title: Forging Foraging: a little neuroscience game
 
 I develop computational models of nervous systems as a profession, and I develop games as a hobby.
 I've often thought about bringing these two together, but I struggle to come up with neural concepts that make for engaging gameplay.

@@ -4,7 +4,7 @@
 #+title: Forging Foraging: a little neuroscience game
 
 Video games have potential to be powerful tools for communicating science.
-Learning is at the heart of play, and how well do you really understand something until you've taken it in your hands and manipulated it.
+Learning is at the heart of play, and how well do you really understand something until you've taken it in your hands and manipulated it?
 Still, realizing this latent potential is... hard.
 
 I'm in a good position to engage with this challenge.

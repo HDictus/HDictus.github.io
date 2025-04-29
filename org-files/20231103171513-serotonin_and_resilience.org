@@ -6,7 +6,7 @@ This is a stub for a topic I plan to write about, starting from this article:
 
 The Deakin/Graeff hypothesis proposes that while the dorsal raphe nucleus potentiates fear and anxiety, the medial raphe nucleus instead provides resilience.
 see: [[id:1d3f59ef-0400-46c0-bafb-b67c0fa0e463][paul-deakin-2014]]
-
+[[id:52e8b7d2-e2af-4029-8325-7cb5dcc401d9][johnston-failure-2015]]
 
 https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub
 https://journals.sagepub.com/doi/abs/10.1177/0269881113490328
@@ -59,3 +59,9 @@ https://www.nature.com/articles/d41586-025-00675-2
 
 IMPORTANT:
 https://www.nature.com/articles/d41586-025-00383-x
+
+
+https://www.sciencedirect.com/science/article/pii/S0166432817304527
+https://www.sciencedirect.com/science/article/pii/S2213231723004068
+
+https://www.cell.com/neuron/fulltext/S0896-6273(14)00955-6

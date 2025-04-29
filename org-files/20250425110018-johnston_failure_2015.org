@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       52e8b7d2-e2af-4029-8325-7cb5dcc401d9
+:END:
+#+title: johnston-failure-2015
+
+Summary of https://academic.oup.com/brain/article/138/9/2766/310539
+
+Johnston et al. used fMRI imaging to put to the test the deakin/graeff hypothesis regarding major depressive disorder.
+
+[[id:15c10027-0874-4c1c-9b36-ef76deafbf20][deakin-5ht-1991]] proposed that the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] , in situations of chronic stress, ihibits the consolidation of aversive memories and thereby promotes resilience.
+The dorsal raphe nucleus in contrast is proposed to potentiate learned anxiety, acting in opposition to the MRN.
+
+Johnston et al. did find that in treatment-resistant depressive patients the DRN and hippocampus were over-active in response to loss.
+However, they did not see reduced activity of the MRN.
+
+They cite this as supporting the hypothesis, but I think this is a matter of interperetation.
+They say that the activation of DRN in depressed patients is a strong test of the hypothesis because it conflicts with the competing [[id:9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa][the-serotonin-deficiency-theory]].
+But that hasn't been a forerunning theory in a long time.
+Really, what sets the graeff/deakin hypothesis apart from others is the antagonsim between the DRN and MRN, and the resilience-promoting role of the MRN.
+That is also the part of it that resolves the actual contradiction: the efficacy of SSRIs in alleviating depression despite the strong influence of the DRN.
+It is also the part that has so far, to my knowledge, failed to find any support.
+
+
+I realized while reading this that the results outlined in [[id:0ca51e9e-2729-4ee7-8488-9dd89ff2d651][learned-helplessness-insights-from-neuroscience]] conflict with the deakin/graeff hypothesis.
+It is the DRN that is active during uncontrollable stress.
+The activation pattern seen in DRN is what would be expected in MRN under the graeff/deakin hypothesis, active in uncontrollable aversion, inactive in controllable aversion.
+The actual pattern of the MRN activity can be seen here: [[id:2fb05557-882f-41f4-8a23-8c09ae844b96][amo-habenulo-2014]]
+I'll read it next.

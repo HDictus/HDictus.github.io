@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b268644d-4f50-4107-91e3-34bf853c425b
+:END:
+#+title: ventral-habenula
+A brain region involved in signaling aversive events.

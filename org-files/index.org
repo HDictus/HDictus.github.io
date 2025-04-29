@@ -24,6 +24,7 @@ That's going to be a real challenge, but I do believe that each of these topics 
 If you're willing to read that hodgepodge of various content, thanks so much!
 Since feedback is important to improve please leave me short reviews of the entries, what you liked, what I could improve, including which specific phrases are not clear or have a poor choice of words.
 
+
 * Neuroscience
 - [[id:84c5b566-23ff-4036-9f58-8b3fcbb1b8b1][serotonin-and-ssris]]
   - [[id:c924678f-5230-48d7-85d7-bf7413e5b2c8][neurotransmission-of-serotonin]]
@@ -44,8 +45,10 @@ Since feedback is important to improve please leave me short reviews of the entr
 * martial arts
 - [[id:83472889-eda0-4354-a1d4-9615916efd1d][Why does the lunge punch exist?]]
 
-* creative writing (prompts)
-To help me get started with writing consistently, my sister gave me a set of creative writing prompts.
+* creative writing
 
+- [[id:e8cd49f9-d072-4ddc-86be-be3e853d9ded][in-the-eye]]
+
+To help me get started with writing consistently, my sister gave me a set of creative writing prompts.
 - [[id:245d134a-80ac-4d13-a899-b52465bb36aa][tremble-and-zemble]]
 - [[id:b34052c5-b67a-43a7-bed1-2eaa706aaf45][on-the-sonic-habits-of-terra]]

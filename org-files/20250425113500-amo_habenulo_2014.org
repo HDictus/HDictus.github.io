@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2fb05557-882f-41f4-8a23-8c09ae844b96
+:END:
+#+title: amo-habenulo-2014
+
+Summary of https://www.cell.com/neuron/fulltext/S0896-6273(14)00955-6
+
+NOTE: this study was conducted on zebrafish, the relevance to mammals may be severely limited.
+
+Amo et al. found that neurons in the [[id:b268644d-4f50-4107-91e3-34bf853c425b][ventral habenula]] of the zebrafish responded to pain, and also to a conditioned stimulus predictive of pain.
+This also led to activation of the medial raphe nucleus.
+
+lesioning this pathway reduced avoidance learning but not panic.
+optogenetic activation of ventral habenula had the same effect as pain

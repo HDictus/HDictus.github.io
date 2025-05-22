@@ -6,7 +6,7 @@
 <!-- 2025-05-22 Do 09:12 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>homepage</title>
+<title>devlog-20250505</title>
 <meta name="author" content="Hugs" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -208,122 +208,48 @@
 <!-- End MailerLite Universal -->
 </div>
 <div id="content" class="content">
-<h1 class="title">homepage</h1>
-<div id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#org2389fdc">Neuroscience</a></li>
-<li><a href="#org499cd06">Programming / software engineering</a></li>
-<li><a href="#org49f88d1">game development</a></li>
-<li><a href="#orgebf1d2b">popular culture</a></li>
-<li><a href="#orge7ad03e">martial arts</a></li>
-<li><a href="#org3d7afdc">creative writing</a></li>
-</ul>
-</div>
-</div>
+<h1 class="title">devlog-20250505</h1>
 <p>
-Hey there,
+I've been making some minor tweaks recently.
+I was flipping through files looking for something minor to do with changing the facing of the character.
+I was struck by the fact that (owing to my lack of discipline in separating concerns) this bit of logic could turn up in many places.
+One way to constrain myself and ensure that everything is where it should be is to ensure that certain components can only be modified by a singular system.
+I did that quite consistently early on, and it did pay off.
+There were a few cases where it made my implementation more roundabout, but I think it was worth it.
 </p>
 
 <p>
-I'm a doctoral student in neuroscience at the EPFL in Lausanne.
-I'll be using this space to write about a variety of topics to practice my writing in a low-pressure environment.
-Before I was a doctoral student I worked as a programmer for a few years, and I made a lot of progress as a programmer by coding in my spare time without expectations or time pressure.
-I'm hoping a blog can lead to the same advances in my writing skills.
-Some of my interests on which I'll write include:
-</p>
-<ul class="org-ul">
-<li>epistemology</li>
-<li>software engineering</li>
-<li>game design</li>
-<li>psychology</li>
-</ul>
-
-<p>
-Naturally, I'll also write a fair bit about neuroscience.
-In order to keep this feeling like play rather than work I will shy away from my own topic of research (the functioning of the mouse visual cortex).
-Instead, I'll branch out into other areas.
+The thing that strikes me about this is that here, once again, I end up recreating a piece of conventional OOP within an ECS.
+Sure, the system is not where the data is actually stored, but it does effectvely 'encapsulate' it by being the sole source of writing to it.
 </p>
 
 <p>
-I really value simplicity and accessibility in other people's scientific writing, and want to develop that myself.
-As an excercise in that I'll be aiming for a lay audience with these topics.
-That's going to be a real challenge, but I do believe that each of these topics is understandable without a university degree.
-If you're willing to read that hodgepodge of various content, thanks so much!
-Since feedback is important to improve please leave me short reviews of the entries, what you liked, what I could improve, including which specific phrases are not clear or have a poor choice of words.
+Still, it is fundamentally at odds with encapsulation when it comes to reading the data: the data is the interface.
 </p>
-
-
-<div id="outline-container-org2389fdc" class="outline-2">
-<h2 id="org2389fdc">Neuroscience</h2>
-<div class="outline-text-2" id="text-org2389fdc">
-<ul class="org-ul">
-<li><a href="20221223134515-serotonin_and_ssris.html#ID-84c5b566-23ff-4036-9f58-8b3fcbb1b8b1">serotonin-and-ssris</a>
-<ul class="org-ul">
-<li><a href="20230301082812-neurotransmission_of_serotonin.html#ID-c924678f-5230-48d7-85d7-bf7413e5b2c8">neurotransmission-of-serotonin</a></li>
-<li><a href="20230301083111-serotonin_and_heplessness.html#ID-02504069-e1e7-43c8-a746-43ed27a2f807">serotonin-and-heplessness</a></li>
-<li><a href="20230301082956-the_serotonin_deficiency_theory.html#ID-9c8961f2-4dbd-4dc9-9cd5-f498abc8afaa">the-serotonin-deficiency-theory</a></li>
-<li><a href="20230513113008-serotonin_and_learning.html#ID-00813f54-3bba-432c-8032-acc000dc5311">serotonin-and-learning</a></li>
-</ul></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org499cd06" class="outline-2">
-<h2 id="org499cd06">Programming / software engineering</h2>
-<div class="outline-text-2" id="text-org499cd06">
-<ul class="org-ul">
-<li><a href="20220618121639-best_practices_for_programming.html#ID-d2494e49-8840-4773-8783-6cd586ded217">best-practices-for-programming</a></li>
-</ul>
-</div>
-</div>
-
-
-<div id="outline-container-org49f88d1" class="outline-2">
-<h2 id="org49f88d1">game development</h2>
-<div class="outline-text-2" id="text-org49f88d1">
-<ul class="org-ul">
-<li><a href="20250421132828-a_little_neuro_game.html#ID-72d2a1a8-da5d-49cf-856a-c6b3abe6ed71">Forging Foraging: a little neuroscience game</a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orgebf1d2b" class="outline-2">
-<h2 id="orgebf1d2b">popular culture</h2>
-<div class="outline-text-2" id="text-orgebf1d2b">
-<ul class="org-ul">
-<li><a href="20231210112406-lovecraft_and_eldritch_knowledge.html#ID-94ba5a79-0e68-48b4-b05b-826aa98ca855">lovecraft-and-eldritch-knowledge</a></li>
-<li><a href="20250113122306-lamenting_the_white_knight.html#ID-99261cbb-2ad0-4962-9bbe-3337d92f094f">Grieving the white knight</a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orge7ad03e" class="outline-2">
-<h2 id="orge7ad03e">martial arts</h2>
-<div class="outline-text-2" id="text-orge7ad03e">
-<ul class="org-ul">
-<li><a href="20250106093501-why_is_the_lunge_punch.html#ID-83472889-eda0-4354-a1d4-9615916efd1d">Why does the lunge punch exist?</a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org3d7afdc" class="outline-2">
-<h2 id="org3d7afdc">creative writing</h2>
-<div class="outline-text-2" id="text-org3d7afdc">
-<ul class="org-ul">
-<li><a href="20250429194634-in_the_eye.html#ID-e8cd49f9-d072-4ddc-86be-be3e853d9ded">in-the-eye</a></li>
-</ul>
 
 <p>
-To help me get started with writing consistently, my sister gave me a set of creative writing prompts.
+The downsides of making the data the interface like this I think are mostly mitigated by keeping components as basic datatypes.
 </p>
-<ul class="org-ul">
-<li><a href="20220617201349-tremble_and_zemble.html#ID-245d134a-80ac-4d13-a899-b52465bb36aa">tremble-and-zemble</a></li>
-<li><a href="20220617202019-on_the_sonic_habits_of_terra.html#ID-b34052c5-b67a-43a7-bed1-2eaa706aaf45">on-the-sonic-habits-of-terra</a></li>
-</ul>
-</div>
-</div>
+
+<p>
+I've also been thinking a bit about the dialogue, and how to use it to tie the gameplay more closely to the themes.
+That is to say, to use them to draw the player's attention to the themes and how the gameplay embodies them.
+It's hard.
+Initially I thought that focusing on diagetic dialogue, setting, and environmental storytelling would be best.
+But first&#x2026; I don't have the art skills or desire for art to do environmental storytelling very well.
+Secondly the relationship between the setting and the themes is too indirect to be communicated this way - at least in my opinion.
+I should leave most of the setting and conflict at the botttom of the proverbial iceberg.
+</p>
+
+<p>
+Instead, the dialogue should be focused on communicating gameplay-relevant information to the player as organically as feasible.
+Bits of the setting will creep in there, but more importantly explaining mechanics through dialogue allows drawing parallels between mechanics and ideas directly.
+</p>
+
+<p>
+I'm realizing in the process that aside from the reward mechanics there isn't much connectivity between the main message and the mechanics.
+Still, I must be able to sneak opportunities to show how the two facitons rationalize violence into their explanations.
+</p>
 </div>
 <div id="postamble" class="status">
 <div class="ml-embedded" data-form="UcmPfz"></div>

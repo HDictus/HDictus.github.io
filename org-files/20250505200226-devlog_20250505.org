@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       15cf45a0-8b49-4d06-9608-2d1593ad9493
+:END:
+#+title: devlog-20250505
+
+I've been making some minor tweaks recently.
+I was flipping through files looking for something minor to do with changing the facing of the character.
+I was struck by the fact that (owing to my lack of discipline in separating concerns) this bit of logic could turn up in many places.
+One way to constrain myself and ensure that everything is where it should be is to ensure that certain components can only be modified by a singular system.
+I did that quite consistently early on, and it did pay off.
+There were a few cases where it made my implementation more roundabout, but I think it was worth it.
+
+The thing that strikes me about this is that here, once again, I end up recreating a piece of conventional OOP within an ECS.
+Sure, the system is not where the data is actually stored, but it does effectvely 'encapsulate' it by being the sole source of writing to it.
+
+Still, it is fundamentally at odds with encapsulation when it comes to reading the data: the data is the interface.
+
+The downsides of making the data the interface like this I think are mostly mitigated by keeping components as basic datatypes.
+
+I've also been thinking a bit about the dialogue, and how to use it to tie the gameplay more closely to the themes.
+That is to say, to use them to draw the player's attention to the themes and how the gameplay embodies them.
+It's hard.
+Initially I thought that focusing on diagetic dialogue, setting, and environmental storytelling would be best.
+But first... I don't have the art skills or desire for art to do environmental storytelling very well.
+Secondly the relationship between the setting and the themes is too indirect to be communicated this way - at least in my opinion.
+I should leave most of the setting and conflict at the botttom of the proverbial iceberg.
+
+Instead, the dialogue should be focused on communicating gameplay-relevant information to the player as organically as feasible.
+Bits of the setting will creep in there, but more importantly explaining mechanics through dialogue allows drawing parallels between mechanics and ideas directly.
+
+I'm realizing in the process that aside from the reward mechanics there isn't much connectivity between the main message and the mechanics.
+Still, I must be able to sneak opportunities to show how the two facitons rationalize violence into their explanations.
+

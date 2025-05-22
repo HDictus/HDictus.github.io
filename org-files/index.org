@@ -41,6 +41,7 @@ Since feedback is important to improve please leave me short reviews of the entr
 
 * popular culture
 - [[id:94ba5a79-0e68-48b4-b05b-826aa98ca855][lovecraft-and-eldritch-knowledge]]
+- [[id:99261cbb-2ad0-4962-9bbe-3337d92f094f][Grieving the white knight]]
 
 * martial arts
 - [[id:83472889-eda0-4354-a1d4-9615916efd1d][Why does the lunge punch exist?]]

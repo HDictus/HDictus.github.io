@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       88525bbe-283d-46a7-b1fa-6cdf59e069a4
+:END:
+#+title: devlog-202505021
+
+I've been making the final boss fight.
+
+Two of the new, basic mechanics are implemented: fading to a new room when everyone is downed, and reducing max health by the provided amount.
+(note: I still need to make the latter carry over across multiple rooms)
+
+In the process, I realized I need to make healthbars distinct entities.
+This way, they can be made to move towards the enemy healthbar and reduce it, visually showing to the player what is going on.
+The general advice of 'everything is an entity' would have helped here.
+I wonder exactly how broadly it should apply, and what the cost would be?
+Should the arrow pointing the direction of offbalancing be an entity?
+Should each component actually be an entity (wtf no)?
+Maybe anything that will be rendered should be an entity.
+
+The thing with making elements like this entities is their creation.
+I need to make it that whenever an entity is given a health component, if they are an enemy, their healthbar is created.
+One way to do this is to create any missing healthbars before drawing, but this adds an inefficiency as you have to loop through all enemies on each draw call.
+I suppose it is a limitation of Concord : ideally you have an event for observers to see whenever a component is given, an entity is created, etc.
+For now I'll have to do it the inefficient way.
+
+I still need to change the enemy targeting behavior and add attack patterns for the boss.
+I also need to ensure there is a clear aggregate score for this section.
+
+
+I'd like to enumerate the other polishing steps that will be needed.
+
+Add an ending and credits roll sequence (might be best to save for end)
+Ensure leveling up mechanics are clear, provide incentive to level up self and bosses (they give more exp the higher their level).
+Ensure it is generous enough early on, but tapers off to disincentivise player spending ages in training (it will get boring.)
+Add dialogue and barks throughout the game.
+Improve Area 1 assets and levels.
+Create area 2 and 3 music.
+

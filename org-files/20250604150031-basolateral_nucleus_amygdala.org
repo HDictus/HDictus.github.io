@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1ccdfe23-5f7b-464d-86fd-5d3303a77c7b
+:END:
+#+title: basolateral-nucleus-amygdala
+Basolateral nucleus of the amygdala

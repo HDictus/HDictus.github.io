@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       d475763b-a2ee-4c8b-a9d1-32f76ba7e682
+:END:
+#+title: inscryption-review
+
+I don't manage to consistently find time for game journaling, and often don't have the energy to write anything worthwhile in any case.
+I think maybe reviewing the games I play is a better exercise to reflect on them.
+
+
+Yesterday, I finished inscryption together with my partner.
+I enjoyed the game, especially early on, but I do have some notes.
+
+Part of what makes the game compelling at the start, despite not being the best card-basedd rogue-like, is the mystery.
+There are secrets to find everywhere, all of which help you move towards victory.
+Leshy is spooky, and the establishment that the game itself is mysterious works as a potent driving force that makes ou want to keep playing, keep seeking.
+
+Ultimately, this driving force doesn't remain, and I think there are a few reasons.
+For one thing, switching the game up dramatically in act 2 had some wierd effect of cleansing the positive associations of the game.
+Secondly, the hints you uncover mostly don't allow you to piece together what is happening, so there's no detective feeling to it like in some other games with a mystery.
+
+There are many layers to the game's mystery, and the ways it breaks the fourth wall and involves the real world are fun.
+But it doesn't seem to do anything with this: the fun is only in the novelty.
+If there was commentary on the nature or creation of the medium it went over my head.
+
+The gameplay in the first section was fun - although it did get too easy before I moved on (partly my fault for overcoming the grizzly rush, which meant I didn't get the eye for a long time, so I played act 1 too long. Still, that does seem like something the dev should be prepared to deal with?)
+After that, the game increasngly dragged on, the gameplay wasn't compelling enough on its own so it was the mystery that kept me playing.
+
+Showing each character's mechanics as they died was a pretty good way to create a sense of loss.
+The characters aren't very strong, so the mystery, rather than characters, drive the player's investment.
+So it's a shame that the mystery isn't a puzzle to piece together, but a tapestry to be revealed.
+
+
+Ok, enough blabber about experience, what about the mechanics?
+
+I really liked the system of summoning in act 1: sacrifices and bones.
+It created really interesting tradeoffs all the time.
+There was generally a way out of any predicament if you looked at the problem from a different angle.
+It was also a really fun game to break - with a 6/3 stoat and a small deck, for instance.
+Or squirrels that let you find the exact card you're looking for.
+There were ways to get decks that could never fail, which could be a downside.
+Looking at slay the spire, there is a counter you could face for every strategy, so you have to plan flexibly.
+That adds a lot of depth to the gameplay: but I have to say, simply lucking into opportunities to break the game, identifying them, and exploiting them is just way more satisfying than having your broken deck counterd by one unlucky encounter.
+But as I also noticed, that does get old eventually, while slay the spire is great to keep playing, keep trying.
+
+Act 1 had some great synergies to play with.
+
+Act 2 looked like it could have been quite fun if fleshed out, but it mostly seemed to boil down to 'survive the initial onslaught, and win.'
+
+Act 3 was just not very fun gameplay, for all his talk of mechanics and synergies P03 really didn't have much in his system.
+
+By the end, the game dragged on a little, so that might be why it didn't make much sense for the devs to put more time into fleshing out the mechanics.
+The player would have to play the acts for longer than the mystery could carry them in order to reap the benefits of the developer's time.
+
+I feel there must have been a more concise way to tell the story.

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       cb6629ed-78b1-433f-aca1-642433fd37f6
+:END:
+#+title: reuptake-inhibitor
+
+A drug that inhibits the reuptake of a transmitter by a cell, effectively increasing the synaptic efficacy and synaptic time constant.
+

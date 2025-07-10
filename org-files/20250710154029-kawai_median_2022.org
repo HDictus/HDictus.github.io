@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       a69897af-aa62-4623-8e41-1b3810e14c54
+:END:
+#+title: kawai-median-2022
+
+Kawai et al. demonstrate that DRN and MRN neurons process reward in opposite ways.
+
+They cite [[id:820bb716-39c0-4199-8e56-c24592a7ec89][nagai-role-2020]], [[id:7b4ec44a-ca67-4a86-ad6b-3ea1f28ad464][liu-dorsal-2014]] for the claim that DRN stimulation is rewarding.
+(Interestingly, I had always heard it wasn't. I think I did encounter one of these studies before - it is a specific subset of neurons that they stimulated.
+see also [[id:e35c2679-75c6-45bb-8df9-5cecab61e436][li-serotonin-2016]], [[id:a72b3702-8189-4c8a-b4b6-ebee744f7c2e][zhong-learning-2017]])
+Since systemic administration of SSRIs is not rewarding, they propose that the MRN acts in opposition to the DRN.
+
+Other studies have investigated whether the MRN is rewarding or punishing, but they did not specifically target 5HT neurons.
+
+Kawai et al. recorded activity from serotoninergic populations in the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]].
+They found that when the mouse licked sugar water, these neurons reduced their activity.
+This was sensitive to the concentration of sugar.
+This was not wholly explainable by the termination of locomotion from the mouse.
+
+When the tails of the mice were pinched, in contrast, [[id:22bdad1e-c531-47f7-a7fe-41c2735fa34f][these]] [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][neurons]] increased their firing.
+This was not explainable by subsequent locomotion.
+Additionally, in thirsty mice, activity was increased by licking water, but less so if that water contained quinine.
+An auditory cue associated with foot shock also activated MRN 5HT neurons.
+
+
+Optogeneically inhibiting [[id:22bdad1e-c531-47f7-a7fe-41c2735fa34f][serotonin]]ergic neurons in the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] was reinforcing.
+Mice were more likely to spend time in a room where they recieved optogenetic inhibition.
+Additionally, brief inhibition when the mouse poked a button with their nose led to steady increase of nose poking.
+
+Optogenetically activating [[id:22bdad1e-c531-47f7-a7fe-41c2735fa34f][serotonin]]ergic neurons in the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] was aversive.
+Mice spent less time in a room where the MRN was optogenetically stimulated.
+Mice also avoided drinking water that was paired with MRN stimulation when other water was available.
+Their licking of sugar water was also reduced by pairing it with stimulation.
+
+To better understand how these neurons influence behavior they looked at the connectivity of the MRN.
+The [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] strongly innervates the [[id:dd3d32ac-b502-4cab-a34a-4dcc6e270c75][interpenduncular-nucleus]], which is implicated in nicotine preference.
+It also innervates [[id:33a31afa-55f1-43b1-8ac5-823a1d228f63][medial-habenula]] and [[id:f57b5ec3-45d7-4f78-bc13-3b85178f00a3][hippocampus]].
+In the IPN but not HBm or HP they found signs of increased neural activity in the group that recieved stimulation.
+In HP the overall change was nonsignificant, but if they looked only at non-pyramidal cells there was a significant increase in activity.
+
+They inhibited serotoninergic axons in [[id:dd3d32ac-b502-4cab-a34a-4dcc6e270c75][IPN]], [[id:147940a8-1b3b-4edd-b485-774d0f2ca202][HPv]], and [[id:33a31afa-55f1-43b1-8ac5-823a1d228f63][HBm]] and saw that inhibition in IPN was strongly, and HPv weakly, rewarding.
+Conversely, stimulating these axons had the opposite effect: stimulation was aversive.
+
+They found that when they administered [[id:d9c65a91-f632-41d0-b960-eb2ed836ccd4][WAY-100635]] and [[id:69d5fccd-175b-4eac-af0c-f09f1c531579][MDL-100907]], antagonists to [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1AR]]s and [[id:3c970aa1-75a8-4562-bf47-7231bc60a137][5HT2AR]]s respectively, the aversive effects of MRN stimulation were blocked.
+
+Not mentioned in their results, but rather in the discussion, they saw a slight increase in activity before licking.
+This may mean that the MRN also encodes reward anticipation.
+
+
+* Takeaways
+
+ - they found that [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] innervated [[id:dd3d32ac-b502-4cab-a34a-4dcc6e270c75][interpenduncular-nucleus]], [[id:33a31afa-55f1-43b1-8ac5-823a1d228f63][medial-habenula]], and [[id:f57b5ec3-45d7-4f78-bc13-3b85178f00a3][hippocampus]]

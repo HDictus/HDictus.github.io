@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       66ff179e-3d33-4111-b3d2-1ecac7630231
+:END:
+#+title: elevated-T-maze
+
+An experimental setup used in expeirments of fearful rat behaviors.
+
+The experiments take place on an elevated T-shaped platform.
+The bottomost arm of the T is sheltered on all sides.
+You can place rats in the enclosed space and measure their tendency to stay put,
+or put them in the open space and measure how fast they scurry to safety.
+

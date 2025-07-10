@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       cdfa2b8d-e856-46fe-8a64-cbb0844b2688
+:END:
+#+title: DRNvl
+

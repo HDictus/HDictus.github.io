@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       40615ea3-f5f3-43cd-9ecd-eb513241423a
+:END:
+#+title: tryptophan-hydroxylase-2
+
+Biosynthetic enzyme for serotonin, typically expressed in serotoninergic neurons

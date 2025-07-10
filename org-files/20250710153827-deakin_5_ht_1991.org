@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ed91a96d-07bf-4d39-8ff4-35d8c33a8795
+:END:
+#+title: deakin-5-ht-1991
+
+Proposes the [[id:4624e030-0806-41ad-b5fb-17ffc0117692][Deakin/Graeff hypothesis]]

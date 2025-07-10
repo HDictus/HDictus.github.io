@@ -4,7 +4,7 @@
 #+title: Deakin/Graeff hypothesis
 
 The Deakin/Graeff hypothesis is that while
-a: serotoninergic neurons in the DRN potentiate stress
+a: serotoninergic neurons in the DRN potentiate learned anxiety while suppressing instinctive panic
 b: serotonenergic neurons in the MRN enhance resilience
 
 

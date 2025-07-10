@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       4126cad6-c2fe-4024-802e-43105aa3d6fb
+:END:
+#+title: devlog-20250625
+
+I've been playing around a bit with the home melody, seeing if I can add parts to it for Aziorgh and Enno.
+I'm not convinced. I've added some really subtle things, but I don't think the song is improved by them.
+
+Maybe best to leave it?

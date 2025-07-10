@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       167fae2c-3d7a-4999-8466-9839da0ef11a
+:END:
+#+title: krystal-noradrenergic-2009
+
+
+https://www.sciencedirect.com/science/article/pii/S0006899309006064?casa_token=blYozbOvy5MAAAAA:WQ13whmBCh9TKQP6rS0xVk4YEOA8OYx1znGFJtNML4gwK7-h5LvAnTViyLiSlZyvA5N-TOfOgQ
+
+
+This article is a review of the neurobiology of PTSD and resilience.
+ 
+In this summay I'm focusing on serotonin, as that is the part relevant to what I am writing.
+
+It seems that noradrenaline, and interactions of noradrenaline with NPY, 5HT and DA are the most central mechanisms for PTSD.
+
+Serotonin is implicated in that m-CPP transiently evokes PTSD-like symptoms in PTSD patients, but not other psychiatric conditions.
+Additionally, SSRIs are effective for PTSD.
+
+As for the mechanisms, 5HT1A receptors are implicated.
+Stimulating [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1AR]]s in the [[id:f57b5ec3-45d7-4f78-bc13-3b85178f00a3][hippocampus]] apparently promotes synaptogenesis.
+(this is interesting, as it conflicts with the mechanisms proposed for the [[id:4624e030-0806-41ad-b5fb-17ffc0117692][Deakin/Graeff hypothesis]] and the results from [[id:f71e5eae-e3b3-46e1-bc3b-36acae8fd803][pereira-both-2019]] . One explanation could be that synaptogenesis, while promoting memory formation, could also promote forgetting.
+What may be relevant here is the difference between chronic and acute stress.
+In classical PTSD you are talking about a single, acute, traumatic event that is consolidated and then causes chronic stress going forward.
+in [[id:f71e5eae-e3b3-46e1-bc3b-36acae8fd803][pereira-both-2019]] they saw that lesioning the MRN-hippocampus pathway reduced the effects of acute stress.
+If [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1A]] receptors promote formation of synapses, it may be that it plays a role in both the formation of acutely stressful memories, as well as the management of chronic stress by forgetting
+)
+They argue that administration of SSRIs does not affect [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1A]] receptor density.
+
+(Do [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1AR]]s promote, or inhibit plasticity? [[id:be5432d2-eb14-40a7-9650-9eac3a900fd6][graeff-role-1996]] and this article seem to disagree, with graeff stating they inhibit the formation of traumatic memories, and this article stating they promote synaptogenesis. The irony is, both articles state that their action promotes resilience.)
+
+
+[[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1A]] and [[id:3c970aa1-75a8-4562-bf47-7231bc60a137][5HT2A]] receptors are proposed to act in oppposition to one another, as the former hyperpolarizes and the latter depolarizes.
+They propose (though their citation doesn't seem to support it? I should take another look at it https://pdf.sciencedirectassets.com/272184/1-s2.0-S1471489207X00419/1-s2.0-S1471489207001968/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJHMEUCIQD2w7wYP6OOrasyuONlI%2ByL%2BBRiyFyf6kgiK6jBtBJzGQIge8Jhw9%2F8oXXeiJZZBQMf7hKAnAxWKikiElBrKmET8bUqswUIKBAFGgwwNTkwMDM1NDY4NjUiDDE1PG3OvxcZ8SxsnyqQBcbtq1OlUUvzN44Ch6rzGG0x2FGbCsrsHKAEYs46gdd1Xi6Lt65YS3i2JXBPgSX7P4iJ%2BVTb54FRLn2kjXHYmxEIz3lCJ3%2BLeRsvRsUwGbGcvIY0RFsPktjWkZ5sG75chB1YINtseTl0DrDPTJOafDDWXIlf1xYKz%2B6ccV3%2Fw4SEjdwjoaWz5KAds3bO1SJTAmY%2FS%2BKwQlDrGGj2TQWF3T9GEIiGxRMLsPPmI4xcIreIWrHqHM6ysDirMvNLies5T5nxbsw0dj82yFFcqq3PtyCKa9mtya7MR5wmjK8agKUGhngTXQiThZOOMzR4d2qo%2BgJxkIVytMVTwHdSkKtjZKa3Q%2BVLvTiMVQURPHAErXabC1fNYwCaNN%2FhJ1AQ2I4WGljWaVcouXwwgHzEMtISyrts4RQSZZ0fmCwyWkbOcGMgO7lm2x5YWvIf6iKX2%2FtdlF7GELQ7N0%2FPtIZ1G%2BXOyEi5nOB9Hq91oTqdPFzwXo1BToRRpbKtczpUz5QTyq0rCXKKU61zOMO7w0wPbtnfbERUZIIUMrNPtHvMHZFFpVVDEKZUJQRhMDxmOnKWlrL3mpN2kYM5u60D1ueakpgu0oI4EmB%2BO6k3mEvCeXMJDHvzSZWu9cXCiDOSvILmQcdSoaw0%2BV%2FPRngqFRRtTlMLfOhPxGgn0xf3oc3YwqC3GmxLccsLkMNiPUUi%2FTFu%2B7aR9KKh%2FiEfbWK%2F9npDJDAf21%2FPmqBFii9X5B7uUvUH9jwQZTH0Pntx5mc7u4TZczzJzZ3Gjw52Z5smZc19HK9PO45lzcziUdctzIo2g5VUTfNDTpYImb8ZdXDmdzO23ce3qsz%2Bs79HDmCt9B5M2V0JkOkSJE%2B%2BzA6zfnIxet3U73AeMLrmncMGOrEBAuOUfgLwl6eqTEpIQSnOTVa06SUN%2BLRXRxYPz%2FaRIkdl1o51d3gJuvKFLrcskg3o1qdbsar6xplZOAdE8lkFnH8XoJ3dgEfNc6wioEJRlblwdREBNlRcuqJTQzw0W%2BxxXjiJ%2BCveBHaVuctDCDQl3Ow58DeLG0ttnd24T%2B%2F6nHKiXnGS5wG5NfLwerzul9mDVkw8%2BtMxnPQKni%2BbyUtuVu4%2BdJ4JndIMcLs5OHRxlm40&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250704T064547Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYSIIB2NKP%2F20250704%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f43d9515fb406fcdf558f13aebfb14b831a6198a8e9e1fc9f7e872f9892e7cec&hash=462c4cf4e250c3243e090599a423fc17585e065f740a5b2baa9c0b85ca218ced&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1471489207001968&tid=spdf-3d95ef73-a7f9-4fe2-999d-9408649d3098&sid=0c1a00de8b0c954d7f696869680663748f43gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=190e5e545700075c510f56&rr=959ca96a2ed83b5d&cc=ch)
+that 5HT2A, by promoting release of glutamate, disrupts neurogenesis and can contribute to cell death.
+This loss of neural connectivity is proposed to lead to [[id:94ac0879-77e6-4b0a-be68-7b0c9de848a6][learned-helplessness]] symptoms and learning and memory impairments.
+
+The evidence for the role 5HT1A receptors in PTSD is very mixed, with some studies implicating their elimination in resilience, others their stimulation, and others finding no effect.
+
+[[id:0189870f-5a56-4a9d-9b7d-b3711161d51d][5HT1BR]]s are implicated in anxiety disorders by studies showing that 5HT1B autoreceptor tone in the [[id:1d8dc1d9-05f9-4c92-86b4-aa6770ec29fc][DRN]] increases anxiety.
+The authors propose that reductions in 5HT1B receptors in cortical-striatal-limbic systems are important for resilient responses to stress.
+

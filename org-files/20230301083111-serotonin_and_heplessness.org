@@ -47,14 +47,14 @@ The DRN neurons affect (among others) the amygdala and striatum.
 The striatum is mostly known for playing a role in deciding whether or not to act.
 When the DRN releases serotonin in the amygdala it makes the animal more fearful.
 When the DRN releases serotonin in the striatum, it makes the animal more passive.
-Serotonin is also released within the DRN itself, where it activates 5HT1A receptors which reduce the firing of the neurons.
+Serotonin is also released within the DRN itself, where it activates [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1A]] receptors which reduce the firing of the neurons.
 The DRN is therefore self-inhibiting: the more it is activated, the more it inhibits itself.
 
 If an animal believes it is able to control the stimulus, cells in the ventromedial prefrontal cortex activate and silence the DRN.
 This frees up the animal to act.
 If the stimulus is inescapable however, these neurons do not activate and the animal remains passive.
 
-When the DRN fires and activates its own 5HT1A receptors, these receptors slowly desensitize, becoming less sensitive to serotonin.
+When the DRN fires and activates its own [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1A]] receptors, these receptors slowly desensitize, becoming less sensitive to serotonin.
 This makes the DRN more active and harder to silence when it is next activated.
 Maier and Seligman suggest that this is what causes learned helplessness.
 

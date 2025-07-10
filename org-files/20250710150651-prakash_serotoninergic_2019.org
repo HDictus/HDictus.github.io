@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       1e6d5090-70c2-4173-868a-98111931d59d
+:END:
+#+title: prakash-serotoninergic-2019
+https://www.jneurosci.org/content/40/3/569.abstract
+
+This is based on the Abstract. I'm not going to dive into the article itself just yet.
+
+Prakash et al. found that stress-susceptible rats had increased numbers of expression of [[id:40615ea3-f5f3-43cd-9ecd-eb513241423a][tryptophan-hydroxylase-2]] in the [[id:aa30b6fe-5288-4e06-9451-f635924a7e12][ventral-dorsal-raphe-nucleus]].
+Under stress, all rats had decreased numbers of [[id:026611d6-0163-47d2-a1c5-e39c414ac8d1][VGLUT3]] expression in [[id:aa30b6fe-5288-4e06-9451-f635924a7e12][DRv]].
+
+Activation of [[id:c59825b6-7b10-4438-82b7-94404a8b9055][corticotropin-releasing-hormone]] expressing neurons in the amygdala ameliorated stress symptoms and suppressed gain in [[id:40615ea3-f5f3-43cd-9ecd-eb513241423a][TPH2]] expression.
+

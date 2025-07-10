@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1af044c3-875b-405b-90bc-a591155ab552
+:END:
+#+title: ventromedial-prefontal-cortex
+Ventromedial region of the prefontal cortex, implicated in higher-cognitive inhibition of behavior.

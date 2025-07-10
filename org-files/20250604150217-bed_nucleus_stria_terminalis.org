@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       119fb7b3-064c-457d-a70d-95bb22663dc9
+:END:
+#+title: bed-nucleus-stria-terminalis
+
+

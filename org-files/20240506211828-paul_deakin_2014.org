@@ -20,5 +20,5 @@ Takeaways
  - Ley's suffocation theory of panic disorder states that PD is a consequence of respiratory issues: supported by the action of CO2 and lactate
  - Klein's false suffocation alarm theory states that it is a malfunctioning of the suffocation alarm system
  - ventrolateral [[id:1d8dc1d9-05f9-4c92-86b4-aa6770ec29fc][dorsal raphe nucleus]] and ventrolateral [[id:7052fdd9-a0e5-47b5-bcc3-b5df5403ec29][periaqueductal gray]] inhibit panic-like responses in the dorsal PAG
- - chronic (not administration of SSRIs potentiates the panic-alleviating effects of serotonin
+ - chronic (not acute) administration of SSRIs potentiates the panic-alleviating effects of serotonin
  - 

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       2028f063-d982-4079-85c1-99226fd10845
+:END:
+#+title: m-CPP
+
+serotonin receptor agonist, especially of [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]] and [[id:0189870f-5a56-4a9d-9b7d-b3711161d51d][5HT1BR]].

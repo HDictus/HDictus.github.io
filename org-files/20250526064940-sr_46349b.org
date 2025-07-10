@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       01fe2fe0-f0cb-4fc1-b723-39dd3b44299f
+:END:
+#+title: SR-46349B
+
+Custom [[id:3c970aa1-75a8-4562-bf47-7231bc60a137][5HT2AR]] antagonist.

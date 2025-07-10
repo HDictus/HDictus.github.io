@@ -46,3 +46,4 @@ A lot of the more advanced object oriented practices and design patterns concern
 
 * BDD - beyond metaphysics
 
+https://karl-voit.at/2017/04/18/classification/

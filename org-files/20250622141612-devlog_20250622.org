@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       a6c26515-d35a-46d6-96bd-ad53c9a217c4
+:END:
+#+title: devlog-20250622
+
+Just a little note to make about how things have been going with the game.
+The last month or so I have been focusing on the music.
+I've made music for phases 2 and 3. I'm considering building a little on the music for phase 0.
+I am also wondering whether to create new versions of the home melody incorporating instruments associated with Aziorgh and Enno.
+
+The main bit of music theory that I hope sticks around in my head this time is that within each scale, for each note in that scale, there are different chords that occur naturally.
+This is determined by which notes of the triad atually occur in the scale.
+The 'natural' chords are those where the next note after the base note are a minor or major 3rd.
+Chords involving a second are exceptional chords, it seems.
+
+Getting a certain feeling out of a chord progression has a lot to do with what kinds of chords - major, minor, diminished, are natural in your scale.
+Then of course, there is a lot to get out of breaking this mould too, but I do not yet have a feeling for when that works and when it doesn't.
+
+Playing notes within the chord of the progression tends to provide a feeling of resolution, while playing notes in the scale but not the natural chord can create tension and anticipation.
+

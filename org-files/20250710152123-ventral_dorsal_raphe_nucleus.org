@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       aa30b6fe-5288-4e06-9451-f635924a7e12
+:END:
+#+title: ventral-dorsal-raphe-nucleus
+
+ventral subnucleus of the dorsal raphe nucleus

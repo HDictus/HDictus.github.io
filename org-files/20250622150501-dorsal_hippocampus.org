@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1fa6f712-4178-4b7f-9d08-29c008a31c0e
+:END:
+#+title: dorsal-hippocampus
+dorsal part of the [[id:f57b5ec3-45d7-4f78-bc13-3b85178f00a3][hippocampus]].

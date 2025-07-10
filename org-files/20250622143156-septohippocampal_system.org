@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7fc8e0ed-633a-4179-be0c-b1f131bc2eb1
+:END:
+#+title: septohippocampal-system
+
+Obviously includes the hippocampus, but what else?
+

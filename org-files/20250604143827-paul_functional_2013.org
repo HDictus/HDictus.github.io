@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       664af7d8-098b-4106-ae65-a58dcf4db40d
+:END:
+#+title: paul-functional-2013
+https://journals.sagepub.com/doi/abs/10.1177/0269881113490328
+
+(The first few paragraphs do provide a nice summary of some of the preliminary evidence given for the hypothesis.)
+
+Paul and Lowry examine projection patterns from the raphe nuclei and argue that they are consistent with the [[id:4624e030-0806-41ad-b5fb-17ffc0117692][Deakin/Graeff hypothesis]].
+
+On the basis of these data, they refine and further specify the hypothesis.
+Rather than the [[id:1d8dc1d9-05f9-4c92-86b4-aa6770ec29fc][DRN]] as a whole giving rise to both kinds of effects, they propose that [[id:6084f6dc-e626-49c6-ae2a-92fc1f40fb8d][DRNd]] and [[id:c72ae06f-1a1f-4881-9f7e-6864b13475e4][DRNc]] promote learned anxiety, while the [[id:0fc34c15-4290-4574-893a-ab8d2a4da7a8][DRNvl]] inhibits innate fear.
+alongside the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]], they propse that also the [[id:57086e3b-7fdc-43c0-868e-8eae7da98f44][DRNi]] promotes resilience to chronic stress.
+
+
+(One point that rubs me the wrong way about this hypothesis is that some people with panic disorder display freezing behavior as a part of their panic attack.
+The idea that panic disorder is then a dysfunction of fight/flight suppression doesn't make sense in these cases.
+It could be that at the time, these freezing events were not considered panic attacks and so were not in this disorder)
+
+Paul and lowry argue that serotoninergic neurons in the dorsal and caudal part of the DRN inhibit fight/flight, the ventrolateral part potentiate learned anxiety, and the interfasicular part of DRN as well as MRN promote resilience.
+
+They base this on the projection targets of these regions, to the extent they were known at that time.
+
+[[id:6084f6dc-e626-49c6-ae2a-92fc1f40fb8d][DRNd]]/[[id:c72ae06f-1a1f-4881-9f7e-6864b13475e4][DRNc]] innervate [[id:1ccdfe23-5f7b-464d-86fd-5d3303a77c7b][BLA]], [[id:6a4ecad4-ea27-4ed5-a91d-9bebe87e90d3][CeA]], [[id:119fb7b3-064c-457d-a70d-95bb22663dc9][BnST]], and [[id:1af044c3-875b-405b-90bc-a591155ab552][vmPFC]], all of which are implicated in emotional control and anxious behavior.
+[[id:6084f6dc-e626-49c6-ae2a-92fc1f40fb8d][DRNd]] additionally innervates 
+
+(I've skipped ahead past this part, but my impression is that the connectivity evidence just implicates DRN in anxiety, which is obvious, not specifically or per se in the way the deakin/graeff hypothesis claims.)
+
+[[id:57086e3b-7fdc-43c0-868e-8eae7da98f44][interfascifulcar-dorsal-raphe-nucleus]] and [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] both innervate the [[id:7fc8e0ed-633a-4179-be0c-b1f131bc2eb1][septohippocampal system]].
+Theta rythms are proposed to have an important role in anxiety and fear-based learning, while several antidepressants disrupt theta rythm.
+The [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]] suppresses hippocampal theta rythms.
+([[id:5bf8e060-8527-4183-8e3e-175ef8cf4f72][huang-median-2022]] suggests that this is not from serotoninergic neurons)
+
+They note that there is some evidence of multiple subpopulations in both the MRN and DRN that respond differently to aversion and reward.
+
+
+
+
+Takeaways:
+ - the different parts of the DRN are distinct in terms of gene expression, while one group forms both [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]] and [[id:0fc34c15-4290-4574-893a-ab8d2a4da7a8][DRNvl]], others form other parts.
+   This may be related to their projection patterns.
+
+ - apparently alcohol relapse is used in animal models as a measure of stress? I didn't know animals could rehab in the first place. 
+ - lesioning [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] leads to alcohol relapse, increasee stress is inferred to be the mechanism.
+ - lesioning [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] in the [[id:66ff179e-3d33-4111-b3d2-1ecac7630231][elevated-T-maze]] increases inhibitory (conditioned) avoidance.
+ - inhibitory avoidance in the [[id:66ff179e-3d33-4111-b3d2-1ecac7630231][elevated-T-maze]] increases activity in [[id:6084f6dc-e626-49c6-ae2a-92fc1f40fb8d][dorsal-dorsal-raphe-nucleus]], [[id:c72ae06f-1a1f-4881-9f7e-6864b13475e4][caudal-dorsal-raphe-nucleus]], [[id:57086e3b-7fdc-43c0-868e-8eae7da98f44][interfascifulcar-dorsal-raphe-nucleus]] and [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]], but not [[id:0fc34c15-4290-4574-893a-ab8d2a4da7a8][ventrolateral-dorsal-raphe-nucleus]].
+
+   
+
+
+
+
+
+
+
+
+
+

@@ -3,21 +3,51 @@
 :END:
 #+title: graeff-role-1996
 
-Summary of https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub
+ https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub
+
+* Goal
+
+To lay out the evidence for the [[id:4624e030-0806-41ad-b5fb-17ffc0117692][Deakin/Graeff hypothesis]] that had been accumulated over the preceding 5 years.
+
+* Summary
+
+The Deakin/Graeff hypothesis states that the [[id:1d8dc1d9-05f9-4c92-86b4-aa6770ec29fc][DRN]] acts to promote learned fear and suppress innate fear, while the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]] acts to prevent the formation of maladaptive behavior under chronic stress.
+Supporting this hypothesis, Graeff et al present results showing that injection of [[id:6caedc6f-c639-46df-bd2e-962bbae2adda][8-OH-DPAT]] into the DRN impairs learned fear in mice, while injection of [[id:8f89b999-32d7-4a79-aefe-d804db0b70f6][FG-7142]] or [[id:fea0514e-6763-47cc-a8ca-3b2d4dc2ba97][kainic-acid]] into DRN, or systemic administration of [[id:3d2957bf-a93a-4cc6-89bc-1fde219119ae][D-fenfluramine]] enhanced it.
+Kainic acid additionally impaired active escape.
+They elaborated on this with human experiments showing that conditioned fear is increased by [[id:3d2957bf-a93a-4cc6-89bc-1fde219119ae][D-fenfluramine]], [[id:ae341c75-0cbc-4f54-85bc-7ecb4a11584e][ritanserin]] and [[id:01fe2fe0-f0cb-4fc1-b723-39dd3b44299f][SR-46349B]], while innate fear is reduced by [[id:3d2957bf-a93a-4cc6-89bc-1fde219119ae][D-fenfluramine]] and [[id:ae341c75-0cbc-4f54-85bc-7ecb4a11584e][ritanserin]].
+
+To support the role of the MRN they presented studies indicating increased ulcer formation in MRN-lesioned rats undergoing chronic stress.
+Additionally highly resilient rats had stronger responses to systemic [[id:d511a498-ab98-4f01-bbc5-68f5d2b7e08d][5-MeO-DMT]], and  [[id:6caedc6f-c639-46df-bd2e-962bbae2adda][8-OH-DPAT]] improved resilience to chronic stress in rats (they hypothesized that the resilience promoting effects of the MRN come from 5HT1A receptors).
+
+
+I had several methodological issues, or rather issues of interperetation.
+The behavioral experiments in mice relied on the [[id:66ff179e-3d33-4111-b3d2-1ecac7630231][elevated-T-maze]].
+In this experimental protocol, the 'learned' fear behavior is passive, the 'insticntive' fear behavior is active.
+In the human experiments the learned fear is neither activity nor passivity, but a physiological response.
+
+These experiments fail to distinguish betwen their hypothesis and the straightfoward alternative that the activity of the DRN promotes passivity, which is also consistent with more recent work implicating it in [[id:94ac0879-77e6-4b0a-be68-7b0c9de848a6][learned-helplessness]].
+
+------------------
+
 
 In animal models of stress related to inhibition of responses serotonin is implicated as anxiogenic.
 In animal models in which the animal escapes or avoids aversive events, serotonin is implicated as anxiolytic.
 (In that it slows the learning of escape/avoidance - I am not sure this qualifies as anxiolytic.)
 
+Personally I think there is no contradiction here to resolve: there seems to be a general theme of 5ht promoting passivity in response to a threat.
+Perhaps in the original deakin/graeff paper they go into more detail about what remains to be resolved here.
+
+
 Graeff brings up [[id:15c10027-0874-4c1c-9b36-ef76deafbf20][deakin-5ht-1991]] to reconcile these results.
-This hypothesis suggests that the DRN -> amygdala, frontal cortex pathway promotes escape behaviors.
+This hypothesis suggests that the DRN -> amygdala, frontal cortex pathway promotes (learned) escape behaviors.
 This pathway they implicate in general anxiety disorder.
 The DRN-periventricular/periaqueductal gray pathway inhibits inborn (instinctive) fight or flight reactions.
 This pathway they propose relates to panic disorder.
-(the nucleus raphe magnus may be a better candidate for this mechanism, but perhaps this info was discovered later.)
+
 The pathway connecting median raphe nucleus to the hippocampus promotes reisistance to chronic stress.
-It dissociates aversive events from appetative and social behaviors, allowing the organism to lead a normal life despite constant adversity.
-(This is interesting ,as it is consistent with the idea of ht2c receptors mediating unlearning. However, they suggest 5HT1a. I assume their reasoning is explained in the original paper.)
+It dissociates aversive events from appetitive and social behaviors, allowing the organism to lead a normal life despite constant adversity.
+(This is interesting ,as it is consistent with the idea of ht2c receptors mediating unlearning. However, they suggest 5HT1a. I think their reasoning has to do with the fact that depressed patients show increased 5HT2c expression, while 5HT1A is known to interact with glucocorticoids, and impair LTP in the hippocampus (5).).
+Also interesting is that the dissociative plasticity you would expect in the hippocampus is actually documented in the frontal cortex, but not to my knowledge the hippocampus)
 They suggest that when this pathway is disrupted, depression occurs.
 
 They use an elevated T maze, which is an elevated T-shaped platform where in the lower arm the rat is enclosed and feels safe, while feeling exposed in the other arms.
@@ -29,22 +59,60 @@ while sitting out on the open arms is innate fear, and seeking cover is instinct
 I'm not certain about this way of viewing the different arms.
 The clearest difference is active v.s. passive, learned vs instinctive is speculative, in my view.
 
-[[id:0b11d8c2-a926-4a47-a8e5-e727fe689e4e][Diazepam]] and 5HT1a ligand [[id:e49f80d7-8c28-47af-8a58-c6980ec02079][ipsapirone]] impaired inhibitory avoidance (hiding in the safe arm), while leaving escape behavior untouched.
+[[id:0b11d8c2-a926-4a47-a8e5-e727fe689e4e][Diazepam]] and [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1a]] ligand [[id:e49f80d7-8c28-47af-8a58-c6980ec02079][ipsapirone]] impaired inhibitory avoidance (hiding in the safe arm), while leaving escape behavior untouched.
 This is taken as validation of the experimental protocol.
 
-They the 5HT1A receptor agonist [[id:6caedc6f-c639-46df-bd2e-962bbae2adda][8-OH-DPAT]], into the DRN, which should decrease 5HT firing rate.
+They injected the [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1A]] receptor agonist [[id:6caedc6f-c639-46df-bd2e-962bbae2adda][8-OH-DPAT]], into the DRN, which should decrease 5HT firing rate.
 This impaired the passive, learned fear (consistent with my alternative that 5ht promotes passivity as well as their hypothesis).
 However, it did not increase escape behavior, which is what they expected.
 
 To see whether increasing 5HT activity would increase hiding and decrease escape, they tried three methods.
 
-Firstly they injected [[id:156f7978-a7e3-4870-a9a9-49a96b19abb1][FG-7142]].
+They injected [[id:156f7978-a7e3-4870-a9a9-49a96b19abb1][FG-7142]], or [[id:fea0514e-6763-47cc-a8ca-3b2d4dc2ba97][kainic-acid]] into DRN or administered [[id:3d2957bf-a93a-4cc6-89bc-1fde219119ae][D-fenfluramine]].
+[[id:156f7978-a7e3-4870-a9a9-49a96b19abb1][FG-7142]] enhanced inhibitory avoidance but did not affect active escape.
+[[id:fea0514e-6763-47cc-a8ca-3b2d4dc2ba97][kainic-acid]] enhanced inhibitory avoidance and impaired active escape.
+[[id:3d2957bf-a93a-4cc6-89bc-1fde219119ae][D-fenfluramine]] enhanced inhibitory avoidance, and reduced escape speed.
+
+"The negative results with 8-
+OH-DPAT and FG 7142 on escape contrasts with the effec-
+tiveness of both drugs on avoidance. This may be an indi-
+cation that the DRN-periventricular 5-HT system has no
+inhibitory tone, and acts on DPAG neurons controlling de-
+fense and aversion in a phasic way. Indeed, this hypothesis
+has already been suggested on the basis of the absence of
+behavioral changes following the microinjection of 5-HT2A,2C
+receptor blockers into the DPAG (35)"
 
 
+They went on to test their hypothesis with human volunteers.
+They gave them a pavlovian fear task (learned fear) and a simulated public speaking task (instinctive fear), and gave them either drugs or a placebo.
+The drugs they used were [[id:3d2957bf-a93a-4cc6-89bc-1fde219119ae][D-fenfluramine]], [[id:2028f063-d982-4079-85c1-99226fd10845][m-CPP]], [[id:ae341c75-0cbc-4f54-85bc-7ecb4a11584e][ritanserin]], [[id:01fe2fe0-f0cb-4fc1-b723-39dd3b44299f][SR-46349B]].
 
-Personally I think there is no contradiction here to resolve: there seems to be a general theme of 5ht promoting passivity in response to a threat.
-Perhaps in the original deakin/graeff paper they go into more detail about what remains to be resolved here.
+On the basis of their hypothesis, they expected that agonists would increase fear in the pavlovian task and reduce it in the public speaking task,
+while antagonists would have the opposite effect.
 
+[[id:3d2957bf-a93a-4cc6-89bc-1fde219119ae][D-fenfluramine]] reduced anxiety in the public speaking task and enhanced conditioned fear.
+[[id:2028f063-d982-4079-85c1-99226fd10845][m-CPP]] did not affect public speaking, but did enhance conditioned fear. 
+[[id:ae341c75-0cbc-4f54-85bc-7ecb4a11584e][ritanserin]] and [[id:01fe2fe0-f0cb-4fc1-b723-39dd3b44299f][SR-46349B]] both increased anxiety in the conditioned task, while the former reduced fear in public speaking and the latter did not.
+(For ritanserin, this apparently parallels the aggravation of panic disorder by the drug - but doesn't that contradict their hypothesis? Panic seems to me to be the most obvious example of an unconditioned fear response? maybe they meant in the sense that their conditioned task measured a physiological response?)
+
+They frame results from [[id:94ac0879-77e6-4b0a-be68-7b0c9de848a6][learned-helplessness]] models as consistent with their hypothesis.
+In particular, the increased conditioned freezing is consistent with their model, but those experiments have no unconditioned fear to compare to.
+The impairment of learning however is not directly evident from their model: in particular its alleviation by DRN lesion.
+They do suggest on the basis of that that two different pathways - PAG and Amygdala - modulate the freezing and learning impairment.
+(escape defecit required targeting the DRN, amygdala only hit increased freezing)
+
+On the basis of these results they propose that D-fendfluramine reduces panic attacks in panic disorder by inhibiting instinctive fear responses.
+
+They replicated experiments showing that lesioning [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]] increased ulcer formation, and extended this to show immunideficiency.
+
+Another experiment found that rats which exhibited the most resilience to stress had stronger behavioral responses to [[id:d511a498-ab98-4f01-bbc5-68f5d2b7e08d][5-MeO-DMT]], and [[id:6caedc6f-c639-46df-bd2e-962bbae2adda][8-OH-DPAT]] showed improvements in resilience.
+This does not specifically implicate the MRN however, as adminisration was sytemic.
+This could also be due to reduction in DRN activity.
+
+They proposed (from 16) that [[id:0bf21fd7-2c4e-466b-a1d9-383039762849][glucocorticoids]] sensitize and up-regulate [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1AR]]s short-term, but down-regulate them if chronic.
+
+They associate [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]]s with anxiety, and based on (5) say [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]]s oppose [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1AR]]s.
 
 
 * Takeaways
@@ -57,5 +125,19 @@ Perhaps in the original deakin/graeff paper they go into more detail about what 
 - the claim that chronic SSRI administration downregulates prefrontal expression of 5HT2C showed up here again.
   It linked again to https://www.sciencedirect.com/science/article/pii/0006322388900911?via%3Dihub.
   I cannot find this claim in this article, and either way it is odd that graeff cites only the review and not the stud(ies) that found the downregulation.
+  As I understand it, this article proposed this as a possibility, rather than a confirmed observation.
   I suspect this claim made its way, mis-citation and all, to wikipedia from this article.
   I can revisit this topic with papers summarized here https://elicit.com/review/d23a00a0-b5d6-44a0-9363-7ee41d2422ec
+
+- learned helplessness models of depression also show potentiated fear condtioning as well as escape deficits (this is shown in increased freezing behavior - not sure these are really separate)
+- (48) showed that lesioning [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]], but not [[id:1d8dc1d9-05f9-4c92-86b4-aa6770ec29fc][DRN]] increased stress-induced ulcers
+  (does this have to do with the hippocampal pathway, though?)
+
+- several studies show that 5HT is released in the hippocampus during stress
+- adrenal corticosteroids increase the consolidation of stressful memories
+- (33, 12, 13, 14, 85) systemic and hippocampal 5ht potentiation disrupt behavior acquisition
+- (109, 21, 94) [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1AR]] inhibits [[id:82ec570f-4446-407b-9660-1c307f3b96a5][long-term-potentiation]] in the hippocampus
+- (17) 5HT1a receptors are reduced in suicide victms
+- (31, 81, 84, 101) [[id:0bf21fd7-2c4e-466b-a1d9-383039762849][glucocorticoids]] are more present depressed patients, and drugs that inhibit cortisol synthesis improve depression
+- (51) [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]]s show increased expresion in depressed patients
+- (64, 72, 104) scress and [[id:0bf21fd7-2c4e-466b-a1d9-383039762849][glucocorticoids]] increase [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]] expression.

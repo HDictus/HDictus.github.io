@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       36dd3197-1e22-4db8-b5b4-2b8ea8b41457
+:END:
+#+title: neuroscience-game
+
+I'd like to build on the concept of [[id:72d2a1a8-da5d-49cf-856a-c6b3abe6ed71][Forging Foraging: a little neuroscience game]].
+
+In Metazoa and Other Minds, peter godfrey smith argues that nervous systems may not initially have evolved to respond to stimuli, but rather to coordinate movement.
+Therefore, one idea I am playing with is having the player build a body for the neurons to control.
+This way, the critter starts out as just a stomach.
+It digests anything edible in the stomach.
+eating increases the critter's size up to r times the original, then eating periodically lets them lay an egg.
+Each first egg of the new generation, they may choose one change.
+Adding or removing an appendage, a photoreceptor, a neuron.
+At first they only see what the critter sees, the wall of each appendage having some neurons built in.
+After reproducing the first time, the view zooms out and they can see the world, and their little critters navigating it.
+
+I would need some sort of swim mechanic: for each vertex get the speed, and for the edge between calculate the swept area and apply force appropriately.
+This should sort out swimming.
+
+Other critters in the environment do the same, mutating with each generation, their mutation rate changes as well as their other traits.

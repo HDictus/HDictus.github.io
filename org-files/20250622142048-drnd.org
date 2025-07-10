@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       34fd7a9e-5919-4b99-88cd-1e39615cce78
+:END:
+#+title: DRNd
+

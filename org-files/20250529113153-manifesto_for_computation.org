@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       66bc6d78-4871-45bc-be4c-3999d7439dcb
+:END:
+#+title: manifesto-for-computation
+
+
+

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       12baa882-fa67-4a91-bc85-9c17018467da
+:END:
+#+title: classification-sucks
+https://karl-voit.at/2017/04/18/classification/

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       3d7e2dad-658c-4bc2-b6f6-7fde80d1c544
+:END:
+#+title: 5HT1AR
+
+Serotonin 1-a receptor. 
+
+It seems to affect plasticity in mysterious and  complex ways. Some reading to do:
+https://www.nature.com/articles/tp201158.pdf
+https://www.sciencedirect.com/science/article/pii/S0006899305000284?dgcid=api_sd_search-api-endpoint
+https://pubmed.ncbi.nlm.nih.gov/12562581/
+https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0120286&type=printable
+https://www.nature.com/articles/srep29551.pdf
+https://www.semanticscholar.org/paper/5-HT1A-receptors-direct-the-orientation-of-in-layer-Meunier-Amar/350b6316c78ac351f39d85cf009ab40d25762eb3
+https://www.pnas.org/doi/full/10.1073/pnas.97.26.14731
+

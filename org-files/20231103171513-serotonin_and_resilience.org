@@ -7,16 +7,14 @@ This is a stub for a topic I plan to write about, starting from this article:
 The Deakin/Graeff hypothesis proposes that while the dorsal raphe nucleus potentiates fear and anxiety, the medial raphe nucleus instead provides resilience.
 see: [[id:1d3f59ef-0400-46c0-bafb-b67c0fa0e463][paul-deakin-2014]]
 [[id:52e8b7d2-e2af-4029-8325-7cb5dcc401d9][johnston-failure-2015]]
-
-https://www.sciencedirect.com/science/article/pii/0091305795021353?via=ihub
-https://journals.sagepub.com/doi/abs/10.1177/0269881113490328
-https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_4
-https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q
-https://www.sciencedirect.com/science/article/pii/S0006899309006064?casa_token=blYozbOvy5MAAAAA:WQ13whmBCh9TKQP6rS0xVk4YEOA8OYx1znGFJtNML4gwK7-h5LvAnTViyLiSlZyvA5N-TOfOgQ
-https://www.jneurosci.org/content/40/3/569.abstract
-https://link.springer.com/chapter/10.1007/7854_2010_109
-https://journals.sagepub.com/doi/abs/10.1177/026988119100500414
-https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q
+[[id:be5432d2-eb14-40a7-9650-9eac3a900fd6][fgraeff-role-1996]]
+[[id:664af7d8-098b-4106-ae65-a58dcf4db40d][paul-functional-2013]]
+[[id:f71e5eae-e3b3-46e1-bc3b-36acae8fd803][pereira-both-2019]]
+[[id:167fae2c-3d7a-4999-8466-9839da0ef11a][krystal-noradrenergic-2009]]
+[[id:1e6d5090-70c2-4173-868a-98111931d59d][prakash-serotoninergic-2019]]
+[[id:9e16748b-995c-457f-b6cd-6077af3e39aa][lesch-serotonin-2011]]
+[[id:ed91a96d-07bf-4d39-8ff4-35d8c33a8795][deakin-5-ht-1991]]
+[[id:a69897af-aa62-4623-8e41-1b3810e14c54][kawai-median-2022]]
 
 counterpoint:
 https://www.nature.com/articles/s41467-022-35346-7
@@ -65,3 +63,6 @@ https://www.sciencedirect.com/science/article/pii/S0166432817304527
 https://www.sciencedirect.com/science/article/pii/S2213231723004068
 
 https://www.cell.com/neuron/fulltext/S0896-6273(14)00955-6
+
+
+https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_4

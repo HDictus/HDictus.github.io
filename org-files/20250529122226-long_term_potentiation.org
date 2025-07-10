@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       82ec570f-4446-407b-9660-1c307f3b96a5
+:END:
+#+title: long-term-potentiation
+
+Synaptic plasticity in which the synapse is strengthened long-term.

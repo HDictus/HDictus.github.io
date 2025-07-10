@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       57086e3b-7fdc-43c0-868e-8eae7da98f44
+:END:
+#+title: interfascifulcar-dorsal-raphe-nucleus
+
+Interfasicular part of the [[id:1d8dc1d9-05f9-4c92-86b4-aa6770ec29fc][dorsal-raphe-nucleus]].

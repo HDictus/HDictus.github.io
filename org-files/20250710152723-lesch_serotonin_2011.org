@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9e16748b-995c-457f-b6cd-6077af3e39aa
+:END:
+#+title: lesch-serotonin-2011
+
+A book chapter. can't access the whole thing, and the abstract is slim on details.
+
+https://link.springer.com/chapter/10.1007/7854_2010_109

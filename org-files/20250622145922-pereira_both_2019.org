@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       f71e5eae-e3b3-46e1-bc3b-36acae8fd803
+:END:
+#+title: pereira-both-2019
+
+https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q
+
+Repeated exposure to the same stressor leads to the development of tolerance to stress.
+Lesioning the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]]-[[dorsal-hippocampus]] pathway prevents the development of tolerance to stress.
+
+Periera et al. lesioned this pathway in rats and found that both [[id:6d75d8e3-d2eb-48d8-8a7d-7a2f2fc94bac][fluoxetine]] and [[id:aa3b1a43-8028-4b5f-8ab1-22a564f086a4][desipramine]] attenuate the effects of this lesioning, indicating that this pathway is not essential to the anxiolytic effects of antidepressants.
+
+(I should revisit their data in more detail, to evaluate their interperetation of it.)
+
+IT is difficult to be sure of their results, considering their sample size and number of analyses.
+
+Figure 4 has a very strange result: lesioned rats seemed significantly less anxious than un-lesioned.
+This is for acute stress - this does suggest (though weakly - remember bonferroni correction) that this pathway mediates the effects of acute fear.
+
+With chronic stress, animals returned to normal exploratory behavior unless lesioned.
+Treatment with either drug alleviated this defecit in lesioned animals.
+
+
+* Takeaways
+
+ - the hippocampal formation has a very high density of 5HT1A receptors
+ - stress tolerance thought to be result of 5HT1A receptors
+ - animals show reduced exploration when subjected to a stressor
+ - animals typically recover normal behavior when repeatedly subjected to the same stressor
+ - if the pathway from MRN to Hippocampus is lesioned, they do not
+ - fluoxetine and desipramine mitigate the effects of this lesioning

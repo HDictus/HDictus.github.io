@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ae341c75-0cbc-4f54-85bc-7ecb4a11584e
+:END:
+#+title: ritanserin
+
+[[id:3c970aa1-75a8-4562-bf47-7231bc60a137][5HT2AR]] and [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]] antagonist.
+

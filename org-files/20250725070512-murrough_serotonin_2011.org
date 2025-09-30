@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a996c379-6371-4981-8fc1-e74e8e9c263a
+:END:
+#+title: murrough-serotonin-2011
+
+https://www.biologicalpsychiatryjournal.com/article/S0006-3223(11)00076-X/abstract
+
+
+Murrough and Charney discuss gene-environment interactions in the [[id:13fd201a-d462-4e74-a96e-643c48e0b803][5HTTLRP]] gene with respect to anxiety.
+For example, they mention a study in which there was an association between maternal anxiety during gestation and infant negative emotionality only when a long-allele version was present.
+

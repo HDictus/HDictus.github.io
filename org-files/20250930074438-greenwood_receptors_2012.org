@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3bf7310b-8b73-4a12-83cb-03dbc40bb6b5
+:END:
+#+title: greenwood-receptors-2012
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0046118
+
+Greenwood et al analyzed the effects of voluntary exercise on the behavioral effects ofa  [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]] agonist and n the concentration of [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]] mRNA.
+They found that it reduced both compared to control.

@@ -15,37 +15,24 @@ see: [[id:1d3f59ef-0400-46c0-bafb-b67c0fa0e463][paul-deakin-2014]]
 [[id:9e16748b-995c-457f-b6cd-6077af3e39aa][lesch-serotonin-2011]]
 [[id:ed91a96d-07bf-4d39-8ff4-35d8c33a8795][deakin-5-ht-1991]]
 [[id:a69897af-aa62-4623-8e41-1b3810e14c54][kawai-median-2022]]
+[[id:a996c379-6371-4981-8fc1-e74e8e9c263a][murrough-serotonin-2011]]
+[[id:f99cce24-3a87-4d40-9127-8b89d39a6d9e][hyun-investigation-2018]]
+[[id:4389efe3-728e-4bc7-84aa-3d2cefe63d64][carli-role-2020]]
+[[id:93fa48e5-4376-4325-a80f-88ce67e765fa][wipfli-serotonin-2008]]
+[[id:8923feb8-462f-47fb-b41a-654be26fe80e][wipfli-examination-2011]]
+[[id:d3865a7e-db2d-4709-9135-347d4e8edeba][oglodek-changes-2022]] 
+[[id:7ce46dc5-6808-47ad-aba5-9bb922c994fd][strong-role-2012]]
 
-counterpoint:
-https://www.nature.com/articles/s41467-022-35346-7
-
-
-useful background:
-https://link.springer.com/chapter/10.1007/7854_2010_109 and https://www.biologicalpsychiatryjournal.com/article/S0006-3223(11)00076-X/abstract
-
-important negative result:
-https://koreascience.kr/article/JAKO201812965731984.page
-
-conflicting evidence https://www.cambridge.org/core/journals/european-psychiatry/article/abs/protective-genetic-variant-for-adverse-environments-the-role-of-childhood-traumas-and-serotonin-transporter-gene-on-resilience-and-depressive-severity-in-a-highrisk-population/F07C8A85043155818BA8A43D540358AF https://www.sciencedirect.com/science/article/pii/S0191886908001979?casa_token=KEiuiROetgkAAAAA:iG2hqpJ9uQ5gubCuVlTRK0dI3O54yWqdQZdHgsDxUkLwcw32-5-gmA60E7HO8D5mq5DqaB0FDA
+PTSD 
 
 
-https://www.proquest.com/openview/e104a4485ebe1843e3b2d20af194ea18/1?pq-origsite=gscholar&cbl=18750 and https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0838.2009.01049.x?casa_token=YLn4Z-A5RhoAAAAA%3ATNDHp_lvcE0T0RWczsgjVFbO7El1a-1ktVH5FD3IlMhZx4TnFrsuwzNGQQVvhg_9dn6Rd-BxeIvKvQ
-
-
-PTSD review: https://www.sciencedirect.com/science/article/pii/S0006899309006064?casa_token=RU43kKjLG-kAAAAA:uAcxH_HfCK0rBHrTtbRMaGXClhZ1xBFfqzV50dHBUqDegUbZ5kyFJhaC5shcX0wAzuP7WoeLOA
-PTSD https://www.mdpi.com/1660-4601/19/24/16517
-
-
-https://www.jpn.ca/content/jpn/32/6/394.full-text.pdf
 
 
 
 paul-vincent strong's work, perhaps more relevant to learning or helplessness?
 (The Role of Central 5-HT2C Receptors in Stress-Induced Anxiety and the Anxiolytic Effects of Exercise
-https://scholar.colorado.edu/downloads/hx11xf36b
-https://onlinelibrary.wiley.com/doi/10.1111/apha.12239
-https://www.mdpi.com/2076-328X/2/2/57
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0046118
+
+
 https://www.ibroneuroscience.org/article/S0306-4522(11)01126-2/abstract
 
 
@@ -66,3 +53,13 @@ https://www.cell.com/neuron/fulltext/S0896-6273(14)00955-6
 
 
 https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_4
+
+
+Serotonin as an acceptance molecule.
+There is nothing you can do, don't try.
+There is nothing you can do, don't worry.
+These have to go together.
+You change direction and focus your effort and mind elsewhere,
+
+Resilience is not the same as persistence.
+Adaptability and acceptance may well be its essence.

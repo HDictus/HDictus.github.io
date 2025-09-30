@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       7ce46dc5-6808-47ad-aba5-9bb922c994fd
+:END:
+#+title: strong-role-2012
+https://scholar.colorado.edu/downloads/hx11xf36b
+
+
+In the first study described Strong measured 5HT concentration in the [[id:34e529d4-4ad8-4d79-9836-f9da89fb7387][dorsolateral-striatum]] with acute stress after stress exposure.
+Rats exposed to stress displayed increased 5HT concentration after foot shock compared to controls.
+Among groups exposed to exercise, there was no difference, suggesting that if anxiolytic effects of exercise are mediated by 5HT, it must be postsynaptic.
+
+The receptor strong first zeroes in on is the [[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]], which has emerged as a target for mood disorder treatment
+Agonists interfere with instrumental escape and increases freezing, antagonists block the effects of uncontrollable stress on escape learning and social avoidance.
+(Strong et al. 2009, Christianson et al. 2010).
+Activation in the [[id:687a8f78-c79e-4f73-9939-55a7930a496f][dorsal-striatum]] is implicated in the interference with stress-induced defecits in instrumental learning.
+
+Strong found again that after uncontrollable stress, exposure to stressors led to increased [[id:22bdad1e-c531-47f7-a7fe-41c2735fa34f][serotonin]] concentration in [[id:687a8f78-c79e-4f73-9939-55a7930a496f][dorsal-striatum]] that was not present with controllable stress.
+[[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2C]] receptor antagonist [[id:82b9ab06-0a4d-43a5-a105-585e041edaf3][SB-242084]] reduced stress-induced defecits in escape latency.
+TODO: this thesis will be worth mentioning in [[id:02504069-e1e7-43c8-a746-43ed27a2f807][serotonin-and-heplessness]] and [[id:00813f54-3bba-432c-8032-acc000dc5311][serotonin-and-learning]] because it more clearly implicated 5HT2C
+
+
+(See christianson et al. 2010 for interesting stuff)

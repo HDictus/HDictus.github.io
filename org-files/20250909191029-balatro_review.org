@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       e9c35463-05ac-4c27-b618-f46abb56c6be
+:END:
+#+title: balatro-review
+
+Balatro is the kind of game where you keep playing even if you're not sure you're having fun.
+"addictive" is the right word I think, a lot of the pleasure comes from simple chance.
+Not just that though, it's the beautiful roguelike cocktail of luck piling on luck to create a synergy.
+It is a satisfying way to make the hours fly by.
+
+Initially I found the gameplay compelling, a probabilistic puzzle in every hand.
+After a while though, it started to feel like the puzzly part of the gameplay wasn't that impactful.
+Ultimately what decides how far you get is less how you play your hands, than how you build your synergies.
+As a consequence, after a few matches, I found I was disengaged from the gameplay you spend the bulk of your time doing, and really just waiting for the next upgrade.
+You either get your buffs set up so that you don't have to think, or you don't, and lose even when you think your best.
+
+I rather suspect this impression I was left with is unfair.
+I never made it super far, so there are likely lots of things in the main gameplay that just haven't occurred to me.
+Ways I could have outsmarted the game despite not having the right jokers at the time.
+
+

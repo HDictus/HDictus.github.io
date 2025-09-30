@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       34e529d4-4ad8-4d79-9836-f9da89fb7387
+:END:
+#+title: dorsolateral-striatum
+

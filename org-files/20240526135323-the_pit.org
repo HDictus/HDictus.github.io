@@ -38,6 +38,22 @@ I think it's become clear that my thoughts on these matters are not actually cle
 
 
 
+* Compassion and retribution in criminal justice
+
+Simplistic views of violence and crime permeate attitudes toward law enforcement and criminal justice.
+This is easily demonstrated in the United States by examining the discussions surrounding police brutality.
+I definitely see signs of it in Europe as well, though it seems less widespread and its influence on policy and institutions is mercifully weaker.
+
+My home country of the Netherlands has an effective system of policing, [[https://www.taylorfrancis.com/chapters/mono/10.4324/9781003360452-4/netherlands-variations-theme-mawby?context=ubx&refId=5fa4cfda-742f-4364-9ebd-04d3ad35d10b][hisorically focusing on serving communities over punishing offenders]].
+Our approach to drug addiction similarly focuses on helping, rather than punishing addicts, and the justice system likewise is focused on rehabilitation over punishment.
+This works well - the Netherlands is a very safe country and gets steadily [[https://www.cbs.nl/nl-nl/cijfers/detail/83723NED][safer each year]].
+In the current political climate however there is a push towards more aggressive policing, punitive treatment for addiction, and harsher sentencing.
+
+These approaches are financially expensive, socially costly, and ultimately ineffective (see [[https://heinonline.org/HOL/LandingPage?handle=hein.journals/stanlp11&div=9&id=&page=][here]], [[https://psycnet.apa.org/record/2011-20232-001][here]], [[https://shsu-ir.tdl.org/items/417976b2-9daa-44ea-8a13-b3ca8ce6c539][here]], [[https://heinonline.org/HOL/LandingPage?handle=hein.journals/uchclf2016&div=19&id=&page=][here]], [[https://heinonline.org/HOL/LandingPage?handle=hein.journals/buflr62&div=35&id=&page=][here]], [[https://heinonline.org/HOL/LandingPage?handle=hein.journals/calr81&div=12&id=&page=][here]], [[https://rucore.libraries.rutgers.edu/rutgers-lib/60525/][here]]).
+
+My objection to this development is not moral, but pragmatic.
+Furthermore, I contend that the motivation for these policies is not a desire to reduce crime, but an emotional urge.
+It is rooted in the desire to see violence enacted, and rationalized with naive views on who commits crime and why.
 
 
 * The cowardice of cruelty
@@ -162,6 +178,10 @@ Krav Maga and similar methods are often marketed to police.
 The naive 'do bad things to bad people' rationale of its methods are incompatible not just with developing hand-to-hand skill, but with effective policing and criminal justice.
 
 * Kindness as an exercise of power
+
+"Violence and power are opposites" - Hannah Arendt, On Violence
+
+(this may be better framed as a way to sell compassion, to make it exciting and feel good)
 
 Violence, besides being satisfying, can give us a sense of control.
 When animals are exposed to uncontrollable, unpredictable pain this has debilitiating psychological effects far beyond that of predictable and controllable pain.

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       93fa48e5-4376-4325-a80f-88ce67e765fa
+:END:
+#+title: wipfli-serotonin-2008
+https://www.proquest.com/openview/e104a4485ebe1843e3b2d20af194ea18/1?pq-origsite=gscholar&cbl=18750
+
+A PhD Dissertation regarding interactions between serotonin and exercise in anxiety and depression.
+
+I do not have access to the whole thing, but from the abstract:
+
+- Patients benefitted more from excercise than light stretching.
+- Patients in the exercise group exhibited a larger percentage decrease in blood serotonin than the stretching group.
+
+On page 23 they discuss why they looked at serotonin: a proposed explanation for how exertcise influences serotonin and thereby depression.
+The idea is that burning fat increases the fatty acids in the bloodstream, thereby binding to blood albumin and preventing the binding of tryptophan, increasing its availabiliy for serotonin synthesis.
+
+(tryptophan is also a precursor to melatonin, I wonder if that has anything to do with depression/anxiety and serotonin: less serotonin needed to get the job done = more tryptophan for melatonin...?)
+

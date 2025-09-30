@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       d3865a7e-db2d-4709-9135-347d4e8edeba
+:END:
+#+title: oglodek-changes-2022
+https://www.mdpi.com/1660-4601/19/24/16517
+
+This study assessed cortisol, tryptophan and serotonin levels in subjects
+
+serotonin was reduced, and cortisol elevated in stress-susceptible groups.
+
+
+Their introduction is an enlightening read into the neurobiology of trauma.
+
+Cortisol increases the sensitivity to trauma, improves recall of emotionally important information, and consolidates long-term memory.
+Therefore It may be important in the development of PTSD.
+
+With respect to serotonin, moderate stress leads to release of serotonin into frontal cortex, while with severe stress much serotonin is seen throughout the brain.
+Chronic stress can lead to serotonin depletion.
+
+5HT controls stress responses through its involvement in neurohormonal homeostasis
+
+They state that the [[id:1d8dc1d9-05f9-4c92-86b4-aa6770ec29fc][dorsal-raphe-nucleus]] mediates anxiety theough 5HT2 receptors in amygdala and hippocampus (32-34, worth checking out)
+and the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] mediates anti-anxiety effects by suppressing associations through [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1AR]]s
+
+
+

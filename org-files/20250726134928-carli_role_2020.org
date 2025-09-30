@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4389efe3-728e-4bc7-84aa-3d2cefe63d64
+:END:
+#+title: carli-role-2020
+https://www.cambridge.org/core/journals/european-psychiatry/article/abs/protective-genetic-variant-for-adverse-environments-the-role-of-childhood-traumas-and-serotonin-transporter-gene-on-resilience-and-depressive-severity-in-a-highrisk-population/F07C8A85043155818BA8A43D540358AF https://www.sciencedirect.com/science/article/pii/S0191886908001979?casa_token=KEiuiROetgkAAAAA:iG2hqpJ9uQ5gubCuVlTRK0dI3O54yWqdQZdHgsDxUkLwcw32-5-gmA60E7HO8D5mq5DqaB0FDA
+
+Another study on the relationship of [[id:13fd201a-d462-4e74-a96e-643c48e0b803][5HTTLRP]] polymorphism to depression and resilience.
+They saw no direct relationship to resilience or depression, but an interaction between the gene and childhood trauma.
+Interestingly, they found that the long allele was assocated with lower resilience after severe childhood trauma.
+This conflicts with [[id:a996c379-6371-4981-8fc1-e74e8e9c263a][murrough-serotonin-2011]], in which the short allele was the one associated with worse resilience.
+
+

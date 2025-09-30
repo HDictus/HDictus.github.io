@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       687a8f78-c79e-4f73-9939-55a7930a496f
+:END:
+#+title: dorsal-striatum
+
+Dorsal part of the striatum

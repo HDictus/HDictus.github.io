@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       82b9ab06-0a4d-43a5-a105-585e041edaf3
+:END:
+#+title: SB-242084
+
+[[id:0b498723-ec70-4698-a593-4535b6f2c9e1][5HT2CR]] receptor antagonist

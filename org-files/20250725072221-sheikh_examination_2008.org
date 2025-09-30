@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       20e9ac01-df84-41d3-bcac-9307b3017e23
+:END:
+#+title: sheikh-examination-2008
+
+Sheikh et al. examined relationships between [[id:13fd201a-d462-4e74-a96e-643c48e0b803][5HTTLRP]] polymorphisms and attributional style.
+They found increased depressogenic attributions in people with the short allele.

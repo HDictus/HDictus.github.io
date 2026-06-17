@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       f40dc6ad-a732-472a-96d3-26c411b575a8
+:END:
+#+title: jia-short-term-2004
+
+
+Jia et al. stimulated the lgn and recorded [[id:c72015e7-651f-41a1-8587-10c8dea26e51][local-field-potential]]s in [[id:7c46d9d1-9595-4121-af30-2a872c769936][L4]] of [[id:105d5ed6-9819-4ecc-a187-80cb0f674988][VISp]].
+They saw clear short-term depression of the LFPS.
+This was strongly affected by GABAa receptors, as demonstrated by blocking with 
+[[id:3e6ab2c9-2653-43ce-a557-9312d75b5c38][bicuculline-methiodide]].
+
+This LFP recording, even with BIM blocking, would still include several confounders if you try to use it to describe synaptic depression.
+Firstly, there may be spike frequency adaptation in the LGN, where fewer LGN neurons respond to subsequent spikes.
+(For my purposes, this isn't present in the LGN model so even if it were the case in-vivo, compensating in the TC syns would be good)
+Secondly, local excitatory synapses may display short-term depression, inflencing this.
+Finally, local excitatory neurons may display spike-frequency adaptation.
+
+The interperetation of these results is helped somewhat by [[id:3b6938fe-64fa-44c1-a587-26c9bf104982][chung-short-term-2002]], which seems to show evidence that the first is modest, the second isn't significant, and the third is too slow for that timecourse.
+

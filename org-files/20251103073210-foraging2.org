@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f1c2ab86-b92d-410a-b12c-9080377b96be
+:END:
+#+title: foraging2
+
+
+Consider making a C. elegans game
+https://ccli.substack.com/p/the-biggest-mystery-in-neuroscience

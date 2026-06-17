@@ -1,0 +1,84 @@
+:PROPERTIES:
+:ID:       2a919a4c-dc05-4280-9580-d4cae240d968
+:END:
+#+title: ahmadlou-subcortical-2025
+
+Ahmadlou et al used optogenetic techniques to investigate the effects of activating different cell population in the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] on behavior.
+
+VGAT+, Vglut2+ and SERT+/VGlut3+ neurons form thre distinct populations in the MRN.
+
+They exposed mice to 20 novel objects and measured the time they spent in deep, sustained interacton with specific objects (perseverance), briefly interacting with multiple objects (exploration) and not interacting with objects (disengaged).
+
+
+Suppressing [[id:1622a523-07bc-43cb-a76b-72cb5e480a02][VGAT+]] neurons increased perseverance and reduced both exploration and disengaged states.
+Activating them did not alter time spent in different states, although it did reduce depth of interaction and increase object switching.
+If they briefly suppressed the neurons while a mouse was investigating an object it always triggered deep interaction.
+
+
+They used calcium-imaging to verify that these neurons are suppressed when the animal engages deeply with an object.
+They subsequently used a T-maze to train mice to search for food in one arm of the maze, and found that activating VGAT+ neurons made mice more likely to try the other arm.
+When they tried the other arm, activity in these neurons was suppressed.
+Suppressing these neurons slowed reversal learning in this task.
+
+
+[[id:6e9c1ab0-1eab-4729-8267-57b709b5e7c6][Vglut2]] excitatory neurons were more active when the animal was exploring, and activating them drove exploratory state.
+Suppressing them did not have any effect, and their rates remained at baseline while deeply interested in an object.
+This was confirmed again in the T-maze, where mice could be made to explore the empty arm after learning it was empty, by stimulating these neurons.
+To check whether this was due to encouraging exploration or discouraging perseverance, they repeated this in a poke-reward task with multiple options.
+here, activating these neurons also increased exploration.
+
+Next they assessed the valence associated with these populations using a self-stimulation test.
+Mice preferred to suppress [[id:1622a523-07bc-43cb-a76b-72cb5e480a02][VGAT]] nurons, and this was strong enough to override an aversive scent (fox urine).
+They also preferred to activate [[id:6e9c1ab0-1eab-4729-8267-57b709b5e7c6][Vglut2]] neurons, they were reinforcing.
+
+
+Ok, now it gets interesting, they looked into [[id:0f835aa3-93b0-4765-a601-cf283830594a][SERT]]+ neurons.
+
+Suppression of [[id:0f835aa3-93b0-4765-a601-cf283830594a][SERT]]+ neurons increased disengaged state, and decreased perseverance.
+Activation had no effect whatsoever (surprising to me)
+
+Suppression of SERT+ neurons was aversive (Conflicts with [[id:a69897af-aa62-4623-8e41-1b3810e14c54][kawai-median-2022]]).
+It also interfered with task engagement and learning in a nose-poke task.
+Activation again had no effect in either circumstance.
+
+Consistent with this, activity in these neurons decreased with disengagement.
+It increased briefly on first deep interaction with a novel object.
+They propose that MRN neurons encode salience or novelty, and cite https://www.cell.com/neuron/fulltext/S0896-6273(22)00456-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627322004561%3Fshowall%3Dtrue as supporting the same function for DRN.
+
+Interaction with novel objects having aversive stimuli did not affect their activity.
+
+Subsequently they worked to identify how different brain regions targeting MRN affected these states.
+Activating axons from [[id:00b99058-ee25-4717-b580-9eaaacd5b1ef][lateral-habenula]] to [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][median-raphe-nucleus]] was aversive, silencing them preferable.
+Chronically activating this pathway resulted in anhedonia.
+Activating this pathway increased disengagement, suppressing it had no effect.
+This pathway was also found to be more active when mice encountered and escaped novel aversive objects.
+
+This effect resembles suppressing SERT+ neurons, so they checked the effect of LH activation on their activity.
+The responses of SERT+ neurons to to novel objects were suppressed, while VGAT+ neurons were slightly acttivated and Vglut2 saw no effect.
+
+Activating axons from [[id:6724c7a5-558d-482f-bc8d-2b8c3683eafb][lateral-hypothalamic-area]] was rewarding, and silencing them aversive.
+It stimulated deep interaction with even aversive objects.
+this pathway increased perseverance, and was observed to be active in persevering state.
+It also slowed reversal learning and kept the mice persevering in a previously optimal choice.
+The opposite was seen when this pathway was silenced.
+This pathway was shown to inhibit VGAT+ neurons
+
+
+* Takeaways
+ - silencing VGAT+ neurons in MRN is rewarding and drives perseverence in object interactions. Activating them increases object switching and is aversive
+ - VGAT neurons have suppressed activity when the animal engages deeply
+ - silencing VGLUT2+ neurons has no effect, but activating them is rewarding and drives exploration
+ - VLGUT2+ neurons were more active in the exploratory state
+ - silencing SERT+ neurons is aversive and drives disengagement, activating them has little effect
+ - SERT+ neurons are briefly activated on first interaction with a new object, and suppressed when disengaged
+ - LHb -> MRN activation drives disengagement by suppressing SERT+ neurons (via a subset of VGLUT+), and is thereby aversive, while silencing is rewarding
+ - LHA -> MRN activtaion drives perseverance by silencing VGAT+ neurons, and is rewarding, while silencing them is aversive and reduces perseverence
+
+
+* gaps
+Is the increased perseverance with VGAT+ silencing not simply explainable by the presence of reward?
+Ooh, when I investigate this object I feel good, let's do that some more.
+Well, the effect was present when the optogenetic activation preceded object interactions as well, suggesting that it is more than just rewarding
+similarly, VGLUT2 activation was reinforcing, but did not increase perseverance
+
+Why the difference in valence between SERT+ activation and LHb silencing? The former has no valence, the latter is rewarding.

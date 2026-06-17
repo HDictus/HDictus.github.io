@@ -19,7 +19,7 @@ This was not wholly explainable by the termination of locomotion from the mouse.
 
 When the tails of the mice were pinched, in contrast, [[id:22bdad1e-c531-47f7-a7fe-41c2735fa34f][these]] [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][neurons]] increased their firing.
 This was not explainable by subsequent locomotion.
-Additionally, in thirsty mice, activity was increased by licking water, but less so if that water contained quinine.
+Additionally, in thirsty mice, activity was decreased by licking water, but less so if that water contained quinine.
 An auditory cue associated with foot shock also activated MRN 5HT neurons.
 
 

@@ -7,7 +7,7 @@
  1. You should be able to read or write any variable, at any time
  2. digging into the guts of the computation to debug or change the sytem's behavior should be straightforward
  3. code should be expressive, ideally declarative, and easily separated into independent components
- 4. with the above, it should be as fast as possible.
+ 4. within the above constraints, it should be as fast as possible.
     From a practical perspective it may be about developing a slow model, then accelerating it to extrapolate:
     e.g. compiling for gpu and running on it like with Brian2GeNN
     or better yet, constructing general statistical emulators on the basis of markov blankets between variables in some simulations

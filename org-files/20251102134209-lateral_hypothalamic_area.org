@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6724c7a5-558d-482f-bc8d-2b8c3683eafb
+:END:
+#+title: lateral-hypothalamic-area
+

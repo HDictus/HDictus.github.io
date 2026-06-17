@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3211ff19-a500-40dc-a91b-c815f10bdc49
+:END:
+#+title: P2X2
+
+A ligand-gated ion channel that, from what I can find, uses ATP as a ligand.

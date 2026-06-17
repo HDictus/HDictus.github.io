@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       eebf03f9-aa9d-4307-9c98-5b50862a223b
+:END:
+#+title: my-moral-framework
+
+If you are like most people, you believe you know right from wrong, and find the proposal morality is not objective unsettling.
+If you cannot say what we should value, how can you navigate the world?
+In a nihilistic worldview there is no reason to do - or not do - any action, selfish, selfless, or absurd.
+So like the philosopher kierkegaard you seek refuge in faith - not religious faith per se, but in an unexamined belief in a morality.
+You may find yourself baulking at the use of the term faith.
+Say you find it to be totally obvious that producing the most happiness for the most people is the right thing.
+That fundamental assumption - that we should value happiness - is not and cannot be grounded in pure reason.
+You can provide no rational argument for it, and that it feels obvious to you is no substitute for that.
+It is impossible to answer the question of what we should value - and so nihilism stares us in the face whenever we think too long about morality.
+You can escape this by ceasing to think, by retreating, but there is an alternative.
+
+It does not matter what we should value, because the fact of the matter is we already do value.
+There are things we value intrinsically, and it does not matter whether or not we should value them because we cannot help but do so.
+Safety, comfort, pleasure, beauty, agency, community, and more.
+Everyone values - needs - these things to some extent, though which you value more will depend on your culture and personality.
+And we value them not just for ourselves, but for those we love, and for strangers we will never meet.
+When you hear a sad story about someone you've never heard of before you feel bad for them, you empathise, at least a little.
+
+Nietzsche proposed that morality emerges in service of these inalienable values.
+People adopt rules, agreements, conventions to protect these values and prevent conflict that could undermine them.
+Over time, through culture, narrative, and institutionalization morality takes on a life of its own.
+Instead of something that serves people, it becomes something people are forced to serve, whether or not it still fulfills its purpose.
+Nietzsche distrusted morality for that reason, but I have a more nuanced view.
+Morality is useful but it must never be allowed to remain static, no moral framework should stand above criticism or change.
+We must always evaluate how well a moral view serves our collective fundamental interests.
+
+It is my experience that when people debate morality, they frequently do this without thinking about it.
+For example, "If people didn't believe in god, they could just go around killing each other" is an appeal to safety.
+"If everyone adopts utilitarianism, they can just rationalize whatever they wanted to do anyway, and do great harm after convincing themselves it is good"
+is a less common, but I think potent critique of any framework that disregards rules or virtues in favor of outcomes.
+It does so, ironically, by appealing to the outcomes that the moral framework would have.
+
+So this is my view, moral frameworks are not to be valued in themselves, but must be constantly evaluated and improved for how well they promote the things we value.
+Outcomes are used to evaluate frameworks, but the frameworks themselves incorporate rules, virtues, guidelines, and other heuristics that guide moment-to-moment decision making better.
+Science is essential to this process, to help us understand more clearly not only what we value but how we can maximise it.
+Of course, in time this may lead to a new class of problem.
+If it becomes possible to change what we intrinsically value, the question of what we should value becomes relevant again, and nihilism will come back into play.
+
+
+  
+

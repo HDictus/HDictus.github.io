@@ -18,7 +18,7 @@ They elaborated on this with human experiments showing that conditioned fear is 
 
 To support the role of the MRN they presented studies indicating increased ulcer formation in MRN-lesioned rats undergoing chronic stress.
 Additionally highly resilient rats had stronger responses to systemic [[id:d511a498-ab98-4f01-bbc5-68f5d2b7e08d][5-MeO-DMT]], and  [[id:6caedc6f-c639-46df-bd2e-962bbae2adda][8-OH-DPAT]] improved resilience to chronic stress in rats (they hypothesized that the resilience promoting effects of the MRN come from 5HT1A receptors).
-
+(This could also be explained by silencing of DRN though, according to [[id:0ca51e9e-2729-4ee7-8488-9dd89ff2d651][learned-helplessness-insights-from-neuroscience]].)
 
 I had several methodological issues, or rather issues of interperetation.
 The behavioral experiments in mice relied on the [[id:66ff179e-3d33-4111-b3d2-1ecac7630231][elevated-T-maze]].
@@ -39,7 +39,7 @@ Perhaps in the original deakin/graeff paper they go into more detail about what 
 
 
 Graeff brings up [[id:15c10027-0874-4c1c-9b36-ef76deafbf20][deakin-5ht-1991]] to reconcile these results.
-This hypothesis suggests that the DRN -> amygdala, frontal cortex pathway promotes (learned) escape behaviors.
+This hypothesis suggests that the DRN -> amygdala, frontal cortex pathway promotes (learned) escape behaviors. (directly contradicting [[id:0ca51e9e-2729-4ee7-8488-9dd89ff2d651][learned-helplessness-insights-from-neuroscience]])
 This pathway they implicate in general anxiety disorder.
 The DRN-periventricular/periaqueductal gray pathway inhibits inborn (instinctive) fight or flight reactions.
 This pathway they propose relates to panic disorder.

@@ -176,7 +176,7 @@ Humphreys mentions some argument by Ian Hacking for the realism of entities obse
 3. use of a microscope on a variety of entities breeds conviction (???? that's not an argument...)
 
 Humphreys finds these inadequate. 
-Some instuments using different modes of access to the same entity give different results, but nonteheless provide valuable data (section 2.5, galaxies through different measurement modes).
+Some instruments using different modes of access to the same entity give different results, but nonteheless provide valuable data (section 2.5, galaxies through different measurement modes).
 Humphrey's rejection of 2. on the basis that the microscopes were already calibrated before Hacking put them to the test is missing the point.
 However, he also argues that as with the diluton argument, this depends on preservation of the identity of the grid when observed through a microscope.
 He also notes that some microscopes invert the image, and on what basis do we disregard this as unimportant?

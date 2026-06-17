@@ -25,5 +25,5 @@ I realized while reading this that the results outlined in [[id:0ca51e9e-2729-4e
 It is the DRN that is active during uncontrollable stress.
 The activation pattern seen in DRN is what would be expected in MRN under the graeff/deakin hypothesis, active in uncontrollable aversion, inactive in controllable aversion.
 Though more recent work indicates this activation pattern may be 'predictable' vs 'unpredictable', rather than 'controllable' vs 'uncontrollable'.
-The actual pattern of the MRN activity can be seen here (OR NOT IT WAS ZEBRAFISH): [[id:2fb05557-882f-41f4-8a23-8c09ae844b96][amo-habenulo-2014]]
+The actual pattern of the MRN activity can be seen here (OR NOT IT WAS ZEBRAFISH LOL): [[id:2fb05557-882f-41f4-8a23-8c09ae844b96][amo-habenulo-2014]]
 

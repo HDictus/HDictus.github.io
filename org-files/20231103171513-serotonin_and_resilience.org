@@ -2,6 +2,46 @@
 :ID:       fdf0b971-5273-4565-9a24-b4b85be36a6e
 :END:
 #+title: serotonin-and-resilience
+
+
+Some people have an easier time dealing with stress than others, and some bounce back more quickly.
+We call this resilience, and researchers are eager to find out how it works so that we can help people be more resilient.
+Unsurprisingly, some of that research has centered on serotonin.
+I should emphasize however, that everything I am discussing here is very much up in the air.
+I've seen more confusing and straight-up contradictory results while reading for this topic than any other.
+Accordingly, I will be presenting a proposed theory for serotoninergic resilience, and then I will highlight what seems at odds with it.
+
+In the 90s the [[id:4624e030-0806-41ad-b5fb-17ffc0117692][Deakin/Graeff hypothesis]] was proposed.
+The researchers suggested two different roles for different serotonin-releasing brain regions, the dorsal and medial raphe nuclei (DRN and MRN).
+The DRN, they suggest, suppresses innate fear and panic while promoting learned fear.
+The MRN in contrast mediates resilience to stress.
+
+I have criticism of this interperetation of the DRN, but as the topic of this post is resilience, we will save that for another time and focus on the MRN.
+The MRN doubtless does many other things besides promoting resilience, as much research shows.
+Most research argues that it is the neurons that signal from the MRN to the hippocampus which are important for resilience.
+
+The hippocampus is known to be important for memory formation.
+Recall from [[id:00813f54-3bba-432c-8032-acc000dc5311][serotonin-and-learning]] that changes in the strength of the connections (called synaptic plasticity) between neurons are believed to be the main way memory is encoded in the brain.
+
+The way this is proposed to work is this: during prolonged stress, the MRN releases serotonin into the hippocampus.
+This serotonin activates [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1A]] receptors in the hippocampus which block the formation of memories by inhibiting synaptic plasticity.
+
+
+first contradiction: some studies show 5HT1A enhances plasticity in hippocampus, which was also proposed as a mechanism of resilience
+
+
+
+
+
+
+
+This proved to be the hardest blog post to write.
+Initially I was interested in analyzing a specific hypothesis about the roles of two serotoninergic brain regions.
+Articles about this hypothesis generally focus on experiments that are consistent with it, but I wanted to read more broadly and find experiments that challenge it as well.
+In so doing, I found myself running into so many experiments whose results are straight-up contradictory.
+I can see no way to reconcile them, and would need replications in order to trust them.
+
+
 This is a stub for a topic I plan to write about, starting from this article:
 
 The Deakin/Graeff hypothesis proposes that while the dorsal raphe nucleus potentiates fear and anxiety, the medial raphe nucleus instead provides resilience.
@@ -22,6 +62,12 @@ see: [[id:1d3f59ef-0400-46c0-bafb-b67c0fa0e463][paul-deakin-2014]]
 [[id:8923feb8-462f-47fb-b41a-654be26fe80e][wipfli-examination-2011]]
 [[id:d3865a7e-db2d-4709-9135-347d4e8edeba][oglodek-changes-2022]] 
 [[id:7ce46dc5-6808-47ad-aba5-9bb922c994fd][strong-role-2012]]
+[[id:3bf7310b-8b73-4a12-83cb-03dbc40bb6b5][greenwood-receptors-2012]]
+[[id:f6c7cf70-19a5-414d-a706-4181f9133caf][zhang-enhancing-2024]]
+
+persistence and switching
+[[id:2a919a4c-dc05-4280-9580-d4cae240d968][ahmadlou-subcortical-2025]]
+
 
 PTSD 
 
@@ -39,21 +85,17 @@ https://www.ibroneuroscience.org/article/S0306-4522(11)01126-2/abstract
 
 ! idea : ecs-based large-scale simulations, simulate for a long time, identify markov blankets and emulate blanketed mechanisms to accelerate future simulation.
 
-https://www.nature.com/articles/d41586-025-00675-2
-
-
 IMPORTANT:
 https://www.nature.com/articles/d41586-025-00383-x
 
 
-https://www.sciencedirect.com/science/article/pii/S0166432817304527
 https://www.sciencedirect.com/science/article/pii/S2213231723004068
 
 https://www.cell.com/neuron/fulltext/S0896-6273(14)00955-6
 
 
 https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_4
-
+https://www.cell.com/neuron/fulltext/S0896-6273(22)00456-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627322004561%3Fshowall%3Dtrue
 
 Serotonin as an acceptance molecule.
 There is nothing you can do, don't try.
@@ -63,3 +105,25 @@ You change direction and focus your effort and mind elsewhere,
 
 Resilience is not the same as persistence.
 Adaptability and acceptance may well be its essence.
+
+This one turned out to be very difficult to write.
+In fact, the deeper I go into the story of serotonin the more tangled becomes the web of contradictions.
+I'll present here one perspective, based on one side of the story, and then I'll outline where it conflicts with other data.
+
+So this will mostly be a discussion of the graeff-deakin hypothesis, and the experiments I've found that just don't fit with it
+I'll instead propose the idea of MRN and DRN both promoting differnet aspects of acceptance
+
+* Themes
+** exercise and 5HT2C ([[id:3bf7310b-8b73-4a12-83cb-03dbc40bb6b5][greenwood-receptors-2012]], [[id:7ce46dc5-6808-47ad-aba5-9bb922c994fd][strong-role-2012]], [[id:8923feb8-462f-47fb-b41a-654be26fe80e][wipfli-examination-2011]], see also m-CPP result in [[id:167fae2c-3d7a-4999-8466-9839da0ef11a][krystal-noradrenergic-2009]])
+** 5HT genes and resilience (conflicting results, experience-dependent) [[id:4389efe3-728e-4bc7-84aa-3d2cefe63d64][carli-role-2020]],[[id:a996c379-6371-4981-8fc1-e74e8e9c263a][murrough-serotonin-2011]],[[id:f99cce24-3a87-4d40-9127-8b89d39a6d9e][hyun-investigation-2018]]
+** 5HT1A and acceptance: graeff/deakin hypothesis ([[id:1d3f59ef-0400-46c0-bafb-b67c0fa0e463][paul-deakin-2014]], [[id:52e8b7d2-e2af-4029-8325-7cb5dcc401d9][johnston-failure-2015]], [[id:be5432d2-eb14-40a7-9650-9eac3a900fd6][graeff-role-1996]], [[id:ed91a96d-07bf-4d39-8ff4-35d8c33a8795][deakin-5ht-1991]], [[id:664af7d8-098b-4106-ae65-a58dcf4db40d][paul-functional-2013]], [[id:f71e5eae-e3b3-46e1-bc3b-36acae8fd803][pereira-both-2019]], [[id:d3865a7e-db2d-4709-9135-347d4e8edeba][oglodek-changes-2022]])
+*** contraindications: synaptogenesis from [[id:167fae2c-3d7a-4999-8466-9839da0ef11a][krystal-noradrenergic-2009]], [[id:a69897af-aa62-4623-8e41-1b3810e14c54][kawai-median-2022]], [[id:820bb716-39c0-4199-8e56-c24592a7ec89][nagai-role-2020]], [[id:7b4ec44a-ca67-4a86-ad6b-3ea1f28ad464][liu-dorsal-2014]]
+** perseverance, flexibility, resilience
+
+
+* outline
+** DRN and resilience: the stress effects of 5HT2Crs
+** MRN and resilience: the deakin-graeff hypohthesis
+** oogledek: stress and serotonin depletion
+** 
+** a variety of caveats

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a81ddb41-350c-4ae7-bf6e-92ee5090b668
+:END:
+#+title: serotonin-and-valence
+
+For now, just a list of links to relevant articles I came across for other posts
+
+
+https://www.cell.com/neuron/fulltext/S0896-6273(22)00456-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627322004561%3Fshowall%3Dtrue

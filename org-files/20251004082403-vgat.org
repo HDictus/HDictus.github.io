@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1622a523-07bc-43cb-a76b-72cb5e480a02
+:END:
+#+title: VGAT
+
+Vesicular GABA transporter, expressed in GABAergic neurons.
+

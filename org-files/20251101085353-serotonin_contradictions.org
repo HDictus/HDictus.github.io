@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       4c3a7657-c133-4851-9f69-6cfc2fa781cb
+:END:
+#+title: serotonin-contradictions
+
+Synergistic action of serotonin and dopamine for reward, and reinforcement following stimulation of DRN conflict with maier's learned helplessness account.
+In conflict with both of these is the graeff/deakin hypothesis: DRN displays the activation pattern expected of MRN, and is viewed as primarily aversive.
+
+The deakin-graeff hypothesis' mechanism of action for the MRN conflicts with [[id:167fae2c-3d7a-4999-8466-9839da0ef11a][krystal-noradrenergic-2009]]'s assertion that stimulating [[id:3d7e2dad-658c-4bc2-b6f6-7fde80d1c544][5HT1AR]]s promotes hippocampal synaptogenesis.
+
+The graeff-deakin hypothesis conflicts with [[id:a69897af-aa62-4623-8e41-1b3810e14c54][kawai-median-2022]], whichfound inhibition of MRN to be rewarding and its activity associated with aversion.
+
+[[id:2a919a4c-dc05-4280-9580-d4cae240d968][ahmadlou-subcortical-2025]] conflicts with [[id:a69897af-aa62-4623-8e41-1b3810e14c54][kawai-median-2022]] on whether MRN stimulation is aversive or not.
+
+https://link.springer.com/chapter/10.1007/978-1-4614-4048-2_6 discusses some conflicting results with the deakin-graeff-hypothesis, regarding activtation of 5HT receptors in the septohippocampal regions potentiating fear.
+
+Consider taking a simple view of serotoninergic neuromodulation, like encoding uncertainty, and seeing whether it can be rendered compatible with all these observations.
+

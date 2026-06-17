@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       6e9c1ab0-1eab-4729-8267-57b709b5e7c6
+:END:
+#+title: Vglut2
+
+Vesicular glutamate transporter 2

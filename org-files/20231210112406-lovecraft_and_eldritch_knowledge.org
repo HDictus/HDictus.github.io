@@ -48,7 +48,7 @@ Imagine a sheet of rubber, fold it together and inflate it like a balloon.
 Draw three points on its curved surface and connect them with shortest three lines you can manage.
 Because it is curved, those lines will be curved. Add up the angles of your *thicc* triangle and you'll find they add up to more than 180.
 The two dimensions of the sheet are wrapped around in a third dimension, affecting its geometry.
-The rules of geometry are not preserved in a curved space, and as Einstein predicted, space is at many points, ever so slightly curved.
+The rules of geometry are not preserved in a curved space, and as Einstein predicted, space curves ever so slightly here and there.
 It illustrates the difference between what seems obvious and what is actually rational.
 Sometimes something seems obvious simply because the alternative is unfamiliar.
 In this case it is not Reason, but common sense.

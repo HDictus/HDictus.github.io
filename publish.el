@@ -78,4 +78,4 @@ Analytics by
 ("blog" :components ("my-blog"))
 ))
 (org-roam-update-org-id-locations)
-(org-publish-project "blog" t)
+(org-publish-project "blog")

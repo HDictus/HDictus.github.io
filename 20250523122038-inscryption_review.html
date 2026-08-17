@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-08-17 Mo 12:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>inscryption-review</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="stylesheet.css"
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '919123');
+</script>
+<!-- End MailerLite Universal -->
+</div>
+<div id="content" class="content">
+<h1 class="title">inscryption-review</h1>
+<p>
+I don't manage to consistently find time for game journaling, and often don't have the energy to write anything worthwhile in any case.
+I think maybe reviewing the games I play is a better exercise to reflect on them.
+</p>
+
+
+<p>
+Yesterday, I finished inscryption together with my partner.
+I enjoyed the game, especially early on, but I do have some notes.
+</p>
+
+<p>
+Part of what makes the game compelling at the start, despite not being the best card-basedd rogue-like, is the mystery.
+There are secrets to find everywhere, all of which help you move towards victory.
+Leshy is spooky, and the establishment that the game itself is mysterious works as a potent driving force that makes ou want to keep playing, keep seeking.
+</p>
+
+<p>
+Ultimately, this driving force doesn't remain, and I think there are a few reasons.
+For one thing, switching the game up dramatically in act 2 had some wierd effect of cleansing the positive associations of the game.
+Secondly, the hints you uncover mostly don't allow you to piece together what is happening, so there's no detective feeling to it like in some other games with a mystery.
+</p>
+
+<p>
+There are many layers to the game's mystery, and the ways it breaks the fourth wall and involves the real world are fun.
+But it doesn't seem to do anything with this: the fun is only in the novelty.
+If there was commentary on the nature or creation of the medium it went over my head.
+</p>
+
+<p>
+The gameplay in the first section was fun - although it did get too easy before I moved on (partly my fault for overcoming the grizzly rush, which meant I didn't get the eye for a long time, so I played act 1 too long. Still, that does seem like something the dev should be prepared to deal with?)
+After that, the game increasngly dragged on, the gameplay wasn't compelling enough on its own so it was the mystery that kept me playing.
+</p>
+
+<p>
+Showing each character's mechanics as they died was a pretty good way to create a sense of loss.
+The characters aren't very strong, so the mystery, rather than characters, drive the player's investment.
+So it's a shame that the mystery isn't a puzzle to piece together, but a tapestry to be revealed.
+</p>
+
+
+<p>
+Ok, enough blabber about experience, what about the mechanics?
+</p>
+
+<p>
+I really liked the system of summoning in act 1: sacrifices and bones.
+It created really interesting tradeoffs all the time.
+There was generally a way out of any predicament if you looked at the problem from a different angle.
+It was also a really fun game to break - with a 6/3 stoat and a small deck, for instance.
+Or squirrels that let you find the exact card you're looking for.
+There were ways to get decks that could never fail, which could be a downside.
+Looking at slay the spire, there is a counter you could face for every strategy, so you have to plan flexibly.
+That adds a lot of depth to the gameplay: but I have to say, simply lucking into opportunities to break the game, identifying them, and exploiting them is just way more satisfying than having your broken deck counterd by one unlucky encounter.
+But as I also noticed, that does get old eventually, while slay the spire is great to keep playing, keep trying.
+</p>
+
+<p>
+Act 1 had some great synergies to play with.
+</p>
+
+<p>
+Act 2 looked like it could have been quite fun if fleshed out, but it mostly seemed to boil down to 'survive the initial onslaught, and win.'
+</p>
+
+<p>
+Act 3 was just not very fun gameplay, for all his talk of mechanics and synergies P03 really didn't have much in his system.
+</p>
+
+<p>
+By the end, the game dragged on a little, so that might be why it didn't make much sense for the devs to put more time into fleshing out the mechanics.
+The player would have to play the acts for longer than the mystery could carry them in order to reap the benefits of the developer's time.
+</p>
+
+<p>
+I feel there must have been a more concise way to tell the story.
+</p>
+</div>
+<div id="postamble" class="status">
+<div class="ml-embedded" data-form="UcmPfz"></div>
+       <script src="https://utteranc.es/client.js"
+        repo="HDictus/HDictus.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
+
+      <a href="index.html"> home </a> <br>
+
+ | <a href="https://bsky.app/profile/themightyhug.bsky.social"> Bluesky </a>  
+ | <a href="https://mastodon.social/@TheMightyHUG"> Mastodon </a> 
+ | <a href="https://www.linkedin.com/in/hugo-dictus-473a10145/"> Linkedin </a> |
+
+<br> <br>
+Analytics by
+<a title="Privacy-friendly Web Analytics" href="https://clicky.com/101481402"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script async data-id="101481402" src="//static.getclicky.com/js"></script>
+</div>
+</body>
+</html>

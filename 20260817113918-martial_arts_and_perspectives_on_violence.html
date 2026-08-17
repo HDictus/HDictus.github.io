@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-08-17 Mo 12:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Martial-arts-and-perspectives-on-violence</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="stylesheet.css"
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '919123');
+</script>
+<!-- End MailerLite Universal -->
+</div>
+<div id="content" class="content">
+<h1 class="title">Martial-arts-and-perspectives-on-violence</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgaa6e968">The failings of brutality</a></li>
+<li><a href="#org07fbd0e">Evidence-based self defense</a></li>
+<li><a href="#org9b45f8e">Our flawed understanding of violence</a></li>
+<li><a href="#orgec35539">The means define the ends</a></li>
+<li><a href="#orgfbf3246">What do martial arts offer?</a></li>
+<li><a href="#org82fecb9">further perspectives</a></li>
+</ul>
+</div>
+</div>
+<p>
+Violence is fun.
+To enjoy violence, or at least the fantasy of it, we construct ways to justify our pleasure.
+Revenge is a popular one, self defense is popular too, and more defensible.
+Simple hatred does the trick as well, though we usually dress it up as something less ugly.
+Martial arts channels the joy of violence, and in doing so it can also expose the lies we tell ourselves to justify harming others.
+Sometimes, far too often, it does the opposite.
+</p>
+
+<p>
+In a gym in Amsterdam, a Krav Maga instructor grimly tells us how to deal with someone who places their hand on your shoulder from behind.
+You pinch their fingers between your ear and shoulder and violently turn to face them, breaking their fingers.
+And the first timers are left wondering: in what situation is that actually the appropriate response?
+</p>
+
+<p>
+Of course, we practiced it very slowly and without any kind of resistance or reaction from the "assailant".
+But there was a lot of tough talk, a very serious atmosphere.
+It felt raw, real, even though the violence was merely symbolic.
+</p>
+
+<p>
+This isn't about Krav Maga specifically.
+In traditional martial arts circles where the "peacefulness" of the art is emphasized this attitude is also fairly prevalent.
+"Only in self defense" is assumed to justify techniques "too deadly for sport".
+This way of approaching self defense is neither unique to Krav Maga nor universal to it.
+It is both pervasive enough and controversial enough in a variety of martial arts communities to <a href="https://youtu.be/3CGMWlXosp4?si=u89Bwgyx5KcWmPmZ&amp;t=115">be the subject of parody</a>.
+</p>
+
+<p>
+I see this as being a symptom of a widespread attitude that views sadistic approaches to tackling problems as inherently more pragmatic than compassionate ones.
+Martial arts training is one of many cases in which the opposite is true.
+</p>
+
+
+<div id="outline-container-orgaa6e968" class="outline-2">
+<h2 id="orgaa6e968">The failings of brutality</h2>
+<div class="outline-text-2" id="text-orgaa6e968">
+<p>
+What sets Krav Maga apart from most approaches to fighting is the emphasis on building aggression over technique, doing damage over maintaining control.
+Krav Maga's claim to fame is as the hand-to-hand combat training of the israeli defense force.
+No draftee heading off to war has time to master martial arts.
+You just need to make sure they fight hard.
+</p>
+
+<p>
+The most consistent theme in Krav Maga training seems to be this: do things you aren't allowed to do in combat sports.
+Hit the groin, gouge eyes, snap fingers.
+What matters most is that you're meaner than your opponent.
+</p>
+
+<p>
+In online communities dedicated to combat sports Krav Maga has been the target of ridicule ever since it rose to widespread popularity.
+The examples I have seen of Krav Maga fighters in mixed martial arts involved the krav fighter being handily controlled by the combat athlete.
+They never received an opening where they could have used a groin kick or eye poke had they been allowed.
+If you want to gouge someone's eyes, or kick their groin, you need to get past their defenses just like with any other technique.
+So to use these techniques you need a certain parity of skill.
+Conversely, if you have a large enough skill advantage you don't need to use them.
+</p>
+
+<p>
+To build skill it is best to focus on techniques that are safe to apply and apply them for real.
+When judo was emerging as a martial art this was the philosophy that set it apart from other jiu jitsu styles.
+Nowadays in competitions like mixed martial arts, where it is permitted to violently wrench an opponent's joints, those who prevail are not those who spend time practicing this, like in pre-judo jiu jitsu.
+Those with the greatest success are those who focus on techniques with a lower risk of injury - from wrestling, brazilian jiu jitsu,  boxing, muay thai and judo.
+This way you can practice on a resisting opponent in competition and sparring.
+</p>
+
+<p>
+Most of your sparring should be at substantially less than full force, as this lowers the risk of injury.
+Furthermore, to keep both parties learning and challenged, both parties need to have opportunities to work, to attack, defend, and counter.
+To turn a collection of students into a group of capable fighters they need to look out for one another and engage in pro-social play.
+</p>
+
+<p>
+All of this is applied to fighting : two people with similar amounts of training struggling to overcome each other.
+But self-defense isn't the same as fighting.
+"Reality-based self-defense" (RBSD) systems like Krav Maga state that self defense is their main concern.
+Maybe the differences are relevant, and raw aggression makes a greater difference there?
+What do we know about self-defense?
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org07fbd0e" class="outline-2">
+<h2 id="org07fbd0e">Evidence-based self defense</h2>
+<div class="outline-text-2" id="text-org07fbd0e">
+<p>
+Peer-reviewed literature on self defense training is mostly focused on women's self defense.
+Although <a href="https://www.sciencedirect.com/science/article/pii/S1359178907000766?casa_token=3DvBAIeZ9IAAAAAA:tErJw-u3458JUwdfI7TstyKi1o3AmYhoBR5tDdwDyZvW7VWZViuVd56kVmz04SPYhC3S9zhQVw">some evidence</a> exists for benefits from a variety of self defense courses, only one approach has systematic, controlled data collection backing it up.
+This is <a href="https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/soc4.12597?casa_token=a_u-H1-xxVYAAAAA:ep0_5otMwbp3xzbalKCcxyKrLAipUO7e6GXbxdsSSW6q73XMV97u7Jc28FiTUHEY6NK4ds76lq4BUQ">Empowerment self defense</a> (ESD), researched extensively by Jocelyn Hollander.
+</p>
+
+<p>
+A very interesting aspect of this research, at least reading as a martial artist, is that the physical techniques are the least important aspect of the training.
+Rather, much of the education in ESD focuses on the setting, communicating, and enforcing of boundaries, and of understanding one's rights.
+Participants in ESD training often report they successfully protect themselves without resorting to violence at all.
+Once again, sufficient skill in less violent means reduces the necessity of more violent means.
+</p>
+
+<p>
+I should take a moment to acknowledge that the willingness to hurt a person is an important part of self defense, and a crucial barrier that women's self defense training aims to overcome.
+When you are assaulted, unlike in a competitive fight, you do not actually need to overcome your assailant, only make them believe that messing with you is more trouble than it's worth.
+So the ability to switch on a certain level of aggression, of demonstrating a willingness to injure, is sometimes enough.
+</p>
+
+<p>
+However, jumping straightaway to extreme violence is not a feature of evidence-based self defense systems.
+Rather, they offer a range of techniques for interrupting an assault before it comes to that.
+The reason for this, besides the obvious safety benefit, is simple.
+The majority of assaults on women are perpetrated by acquaintances, family, friends, and especially intimate partners (see <a href="https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1111/1471-0528.13093?casa_token=KwUnMn9NVBUAAAAA:RI2Xj0-FVGdIEZjKxmd4EfOww1cw5QfCeG9xm3wgbTjQtJRvSnrsbMxkd1Q-ZYGgLtvsAofSo2CxAQ">here</a>, <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1471-6402.1988.tb00924.x">here</a>, <a href="https://www.researchgate.net/publication/228223841_Violence_between_Lovers_Strangers_and_Friends">here</a>).
+The use of extreme violence in these situations faces social and psychological barriers.
+</p>
+
+<p>
+This is also why the non-physical strategies and traits imparted by ESD are so important.
+The research shows that when ESD is taught to populations of women they are not just better at protecting themselves - but less likely to be assaulted in the first place.
+We need to understand that sexual violence, indeed all violence, involves aspects of manipulation, coercion, rationalization and justification.
+Resistance to these non-physical means of facilitating violence in personal relationships plays an important role in self defense.
+</p>
+
+<p>
+Contrasting this to most self-defense oriented martial arts content, the latter tends to focus on stranger assaults - sometimes by multiple strangers, often armed and committed to killing.
+Such scenarios are rare in most communities, and I'm skeptical that training for them does much for your odds.
+These are not popular because they impart valuable life skills.
+I think they are popular because the subject matter is exciting: the stuff of action movies.
+Perhaps they are also popular because they appeal to people's irrational fears, while avoiding the more uncomfortable rational ones.
+</p>
+
+<p>
+Many martial arts, Judo among them, aim to improve society as well as provide physical training.
+This is an ambition that ESD shares, and Hollander emphasizes its potential in changing culture to reduce violence against women.
+How our martial arts understand and respond to violence shapes the culture in which violence takes place.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org9b45f8e" class="outline-2">
+<h2 id="org9b45f8e">Our flawed understanding of violence</h2>
+<div class="outline-text-2" id="text-org9b45f8e">
+<p>
+"If only there were evil people somewhere insidiously committing evil deeds, and it were necessary only to separate them from the rest of us and destroy them. But the line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart?"
+-Aleksandr Solzhenitsyn, The Gulag Archipelago
+</p>
+
+
+<p>
+I do not believe that violence is an aberrant behavior engaged in by some deranged individuals.
+I argue it is an intrinsically pleasurable part of human experience, a part of everyone's nature.
+Morality, empathy, and society impose emotional side-effects on violence that make it not worth our while.
+When we are provided with something that disrupts our ability to empathize with the target of violence and gives us a moral and social excuse, for instance if they have wronged us, then violence is fun.
+(Natalie Wynn makes this argument in more depth in an <a href="https://www.youtube.com/watch?v=lmsoVFCUN3Q">excellent video essay</a>).
+</p>
+
+<p>
+The important point here is that in the right circumstances <b>anyone</b> will gladly engage in acts of violence, a point which much of the literature on violence supports (see <a href="https://jomar.dshs-koeln.de/wp-content/uploads/2022/01/Facts-and-myths-about-violence-and-self-defense-%E2%80%93-What-is-actually-realistic-for-violence-prevention.pdf">this</a>, <a href="https://psycnet.apa.org/record/2010-13682-006">this</a>, <a href="https://link.springer.com/article/10.1186/s40163-020-0111-2">this</a>, <a href="https://www.ojp.gov/pdffiles/fs000204.pdf">this,</a> <a href="https://www.tandfonline.com/doi/full/10.1080/01639625.2019.1596534">this</a>, <a href="https://www.tandfonline.com/doi/full/10.1080/07418825.2020.1730425">this</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1359178909000706?casa_token=nLLJGpUnFEcAAAAA:jw8gUhO1O3OuKhSf_zZ9vy9SYHsLiVV5ju3eMQLZ8AdlFDnaqg2ULmhS2rmxKQvz3OkaVIbM">this</a> and especially <a href="https://www.jstor.org/stable/26765015">this</a>).
+A patriarchal culture furnishes ordinary men with rationalizations for violence against women (at least, when those women refuse to toe the line).
+Fascism constructs and propagandizes contempt and fear; breaking down the barriers of conscience which prevent atrocities.
+</p>
+
+<p>
+The naive view that violence is committed by exceptional 'bad people' informs how a lot of people view crime, punishment, and self defense.
+Self defense training in many martial arts adopts this view of the aggressor.
+"<a href="https://orca.cardiff.ac.uk/id/eprint/163874/1/6516ee7b496da.pdf">We do bad things to bad people</a>" used to be the official motto of the Deutsche Krav Maga Verband.
+This view is convenient and pleasurable, guiltlessly justifying the fantasy of violence.
+</p>
+
+<p>
+The carnal satisfaction of retribution is often further veiled by pseudo-realist justification; This is the only effective way to deter violence in society, that "bad" people have to suffer for "good" people to thrive.
+This is intuitive, but often wrong.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgec35539" class="outline-2">
+<h2 id="orgec35539">The means define the ends</h2>
+<div class="outline-text-2" id="text-orgec35539">
+<p>
+"The practise of violence can change the world, but the most likely change is into a more violent one" - Hannah Arendt, On Violence
+</p>
+
+<p>
+As I have explained, the perception that cruelty is more practical than compassion is not even true for fighting or self defense.
+In this respect martial arts are a mirror for the world at large.
+</p>
+
+<p>
+One way in which crueler methods are frequently less effective is that the way you choose to fight determines what manner of victory you can win.
+The philosophy you employ to achieve your goals alters what those goals really are.
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S2452292924000365">Revolutions based on violence lead to more violent governments than non-violent revolutions.</a>
+Fighting terrorism by killing civilians and destroying infrastructure will only deepen the grievances that led to terrorism in the first place.
+A tough-on-crime approach to criminal justice that aims to harm those who break the law will succeed in harming people, but not so much in protecting them (see <a href="https://heinonline.org/HOL/LandingPage?handle=hein.journals/stanlp11&amp;div=9&amp;id=&amp;page=">here</a>, <a href="https://psycnet.apa.org/record/2011-20232-001">here</a>, <a href="https://shsu-ir.tdl.org/items/417976b2-9daa-44ea-8a13-b3ca8ce6c539">here</a>, <a href="https://heinonline.org/HOL/LandingPage?handle=hein.journals/uchclf2016&amp;div=19&amp;id=&amp;page=">here</a>, <a href="https://heinonline.org/HOL/LandingPage?handle=hein.journals/buflr62&amp;div=35&amp;id=&amp;page=">here</a>, <a href="https://heinonline.org/HOL/LandingPage?handle=hein.journals/calr81&amp;div=12&amp;id=&amp;page=">here</a>, <a href="https://rucore.libraries.rutgers.edu/rutgers-lib/60525/">here</a>).
+Your methods embed themselves in the outcome, poisoning it.
+</p>
+
+<p>
+You could apply this as criticism to the conduct of Hamas, and it would be valid.
+It would also be a distraction from the misconduct, far greater in scale, of the IDF.
+The philosophy of Krav Maga is a reflection of that of the israeli military more broadly, and its outcomes have now been demonstrated for all to see.
+As it always is, "self defense" is mentioned loudly among the rationalizations for genocide.
+It would be ridiculous to say Krav Maga steered Israel in this direction; fight training was only the least among the many propaganda tools employed.
+Krav Maga and arts like it nonetheless propagate the perception that to be safe, you must be paranoid and cruel.
+In so doing, they create the violence they propose to protect you from.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgfbf3246" class="outline-2">
+<h2 id="orgfbf3246">What do martial arts offer?</h2>
+<div class="outline-text-2" id="text-orgfbf3246">
+<p>
+Martial arts are physical culture, reflecting and shaping how we think about their subject matter: namely violence.
+When a martial art is employed professionally, for instance in police or military training, it then embeds its philosophy of violence in the professional institution.
+The way we approach violence should be shaped by a realistic understanding of it, not a pseudo-cynical 'good guys vs bad guys' fairy tale.
+That starts with remembering the humanity of those who perpetrate violence, and the capacity of anyone to perpetrate it themselves.
+</p>
+
+<p>
+Many martial arts, prominently Aikido and Judo, aim for an ideal in which you can protect both yourself and someone who assaults you.
+They wish to give you the skills to subdue, deter, or control someone without injuring them.
+For the most common self defense situations, in which you need to defend yourself from someone you know, this is clearly desirable.
+</p>
+
+<p>
+Far from being unrealistic, this is actually the skill that the best fighters - combat athletes - practice daily.
+It is ironic to me that the ideal of mutual wellbeing is so little emphasized in MMA culture, even though it is so fully embodied in its daily practice.
+Perhaps this has something to do with the attitude of the spectator - who sees only the spectacle of violence, not the controlled preparation that preceded it.
+More people watch MMA than practice it, so of course the spectator's perspective informs so much of the culture surrounding the sport.
+Abrasive personas, injuries, and aggressive strategies all lend themselves to the spectacle.
+Much of MMA's appeal is its resemblance to "real street fighting".
+</p>
+
+<p>
+Too much martial arts media treats "street fighting" and "self defense" as synonyms.
+Presumably because they target an audience of young men who wish to feel capable in the event of a street fight.
+In the fears surrounding such an event of course the most extreme, most exciting possibilities loom large in the mind.
+Perhaps this explains the emphasis on "multiple attackers", defending against knives, and doing whatever is needed to "survive".
+This isn't <i>reality</i>-based self defense, it is fantasy-based self defense.
+In reality, self defense mostly isn't fighting, and when it is fighting it mostly isn't to the death against groups of armed assailants, and when it is, fight training probably won't help that much.
+</p>
+
+<p>
+If self defense isn't the main benefit of martial arts, what do they offer?
+Exercise, fun, community, which are all more important for health and safety than any amount of fighting skill.
+These things also help to reduce the incidence of violent behavior.
+A gym's culture affects the people that pass through it, and in doing so can reduce violent crime - not by harming anyone, but by uplifting them.
+</p>
+
+<p>
+That isn't to say you shouldn't work skills relevant to self defense into your training, or that students likely to face violence can't benefit from learning to fight.
+It is more that making this the centerpiece of your training misses the forest for the trees.
+You have much more important things to offer.
+In offering them, you can impart truths and dispel myths about violence.
+In so doing, you improve the physical culture in which you partake.
+</p>
+
+<p>
+Martial arts remain popular recruitment tools for the many varieties of fascism because they scratch a similar itch.
+They can feed and justify the vicious tendencies of the human soul, and speaking the words 'self defense' does nothing to prevent this.
+Martial arts can also expose and resist these tendencies.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org82fecb9" class="outline-2">
+<h2 id="org82fecb9">further perspectives</h2>
+<div class="outline-text-2" id="text-org82fecb9">
+<ul class="org-ul">
+<li><a href="https://youtu.be/vcxr6KMFre0?si=pMrmYAHRSJjqBDCS&amp;t=277">https://youtu.be/vcxr6KMFre0?si=pMrmYAHRSJjqBDCS&amp;t=277</a></li>
+<li><a href="https://www.youtube.com/watch?v=F-9RCKKvoJw">https://www.youtube.com/watch?v=F-9RCKKvoJw</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="ml-embedded" data-form="UcmPfz"></div>
+       <script src="https://utteranc.es/client.js"
+        repo="HDictus/HDictus.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
+
+      <a href="index.html"> home </a> <br>
+
+ | <a href="https://bsky.app/profile/themightyhug.bsky.social"> Bluesky </a>  
+ | <a href="https://mastodon.social/@TheMightyHUG"> Mastodon </a> 
+ | <a href="https://www.linkedin.com/in/hugo-dictus-473a10145/"> Linkedin </a> |
+
+<br> <br>
+Analytics by
+<a title="Privacy-friendly Web Analytics" href="https://clicky.com/101481402"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script async data-id="101481402" src="//static.getclicky.com/js"></script>
+</div>
+</body>
+</html>

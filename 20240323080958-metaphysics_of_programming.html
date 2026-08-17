@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-03-28 Fr 09:13 -->
+<!-- 2026-08-17 Mo 12:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>metaphysics-of-programming</title>
@@ -221,7 +221,7 @@
 </div>
 <p>
 When we write programs there are different ways that we can organize our code.
-Different ways of programming, especially in computational science, represent different ways of representing the structure of the real world.
+Different ways of programming, especially in computational science, constitute different ways of representing the sructure of the world.
 Questions regarding the structure of reality fall under the domain of metaphysics.
 Metaphysical assumptions are embedded in computer programs, and often have parallels in historical metaphysical theories.
 </p>
@@ -230,9 +230,9 @@ Metaphysical assumptions are embedded in computer programs, and often have paral
 Metaphysics is by its nature not demonstrable - we do not have access to reality as it really is, so we will never truly know what it consists of.
 Despite this, we all reason about a real world and make assumptions about it in order to navigate our surroundings.
 We must assume a metaphysics, even if we cannot demonstrate that our metaphysics is true.
-The role of metaphysics then is more about organizing thought than establishing truth.
+The role of metaphysics then is organizing thought, not establishing truth.
 It is about analyzing our mental representations of reality and how these constrain and empower us.
-In my evaluation then, the strengths and limitations of different programming tools are powerful ways to explore metaphysical questions.
+In my view then, discussing programming practices can lend itself to metaphysical questions, and metaphysics can help us with programming questions.
 </p>
 
 <div id="outline-container-org3e8c027" class="outline-2">
@@ -258,7 +258,7 @@ The form in this case is similar to a class, and the real object is an instance.
 
 <p>
 This approach to programming and metaphysics has limitations.
-For one thing, the world loves to defy classification.
+For one thing, the world loves to defy classification (a detailed argument can be found <a href="https://karl-voit.at/2017/04/18/classification/">here</a>.)
 Things in the natural world tend to blend together and be clustered together only loosely.
 The desire to categorize and organize the world to understand it is common, understandable, but I think often misguided.
 Besides this, it is sometimes difficult to say where one object ends and the other begins.
@@ -266,7 +266,7 @@ We often (and rightly) end up separating objects based on practical concerns rat
 </p>
 
 <p>
-A lot of the more advanced object oriented practices and design patterns concern working around these limitations.
+A lot of the more advanced object oriented principles and design patterns concern working around these limitations.
 </p>
 </div>
 </div>
@@ -274,13 +274,64 @@ A lot of the more advanced object oriented practices and design patterns concern
 
 <div id="outline-container-org5332845" class="outline-2">
 <h2 id="org5332845">Entity-component systems as property-cluster realism</h2>
+<div class="outline-text-2" id="text-org5332845">
+<p>
+In <a href="20220618122528-extending_ourselves.html#ID-e1bf5827-0366-4bd5-8542-a77de9096a9c">extending-ourselves</a> Paul Humphreys argues a metaphysics for computational science called property-cluster realism.
+In property-cluster realism it is not objects that are real, but the properties we associate with those objects.
+If you percieve a hot iron bar, it is not the iron bar that is real, but the heat, the ferromagnetism, the shape.
+The ways in which the rest of the world is affected are the things that are meaningfully real in this metaphysics.
+The 'object' is just the clustering together of properties in space and time.
+</p>
+
+<p>
+This resembles an entity-component system architecture.
+ECS is most often applied in games, where the objects in the game world are the 'entities', and things like position, velocity, health, team are components.
+The entity in an ECS is nothing more than an identifier used to group properties together.
+While there are Enity-Component architectures where game logic is implemented on the components, in a pure ECS game logic is offloaded to systems.
+Systems contain no state - that is for the components, they only describe the rules by which state evolves.
+</p>
+
+<p>
+Entities and components are intended to enable categorical flexibility: instead of needing to define distinct classes and using inheritance to reuse code, you can define new categories of entities by simply attaching a different combinaion of properties.
+It is an extreme application of the common maxim "prefer composition to inheritance".
+The offloading of logic to systems is partly for flexibility; by not binding logic to components you can change the rules governing their interactions by enabling or disabling systems, and you can more easily organise logic that spans multiple components.
+However, the main selling point is related to efficiency.
+Due to the way CPU caches work it is more efficient to store components of the same kind together and operate on arrays of components (vectorizaion) than it is to go object-by-object.
+ECS is a form of Data-Oriented Design.
+</p>
+
+<p>
+ECS is not explicitly used much in computational science.
+Smaller studies often don't have much of an architecture to begin with.
+Simulation engines often use object-oriented interfaces and do any vectorization under the hood (NEURON for instance).
+NEST has something similar to an entity-component system, although it does have rigid classifications for entities (Nodes, Connections) and clear separation of logic between them.
+</p>
+
+<p>
+I think that ECS can allow for simulation code that is both performant and expressive, and it does so because of its practical metaphysics.
+The variables written into the simulation directly represent proposed properties, observable by their interactions with the world.
+Segregation of the laws governing their dynamics from their data representation allows for clear descriptions of natural law.
+</p>
+
+<p>
+I'm an oddball who finds that code is often a clearer expression of an idea than prose, but that is only true when the clarity of the code, and its correspondence to the real world, are a priority.
+OOP often involves the introduction of abstractions which are of pragmatic, implementational significance.
+With an ECS I find it easier to keep these out of the part of the code involved in represetning the system of interest.
+</p>
+
+<ul class="org-ul">
+<li>note: ECS and OOP are not mutually exclusive, as OOP is often used to define ECS architectures (see: Concord).</li>
+</ul>
 </div>
-
-
-
+</div>
 
 <div id="outline-container-org1330be9" class="outline-2">
 <h2 id="org1330be9">BDD - beyond metaphysics</h2>
+<div class="outline-text-2" id="text-org1330be9">
+<p>
+<a href="https://karl-voit.at/2017/04/18/classification/">https://karl-voit.at/2017/04/18/classification/</a>
+</p>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">

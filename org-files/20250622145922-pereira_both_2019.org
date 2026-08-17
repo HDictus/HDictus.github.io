@@ -6,7 +6,7 @@
 https://www.sciencedirect.com/science/article/pii/S0166432817304527?casa_token=8rOCbVLv6LAAAAAA:WPyRQ-75Xyd_wUovzZnOkaShvjkKi-fAsEMfi9uanfi-I_MaRTu7knvGzBVMRCUiuuGl9kQd6Q
 
 Repeated exposure to the same stressor leads to the development of tolerance to stress.
-Lesioning the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]]-[[dorsal-hippocampus]] pathway prevents the development of tolerance to stress.
+Lesioning the [[id:0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9][MRN]]-[[id:1fa6f712-4178-4b7f-9d08-29c008a31c0e][dorsal hippocampus]] pathway prevents the development of tolerance to stress.
 
 Periera et al. lesioned this pathway in rats and found that both [[id:6d75d8e3-d2eb-48d8-8a7d-7a2f2fc94bac][fluoxetine]] and [[id:aa3b1a43-8028-4b5f-8ab1-22a564f086a4][desipramine]] attenuate the effects of this lesioning, indicating that this pathway is not essential to the anxiolytic effects of antidepressants.
 

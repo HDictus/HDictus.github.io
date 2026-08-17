@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-08-17 Mo 12:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>kawai-median-2022</title>
+<meta name="author" content="Hugs" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="stylesheet.css"
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '919123');
+</script>
+<!-- End MailerLite Universal -->
+</div>
+<div id="content" class="content">
+<h1 class="title">kawai-median-2022</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orga627f62">Takeaways</a></li>
+</ul>
+</div>
+</div>
+<p>
+Kawai et al. demonstrate that DRN and MRN neurons process reward in opposite ways.
+</p>
+
+<p>
+They cite <a href="20250710154311-nagai_role_2020.html#ID-820bb716-39c0-4199-8e56-c24592a7ec89">nagai-role-2020</a>, <a href="20250710154341-liu_dorsal_2014.html#ID-7b4ec44a-ca67-4a86-ad6b-3ea1f28ad464">liu-dorsal-2014</a> for the claim that DRN stimulation is rewarding.
+(Interestingly, I had always heard it wasn't. I think I did encounter one of these studies before - it is a specific subset of neurons that they stimulated.
+see also <a href="20250710164145-li_serotonin_2016.html#ID-e35c2679-75c6-45bb-8df9-5cecab61e436">li-serotonin-2016</a>, <a href="20250710164217-zhong_learning_2017.html#ID-a72b3702-8189-4c8a-b4b6-ebee744f7c2e">zhong-learning-2017</a>)
+Since systemic administration of SSRIs is not rewarding, they propose that the MRN acts in opposition to the DRN.
+</p>
+
+<p>
+Other studies have investigated whether the MRN is rewarding or punishing, but they did not specifically target 5HT neurons.
+</p>
+
+<p>
+Kawai et al. recorded activity from serotoninergic populations in the <a href="20250425110350-median_raphe_nucleus.html#ID-0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9">MRN</a>.
+They found that when the mouse licked sugar water, these neurons reduced their activity.
+This was sensitive to the concentration of sugar.
+This was not wholly explainable by the termination of locomotion from the mouse.
+</p>
+
+<p>
+When the tails of the mice were pinched, in contrast, <a href="20240720141245-serotonin.html#ID-22bdad1e-c531-47f7-a7fe-41c2735fa34f">these</a> <a href="20250425110350-median_raphe_nucleus.html#ID-0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9">neurons</a> increased their firing.
+This was not explainable by subsequent locomotion.
+Additionally, in thirsty mice, activity was decreased by licking water, but less so if that water contained quinine.
+An auditory cue associated with foot shock also activated MRN 5HT neurons.
+</p>
+
+
+<p>
+Optogeneically inhibiting <a href="20240720141245-serotonin.html#ID-22bdad1e-c531-47f7-a7fe-41c2735fa34f">serotonin</a>ergic neurons in the <a href="20250425110350-median_raphe_nucleus.html#ID-0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9">median-raphe-nucleus</a> was reinforcing.
+Mice were more likely to spend time in a room where they recieved optogenetic inhibition.
+Additionally, brief inhibition when the mouse poked a button with their nose led to steady increase of nose poking.
+</p>
+
+<p>
+Optogenetically activating <a href="20240720141245-serotonin.html#ID-22bdad1e-c531-47f7-a7fe-41c2735fa34f">serotonin</a>ergic neurons in the <a href="20250425110350-median_raphe_nucleus.html#ID-0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9">median-raphe-nucleus</a> was aversive.
+Mice spent less time in a room where the MRN was optogenetically stimulated.
+Mice also avoided drinking water that was paired with MRN stimulation when other water was available.
+Their licking of sugar water was also reduced by pairing it with stimulation.
+</p>
+
+<p>
+To better understand how these neurons influence behavior they looked at the connectivity of the MRN.
+The <a href="20250425110350-median_raphe_nucleus.html#ID-0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9">median-raphe-nucleus</a> strongly innervates the <a href="20250710161948-interpenduncular_nucleus.html#ID-dd3d32ac-b502-4cab-a34a-4dcc6e270c75">interpenduncular-nucleus</a>, which is implicated in nicotine preference.
+It also innervates <a href="20250710162100-medial_habenula.html#ID-33a31afa-55f1-43b1-8ac5-823a1d228f63">medial-habenula</a> and <a href="20250622150052-hippocampus.html#ID-f57b5ec3-45d7-4f78-bc13-3b85178f00a3">hippocampus</a>.
+In the IPN but not HBm or HP they found signs of increased neural activity in the group that recieved stimulation.
+In HP the overall change was nonsignificant, but if they looked only at non-pyramidal cells there was a significant increase in activity.
+</p>
+
+<p>
+They inhibited serotoninergic axons in <a href="20250710161948-interpenduncular_nucleus.html#ID-dd3d32ac-b502-4cab-a34a-4dcc6e270c75">IPN</a>, <a href="20250710163411-ventral_hippocampus.html#ID-147940a8-1b3b-4edd-b485-774d0f2ca202">HPv</a>, and <a href="20250710162100-medial_habenula.html#ID-33a31afa-55f1-43b1-8ac5-823a1d228f63">HBm</a> and saw that inhibition in IPN was strongly, and HPv weakly, rewarding.
+Conversely, stimulating these axons had the opposite effect: stimulation was aversive.
+</p>
+
+<p>
+They found that when they administered <a href="20250710163744-way_100635.html#ID-d9c65a91-f632-41d0-b960-eb2ed836ccd4">WAY-100635</a> and <a href="20250710163801-mdl_100907.html#ID-69d5fccd-175b-4eac-af0c-f09f1c531579">MDL-100907</a>, antagonists to <a href="20250526061155-5ht1a.html#ID-3d7e2dad-658c-4bc2-b6f6-7fde80d1c544">5HT1AR</a>s and <a href="20250526064849-5ht2ar.html#ID-3c970aa1-75a8-4562-bf47-7231bc60a137">5HT2AR</a>s respectively, the aversive effects of MRN stimulation were blocked.
+</p>
+
+<p>
+Not mentioned in their results, but rather in the discussion, they saw a slight increase in activity before licking.
+This may mean that the MRN also encodes reward anticipation.
+</p>
+
+
+<div id="outline-container-orga627f62" class="outline-2">
+<h2 id="orga627f62">Takeaways</h2>
+<div class="outline-text-2" id="text-orga627f62">
+<ul class="org-ul">
+<li>they found that <a href="20250425110350-median_raphe_nucleus.html#ID-0a17a48d-7a6c-4e07-b42e-8ae786f3d2f9">median-raphe-nucleus</a> innervated <a href="20250710161948-interpenduncular_nucleus.html#ID-dd3d32ac-b502-4cab-a34a-4dcc6e270c75">interpenduncular-nucleus</a>, <a href="20250710162100-medial_habenula.html#ID-33a31afa-55f1-43b1-8ac5-823a1d228f63">medial-habenula</a>, and <a href="20250622150052-hippocampus.html#ID-f57b5ec3-45d7-4f78-bc13-3b85178f00a3">hippocampus</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="ml-embedded" data-form="UcmPfz"></div>
+       <script src="https://utteranc.es/client.js"
+        repo="HDictus/HDictus.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
+
+      <a href="index.html"> home </a> <br>
+
+ | <a href="https://bsky.app/profile/themightyhug.bsky.social"> Bluesky </a>  
+ | <a href="https://mastodon.social/@TheMightyHUG"> Mastodon </a> 
+ | <a href="https://www.linkedin.com/in/hugo-dictus-473a10145/"> Linkedin </a> |
+
+<br> <br>
+Analytics by
+<a title="Privacy-friendly Web Analytics" href="https://clicky.com/101481402"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script async data-id="101481402" src="//static.getclicky.com/js"></script>
+</div>
+</body>
+</html>

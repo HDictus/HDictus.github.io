@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       eece288b-8379-48d4-b5f0-0cb4080efa9b
+:END:
+#+title: quick-animal-well-review
+
+Animal well is not strictly speaking a metroidbrainia, but the way it introduces its tools and unlocks makes it play a lot like one.
+In a metroidbrainia like Outer Wilds, you progress by understanding better how the world works.
+In the case of Animal well, you have to find a variety of tools to progress, like in a standard metroidvania.
+But the usage of those tools turns out to be a bit more intricate than you expected - each one has multiple uses and ways it interacts with the various elements of the environment.
+Perhaps part of what makes this work is that there are a lot of environmental elements to interact wihth.
+There were a number of moments where you get that feeling of genius that a good puzzle game or metroidbrainia gives you, which is usually absent from more straightforward metroidvanias.
+Figuring out those "advanced" mechanics was satisfying, and I wonder how the game facilitates your doing so, id like to replicate it.
+
+I also really appreciated the uniqueness of the tools - at least the ones I unlocked, I'd never seen anywhere before.
+I'd have liked if the game revealed a little more of the mystery that unifies its themes: why are the tools all children's toys, why all the animals?
+I didn't go far into the postgame though.
+From what I looked up though, morsels of background or story are hard to come by there too.
+I feel like it is a shame in a game about discovery, about curiosity, not to have more of a plot or background to uncover.
+Though I guess leaving things ambiguous promotes its own sense of mystery.
+
+The art was really beatifully done. In particular I think a lot of the shaders were very good, and I liked the effect they used to have the ghosts stream around you in the lantern.
+Occaisionally, some of the decor looked like spikes or similar, and caused confusion.
+
+The last fight was a bit of an anticlimax - you had to use your tools in isolation, but quicky with the lantern.
+A genuinely difficult puzzle requiring you to combine all your tools would have been preferable - the boss was too easy to keepaway with the lantern.
+A multi-phase fight where you had to use each tool to overcome some dangerous aspect of the boss would be good too.
+The simple fact is the manticore was much easier than the dog or the chameleon, and so facing it was a bit of an anticlimax.
+
+I do reccomend it, however.

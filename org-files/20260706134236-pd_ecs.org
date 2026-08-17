@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       998a4ee2-e5ab-4af2-8891-5745d292ef90
+:END:
+#+title: pd-ecs
+
+
+pd-ecs is an entity component system architecture for python which uses pandas.
+
+ECS architectures are most often used in game development, but could be useful for simulation as well.
+By storing the world state as tables - with each row corresponding to an entity, and each column to a variable of that entity -
+they allow efficient cache-friendly and vectorized computation.
+They are also flexible, in that the behavior of an entity in the simulation is not defined by a type or class, but rather by the data associated with it.
+This allows you to change the behavior of entities by adding or removing data.
+
+When doing scientific computing in python, it is important to always used vectorized operations with libraries like numpy and pandas.
+Otherwise, your code is incredibly slow, while it can be pretty fast when vectorized array ops are used. 
+An ECS therefore seems like a natural fit for this, because it facilitates such array operations.
+
+I made this project primarily to improve my understanding of data-oreinted design.
+Still, it might be useful if you want to develop a game in python with lots of entities, or for some computational science applications like agent-based modeling.
+In particular, a simulation where you may want to change the design frequently and so want to avoid embedding assumptions up-front, will benefit from an ECS architecture.
+
+
+Under the hood, pd-ecs follows the approach of Unity DOTS by grouping entities with the same components (the same archetype) into the same table.
+When you have many archetypes and few entities per archetype, this may make things slow, especially in pd-ecs as the python overhead per table is quite high.
+Additionally, if entities change archetype (have components added or removed) frequently, this can also get slow.
+I'm looking into storing similar archetypes contiguously to mitigate this.
+
+The design is such that, in principle, you can write your simulation and then subsequently modify the underlying data storage wihtout anything breaking.
+You can define other state storage and archetype management classes to better optimize for your usecase.
+
+
+
+
+
+(Another way of doing this would be to have components grouped together - everything with a physics component has an x, y, vx, vy variable,
+Most computations will just be in-component, with no filtering or alignment required.
+(this can probably be accomplished in our current design using filters)
+A few computations take place between multiple components- and then the indexing comes in.

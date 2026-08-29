@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-08-17 Mo 12:50 -->
+<!-- 2026-08-29 Sa 09:59 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>best-practices-for-programming</title>
@@ -194,6 +194,38 @@
   .org-svg { }
 </style>
 <link rel="stylesheet" href="stylesheet.css"
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -216,7 +248,7 @@
 <li><a href="#org641f19a">Best practices for Programming</a>
 <ul>
 <li><a href="#orgbfaff42">Practices to follow:</a></li>
-<li><a href="#orgca96152">Principles</a></li>
+<li><a href="#org4f08caa">Principles</a></li>
 </ul>
 </li>
 <li><a href="#org378a11c">Practices</a>
@@ -232,7 +264,7 @@
 <li><a href="#org9e1b6c1">prototyping</a></li>
 </ul>
 </li>
-<li><a href="#org4f08caa">Principles</a>
+<li><a href="#orgb207793">Principles</a>
 <ul>
 <li><a href="#org00465fb">Don't Repeat Yourself</a></li>
 <li><a href="#org805e743">Approximate Natural Language</a></li>
@@ -330,9 +362,9 @@ satisfied afterwards by implementing.
 </div>
 </div>
 
-<div id="outline-container-orgca96152" class="outline-3">
-<h3 id="orgca96152">Principles</h3>
-<div class="outline-text-3" id="text-orgca96152">
+<div id="outline-container-org4f08caa" class="outline-3">
+<h3 id="org4f08caa">Principles</h3>
+<div class="outline-text-3" id="text-org4f08caa">
 <p>
 rules of thumb to watch out for when writing, reviewing, or refactoring
 code. This is very much non-exhaustive, but they're the ones that seem
@@ -544,7 +576,7 @@ Us Crazy and How to Restore the Sanity" by Alan Cooper. Though Cooper
 program's design (which should be left to specialized designers), the
 principles he mentions crop up time and again at a more fine-grained
 level in software engineering. A phrase of his that I like is: Pretend
-its magic. Before you write any code, pretend your code is magic and
+it's magic. Before you write any code, pretend your code is magic and
 specify what you would like it to do. Once you implement the design it
 may turn out to be infeasible, and at this point you revise your design.
 Doing this the other way around: implementing first and then designing
@@ -687,9 +719,9 @@ headache on my masters thesis).
 </div>
 
 
-<div id="outline-container-org4f08caa" class="outline-2">
-<h2 id="org4f08caa">Principles</h2>
-<div class="outline-text-2" id="text-org4f08caa">
+<div id="outline-container-orgb207793" class="outline-2">
+<h2 id="orgb207793">Principles</h2>
+<div class="outline-text-2" id="text-orgb207793">
 <p>
 General principles to keep in mind when writing, reviewing, or editing
 code. Violations of these principles are sometimes necessary, but always
@@ -756,7 +788,7 @@ is when there is some complicated set of operations that could be given
 an intuitive name as a function. For example
 </p>
 
-<pre class="example" id="orge95de1b">
+<pre class="example" id="org9658760">
 for item in inventory:
     if item.nutritional_content &gt; 0 and (item.isliquid and item.viscosity &lt; 1 or item.hardness &gt; TOOTH_HARDNESS):
         self.mouth.angle += 25
@@ -767,7 +799,7 @@ for item in inventory:
 could be
 </p>
 
-<pre class="example" id="orgdf89ba1">
+<pre class="example" id="org5df597c">
 for item in inventory:
     if _is_edible(item):
         self.eat(item)

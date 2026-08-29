@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       7b1b7df5-e8b3-44b7-8d89-4aaf6e086c58
+:END:
+#+title: deakin-graeff-notes
+
+* relationship to learned helplessness
+
+At first glance, the role of DRN in promoting learned fear and suppressing innate fear/panic is consistent with the learned helplessness experiments.
+The helplessness is a learned effect of fear - and the DRN is believed to cause it.
+However, as I noted reading [[id:52e8b7d2-e2af-4029-8325-7cb5dcc401d9][johnston-failure-2015]], the activity patterns predicted by the two theories are opposites.
+The deakin-graeff hypothesis predicts that the DRN will be active under controllable stress, in order to drive learned avoidance behaviors.
+It will be silent under uncontrollable stress, because there is nothing to learn.
+
+It may be something particular about the kind of uncontrollable stress that leads to this.
+Perhaps in healthy circumstances, the MRN is active and DRN silent in uncontrollable stress, but something leads the DRN to activate as well in these experiments - and that leads to helplessness.
+Consider what Andrew Solomon says about depression: it is not just a lack of agency, but the loss of agency when you need it most and by rights should have it.
+Acceptance of an uncontrollable circumstance it is not; it is the feeling that you should have control but don't.
+That feeling that you should have control, that may be related to the activation of the DRN.
+Perhaps that is the searching for control - and when a cue follows the inactivation of the shock, causal influence is assigned to the cue, and you stop blaming yourself; no helplessness occurs (https://psycnet.apa.org/doiLanding?doi=10.1037%2F0097-7403.16.2.123, https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0031581)
+
+There are some more experiments that help with this in the helplessness article. revisit it.

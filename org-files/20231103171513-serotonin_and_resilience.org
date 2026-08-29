@@ -44,7 +44,7 @@ I can see no way to reconcile them, and would need replications in order to trus
 
 This is a stub for a topic I plan to write about, starting from this article:
 
-The Deakin/Graeff hypothesis proposes that while the dorsal raphe nucleus potentiates fear and anxiety, the medial raphe nucleus instead provides resilience.
+
 see: [[id:1d3f59ef-0400-46c0-bafb-b67c0fa0e463][paul-deakin-2014]]
 [[id:52e8b7d2-e2af-4029-8325-7cb5dcc401d9][johnston-failure-2015]]
 [[id:be5432d2-eb14-40a7-9650-9eac3a900fd6][fgraeff-role-1996]]

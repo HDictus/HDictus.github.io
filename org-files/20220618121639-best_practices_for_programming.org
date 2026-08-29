@@ -226,7 +226,7 @@ Us Crazy and How to Restore the Sanity" by Alan Cooper. Though Cooper
 program's design (which should be left to specialized designers), the
 principles he mentions crop up time and again at a more fine-grained
 level in software engineering. A phrase of his that I like is: Pretend
-its magic. Before you write any code, pretend your code is magic and
+it's magic. Before you write any code, pretend your code is magic and
 specify what you would like it to do. Once you implement the design it
 may turn out to be infeasible, and at this point you revise your design.
 Doing this the other way around: implementing first and then designing
